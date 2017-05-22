@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Xablu.Walkthrough</id>
+        <version>0.1.0</version>
+        <title>Walkthrough by Xablu</title>
+        <authors>Xablu</authors>
+        <owners>Xablu</owners>
+        <licenseUrl>https://github.com/Xablu/Xablu.Walkthrough/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/Xablu/Xablu.Walkthrough</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/Xablu/Xablu.Walkthrough/master/icon_xablu.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>The Xablu Walkthrough plugin is a component that aims to simplify the cross-platform implementation of Walkthrough.</description>
+        <summary>Component to simplify Walkthrough</summary>
+        <tags>xamarin, monodroid, C#, xamarin.android, android, ios, uwp, Windows, tvOS, Mac, MacOS, Xablu, .NET</tags>
+        <dependencies>
+            <group targetFramework="MonoAndroid">
+            </group>
+            <group targetFramework="Xamarin.iOS10">
+            </group>
+            <group targetFramework="win8">
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <!-- Core -->
+        <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Abstractions\bin\Release\Plugin.Xablu.Walkthrough.Abstractions.dll" target="lib\portable-net45+win8\Plugin.Xablu.Walkthrough.Abstractions.dll" />
+        <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Abstractions\bin\Release\Plugin.Xablu.Walkthrough.Abstractions.xml" target="lib\portable-net45+win8\Plugin.Xablu.Walkthrough.Abstractions.xml" />
+        <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough\bin\Release\Plugin.Xablu.Walkthrough.dll" target="lib\portable-net45+win8\Plugin.Xablu.Walkthrough.dll" />
+        <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough\bin\Release\Plugin.Xablu.Walkthrough.xml" target="lib\portable-net45+win8\Plugin.Xablu.Walkthrough.xml" />
+        
+        <!-- Xamarin.Android -->
+        <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Abstractions\bin\Release\Plugin.Xablu.Walkthrough.Abstractions.dll" target="lib\MonoAndroid10\Plugin.Xablu.Walkthrough.Abstractions.dll" />
+        <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Abstractions\bin\Release\Plugin.Xablu.Walkthrough.Abstractions.xml" target="lib\MonoAndroid10\Plugin.Xablu.Walkthrough.Abstractions.xml" />
+        <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Android\bin\Release\Plugin.Xablu.Walkthrough.dll" target="lib\MonoAndroid10\Plugin.Xablu.Walkthrough.dll" />
+        <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Android\bin\Release\Plugin.Xablu.Walkthrough.xml" target="lib\MonoAndroid10\Plugin.Xablu.Walkthrough.xml" />
+
+        <!-- Xamarin.iOS -->
+        <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Abstractions\bin\Release\Plugin.Xablu.Walkthrough.Abstractions.dll" target="lib\MonoTouch10\Plugin.Xablu.Walkthrough.Abstractions.dll" />
+        <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Abstractions\bin\Release\Plugin.Xablu.Walkthrough.Abstractions.xml" target="lib\MonoTouch10\Plugin.Xablu.Walkthrough.Abstractions.xml" />
+        <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.iOS\bin\iPhone\Release\Plugin.Xablu.Walkthrough.dll" target="lib\MonoTouch10\Plugin.Xablu.Walkthrough.dll" />
+        <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.iOS\bin\iPhone\Release\Plugin.Xablu.Walkthrough.xml" target="lib\MonoTouch10\Plugin.Xablu.Walkthrough.xml" />
+        
+        <!-- Windows Store -->
+        <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Abstractions\bin\Release\Plugin.Xablu.Walkthrough.Abstractions.dll" target="lib\win8\Plugin.Xablu.Walkthrough.Abstractions.dll" />
+        <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Abstractions\bin\Release\Plugin.Xablu.Walkthrough.Abstractions.xml" target="lib\win8\Plugin.Xablu.Walkthrough.Abstractions.xml" />
+        <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.WindowsStore\bin\Release\Plugin.Xablu.Walkthrough.dll" target="lib\win8\Plugin.Xablu.Walkthrough.dll" />
+        <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.WindowsStore\bin\Release\Plugin.Xablu.Walkthrough.xml" target="lib\win8\Plugin.Xablu.Walkthrough.xml" />
+        
+        <!-- UWP -->
+        <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Abstractions\bin\Release\Plugin.Xablu.Walkthrough.Abstractions.dll" target="lib\UAP10\Plugin.Xablu.Walkthrough.Abstractions.dll" />
+        <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Abstractions\bin\Release\Plugin.Xablu.Walkthrough.Abstractions.xml" target="lib\UAP10\Plugin.Xablu.Walkthrough.Abstractions.xml" />
+        <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.UWP\bin\Release\Plugin.Xablu.Walkthrough.dll" target="lib\UAP10\Plugin.Xablu.Walkthrough.dll" />
+        <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.UWP\bin\Release\Plugin.Xablu.Walkthrough.xml" target="lib\UAP10\Plugin.Xablu.Walkthrough.xml" />
+        
+    </files>
+</package>
