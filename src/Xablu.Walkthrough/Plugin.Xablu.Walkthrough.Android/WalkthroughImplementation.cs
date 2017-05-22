@@ -3,8 +3,10 @@ using System;
 using Android.Support.V4.View;
 using Android.Content;
 using Walker;
+using Android.App;
+using Android.Support.V7.App;
 
-namespace Plugin.Walkthrough
+namespace Plugin.Xablu.Walkthrough
 {
     /// <summary>
     /// Implementation for Feature
@@ -14,9 +16,15 @@ namespace Plugin.Walkthrough
         private ViewPager _viewPager;
         private int _currentPosition = 0;
 
-        public void Init(ViewPager viewPager, WalkerFragment[] fragments, Context context)
+        public void Init(ViewPager viewPager, WalkerFragment[] fragments, AppCompatActivity hostActivity)
         {
             _viewPager = viewPager;
+            _viewPager.Adapter = new DefaultAdapter(fragments, hostActivity.SupportFragmentManager);
+
+            foreach (WalkerFragment fragment in fragments)
+                _viewPager.AddOnPageChangeListener(fragment);
+
+            _viewPager.AddOnPageChangeListener(this);
         }
 
         public void Next()

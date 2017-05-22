@@ -1,9 +1,8 @@
 using Plugin.Walkthrough.Abstractions;
-using System;
 using UIKit;
 using BWWalkthrough;
 
-namespace Plugin.Walkthrough
+namespace Plugin.Xablu.Walkthrough
 {
     /// <summary>
     /// Implementation for Walkthrough

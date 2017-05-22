@@ -1,7 +1,8 @@
 using Plugin.Walkthrough.Abstractions;
 using System;
+using Plugin.Xablu.Walkthrough;
 
-namespace Plugin.Walkthrough
+namespace Plugin.Xablu.Walkthrough
 {
     /// <summary>
     /// Cross platform Walkthrough implemenations

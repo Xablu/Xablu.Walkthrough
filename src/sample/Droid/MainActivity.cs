@@ -1,14 +1,15 @@
 ﻿using Android.App;
-using Android.Widget;
 using Android.OS;
 using WalkthroughSample.Droid.Fragments;
 using Walker;
 using Plugin.Walkthrough;
+using Android.Support.V7.App;
+using Plugin.Xablu.Walkthrough;
 
 namespace WalkthroughSample.Droid
 {
-    [Activity(Label = "WalkthroughSample", MainLauncher = true, Icon = "@mipmap/icon")]
-    public class MainActivity : Activity
+    [Activity(Label = "WalkthroughSample", MainLauncher = true, Icon = "@mipmap/icon", Theme = "@style/Theme.AppCompat")]
+    public class MainActivity : AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -24,7 +25,9 @@ namespace WalkthroughSample.Droid
                 WalkerFragment.NewInstance<ThirdPageFragment>()
             };
 
-            instance.Init();
+            var viewPager = (Android.Support.V4.View.ViewPager)FindViewById(Resource.Id.view_pager);
+
+            instance.Init(viewPager, fragments, this);
         }
     }
 }
