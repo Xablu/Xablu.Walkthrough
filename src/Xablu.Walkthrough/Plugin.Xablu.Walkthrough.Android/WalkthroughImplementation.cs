@@ -24,10 +24,10 @@ namespace Plugin.Xablu.Walkthrough
         public void Init<T>(WalkerFragment[] fragments, AppCompatActivity hostActivity) where T : WalkthroughViewPagerBaseFragment, new()
         {
             _hostActvity = hostActivity;
-        
-			_viewPagerFragment = WalkthroughViewPagerBaseFragment.NewInstance<T>();
-			_viewPagerFragment.SetAdapter(fragments, hostActivity);
-			_viewPagerFragment.SetListener(this);
+
+            _viewPagerFragment = WalkthroughViewPagerBaseFragment.NewInstance<T>();
+            _viewPagerFragment.SetAdapter(fragments, hostActivity);
+            _viewPagerFragment.SetListener(this);
         }
 
         public void Next()
@@ -42,7 +42,7 @@ namespace Plugin.Xablu.Walkthrough
 
         public void Show()
         {
-            _viewPagerFragment.Show(_hostActvity.SupportFragmentManager,Class.SimpleName);
+            _viewPagerFragment.Show(_hostActvity.SupportFragmentManager, Class.SimpleName);
         }
 
         public void Close()

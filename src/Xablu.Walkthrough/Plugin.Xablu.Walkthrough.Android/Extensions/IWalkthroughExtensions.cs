@@ -15,10 +15,10 @@ namespace Plugin.Xablu.Walkthrough
             androidWalkThrough.Init<ViewPagerDialogFragment>(fragments, hostActivity);
         }
 
-		public static void Init<T>(this IWalkthrough walkThrough, WalkerFragment[] fragments, AppCompatActivity hostActivity) where T : WalkthroughViewPagerBaseFragment, new()
-		{
-			var androidWalkThrough = (WalkthroughImplementation)walkThrough;
-			androidWalkThrough.Init<T>(fragments, hostActivity);
-		}
+        public static void Init<T>(this IWalkthrough walkThrough, WalkerFragment[] fragments, AppCompatActivity hostActivity) where T : WalkthroughViewPagerBaseFragment, new()
+        {
+            var androidWalkThrough = (WalkthroughImplementation)walkThrough;
+            androidWalkThrough.Init<T>(fragments, hostActivity);
+        }
     }
 }
