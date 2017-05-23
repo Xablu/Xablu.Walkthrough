@@ -6,6 +6,7 @@ using Walker;
 using Android.App;
 using Android.Support.V7.App;
 using Android.Views;
+using Plugin.Xablu.Walkthrough.Defaults;
 
 namespace Plugin.Xablu.Walkthrough
 {
@@ -20,21 +21,11 @@ namespace Plugin.Xablu.Walkthrough
         private int _currentPosition = 0;
         public bool _isShown = false;
 
-		public void Init(WalkerFragment[] fragments, AppCompatActivity hostActivity)
-		{
-			_hostActvity = hostActivity;
-            setViewPagerFragment(WalkthroughViewPagerBaseFragment.NewInstance<ViewPagerDialogFragment>(), fragments, hostActivity);
-		}
-
         public void Init<T>(WalkerFragment[] fragments, AppCompatActivity hostActivity) where T : WalkthroughViewPagerBaseFragment, new()
         {
             _hostActvity = hostActivity;
-            setViewPagerFragment(WalkthroughViewPagerBaseFragment.NewInstance<T>(), fragments, hostActivity);
-        }
-
-        private void setViewPagerFragment(WalkthroughViewPagerBaseFragment fragment,WalkerFragment[] fragments, AppCompatActivity hostActivity)
-        {
-			_viewPagerFragment = WalkthroughViewPagerBaseFragment.NewInstance<ViewPagerDialogFragment>();
+        
+			_viewPagerFragment = WalkthroughViewPagerBaseFragment.NewInstance<T>();
 			_viewPagerFragment.SetAdapter(fragments, hostActivity);
 			_viewPagerFragment.SetListener(this);
         }

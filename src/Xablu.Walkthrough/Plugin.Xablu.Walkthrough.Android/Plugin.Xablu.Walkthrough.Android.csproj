@@ -86,9 +86,9 @@
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Extensions\IWalkthroughExtensions.cs" />
-    <Compile Include="DefaultAdapter.cs" />
-    <Compile Include="ViewPagerDialogFragment.cs" />
     <Compile Include="WalkthroughViewPagerBaseFragment.cs" />
+    <Compile Include="Defaults\DefaultAdapter.cs" />
+    <Compile Include="Defaults\ViewPagerDialogFragment.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -103,6 +103,7 @@
   <ItemGroup>
     <Folder Include="Extensions\" />
     <Folder Include="Resources\drawable\" />
+    <Folder Include="Defaults\" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\DefaultViewPagerLayout.axml" />

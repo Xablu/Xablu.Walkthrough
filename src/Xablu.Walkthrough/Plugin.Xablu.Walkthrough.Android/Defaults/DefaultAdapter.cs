@@ -1,7 +1,7 @@
 ﻿using Android.Support.V4.App;
 using Walker;
 
-namespace Plugin.Xablu.Walkthrough
+namespace Plugin.Xablu.Walkthrough.Defaults
 {
     public class DefaultAdapter : FragmentPagerAdapter
     {

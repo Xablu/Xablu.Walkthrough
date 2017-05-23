@@ -4,9 +4,10 @@ using Android.Support.V4.App;
 using Android.Support.V4.View;
 using Android.Support.V7.App;
 using Android.Views;
+using Android.Widget;
 using Walker;
 
-namespace Plugin.Xablu.Walkthrough
+namespace Plugin.Xablu.Walkthrough.Defaults
 {
     public class ViewPagerDialogFragment : WalkthroughViewPagerBaseFragment
     {
@@ -17,6 +18,20 @@ namespace Plugin.Xablu.Walkthrough
         {
             var view = inflater.Inflate(Resource.Layout.DefaultViewPagerLayout, container, false);
             viewPager = (ViewPager)view.FindViewById(Resource.Id.view_pager);
+
+			var leftButton = (ImageView)view.FindViewById(Resource.Id.left);
+            var rightButton = (ImageView)view.FindViewById(Resource.Id.right);
+
+			leftButton.Click += (s, e) =>
+			{
+                CrossWalkthrough.Current.Next();
+			};
+
+			rightButton.Click += (s, e) =>
+			{
+                CrossWalkthrough.Current.Previous();
+			};
+			
             return view;
         }
 
