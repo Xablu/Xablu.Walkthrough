@@ -44,18 +44,6 @@
         <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Abstractions\bin\Release\Plugin.Xablu.Walkthrough.Abstractions.xml" target="lib\MonoTouch10\Plugin.Xablu.Walkthrough.Abstractions.xml" />
         <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.iOS\bin\iPhone\Release\Plugin.Xablu.Walkthrough.dll" target="lib\MonoTouch10\Plugin.Xablu.Walkthrough.dll" />
         <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.iOS\bin\iPhone\Release\Plugin.Xablu.Walkthrough.xml" target="lib\MonoTouch10\Plugin.Xablu.Walkthrough.xml" />
-        
-        <!-- Windows Store -->
-        <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Abstractions\bin\Release\Plugin.Xablu.Walkthrough.Abstractions.dll" target="lib\win8\Plugin.Xablu.Walkthrough.Abstractions.dll" />
-        <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Abstractions\bin\Release\Plugin.Xablu.Walkthrough.Abstractions.xml" target="lib\win8\Plugin.Xablu.Walkthrough.Abstractions.xml" />
-        <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.WindowsStore\bin\Release\Plugin.Xablu.Walkthrough.dll" target="lib\win8\Plugin.Xablu.Walkthrough.dll" />
-        <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.WindowsStore\bin\Release\Plugin.Xablu.Walkthrough.xml" target="lib\win8\Plugin.Xablu.Walkthrough.xml" />
-        
-        <!-- UWP -->
-        <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Abstractions\bin\Release\Plugin.Xablu.Walkthrough.Abstractions.dll" target="lib\UAP10\Plugin.Xablu.Walkthrough.Abstractions.dll" />
-        <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Abstractions\bin\Release\Plugin.Xablu.Walkthrough.Abstractions.xml" target="lib\UAP10\Plugin.Xablu.Walkthrough.Abstractions.xml" />
-        <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.UWP\bin\Release\Plugin.Xablu.Walkthrough.dll" target="lib\UAP10\Plugin.Xablu.Walkthrough.dll" />
-        <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.UWP\bin\Release\Plugin.Xablu.Walkthrough.xml" target="lib\UAP10\Plugin.Xablu.Walkthrough.xml" />
-        
+  
     </files>
 </package>
