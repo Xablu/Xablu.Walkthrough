@@ -5,6 +5,7 @@ using Walker;
 using Plugin.Walkthrough;
 using Android.Support.V7.App;
 using Plugin.Xablu.Walkthrough;
+using Android.Widget;
 
 namespace WalkthroughSample.Droid
 {
@@ -27,7 +28,13 @@ namespace WalkthroughSample.Droid
 
             var viewPager = (Android.Support.V4.View.ViewPager)FindViewById(Resource.Id.view_pager);
 
-            instance.Init(viewPager, fragments, this);
+            instance.Init(fragments, this);
+
+            var button = FindViewById<Button>(Resource.Id.showWalkthrough);
+            button.Click += (sender, e) =>
+            {
+                instance.Show();
+            };
         }
     }
 }

@@ -5,6 +5,7 @@ using Android.Content;
 using Walker;
 using Android.App;
 using Android.Support.V7.App;
+using Android.Views;
 
 namespace Plugin.Xablu.Walkthrough
 {
@@ -13,38 +14,49 @@ namespace Plugin.Xablu.Walkthrough
     /// </summary>
     public class WalkthroughImplementation : Java.Lang.Object, ViewPager.IOnPageChangeListener, IWalkthrough
     {
-        private ViewPager _viewPager;
+        private WalkthroughViewPagerBaseFragment _viewPagerFragment;
+        private AppCompatActivity _hostActvity;
+
         private int _currentPosition = 0;
+        public bool _isShown = false;
 
-        public void Init(ViewPager viewPager, WalkerFragment[] fragments, AppCompatActivity hostActivity)
+		public void Init(WalkerFragment[] fragments, AppCompatActivity hostActivity)
+		{
+			_hostActvity = hostActivity;
+            setViewPagerFragment(WalkthroughViewPagerBaseFragment.NewInstance<ViewPagerDialogFragment>(), fragments, hostActivity);
+		}
+
+        public void Init<T>(WalkerFragment[] fragments, AppCompatActivity hostActivity) where T : WalkthroughViewPagerBaseFragment, new()
         {
-            _viewPager = viewPager;
-            _viewPager.Adapter = new DefaultAdapter(fragments, hostActivity.SupportFragmentManager);
+            _hostActvity = hostActivity;
+            setViewPagerFragment(WalkthroughViewPagerBaseFragment.NewInstance<T>(), fragments, hostActivity);
+        }
 
-            foreach (WalkerFragment fragment in fragments)
-                _viewPager.AddOnPageChangeListener(fragment);
-
-            _viewPager.AddOnPageChangeListener(this);
+        private void setViewPagerFragment(WalkthroughViewPagerBaseFragment fragment,WalkerFragment[] fragments, AppCompatActivity hostActivity)
+        {
+			_viewPagerFragment = WalkthroughViewPagerBaseFragment.NewInstance<ViewPagerDialogFragment>();
+			_viewPagerFragment.SetAdapter(fragments, hostActivity);
+			_viewPagerFragment.SetListener(this);
         }
 
         public void Next()
         {
-            _viewPager.CurrentItem = _currentPosition - 1;
+            _viewPagerFragment.ViewPager.CurrentItem = _currentPosition - 1;
         }
 
         public void Previous()
         {
-            _viewPager.CurrentItem = _currentPosition + 1;
+            _viewPagerFragment.ViewPager.CurrentItem = _currentPosition + 1;
         }
 
         public void Show()
         {
-            throw new NotImplementedException();
+            _viewPagerFragment.Show(_hostActvity.SupportFragmentManager,Class.SimpleName);
         }
 
         public void Close()
         {
-            throw new NotImplementedException();
+            _viewPagerFragment.Dismiss();
         }
 
         public void OnPageScrollStateChanged(int state)

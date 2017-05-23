@@ -105,8 +105,6 @@
     <AndroidResource Include="Resources\layout\ThirdFragment.axml" />
     <AndroidResource Include="Resources\drawable\cloud.png" />
     <AndroidResource Include="Resources\drawable\iphone.png" />
-    <AndroidResource Include="Resources\drawable\left_arrow.png" />
-    <AndroidResource Include="Resources\drawable\right_arrow.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WalkthroughSample\WalkthroughSample.csproj">
