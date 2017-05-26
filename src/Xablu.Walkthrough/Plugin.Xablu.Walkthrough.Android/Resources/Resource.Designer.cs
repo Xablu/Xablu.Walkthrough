@@ -1806,6 +1806,9 @@ namespace Plugin.Xablu.Walkthrough
 			// aapt resource value: 0x7f0a0029
 			public static int image = 2131361833;
 			
+			// aapt resource value: 0x7f0a0071
+			public static int img = 2131361905;
+			
 			// aapt resource value: 0x7f0a0066
 			public static int info = 2131361894;
 			
@@ -1995,6 +1998,9 @@ namespace Plugin.Xablu.Walkthrough
 			// aapt resource value: 0x7f0a0056
 			public static int view_pager = 2131361878;
 			
+			// aapt resource value: 0x7f0a0070
+			public static int walker = 2131361904;
+			
 			// aapt resource value: 0x7f0a0021
 			public static int withText = 2131361825;
 			
@@ -2179,6 +2185,9 @@ namespace Plugin.Xablu.Walkthrough
 			
 			// aapt resource value: 0x7f03002e
 			public static int support_simple_spinner_dropdown_item = 2130903086;
+			
+			// aapt resource value: 0x7f03002f
+			public static int theme_forestprime = 2130903087;
 			
 			static Layout()
 			{

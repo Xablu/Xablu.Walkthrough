@@ -593,6 +593,7 @@ namespace WalkthroughSample.Droid
 			global::Plugin.Xablu.Walkthrough.Resource.Id.icon_group = global::WalkthroughSample.Droid.Resource.Id.icon_group;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.ifRoom = global::WalkthroughSample.Droid.Resource.Id.ifRoom;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.image = global::WalkthroughSample.Droid.Resource.Id.image;
+			global::Plugin.Xablu.Walkthrough.Resource.Id.img = global::WalkthroughSample.Droid.Resource.Id.img;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.info = global::WalkthroughSample.Droid.Resource.Id.info;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.left = global::WalkthroughSample.Droid.Resource.Id.left;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.line1 = global::WalkthroughSample.Droid.Resource.Id.line1;
@@ -656,6 +657,7 @@ namespace WalkthroughSample.Droid
 			global::Plugin.Xablu.Walkthrough.Resource.Id.up = global::WalkthroughSample.Droid.Resource.Id.up;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.useLogo = global::WalkthroughSample.Droid.Resource.Id.useLogo;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.view_pager = global::WalkthroughSample.Droid.Resource.Id.view_pager;
+			global::Plugin.Xablu.Walkthrough.Resource.Id.walker = global::WalkthroughSample.Droid.Resource.Id.walker;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.withText = global::WalkthroughSample.Droid.Resource.Id.withText;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.wrap_content = global::WalkthroughSample.Droid.Resource.Id.wrap_content;
 			global::Plugin.Xablu.Walkthrough.Resource.Integer.abc_config_activityDefaultDur = global::WalkthroughSample.Droid.Resource.Integer.abc_config_activityDefaultDur;
@@ -709,6 +711,7 @@ namespace WalkthroughSample.Droid
 			global::Plugin.Xablu.Walkthrough.Resource.Layout.select_dialog_multichoice_material = global::WalkthroughSample.Droid.Resource.Layout.select_dialog_multichoice_material;
 			global::Plugin.Xablu.Walkthrough.Resource.Layout.select_dialog_singlechoice_material = global::WalkthroughSample.Droid.Resource.Layout.select_dialog_singlechoice_material;
 			global::Plugin.Xablu.Walkthrough.Resource.Layout.support_simple_spinner_dropdown_item = global::WalkthroughSample.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Plugin.Xablu.Walkthrough.Resource.Layout.theme_forestprime = global::WalkthroughSample.Droid.Resource.Layout.theme_forestprime;
 			global::Plugin.Xablu.Walkthrough.Resource.String.abc_action_bar_home_description = global::WalkthroughSample.Droid.Resource.String.abc_action_bar_home_description;
 			global::Plugin.Xablu.Walkthrough.Resource.String.abc_action_bar_home_description_format = global::WalkthroughSample.Droid.Resource.String.abc_action_bar_home_description_format;
 			global::Plugin.Xablu.Walkthrough.Resource.String.abc_action_bar_home_subtitle_description_format = global::WalkthroughSample.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
@@ -3654,7 +3657,10 @@ namespace WalkthroughSample.Droid
 			public const int support_simple_spinner_dropdown_item = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int ThirdFragment = 2130968626;
+			public const int theme_forestprime = 2130968626;
+			
+			// aapt resource value: 0x7f040033
+			public const int ThirdFragment = 2130968627;
 			
 			static Layout()
 			{

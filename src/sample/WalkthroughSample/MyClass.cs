@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Plugin.Xablu.Walkthrough;
 using Plugin.Xablu.Walkthrough.Themes;
 using System.Linq;
-
+using Plugin.Xablu.Walkthrough.Abstractions.Pages;
 
 namespace WalkthroughSample
 {
@@ -11,22 +11,15 @@ namespace WalkthroughSample
     {
         public MyClass()
         {
-            var tour = CrossWalkthrough.Current.Init<ForestPrimes>();
-            tour.Pages.ToList().AddRange(
-                new List<ForestPrimesPage>
+            var theme = new ForestPrimes();
+            theme.Pages.Add(
+                new ForestPrimesPage()
                 {
-                    new ForestPrimesPage()
-                    {
-                        Description = "test",
-                        Title ="mooi"
-                    },
-                    new ForestPrimesPage()
-                    {
-                        Description = "wow",
-                        Title = "wauw"
-                    }
+                    Title = "hoi"
                 }
             );
+
+            CrossWalkthrough.Current.Theme = theme;
         }
     }
 }

@@ -83,12 +83,15 @@
       <Link>CrossWalkthrough.cs</Link>
     </Compile>
     <Compile Include="WalkthroughImplementation.cs" />
-    <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Extensions\IWalkthroughExtensions.cs" />
     <Compile Include="WalkthroughViewPagerBaseFragment.cs" />
     <Compile Include="Defaults\DefaultAdapter.cs" />
     <Compile Include="Defaults\ViewPagerDialogFragment.cs" />
+    <Compile Include="Themes\IAndroidTheme.cs" />
+    <Compile Include="Themes\ForestPrimes.cs" />
+    <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="Fragments\ForestPrimeFragment.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -104,11 +107,14 @@
     <Folder Include="Extensions\" />
     <Folder Include="Resources\drawable\" />
     <Folder Include="Defaults\" />
+    <Folder Include="Themes\" />
+    <Folder Include="Fragments\" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\DefaultViewPagerLayout.axml" />
     <AndroidResource Include="Resources\drawable\left_arrow.png" />
     <AndroidResource Include="Resources\drawable\right_arrow.png" />
+    <AndroidResource Include="Resources\layout\theme_forestprime.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

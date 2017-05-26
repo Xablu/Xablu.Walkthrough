@@ -1,4 +1,4 @@
-using Plugin.Walkthrough.Abstractions;
+using Plugin.Xablu.Walkthrough.Abstractions;
 using System;
 using Android.Support.V4.View;
 using Android.Content;
@@ -7,6 +7,7 @@ using Android.App;
 using Android.Support.V7.App;
 using Android.Views;
 using Plugin.Xablu.Walkthrough.Defaults;
+using Plugin.Xablu.Walkthrough.Themes;
 
 namespace Plugin.Xablu.Walkthrough
 {
@@ -20,6 +21,24 @@ namespace Plugin.Xablu.Walkthrough
 
         private int _currentPosition = 0;
         public bool _isShown = false;
+
+        private ITheme _theme = new ForestPrimes();
+        public ITheme Theme
+        {
+            get => _theme;
+            set => _theme = value;
+        }
+
+        public void Init(AppCompatActivity hostActivity)
+        {
+            _hostActvity = hostActivity;
+
+            var androidTheme = Theme as IAndroidTheme;
+
+            _viewPagerFragment = androidTheme.ViewPager;
+            _viewPagerFragment.SetAdapter(androidTheme.CreateFragments(), hostActivity);
+            _viewPagerFragment.SetListener(this);
+        }
 
         public void Init<T>(WalkerFragment[] fragments, AppCompatActivity hostActivity) where T : WalkthroughViewPagerBaseFragment, new()
         {

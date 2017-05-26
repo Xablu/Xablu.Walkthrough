@@ -1,6 +1,8 @@
-using Plugin.Walkthrough.Abstractions;
+using Plugin.Xablu.Walkthrough.Abstractions;
 using UIKit;
 using BWWalkthrough;
+using Plugin.Xablu.Walkthrough.Themes;
+using System;
 
 namespace Plugin.Xablu.Walkthrough
 {
@@ -13,6 +15,13 @@ namespace Plugin.Xablu.Walkthrough
         private BWWalkthroughViewController _walkthrough;
         private string[] _idsViews;
         private UIViewController _hostViewController;
+
+        private ITheme _theme;
+        public ITheme Theme
+        {
+            get => _theme;
+            set => _theme = value;
+        }
 
         public void Init(UIStoryboard storyBoard, string[] idsViews, UIViewController hostViewController)
         {

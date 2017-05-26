@@ -1,5 +1,4 @@
 ﻿using System;
-using Plugin.Walkthrough;
 using Plugin.Xablu.Walkthrough;
 using Plugin.Xablu.Walkthrough.Extensions;
 using UIKit;

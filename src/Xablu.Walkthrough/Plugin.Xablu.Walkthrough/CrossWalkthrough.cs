@@ -1,4 +1,4 @@
-using Plugin.Walkthrough.Abstractions;
+using Plugin.Xablu.Walkthrough.Abstractions;
 using System;
 using Plugin.Xablu.Walkthrough;
 
