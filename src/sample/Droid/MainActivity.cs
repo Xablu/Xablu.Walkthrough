@@ -17,25 +17,12 @@ namespace WalkthroughSample.Droid
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-            new MyClass();
             CrossWalkthrough.Current.Init(this);
-
-            //var instance = CrossWalkthrough.Current;
-
-            //var fragments = new WalkerFragment[] {
-            //    WalkerFragment.NewInstance<FirstPageFragment>(),
-            //    WalkerFragment.NewInstance<SecondPageFragment>(),
-            //    WalkerFragment.NewInstance<ThirdPageFragment>()
-            //};
-
-            //var viewPager = (Android.Support.V4.View.ViewPager)FindViewById(Resource.Id.view_pager);
-
-            //instance.Init(fragments, this);
 
             var button = FindViewById<Button>(Resource.Id.showWalkthrough);
             button.Click += (sender, e) =>
             {
-                CrossWalkthrough.Current.Show();
+                new MyClass();
             };
         }
     }

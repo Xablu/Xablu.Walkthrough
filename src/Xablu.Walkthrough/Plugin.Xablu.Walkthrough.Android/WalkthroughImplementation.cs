@@ -26,37 +26,31 @@ namespace Plugin.Xablu.Walkthrough
         public ITheme Theme
         {
             get => _theme;
-            set => _theme = value;
+            set
+            {
+                _theme = value;
+
+                var androidTheme = Theme as IAndroidTheme;
+                _viewPagerFragment = androidTheme.ViewPager;
+                _viewPagerFragment.SetAdapter(androidTheme.CreateFragments(), _hostActvity);
+                _viewPagerFragment.SetListener(this);
+            }
         }
 
         public void Init(AppCompatActivity hostActivity)
         {
             _hostActvity = hostActivity;
-
-            var androidTheme = Theme as IAndroidTheme;
-
-            _viewPagerFragment = androidTheme.ViewPager;
-            _viewPagerFragment.SetAdapter(androidTheme.CreateFragments(), hostActivity);
-            _viewPagerFragment.SetListener(this);
-        }
-
-        public void Init<T>(WalkerFragment[] fragments, AppCompatActivity hostActivity) where T : WalkthroughViewPagerBaseFragment, new()
-        {
-            _hostActvity = hostActivity;
-
-            _viewPagerFragment = WalkthroughViewPagerBaseFragment.NewInstance<T>();
-            _viewPagerFragment.SetAdapter(fragments, hostActivity);
-            _viewPagerFragment.SetListener(this);
-        }
-
-        public void Next()
-        {
-            _viewPagerFragment.ViewPager.CurrentItem = _currentPosition - 1;
         }
 
         public void Previous()
         {
             _viewPagerFragment.ViewPager.CurrentItem = _currentPosition + 1;
+        }
+
+
+        public void Next()
+        {
+            _viewPagerFragment.ViewPager.CurrentItem = _currentPosition - 1;
         }
 
         public void Show()
@@ -81,5 +75,6 @@ namespace Plugin.Xablu.Walkthrough
         {
             _currentPosition = position;
         }
+
     }
 }

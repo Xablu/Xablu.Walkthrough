@@ -17,12 +17,13 @@ namespace WalkthroughSample.iOS
 
             var viewIds = new string[] { "walk", "walk0", "walk1", "walk2" };
 
-            var instance = CrossWalkthrough.Current;
-            instance.Init(UIStoryboard.FromName("Walkthrough", null), viewIds, this);
+            CrossWalkthrough.Current.Init(this);
+
+            new MyClass();
 
             Button.TouchUpInside += (sender, e) =>
             {
-                instance.Show();
+                CrossWalkthrough.Current.Show();
             };
         }
 

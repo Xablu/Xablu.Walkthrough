@@ -41,6 +41,16 @@
     <Compile Include="WalkthroughImplementation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Extensions\IWalkthroughExtensions.cs" />
+    <Compile Include="Themes\IIosTheme.cs" />
+    <Compile Include="Themes\ForestPrimes.cs" />
+    <Compile Include="ViewControllers\ForestPrimesViewController.cs" />
+    <Compile Include="ViewControllers\ForestPrimesViewController.designer.cs">
+      <DependentUpon>ForestPrimesViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewControllers\ForestPrimesContainerViewController.cs" />
+    <Compile Include="ViewControllers\ForestPrimesContainerViewController.designer.cs">
+      <DependentUpon>ForestPrimesContainerViewController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Plugin.Xablu.Walkthrough.Abstractions\Plugin.Xablu.Walkthrough.Abstractions.csproj">
@@ -62,9 +72,15 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Extensions\" />
+    <Folder Include="Themes\" />
+    <Folder Include="ViewControllers\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="ViewControllers\ForestPrimesViewController.xib" />
+    <InterfaceDefinition Include="ViewControllers\ForestPrimesContainerViewController.xib" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

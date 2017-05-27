@@ -26,1438 +26,6 @@ namespace WalkthroughSample.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::Plugin.Xablu.Walkthrough.Resource.Animation.abc_fade_in = global::WalkthroughSample.Droid.Resource.Animation.abc_fade_in;
-			global::Plugin.Xablu.Walkthrough.Resource.Animation.abc_fade_out = global::WalkthroughSample.Droid.Resource.Animation.abc_fade_out;
-			global::Plugin.Xablu.Walkthrough.Resource.Animation.abc_grow_fade_in_from_bottom = global::WalkthroughSample.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
-			global::Plugin.Xablu.Walkthrough.Resource.Animation.abc_popup_enter = global::WalkthroughSample.Droid.Resource.Animation.abc_popup_enter;
-			global::Plugin.Xablu.Walkthrough.Resource.Animation.abc_popup_exit = global::WalkthroughSample.Droid.Resource.Animation.abc_popup_exit;
-			global::Plugin.Xablu.Walkthrough.Resource.Animation.abc_shrink_fade_out_from_bottom = global::WalkthroughSample.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
-			global::Plugin.Xablu.Walkthrough.Resource.Animation.abc_slide_in_bottom = global::WalkthroughSample.Droid.Resource.Animation.abc_slide_in_bottom;
-			global::Plugin.Xablu.Walkthrough.Resource.Animation.abc_slide_in_top = global::WalkthroughSample.Droid.Resource.Animation.abc_slide_in_top;
-			global::Plugin.Xablu.Walkthrough.Resource.Animation.abc_slide_out_bottom = global::WalkthroughSample.Droid.Resource.Animation.abc_slide_out_bottom;
-			global::Plugin.Xablu.Walkthrough.Resource.Animation.abc_slide_out_top = global::WalkthroughSample.Droid.Resource.Animation.abc_slide_out_top;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionBarDivider = global::WalkthroughSample.Droid.Resource.Attribute.actionBarDivider;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionBarItemBackground = global::WalkthroughSample.Droid.Resource.Attribute.actionBarItemBackground;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionBarPopupTheme = global::WalkthroughSample.Droid.Resource.Attribute.actionBarPopupTheme;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionBarSize = global::WalkthroughSample.Droid.Resource.Attribute.actionBarSize;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionBarSplitStyle = global::WalkthroughSample.Droid.Resource.Attribute.actionBarSplitStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionBarStyle = global::WalkthroughSample.Droid.Resource.Attribute.actionBarStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionBarTabBarStyle = global::WalkthroughSample.Droid.Resource.Attribute.actionBarTabBarStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionBarTabStyle = global::WalkthroughSample.Droid.Resource.Attribute.actionBarTabStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionBarTabTextStyle = global::WalkthroughSample.Droid.Resource.Attribute.actionBarTabTextStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionBarTheme = global::WalkthroughSample.Droid.Resource.Attribute.actionBarTheme;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionBarWidgetTheme = global::WalkthroughSample.Droid.Resource.Attribute.actionBarWidgetTheme;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionButtonStyle = global::WalkthroughSample.Droid.Resource.Attribute.actionButtonStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionDropDownStyle = global::WalkthroughSample.Droid.Resource.Attribute.actionDropDownStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionLayout = global::WalkthroughSample.Droid.Resource.Attribute.actionLayout;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionMenuTextAppearance = global::WalkthroughSample.Droid.Resource.Attribute.actionMenuTextAppearance;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionMenuTextColor = global::WalkthroughSample.Droid.Resource.Attribute.actionMenuTextColor;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionModeBackground = global::WalkthroughSample.Droid.Resource.Attribute.actionModeBackground;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionModeCloseButtonStyle = global::WalkthroughSample.Droid.Resource.Attribute.actionModeCloseButtonStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionModeCloseDrawable = global::WalkthroughSample.Droid.Resource.Attribute.actionModeCloseDrawable;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionModeCopyDrawable = global::WalkthroughSample.Droid.Resource.Attribute.actionModeCopyDrawable;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionModeCutDrawable = global::WalkthroughSample.Droid.Resource.Attribute.actionModeCutDrawable;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionModeFindDrawable = global::WalkthroughSample.Droid.Resource.Attribute.actionModeFindDrawable;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionModePasteDrawable = global::WalkthroughSample.Droid.Resource.Attribute.actionModePasteDrawable;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionModePopupWindowStyle = global::WalkthroughSample.Droid.Resource.Attribute.actionModePopupWindowStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionModeSelectAllDrawable = global::WalkthroughSample.Droid.Resource.Attribute.actionModeSelectAllDrawable;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionModeShareDrawable = global::WalkthroughSample.Droid.Resource.Attribute.actionModeShareDrawable;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionModeSplitBackground = global::WalkthroughSample.Droid.Resource.Attribute.actionModeSplitBackground;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionModeStyle = global::WalkthroughSample.Droid.Resource.Attribute.actionModeStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionModeWebSearchDrawable = global::WalkthroughSample.Droid.Resource.Attribute.actionModeWebSearchDrawable;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionOverflowButtonStyle = global::WalkthroughSample.Droid.Resource.Attribute.actionOverflowButtonStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionOverflowMenuStyle = global::WalkthroughSample.Droid.Resource.Attribute.actionOverflowMenuStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionProviderClass = global::WalkthroughSample.Droid.Resource.Attribute.actionProviderClass;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionViewClass = global::WalkthroughSample.Droid.Resource.Attribute.actionViewClass;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.activityChooserViewStyle = global::WalkthroughSample.Droid.Resource.Attribute.activityChooserViewStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.alertDialogButtonGroupStyle = global::WalkthroughSample.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.alertDialogCenterButtons = global::WalkthroughSample.Droid.Resource.Attribute.alertDialogCenterButtons;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.alertDialogStyle = global::WalkthroughSample.Droid.Resource.Attribute.alertDialogStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.alertDialogTheme = global::WalkthroughSample.Droid.Resource.Attribute.alertDialogTheme;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.allowStacking = global::WalkthroughSample.Droid.Resource.Attribute.allowStacking;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.alpha = global::WalkthroughSample.Droid.Resource.Attribute.alpha;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.arrowHeadLength = global::WalkthroughSample.Droid.Resource.Attribute.arrowHeadLength;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.arrowShaftLength = global::WalkthroughSample.Droid.Resource.Attribute.arrowShaftLength;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.autoCompleteTextViewStyle = global::WalkthroughSample.Droid.Resource.Attribute.autoCompleteTextViewStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.background = global::WalkthroughSample.Droid.Resource.Attribute.background;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.backgroundSplit = global::WalkthroughSample.Droid.Resource.Attribute.backgroundSplit;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.backgroundStacked = global::WalkthroughSample.Droid.Resource.Attribute.backgroundStacked;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.backgroundTint = global::WalkthroughSample.Droid.Resource.Attribute.backgroundTint;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.backgroundTintMode = global::WalkthroughSample.Droid.Resource.Attribute.backgroundTintMode;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.barLength = global::WalkthroughSample.Droid.Resource.Attribute.barLength;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.borderlessButtonStyle = global::WalkthroughSample.Droid.Resource.Attribute.borderlessButtonStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.buttonBarButtonStyle = global::WalkthroughSample.Droid.Resource.Attribute.buttonBarButtonStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.buttonBarNegativeButtonStyle = global::WalkthroughSample.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.buttonBarNeutralButtonStyle = global::WalkthroughSample.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.buttonBarPositiveButtonStyle = global::WalkthroughSample.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.buttonBarStyle = global::WalkthroughSample.Droid.Resource.Attribute.buttonBarStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.buttonGravity = global::WalkthroughSample.Droid.Resource.Attribute.buttonGravity;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.buttonPanelSideLayout = global::WalkthroughSample.Droid.Resource.Attribute.buttonPanelSideLayout;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.buttonStyle = global::WalkthroughSample.Droid.Resource.Attribute.buttonStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.buttonStyleSmall = global::WalkthroughSample.Droid.Resource.Attribute.buttonStyleSmall;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.buttonTint = global::WalkthroughSample.Droid.Resource.Attribute.buttonTint;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.buttonTintMode = global::WalkthroughSample.Droid.Resource.Attribute.buttonTintMode;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.checkboxStyle = global::WalkthroughSample.Droid.Resource.Attribute.checkboxStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.checkedTextViewStyle = global::WalkthroughSample.Droid.Resource.Attribute.checkedTextViewStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.closeIcon = global::WalkthroughSample.Droid.Resource.Attribute.closeIcon;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.closeItemLayout = global::WalkthroughSample.Droid.Resource.Attribute.closeItemLayout;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.collapseContentDescription = global::WalkthroughSample.Droid.Resource.Attribute.collapseContentDescription;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.collapseIcon = global::WalkthroughSample.Droid.Resource.Attribute.collapseIcon;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.color = global::WalkthroughSample.Droid.Resource.Attribute.color;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.colorAccent = global::WalkthroughSample.Droid.Resource.Attribute.colorAccent;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.colorBackgroundFloating = global::WalkthroughSample.Droid.Resource.Attribute.colorBackgroundFloating;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.colorButtonNormal = global::WalkthroughSample.Droid.Resource.Attribute.colorButtonNormal;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.colorControlActivated = global::WalkthroughSample.Droid.Resource.Attribute.colorControlActivated;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.colorControlHighlight = global::WalkthroughSample.Droid.Resource.Attribute.colorControlHighlight;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.colorControlNormal = global::WalkthroughSample.Droid.Resource.Attribute.colorControlNormal;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.colorPrimary = global::WalkthroughSample.Droid.Resource.Attribute.colorPrimary;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.colorPrimaryDark = global::WalkthroughSample.Droid.Resource.Attribute.colorPrimaryDark;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.colorSwitchThumbNormal = global::WalkthroughSample.Droid.Resource.Attribute.colorSwitchThumbNormal;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.commitIcon = global::WalkthroughSample.Droid.Resource.Attribute.commitIcon;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.contentInsetEnd = global::WalkthroughSample.Droid.Resource.Attribute.contentInsetEnd;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.contentInsetEndWithActions = global::WalkthroughSample.Droid.Resource.Attribute.contentInsetEndWithActions;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.contentInsetLeft = global::WalkthroughSample.Droid.Resource.Attribute.contentInsetLeft;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.contentInsetRight = global::WalkthroughSample.Droid.Resource.Attribute.contentInsetRight;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.contentInsetStart = global::WalkthroughSample.Droid.Resource.Attribute.contentInsetStart;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.contentInsetStartWithNavigation = global::WalkthroughSample.Droid.Resource.Attribute.contentInsetStartWithNavigation;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.controlBackground = global::WalkthroughSample.Droid.Resource.Attribute.controlBackground;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.customNavigationLayout = global::WalkthroughSample.Droid.Resource.Attribute.customNavigationLayout;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.defaultQueryHint = global::WalkthroughSample.Droid.Resource.Attribute.defaultQueryHint;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.dialogPreferredPadding = global::WalkthroughSample.Droid.Resource.Attribute.dialogPreferredPadding;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.dialogTheme = global::WalkthroughSample.Droid.Resource.Attribute.dialogTheme;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.displayOptions = global::WalkthroughSample.Droid.Resource.Attribute.displayOptions;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.divider = global::WalkthroughSample.Droid.Resource.Attribute.divider;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.dividerHorizontal = global::WalkthroughSample.Droid.Resource.Attribute.dividerHorizontal;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.dividerPadding = global::WalkthroughSample.Droid.Resource.Attribute.dividerPadding;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.dividerVertical = global::WalkthroughSample.Droid.Resource.Attribute.dividerVertical;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.drawableSize = global::WalkthroughSample.Droid.Resource.Attribute.drawableSize;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.drawerArrowStyle = global::WalkthroughSample.Droid.Resource.Attribute.drawerArrowStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.dropDownListViewStyle = global::WalkthroughSample.Droid.Resource.Attribute.dropDownListViewStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.dropdownListPreferredItemHeight = global::WalkthroughSample.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.editTextBackground = global::WalkthroughSample.Droid.Resource.Attribute.editTextBackground;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.editTextColor = global::WalkthroughSample.Droid.Resource.Attribute.editTextColor;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.editTextStyle = global::WalkthroughSample.Droid.Resource.Attribute.editTextStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.elevation = global::WalkthroughSample.Droid.Resource.Attribute.elevation;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.expandActivityOverflowButtonDrawable = global::WalkthroughSample.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.gapBetweenBars = global::WalkthroughSample.Droid.Resource.Attribute.gapBetweenBars;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.goIcon = global::WalkthroughSample.Droid.Resource.Attribute.goIcon;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.height = global::WalkthroughSample.Droid.Resource.Attribute.height;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.hideOnContentScroll = global::WalkthroughSample.Droid.Resource.Attribute.hideOnContentScroll;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.homeAsUpIndicator = global::WalkthroughSample.Droid.Resource.Attribute.homeAsUpIndicator;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.homeLayout = global::WalkthroughSample.Droid.Resource.Attribute.homeLayout;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.icon = global::WalkthroughSample.Droid.Resource.Attribute.icon;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.iconifiedByDefault = global::WalkthroughSample.Droid.Resource.Attribute.iconifiedByDefault;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.imageButtonStyle = global::WalkthroughSample.Droid.Resource.Attribute.imageButtonStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.indeterminateProgressStyle = global::WalkthroughSample.Droid.Resource.Attribute.indeterminateProgressStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.initialActivityCount = global::WalkthroughSample.Droid.Resource.Attribute.initialActivityCount;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.isLightTheme = global::WalkthroughSample.Droid.Resource.Attribute.isLightTheme;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.itemPadding = global::WalkthroughSample.Droid.Resource.Attribute.itemPadding;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.layout = global::WalkthroughSample.Droid.Resource.Attribute.layout;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.listChoiceBackgroundIndicator = global::WalkthroughSample.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.listDividerAlertDialog = global::WalkthroughSample.Droid.Resource.Attribute.listDividerAlertDialog;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.listItemLayout = global::WalkthroughSample.Droid.Resource.Attribute.listItemLayout;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.listLayout = global::WalkthroughSample.Droid.Resource.Attribute.listLayout;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.listMenuViewStyle = global::WalkthroughSample.Droid.Resource.Attribute.listMenuViewStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.listPopupWindowStyle = global::WalkthroughSample.Droid.Resource.Attribute.listPopupWindowStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.listPreferredItemHeight = global::WalkthroughSample.Droid.Resource.Attribute.listPreferredItemHeight;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.listPreferredItemHeightLarge = global::WalkthroughSample.Droid.Resource.Attribute.listPreferredItemHeightLarge;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.listPreferredItemHeightSmall = global::WalkthroughSample.Droid.Resource.Attribute.listPreferredItemHeightSmall;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.listPreferredItemPaddingLeft = global::WalkthroughSample.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.listPreferredItemPaddingRight = global::WalkthroughSample.Droid.Resource.Attribute.listPreferredItemPaddingRight;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.logo = global::WalkthroughSample.Droid.Resource.Attribute.logo;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.logoDescription = global::WalkthroughSample.Droid.Resource.Attribute.logoDescription;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.maxButtonHeight = global::WalkthroughSample.Droid.Resource.Attribute.maxButtonHeight;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.measureWithLargestChild = global::WalkthroughSample.Droid.Resource.Attribute.measureWithLargestChild;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.multiChoiceItemLayout = global::WalkthroughSample.Droid.Resource.Attribute.multiChoiceItemLayout;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.navigationContentDescription = global::WalkthroughSample.Droid.Resource.Attribute.navigationContentDescription;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.navigationIcon = global::WalkthroughSample.Droid.Resource.Attribute.navigationIcon;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.navigationMode = global::WalkthroughSample.Droid.Resource.Attribute.navigationMode;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.overlapAnchor = global::WalkthroughSample.Droid.Resource.Attribute.overlapAnchor;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.paddingBottomNoButtons = global::WalkthroughSample.Droid.Resource.Attribute.paddingBottomNoButtons;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.paddingEnd = global::WalkthroughSample.Droid.Resource.Attribute.paddingEnd;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.paddingStart = global::WalkthroughSample.Droid.Resource.Attribute.paddingStart;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.paddingTopNoTitle = global::WalkthroughSample.Droid.Resource.Attribute.paddingTopNoTitle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.panelBackground = global::WalkthroughSample.Droid.Resource.Attribute.panelBackground;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.panelMenuListTheme = global::WalkthroughSample.Droid.Resource.Attribute.panelMenuListTheme;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.panelMenuListWidth = global::WalkthroughSample.Droid.Resource.Attribute.panelMenuListWidth;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.popupMenuStyle = global::WalkthroughSample.Droid.Resource.Attribute.popupMenuStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.popupTheme = global::WalkthroughSample.Droid.Resource.Attribute.popupTheme;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.popupWindowStyle = global::WalkthroughSample.Droid.Resource.Attribute.popupWindowStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.preserveIconSpacing = global::WalkthroughSample.Droid.Resource.Attribute.preserveIconSpacing;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.progressBarPadding = global::WalkthroughSample.Droid.Resource.Attribute.progressBarPadding;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.progressBarStyle = global::WalkthroughSample.Droid.Resource.Attribute.progressBarStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.queryBackground = global::WalkthroughSample.Droid.Resource.Attribute.queryBackground;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.queryHint = global::WalkthroughSample.Droid.Resource.Attribute.queryHint;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.radioButtonStyle = global::WalkthroughSample.Droid.Resource.Attribute.radioButtonStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.ratingBarStyle = global::WalkthroughSample.Droid.Resource.Attribute.ratingBarStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.ratingBarStyleIndicator = global::WalkthroughSample.Droid.Resource.Attribute.ratingBarStyleIndicator;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.ratingBarStyleSmall = global::WalkthroughSample.Droid.Resource.Attribute.ratingBarStyleSmall;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.searchHintIcon = global::WalkthroughSample.Droid.Resource.Attribute.searchHintIcon;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.searchIcon = global::WalkthroughSample.Droid.Resource.Attribute.searchIcon;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.searchViewStyle = global::WalkthroughSample.Droid.Resource.Attribute.searchViewStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.seekBarStyle = global::WalkthroughSample.Droid.Resource.Attribute.seekBarStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.selectableItemBackground = global::WalkthroughSample.Droid.Resource.Attribute.selectableItemBackground;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.selectableItemBackgroundBorderless = global::WalkthroughSample.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.showAsAction = global::WalkthroughSample.Droid.Resource.Attribute.showAsAction;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.showDividers = global::WalkthroughSample.Droid.Resource.Attribute.showDividers;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.showText = global::WalkthroughSample.Droid.Resource.Attribute.showText;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.showTitle = global::WalkthroughSample.Droid.Resource.Attribute.showTitle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.singleChoiceItemLayout = global::WalkthroughSample.Droid.Resource.Attribute.singleChoiceItemLayout;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.spinBars = global::WalkthroughSample.Droid.Resource.Attribute.spinBars;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.spinnerDropDownItemStyle = global::WalkthroughSample.Droid.Resource.Attribute.spinnerDropDownItemStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.spinnerStyle = global::WalkthroughSample.Droid.Resource.Attribute.spinnerStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.splitTrack = global::WalkthroughSample.Droid.Resource.Attribute.splitTrack;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.srcCompat = global::WalkthroughSample.Droid.Resource.Attribute.srcCompat;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.state_above_anchor = global::WalkthroughSample.Droid.Resource.Attribute.state_above_anchor;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.subMenuArrow = global::WalkthroughSample.Droid.Resource.Attribute.subMenuArrow;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.submitBackground = global::WalkthroughSample.Droid.Resource.Attribute.submitBackground;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.subtitle = global::WalkthroughSample.Droid.Resource.Attribute.subtitle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.subtitleTextAppearance = global::WalkthroughSample.Droid.Resource.Attribute.subtitleTextAppearance;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.subtitleTextColor = global::WalkthroughSample.Droid.Resource.Attribute.subtitleTextColor;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.subtitleTextStyle = global::WalkthroughSample.Droid.Resource.Attribute.subtitleTextStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.suggestionRowLayout = global::WalkthroughSample.Droid.Resource.Attribute.suggestionRowLayout;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.switchMinWidth = global::WalkthroughSample.Droid.Resource.Attribute.switchMinWidth;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.switchPadding = global::WalkthroughSample.Droid.Resource.Attribute.switchPadding;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.switchStyle = global::WalkthroughSample.Droid.Resource.Attribute.switchStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.switchTextAppearance = global::WalkthroughSample.Droid.Resource.Attribute.switchTextAppearance;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.textAllCaps = global::WalkthroughSample.Droid.Resource.Attribute.textAllCaps;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.textAppearanceLargePopupMenu = global::WalkthroughSample.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.textAppearanceListItem = global::WalkthroughSample.Droid.Resource.Attribute.textAppearanceListItem;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.textAppearanceListItemSmall = global::WalkthroughSample.Droid.Resource.Attribute.textAppearanceListItemSmall;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.textAppearancePopupMenuHeader = global::WalkthroughSample.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.textAppearanceSearchResultSubtitle = global::WalkthroughSample.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.textAppearanceSearchResultTitle = global::WalkthroughSample.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.textAppearanceSmallPopupMenu = global::WalkthroughSample.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.textColorAlertDialogListItem = global::WalkthroughSample.Droid.Resource.Attribute.textColorAlertDialogListItem;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.textColorSearchUrl = global::WalkthroughSample.Droid.Resource.Attribute.textColorSearchUrl;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.theme = global::WalkthroughSample.Droid.Resource.Attribute.theme;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.thickness = global::WalkthroughSample.Droid.Resource.Attribute.thickness;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.thumbTextPadding = global::WalkthroughSample.Droid.Resource.Attribute.thumbTextPadding;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.thumbTint = global::WalkthroughSample.Droid.Resource.Attribute.thumbTint;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.thumbTintMode = global::WalkthroughSample.Droid.Resource.Attribute.thumbTintMode;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.tickMark = global::WalkthroughSample.Droid.Resource.Attribute.tickMark;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.tickMarkTint = global::WalkthroughSample.Droid.Resource.Attribute.tickMarkTint;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.tickMarkTintMode = global::WalkthroughSample.Droid.Resource.Attribute.tickMarkTintMode;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.title = global::WalkthroughSample.Droid.Resource.Attribute.title;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.titleMargin = global::WalkthroughSample.Droid.Resource.Attribute.titleMargin;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.titleMarginBottom = global::WalkthroughSample.Droid.Resource.Attribute.titleMarginBottom;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.titleMarginEnd = global::WalkthroughSample.Droid.Resource.Attribute.titleMarginEnd;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.titleMarginStart = global::WalkthroughSample.Droid.Resource.Attribute.titleMarginStart;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.titleMarginTop = global::WalkthroughSample.Droid.Resource.Attribute.titleMarginTop;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.titleMargins = global::WalkthroughSample.Droid.Resource.Attribute.titleMargins;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.titleTextAppearance = global::WalkthroughSample.Droid.Resource.Attribute.titleTextAppearance;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.titleTextColor = global::WalkthroughSample.Droid.Resource.Attribute.titleTextColor;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.titleTextStyle = global::WalkthroughSample.Droid.Resource.Attribute.titleTextStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.toolbarNavigationButtonStyle = global::WalkthroughSample.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.toolbarStyle = global::WalkthroughSample.Droid.Resource.Attribute.toolbarStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.track = global::WalkthroughSample.Droid.Resource.Attribute.track;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.trackTint = global::WalkthroughSample.Droid.Resource.Attribute.trackTint;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.trackTintMode = global::WalkthroughSample.Droid.Resource.Attribute.trackTintMode;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.voiceIcon = global::WalkthroughSample.Droid.Resource.Attribute.voiceIcon;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.windowActionBar = global::WalkthroughSample.Droid.Resource.Attribute.windowActionBar;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.windowActionBarOverlay = global::WalkthroughSample.Droid.Resource.Attribute.windowActionBarOverlay;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.windowActionModeOverlay = global::WalkthroughSample.Droid.Resource.Attribute.windowActionModeOverlay;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.windowFixedHeightMajor = global::WalkthroughSample.Droid.Resource.Attribute.windowFixedHeightMajor;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.windowFixedHeightMinor = global::WalkthroughSample.Droid.Resource.Attribute.windowFixedHeightMinor;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.windowFixedWidthMajor = global::WalkthroughSample.Droid.Resource.Attribute.windowFixedWidthMajor;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.windowFixedWidthMinor = global::WalkthroughSample.Droid.Resource.Attribute.windowFixedWidthMinor;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.windowMinWidthMajor = global::WalkthroughSample.Droid.Resource.Attribute.windowMinWidthMajor;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.windowMinWidthMinor = global::WalkthroughSample.Droid.Resource.Attribute.windowMinWidthMinor;
-			global::Plugin.Xablu.Walkthrough.Resource.Attribute.windowNoTitle = global::WalkthroughSample.Droid.Resource.Attribute.windowNoTitle;
-			global::Plugin.Xablu.Walkthrough.Resource.Boolean.abc_action_bar_embed_tabs = global::WalkthroughSample.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::Plugin.Xablu.Walkthrough.Resource.Boolean.abc_allow_stacked_button_bar = global::WalkthroughSample.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
-			global::Plugin.Xablu.Walkthrough.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::WalkthroughSample.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
-			global::Plugin.Xablu.Walkthrough.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::WalkthroughSample.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
-			global::Plugin.Xablu.Walkthrough.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::WalkthroughSample.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.abc_background_cache_hint_selector_material_dark = global::WalkthroughSample.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.abc_background_cache_hint_selector_material_light = global::WalkthroughSample.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.abc_btn_colored_borderless_text_material = global::WalkthroughSample.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.abc_btn_colored_text_material = global::WalkthroughSample.Droid.Resource.Color.abc_btn_colored_text_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.abc_color_highlight_material = global::WalkthroughSample.Droid.Resource.Color.abc_color_highlight_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.abc_hint_foreground_material_dark = global::WalkthroughSample.Droid.Resource.Color.abc_hint_foreground_material_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.abc_hint_foreground_material_light = global::WalkthroughSample.Droid.Resource.Color.abc_hint_foreground_material_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.abc_input_method_navigation_guard = global::WalkthroughSample.Droid.Resource.Color.abc_input_method_navigation_guard;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.abc_primary_text_disable_only_material_dark = global::WalkthroughSample.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.abc_primary_text_disable_only_material_light = global::WalkthroughSample.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.abc_primary_text_material_dark = global::WalkthroughSample.Droid.Resource.Color.abc_primary_text_material_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.abc_primary_text_material_light = global::WalkthroughSample.Droid.Resource.Color.abc_primary_text_material_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.abc_search_url_text = global::WalkthroughSample.Droid.Resource.Color.abc_search_url_text;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.abc_search_url_text_normal = global::WalkthroughSample.Droid.Resource.Color.abc_search_url_text_normal;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.abc_search_url_text_pressed = global::WalkthroughSample.Droid.Resource.Color.abc_search_url_text_pressed;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.abc_search_url_text_selected = global::WalkthroughSample.Droid.Resource.Color.abc_search_url_text_selected;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.abc_secondary_text_material_dark = global::WalkthroughSample.Droid.Resource.Color.abc_secondary_text_material_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.abc_secondary_text_material_light = global::WalkthroughSample.Droid.Resource.Color.abc_secondary_text_material_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.abc_tint_btn_checkable = global::WalkthroughSample.Droid.Resource.Color.abc_tint_btn_checkable;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.abc_tint_default = global::WalkthroughSample.Droid.Resource.Color.abc_tint_default;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.abc_tint_edittext = global::WalkthroughSample.Droid.Resource.Color.abc_tint_edittext;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.abc_tint_seek_thumb = global::WalkthroughSample.Droid.Resource.Color.abc_tint_seek_thumb;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.abc_tint_spinner = global::WalkthroughSample.Droid.Resource.Color.abc_tint_spinner;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.abc_tint_switch_thumb = global::WalkthroughSample.Droid.Resource.Color.abc_tint_switch_thumb;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.abc_tint_switch_track = global::WalkthroughSample.Droid.Resource.Color.abc_tint_switch_track;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.accent_material_dark = global::WalkthroughSample.Droid.Resource.Color.accent_material_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.accent_material_light = global::WalkthroughSample.Droid.Resource.Color.accent_material_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.background_floating_material_dark = global::WalkthroughSample.Droid.Resource.Color.background_floating_material_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.background_floating_material_light = global::WalkthroughSample.Droid.Resource.Color.background_floating_material_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.background_material_dark = global::WalkthroughSample.Droid.Resource.Color.background_material_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.background_material_light = global::WalkthroughSample.Droid.Resource.Color.background_material_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.bright_foreground_disabled_material_dark = global::WalkthroughSample.Droid.Resource.Color.bright_foreground_disabled_material_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.bright_foreground_disabled_material_light = global::WalkthroughSample.Droid.Resource.Color.bright_foreground_disabled_material_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.bright_foreground_inverse_material_dark = global::WalkthroughSample.Droid.Resource.Color.bright_foreground_inverse_material_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.bright_foreground_inverse_material_light = global::WalkthroughSample.Droid.Resource.Color.bright_foreground_inverse_material_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.bright_foreground_material_dark = global::WalkthroughSample.Droid.Resource.Color.bright_foreground_material_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.bright_foreground_material_light = global::WalkthroughSample.Droid.Resource.Color.bright_foreground_material_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.button_material_dark = global::WalkthroughSample.Droid.Resource.Color.button_material_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.button_material_light = global::WalkthroughSample.Droid.Resource.Color.button_material_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.dim_foreground_disabled_material_dark = global::WalkthroughSample.Droid.Resource.Color.dim_foreground_disabled_material_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.dim_foreground_disabled_material_light = global::WalkthroughSample.Droid.Resource.Color.dim_foreground_disabled_material_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.dim_foreground_material_dark = global::WalkthroughSample.Droid.Resource.Color.dim_foreground_material_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.dim_foreground_material_light = global::WalkthroughSample.Droid.Resource.Color.dim_foreground_material_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.foreground_material_dark = global::WalkthroughSample.Droid.Resource.Color.foreground_material_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.foreground_material_light = global::WalkthroughSample.Droid.Resource.Color.foreground_material_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.highlighted_text_material_dark = global::WalkthroughSample.Droid.Resource.Color.highlighted_text_material_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.highlighted_text_material_light = global::WalkthroughSample.Droid.Resource.Color.highlighted_text_material_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.material_blue_grey_800 = global::WalkthroughSample.Droid.Resource.Color.material_blue_grey_800;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.material_blue_grey_900 = global::WalkthroughSample.Droid.Resource.Color.material_blue_grey_900;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.material_blue_grey_950 = global::WalkthroughSample.Droid.Resource.Color.material_blue_grey_950;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.material_deep_teal_200 = global::WalkthroughSample.Droid.Resource.Color.material_deep_teal_200;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.material_deep_teal_500 = global::WalkthroughSample.Droid.Resource.Color.material_deep_teal_500;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.material_grey_100 = global::WalkthroughSample.Droid.Resource.Color.material_grey_100;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.material_grey_300 = global::WalkthroughSample.Droid.Resource.Color.material_grey_300;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.material_grey_50 = global::WalkthroughSample.Droid.Resource.Color.material_grey_50;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.material_grey_600 = global::WalkthroughSample.Droid.Resource.Color.material_grey_600;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.material_grey_800 = global::WalkthroughSample.Droid.Resource.Color.material_grey_800;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.material_grey_850 = global::WalkthroughSample.Droid.Resource.Color.material_grey_850;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.material_grey_900 = global::WalkthroughSample.Droid.Resource.Color.material_grey_900;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.notification_action_color_filter = global::WalkthroughSample.Droid.Resource.Color.notification_action_color_filter;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.notification_icon_bg_color = global::WalkthroughSample.Droid.Resource.Color.notification_icon_bg_color;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.notification_material_background_media_default_color = global::WalkthroughSample.Droid.Resource.Color.notification_material_background_media_default_color;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.primary_dark_material_dark = global::WalkthroughSample.Droid.Resource.Color.primary_dark_material_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.primary_dark_material_light = global::WalkthroughSample.Droid.Resource.Color.primary_dark_material_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.primary_material_dark = global::WalkthroughSample.Droid.Resource.Color.primary_material_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.primary_material_light = global::WalkthroughSample.Droid.Resource.Color.primary_material_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.primary_text_default_material_dark = global::WalkthroughSample.Droid.Resource.Color.primary_text_default_material_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.primary_text_default_material_light = global::WalkthroughSample.Droid.Resource.Color.primary_text_default_material_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.primary_text_disabled_material_dark = global::WalkthroughSample.Droid.Resource.Color.primary_text_disabled_material_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.primary_text_disabled_material_light = global::WalkthroughSample.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.ripple_material_dark = global::WalkthroughSample.Droid.Resource.Color.ripple_material_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.ripple_material_light = global::WalkthroughSample.Droid.Resource.Color.ripple_material_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.secondary_text_default_material_dark = global::WalkthroughSample.Droid.Resource.Color.secondary_text_default_material_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.secondary_text_default_material_light = global::WalkthroughSample.Droid.Resource.Color.secondary_text_default_material_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.secondary_text_disabled_material_dark = global::WalkthroughSample.Droid.Resource.Color.secondary_text_disabled_material_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.secondary_text_disabled_material_light = global::WalkthroughSample.Droid.Resource.Color.secondary_text_disabled_material_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.switch_thumb_disabled_material_dark = global::WalkthroughSample.Droid.Resource.Color.switch_thumb_disabled_material_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.switch_thumb_disabled_material_light = global::WalkthroughSample.Droid.Resource.Color.switch_thumb_disabled_material_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.switch_thumb_material_dark = global::WalkthroughSample.Droid.Resource.Color.switch_thumb_material_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.switch_thumb_material_light = global::WalkthroughSample.Droid.Resource.Color.switch_thumb_material_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.switch_thumb_normal_material_dark = global::WalkthroughSample.Droid.Resource.Color.switch_thumb_normal_material_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Color.switch_thumb_normal_material_light = global::WalkthroughSample.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_action_bar_content_inset_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::WalkthroughSample.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_action_bar_default_height_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_action_bar_default_height_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_action_bar_default_padding_end_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_action_bar_default_padding_start_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_action_bar_elevation_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_action_bar_elevation_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_action_bar_progress_bar_size = global::WalkthroughSample.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_action_bar_stacked_max_height = global::WalkthroughSample.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::WalkthroughSample.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_action_button_min_height_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_action_button_min_height_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_action_button_min_width_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_action_button_min_width_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_action_button_min_width_overflow_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_alert_dialog_button_bar_height = global::WalkthroughSample.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_button_inset_horizontal_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_button_inset_vertical_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_button_inset_vertical_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_button_padding_horizontal_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_button_padding_vertical_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_button_padding_vertical_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::WalkthroughSample.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_config_prefDialogWidth = global::WalkthroughSample.Droid.Resource.Dimension.abc_config_prefDialogWidth;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_control_corner_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_control_corner_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_control_inset_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_control_inset_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_control_padding_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_control_padding_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_dialog_fixed_height_major = global::WalkthroughSample.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_dialog_fixed_height_minor = global::WalkthroughSample.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_dialog_fixed_width_major = global::WalkthroughSample.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_dialog_fixed_width_minor = global::WalkthroughSample.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::WalkthroughSample.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::WalkthroughSample.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_dialog_min_width_major = global::WalkthroughSample.Droid.Resource.Dimension.abc_dialog_min_width_major;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_dialog_min_width_minor = global::WalkthroughSample.Droid.Resource.Dimension.abc_dialog_min_width_minor;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_dialog_padding_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_dialog_padding_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_dialog_padding_top_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_dialog_padding_top_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_dialog_title_divider_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_dialog_title_divider_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_disabled_alpha_material_dark = global::WalkthroughSample.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_disabled_alpha_material_light = global::WalkthroughSample.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_dropdownitem_icon_width = global::WalkthroughSample.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_dropdownitem_text_padding_left = global::WalkthroughSample.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_dropdownitem_text_padding_right = global::WalkthroughSample.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_edit_text_inset_bottom_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_edit_text_inset_top_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_floating_window_z = global::WalkthroughSample.Droid.Resource.Dimension.abc_floating_window_z;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_list_item_padding_horizontal_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_panel_menu_list_width = global::WalkthroughSample.Droid.Resource.Dimension.abc_panel_menu_list_width;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_progress_bar_height_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_progress_bar_height_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_search_view_preferred_height = global::WalkthroughSample.Droid.Resource.Dimension.abc_search_view_preferred_height;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_search_view_preferred_width = global::WalkthroughSample.Droid.Resource.Dimension.abc_search_view_preferred_width;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_seekbar_track_background_height_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_seekbar_track_progress_height_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_select_dialog_padding_start_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_switch_padding = global::WalkthroughSample.Droid.Resource.Dimension.abc_switch_padding;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_text_size_body_1_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_text_size_body_1_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_text_size_body_2_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_text_size_body_2_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_text_size_button_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_text_size_button_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_text_size_caption_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_text_size_caption_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_text_size_display_1_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_text_size_display_1_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_text_size_display_2_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_text_size_display_2_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_text_size_display_3_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_text_size_display_3_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_text_size_display_4_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_text_size_display_4_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_text_size_headline_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_text_size_headline_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_text_size_large_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_text_size_large_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_text_size_medium_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_text_size_medium_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_text_size_menu_header_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_text_size_menu_header_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_text_size_menu_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_text_size_menu_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_text_size_small_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_text_size_small_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_text_size_subhead_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_text_size_subhead_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::WalkthroughSample.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_text_size_title_material = global::WalkthroughSample.Droid.Resource.Dimension.abc_text_size_title_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.abc_text_size_title_material_toolbar = global::WalkthroughSample.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.disabled_alpha_material_dark = global::WalkthroughSample.Droid.Resource.Dimension.disabled_alpha_material_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.disabled_alpha_material_light = global::WalkthroughSample.Droid.Resource.Dimension.disabled_alpha_material_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.highlight_alpha_material_colored = global::WalkthroughSample.Droid.Resource.Dimension.highlight_alpha_material_colored;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.highlight_alpha_material_dark = global::WalkthroughSample.Droid.Resource.Dimension.highlight_alpha_material_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.highlight_alpha_material_light = global::WalkthroughSample.Droid.Resource.Dimension.highlight_alpha_material_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.hint_alpha_material_dark = global::WalkthroughSample.Droid.Resource.Dimension.hint_alpha_material_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.hint_alpha_material_light = global::WalkthroughSample.Droid.Resource.Dimension.hint_alpha_material_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.hint_pressed_alpha_material_dark = global::WalkthroughSample.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.hint_pressed_alpha_material_light = global::WalkthroughSample.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.notification_action_icon_size = global::WalkthroughSample.Droid.Resource.Dimension.notification_action_icon_size;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.notification_action_text_size = global::WalkthroughSample.Droid.Resource.Dimension.notification_action_text_size;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.notification_big_circle_margin = global::WalkthroughSample.Droid.Resource.Dimension.notification_big_circle_margin;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.notification_content_margin_start = global::WalkthroughSample.Droid.Resource.Dimension.notification_content_margin_start;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.notification_large_icon_height = global::WalkthroughSample.Droid.Resource.Dimension.notification_large_icon_height;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.notification_large_icon_width = global::WalkthroughSample.Droid.Resource.Dimension.notification_large_icon_width;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.notification_main_column_padding_top = global::WalkthroughSample.Droid.Resource.Dimension.notification_main_column_padding_top;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.notification_media_narrow_margin = global::WalkthroughSample.Droid.Resource.Dimension.notification_media_narrow_margin;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.notification_right_icon_size = global::WalkthroughSample.Droid.Resource.Dimension.notification_right_icon_size;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.notification_right_side_padding_top = global::WalkthroughSample.Droid.Resource.Dimension.notification_right_side_padding_top;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.notification_small_icon_background_padding = global::WalkthroughSample.Droid.Resource.Dimension.notification_small_icon_background_padding;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.notification_small_icon_size_as_large = global::WalkthroughSample.Droid.Resource.Dimension.notification_small_icon_size_as_large;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.notification_subtext_size = global::WalkthroughSample.Droid.Resource.Dimension.notification_subtext_size;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.notification_top_pad = global::WalkthroughSample.Droid.Resource.Dimension.notification_top_pad;
-			global::Plugin.Xablu.Walkthrough.Resource.Dimension.notification_top_pad_large_text = global::WalkthroughSample.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::WalkthroughSample.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_action_bar_item_background_material = global::WalkthroughSample.Droid.Resource.Drawable.abc_action_bar_item_background_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_btn_borderless_material = global::WalkthroughSample.Droid.Resource.Drawable.abc_btn_borderless_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_btn_check_material = global::WalkthroughSample.Droid.Resource.Drawable.abc_btn_check_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::WalkthroughSample.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::WalkthroughSample.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_btn_colored_material = global::WalkthroughSample.Droid.Resource.Drawable.abc_btn_colored_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_btn_default_mtrl_shape = global::WalkthroughSample.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_btn_radio_material = global::WalkthroughSample.Droid.Resource.Drawable.abc_btn_radio_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::WalkthroughSample.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::WalkthroughSample.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::WalkthroughSample.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::WalkthroughSample.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_cab_background_internal_bg = global::WalkthroughSample.Droid.Resource.Drawable.abc_cab_background_internal_bg;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_cab_background_top_material = global::WalkthroughSample.Droid.Resource.Drawable.abc_cab_background_top_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::WalkthroughSample.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_control_background_material = global::WalkthroughSample.Droid.Resource.Drawable.abc_control_background_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_dialog_material_background = global::WalkthroughSample.Droid.Resource.Drawable.abc_dialog_material_background;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_edit_text_material = global::WalkthroughSample.Droid.Resource.Drawable.abc_edit_text_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_ic_ab_back_material = global::WalkthroughSample.Droid.Resource.Drawable.abc_ic_ab_back_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::WalkthroughSample.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_ic_clear_material = global::WalkthroughSample.Droid.Resource.Drawable.abc_ic_clear_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::WalkthroughSample.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_ic_go_search_api_material = global::WalkthroughSample.Droid.Resource.Drawable.abc_ic_go_search_api_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::WalkthroughSample.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::WalkthroughSample.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_ic_menu_overflow_material = global::WalkthroughSample.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::WalkthroughSample.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::WalkthroughSample.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::WalkthroughSample.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_ic_search_api_material = global::WalkthroughSample.Droid.Resource.Drawable.abc_ic_search_api_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_ic_star_black_16dp = global::WalkthroughSample.Droid.Resource.Drawable.abc_ic_star_black_16dp;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_ic_star_black_36dp = global::WalkthroughSample.Droid.Resource.Drawable.abc_ic_star_black_36dp;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_ic_star_black_48dp = global::WalkthroughSample.Droid.Resource.Drawable.abc_ic_star_black_48dp;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_ic_star_half_black_16dp = global::WalkthroughSample.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_ic_star_half_black_36dp = global::WalkthroughSample.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_ic_star_half_black_48dp = global::WalkthroughSample.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_ic_voice_search_api_material = global::WalkthroughSample.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_item_background_holo_dark = global::WalkthroughSample.Droid.Resource.Drawable.abc_item_background_holo_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_item_background_holo_light = global::WalkthroughSample.Droid.Resource.Drawable.abc_item_background_holo_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_list_divider_mtrl_alpha = global::WalkthroughSample.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_list_focused_holo = global::WalkthroughSample.Droid.Resource.Drawable.abc_list_focused_holo;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_list_longpressed_holo = global::WalkthroughSample.Droid.Resource.Drawable.abc_list_longpressed_holo;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_list_pressed_holo_dark = global::WalkthroughSample.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_list_pressed_holo_light = global::WalkthroughSample.Droid.Resource.Drawable.abc_list_pressed_holo_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::WalkthroughSample.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::WalkthroughSample.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::WalkthroughSample.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_list_selector_disabled_holo_light = global::WalkthroughSample.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_list_selector_holo_dark = global::WalkthroughSample.Droid.Resource.Drawable.abc_list_selector_holo_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_list_selector_holo_light = global::WalkthroughSample.Droid.Resource.Drawable.abc_list_selector_holo_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::WalkthroughSample.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_popup_background_mtrl_mult = global::WalkthroughSample.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_ratingbar_indicator_material = global::WalkthroughSample.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_ratingbar_material = global::WalkthroughSample.Droid.Resource.Drawable.abc_ratingbar_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_ratingbar_small_material = global::WalkthroughSample.Droid.Resource.Drawable.abc_ratingbar_small_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::WalkthroughSample.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::WalkthroughSample.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::WalkthroughSample.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::WalkthroughSample.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::WalkthroughSample.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_seekbar_thumb_material = global::WalkthroughSample.Droid.Resource.Drawable.abc_seekbar_thumb_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_seekbar_tick_mark_material = global::WalkthroughSample.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_seekbar_track_material = global::WalkthroughSample.Droid.Resource.Drawable.abc_seekbar_track_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::WalkthroughSample.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_spinner_textfield_background_material = global::WalkthroughSample.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_switch_thumb_material = global::WalkthroughSample.Droid.Resource.Drawable.abc_switch_thumb_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_switch_track_mtrl_alpha = global::WalkthroughSample.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_tab_indicator_material = global::WalkthroughSample.Droid.Resource.Drawable.abc_tab_indicator_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::WalkthroughSample.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_text_cursor_material = global::WalkthroughSample.Droid.Resource.Drawable.abc_text_cursor_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::WalkthroughSample.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::WalkthroughSample.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::WalkthroughSample.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::WalkthroughSample.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::WalkthroughSample.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::WalkthroughSample.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::WalkthroughSample.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::WalkthroughSample.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::WalkthroughSample.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::WalkthroughSample.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_textfield_search_material = global::WalkthroughSample.Droid.Resource.Drawable.abc_textfield_search_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.abc_vector_test = global::WalkthroughSample.Droid.Resource.Drawable.abc_vector_test;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.left_arrow = global::WalkthroughSample.Droid.Resource.Drawable.left_arrow;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.notification_action_background = global::WalkthroughSample.Droid.Resource.Drawable.notification_action_background;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.notification_bg = global::WalkthroughSample.Droid.Resource.Drawable.notification_bg;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.notification_bg_low = global::WalkthroughSample.Droid.Resource.Drawable.notification_bg_low;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.notification_bg_low_normal = global::WalkthroughSample.Droid.Resource.Drawable.notification_bg_low_normal;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.notification_bg_low_pressed = global::WalkthroughSample.Droid.Resource.Drawable.notification_bg_low_pressed;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.notification_bg_normal = global::WalkthroughSample.Droid.Resource.Drawable.notification_bg_normal;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.notification_bg_normal_pressed = global::WalkthroughSample.Droid.Resource.Drawable.notification_bg_normal_pressed;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.notification_icon_background = global::WalkthroughSample.Droid.Resource.Drawable.notification_icon_background;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.notification_template_icon_bg = global::WalkthroughSample.Droid.Resource.Drawable.notification_template_icon_bg;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.notification_template_icon_low_bg = global::WalkthroughSample.Droid.Resource.Drawable.notification_template_icon_low_bg;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.notification_tile_bg = global::WalkthroughSample.Droid.Resource.Drawable.notification_tile_bg;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.notify_panel_notification_icon_bg = global::WalkthroughSample.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.right_arrow = global::WalkthroughSample.Droid.Resource.Drawable.right_arrow;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.action0 = global::WalkthroughSample.Droid.Resource.Id.action0;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.action_bar = global::WalkthroughSample.Droid.Resource.Id.action_bar;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.action_bar_activity_content = global::WalkthroughSample.Droid.Resource.Id.action_bar_activity_content;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.action_bar_container = global::WalkthroughSample.Droid.Resource.Id.action_bar_container;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.action_bar_root = global::WalkthroughSample.Droid.Resource.Id.action_bar_root;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.action_bar_spinner = global::WalkthroughSample.Droid.Resource.Id.action_bar_spinner;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.action_bar_subtitle = global::WalkthroughSample.Droid.Resource.Id.action_bar_subtitle;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.action_bar_title = global::WalkthroughSample.Droid.Resource.Id.action_bar_title;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.action_container = global::WalkthroughSample.Droid.Resource.Id.action_container;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.action_context_bar = global::WalkthroughSample.Droid.Resource.Id.action_context_bar;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.action_divider = global::WalkthroughSample.Droid.Resource.Id.action_divider;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.action_image = global::WalkthroughSample.Droid.Resource.Id.action_image;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.action_menu_divider = global::WalkthroughSample.Droid.Resource.Id.action_menu_divider;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.action_menu_presenter = global::WalkthroughSample.Droid.Resource.Id.action_menu_presenter;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.action_mode_bar = global::WalkthroughSample.Droid.Resource.Id.action_mode_bar;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.action_mode_bar_stub = global::WalkthroughSample.Droid.Resource.Id.action_mode_bar_stub;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.action_mode_close_button = global::WalkthroughSample.Droid.Resource.Id.action_mode_close_button;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.action_text = global::WalkthroughSample.Droid.Resource.Id.action_text;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.actions = global::WalkthroughSample.Droid.Resource.Id.actions;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.activity_chooser_view_content = global::WalkthroughSample.Droid.Resource.Id.activity_chooser_view_content;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.add = global::WalkthroughSample.Droid.Resource.Id.add;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.alertTitle = global::WalkthroughSample.Droid.Resource.Id.alertTitle;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.always = global::WalkthroughSample.Droid.Resource.Id.always;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.beginning = global::WalkthroughSample.Droid.Resource.Id.beginning;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.bottom = global::WalkthroughSample.Droid.Resource.Id.bottom;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.buttonPanel = global::WalkthroughSample.Droid.Resource.Id.buttonPanel;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.cancel_action = global::WalkthroughSample.Droid.Resource.Id.cancel_action;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.checkbox = global::WalkthroughSample.Droid.Resource.Id.checkbox;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.chronometer = global::WalkthroughSample.Droid.Resource.Id.chronometer;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.collapseActionView = global::WalkthroughSample.Droid.Resource.Id.collapseActionView;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.contentPanel = global::WalkthroughSample.Droid.Resource.Id.contentPanel;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.custom = global::WalkthroughSample.Droid.Resource.Id.custom;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.customPanel = global::WalkthroughSample.Droid.Resource.Id.customPanel;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.decor_content_parent = global::WalkthroughSample.Droid.Resource.Id.decor_content_parent;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.default_activity_button = global::WalkthroughSample.Droid.Resource.Id.default_activity_button;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.disableHome = global::WalkthroughSample.Droid.Resource.Id.disableHome;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.edit_query = global::WalkthroughSample.Droid.Resource.Id.edit_query;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.end = global::WalkthroughSample.Droid.Resource.Id.end;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.end_padder = global::WalkthroughSample.Droid.Resource.Id.end_padder;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.expand_activities_button = global::WalkthroughSample.Droid.Resource.Id.expand_activities_button;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.expanded_menu = global::WalkthroughSample.Droid.Resource.Id.expanded_menu;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.home = global::WalkthroughSample.Droid.Resource.Id.home;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.homeAsUp = global::WalkthroughSample.Droid.Resource.Id.homeAsUp;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.icon = global::WalkthroughSample.Droid.Resource.Id.icon;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.icon_group = global::WalkthroughSample.Droid.Resource.Id.icon_group;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.ifRoom = global::WalkthroughSample.Droid.Resource.Id.ifRoom;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.image = global::WalkthroughSample.Droid.Resource.Id.image;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.img = global::WalkthroughSample.Droid.Resource.Id.img;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.info = global::WalkthroughSample.Droid.Resource.Id.info;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.left = global::WalkthroughSample.Droid.Resource.Id.left;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.line1 = global::WalkthroughSample.Droid.Resource.Id.line1;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.line3 = global::WalkthroughSample.Droid.Resource.Id.line3;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.listMode = global::WalkthroughSample.Droid.Resource.Id.listMode;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.list_item = global::WalkthroughSample.Droid.Resource.Id.list_item;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.media_actions = global::WalkthroughSample.Droid.Resource.Id.media_actions;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.middle = global::WalkthroughSample.Droid.Resource.Id.middle;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.multiply = global::WalkthroughSample.Droid.Resource.Id.multiply;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.never = global::WalkthroughSample.Droid.Resource.Id.never;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.none = global::WalkthroughSample.Droid.Resource.Id.none;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.normal = global::WalkthroughSample.Droid.Resource.Id.normal;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.notification_background = global::WalkthroughSample.Droid.Resource.Id.notification_background;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.notification_main_column = global::WalkthroughSample.Droid.Resource.Id.notification_main_column;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.notification_main_column_container = global::WalkthroughSample.Droid.Resource.Id.notification_main_column_container;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.parentPanel = global::WalkthroughSample.Droid.Resource.Id.parentPanel;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.progress_circular = global::WalkthroughSample.Droid.Resource.Id.progress_circular;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.progress_horizontal = global::WalkthroughSample.Droid.Resource.Id.progress_horizontal;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.radio = global::WalkthroughSample.Droid.Resource.Id.radio;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.right = global::WalkthroughSample.Droid.Resource.Id.right;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.right_icon = global::WalkthroughSample.Droid.Resource.Id.right_icon;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.right_side = global::WalkthroughSample.Droid.Resource.Id.right_side;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.screen = global::WalkthroughSample.Droid.Resource.Id.screen;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.scrollIndicatorDown = global::WalkthroughSample.Droid.Resource.Id.scrollIndicatorDown;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.scrollIndicatorUp = global::WalkthroughSample.Droid.Resource.Id.scrollIndicatorUp;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.scrollView = global::WalkthroughSample.Droid.Resource.Id.scrollView;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.search_badge = global::WalkthroughSample.Droid.Resource.Id.search_badge;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.search_bar = global::WalkthroughSample.Droid.Resource.Id.search_bar;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.search_button = global::WalkthroughSample.Droid.Resource.Id.search_button;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.search_close_btn = global::WalkthroughSample.Droid.Resource.Id.search_close_btn;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.search_edit_frame = global::WalkthroughSample.Droid.Resource.Id.search_edit_frame;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.search_go_btn = global::WalkthroughSample.Droid.Resource.Id.search_go_btn;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.search_mag_icon = global::WalkthroughSample.Droid.Resource.Id.search_mag_icon;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.search_plate = global::WalkthroughSample.Droid.Resource.Id.search_plate;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.search_src_text = global::WalkthroughSample.Droid.Resource.Id.search_src_text;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.search_voice_btn = global::WalkthroughSample.Droid.Resource.Id.search_voice_btn;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.select_dialog_listview = global::WalkthroughSample.Droid.Resource.Id.select_dialog_listview;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.shortcut = global::WalkthroughSample.Droid.Resource.Id.shortcut;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.showCustom = global::WalkthroughSample.Droid.Resource.Id.showCustom;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.showHome = global::WalkthroughSample.Droid.Resource.Id.showHome;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.showTitle = global::WalkthroughSample.Droid.Resource.Id.showTitle;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.spacer = global::WalkthroughSample.Droid.Resource.Id.spacer;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.split_action_bar = global::WalkthroughSample.Droid.Resource.Id.split_action_bar;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.src_atop = global::WalkthroughSample.Droid.Resource.Id.src_atop;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.src_in = global::WalkthroughSample.Droid.Resource.Id.src_in;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.src_over = global::WalkthroughSample.Droid.Resource.Id.src_over;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.status_bar_latest_event_content = global::WalkthroughSample.Droid.Resource.Id.status_bar_latest_event_content;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.submenuarrow = global::WalkthroughSample.Droid.Resource.Id.submenuarrow;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.submit_area = global::WalkthroughSample.Droid.Resource.Id.submit_area;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.tabMode = global::WalkthroughSample.Droid.Resource.Id.tabMode;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.text = global::WalkthroughSample.Droid.Resource.Id.text;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.text2 = global::WalkthroughSample.Droid.Resource.Id.text2;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.textSpacerNoButtons = global::WalkthroughSample.Droid.Resource.Id.textSpacerNoButtons;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.textSpacerNoTitle = global::WalkthroughSample.Droid.Resource.Id.textSpacerNoTitle;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.time = global::WalkthroughSample.Droid.Resource.Id.time;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.title = global::WalkthroughSample.Droid.Resource.Id.title;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.titleDividerNoCustom = global::WalkthroughSample.Droid.Resource.Id.titleDividerNoCustom;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.title_template = global::WalkthroughSample.Droid.Resource.Id.title_template;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.top = global::WalkthroughSample.Droid.Resource.Id.top;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.topPanel = global::WalkthroughSample.Droid.Resource.Id.topPanel;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.up = global::WalkthroughSample.Droid.Resource.Id.up;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.useLogo = global::WalkthroughSample.Droid.Resource.Id.useLogo;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.view_pager = global::WalkthroughSample.Droid.Resource.Id.view_pager;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.walker = global::WalkthroughSample.Droid.Resource.Id.walker;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.withText = global::WalkthroughSample.Droid.Resource.Id.withText;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.wrap_content = global::WalkthroughSample.Droid.Resource.Id.wrap_content;
-			global::Plugin.Xablu.Walkthrough.Resource.Integer.abc_config_activityDefaultDur = global::WalkthroughSample.Droid.Resource.Integer.abc_config_activityDefaultDur;
-			global::Plugin.Xablu.Walkthrough.Resource.Integer.abc_config_activityShortDur = global::WalkthroughSample.Droid.Resource.Integer.abc_config_activityShortDur;
-			global::Plugin.Xablu.Walkthrough.Resource.Integer.cancel_button_image_alpha = global::WalkthroughSample.Droid.Resource.Integer.cancel_button_image_alpha;
-			global::Plugin.Xablu.Walkthrough.Resource.Integer.status_bar_notification_info_maxnum = global::WalkthroughSample.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.abc_action_bar_title_item = global::WalkthroughSample.Droid.Resource.Layout.abc_action_bar_title_item;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.abc_action_bar_up_container = global::WalkthroughSample.Droid.Resource.Layout.abc_action_bar_up_container;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.abc_action_bar_view_list_nav_layout = global::WalkthroughSample.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.abc_action_menu_item_layout = global::WalkthroughSample.Droid.Resource.Layout.abc_action_menu_item_layout;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.abc_action_menu_layout = global::WalkthroughSample.Droid.Resource.Layout.abc_action_menu_layout;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.abc_action_mode_bar = global::WalkthroughSample.Droid.Resource.Layout.abc_action_mode_bar;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.abc_action_mode_close_item_material = global::WalkthroughSample.Droid.Resource.Layout.abc_action_mode_close_item_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.abc_activity_chooser_view = global::WalkthroughSample.Droid.Resource.Layout.abc_activity_chooser_view;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.abc_activity_chooser_view_list_item = global::WalkthroughSample.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.abc_alert_dialog_button_bar_material = global::WalkthroughSample.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.abc_alert_dialog_material = global::WalkthroughSample.Droid.Resource.Layout.abc_alert_dialog_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.abc_alert_dialog_title_material = global::WalkthroughSample.Droid.Resource.Layout.abc_alert_dialog_title_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.abc_dialog_title_material = global::WalkthroughSample.Droid.Resource.Layout.abc_dialog_title_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.abc_expanded_menu_layout = global::WalkthroughSample.Droid.Resource.Layout.abc_expanded_menu_layout;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.abc_list_menu_item_checkbox = global::WalkthroughSample.Droid.Resource.Layout.abc_list_menu_item_checkbox;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.abc_list_menu_item_icon = global::WalkthroughSample.Droid.Resource.Layout.abc_list_menu_item_icon;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.abc_list_menu_item_layout = global::WalkthroughSample.Droid.Resource.Layout.abc_list_menu_item_layout;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.abc_list_menu_item_radio = global::WalkthroughSample.Droid.Resource.Layout.abc_list_menu_item_radio;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.abc_popup_menu_header_item_layout = global::WalkthroughSample.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.abc_popup_menu_item_layout = global::WalkthroughSample.Droid.Resource.Layout.abc_popup_menu_item_layout;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.abc_screen_content_include = global::WalkthroughSample.Droid.Resource.Layout.abc_screen_content_include;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.abc_screen_simple = global::WalkthroughSample.Droid.Resource.Layout.abc_screen_simple;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.abc_screen_simple_overlay_action_mode = global::WalkthroughSample.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.abc_screen_toolbar = global::WalkthroughSample.Droid.Resource.Layout.abc_screen_toolbar;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.abc_search_dropdown_item_icons_2line = global::WalkthroughSample.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.abc_search_view = global::WalkthroughSample.Droid.Resource.Layout.abc_search_view;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.abc_select_dialog_material = global::WalkthroughSample.Droid.Resource.Layout.abc_select_dialog_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.DefaultViewPagerLayout = global::WalkthroughSample.Droid.Resource.Layout.DefaultViewPagerLayout;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.notification_action = global::WalkthroughSample.Droid.Resource.Layout.notification_action;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.notification_action_tombstone = global::WalkthroughSample.Droid.Resource.Layout.notification_action_tombstone;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.notification_media_action = global::WalkthroughSample.Droid.Resource.Layout.notification_media_action;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.notification_media_cancel_action = global::WalkthroughSample.Droid.Resource.Layout.notification_media_cancel_action;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.notification_template_big_media = global::WalkthroughSample.Droid.Resource.Layout.notification_template_big_media;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.notification_template_big_media_custom = global::WalkthroughSample.Droid.Resource.Layout.notification_template_big_media_custom;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.notification_template_big_media_narrow = global::WalkthroughSample.Droid.Resource.Layout.notification_template_big_media_narrow;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.notification_template_big_media_narrow_custom = global::WalkthroughSample.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.notification_template_custom_big = global::WalkthroughSample.Droid.Resource.Layout.notification_template_custom_big;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.notification_template_icon_group = global::WalkthroughSample.Droid.Resource.Layout.notification_template_icon_group;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.notification_template_lines_media = global::WalkthroughSample.Droid.Resource.Layout.notification_template_lines_media;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.notification_template_media = global::WalkthroughSample.Droid.Resource.Layout.notification_template_media;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.notification_template_media_custom = global::WalkthroughSample.Droid.Resource.Layout.notification_template_media_custom;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.notification_template_part_chronometer = global::WalkthroughSample.Droid.Resource.Layout.notification_template_part_chronometer;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.notification_template_part_time = global::WalkthroughSample.Droid.Resource.Layout.notification_template_part_time;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.select_dialog_item_material = global::WalkthroughSample.Droid.Resource.Layout.select_dialog_item_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.select_dialog_multichoice_material = global::WalkthroughSample.Droid.Resource.Layout.select_dialog_multichoice_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.select_dialog_singlechoice_material = global::WalkthroughSample.Droid.Resource.Layout.select_dialog_singlechoice_material;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.support_simple_spinner_dropdown_item = global::WalkthroughSample.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::Plugin.Xablu.Walkthrough.Resource.Layout.theme_forestprime = global::WalkthroughSample.Droid.Resource.Layout.theme_forestprime;
-			global::Plugin.Xablu.Walkthrough.Resource.String.abc_action_bar_home_description = global::WalkthroughSample.Droid.Resource.String.abc_action_bar_home_description;
-			global::Plugin.Xablu.Walkthrough.Resource.String.abc_action_bar_home_description_format = global::WalkthroughSample.Droid.Resource.String.abc_action_bar_home_description_format;
-			global::Plugin.Xablu.Walkthrough.Resource.String.abc_action_bar_home_subtitle_description_format = global::WalkthroughSample.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
-			global::Plugin.Xablu.Walkthrough.Resource.String.abc_action_bar_up_description = global::WalkthroughSample.Droid.Resource.String.abc_action_bar_up_description;
-			global::Plugin.Xablu.Walkthrough.Resource.String.abc_action_menu_overflow_description = global::WalkthroughSample.Droid.Resource.String.abc_action_menu_overflow_description;
-			global::Plugin.Xablu.Walkthrough.Resource.String.abc_action_mode_done = global::WalkthroughSample.Droid.Resource.String.abc_action_mode_done;
-			global::Plugin.Xablu.Walkthrough.Resource.String.abc_activity_chooser_view_see_all = global::WalkthroughSample.Droid.Resource.String.abc_activity_chooser_view_see_all;
-			global::Plugin.Xablu.Walkthrough.Resource.String.abc_activitychooserview_choose_application = global::WalkthroughSample.Droid.Resource.String.abc_activitychooserview_choose_application;
-			global::Plugin.Xablu.Walkthrough.Resource.String.abc_capital_off = global::WalkthroughSample.Droid.Resource.String.abc_capital_off;
-			global::Plugin.Xablu.Walkthrough.Resource.String.abc_capital_on = global::WalkthroughSample.Droid.Resource.String.abc_capital_on;
-			global::Plugin.Xablu.Walkthrough.Resource.String.abc_font_family_body_1_material = global::WalkthroughSample.Droid.Resource.String.abc_font_family_body_1_material;
-			global::Plugin.Xablu.Walkthrough.Resource.String.abc_font_family_body_2_material = global::WalkthroughSample.Droid.Resource.String.abc_font_family_body_2_material;
-			global::Plugin.Xablu.Walkthrough.Resource.String.abc_font_family_button_material = global::WalkthroughSample.Droid.Resource.String.abc_font_family_button_material;
-			global::Plugin.Xablu.Walkthrough.Resource.String.abc_font_family_caption_material = global::WalkthroughSample.Droid.Resource.String.abc_font_family_caption_material;
-			global::Plugin.Xablu.Walkthrough.Resource.String.abc_font_family_display_1_material = global::WalkthroughSample.Droid.Resource.String.abc_font_family_display_1_material;
-			global::Plugin.Xablu.Walkthrough.Resource.String.abc_font_family_display_2_material = global::WalkthroughSample.Droid.Resource.String.abc_font_family_display_2_material;
-			global::Plugin.Xablu.Walkthrough.Resource.String.abc_font_family_display_3_material = global::WalkthroughSample.Droid.Resource.String.abc_font_family_display_3_material;
-			global::Plugin.Xablu.Walkthrough.Resource.String.abc_font_family_display_4_material = global::WalkthroughSample.Droid.Resource.String.abc_font_family_display_4_material;
-			global::Plugin.Xablu.Walkthrough.Resource.String.abc_font_family_headline_material = global::WalkthroughSample.Droid.Resource.String.abc_font_family_headline_material;
-			global::Plugin.Xablu.Walkthrough.Resource.String.abc_font_family_menu_material = global::WalkthroughSample.Droid.Resource.String.abc_font_family_menu_material;
-			global::Plugin.Xablu.Walkthrough.Resource.String.abc_font_family_subhead_material = global::WalkthroughSample.Droid.Resource.String.abc_font_family_subhead_material;
-			global::Plugin.Xablu.Walkthrough.Resource.String.abc_font_family_title_material = global::WalkthroughSample.Droid.Resource.String.abc_font_family_title_material;
-			global::Plugin.Xablu.Walkthrough.Resource.String.abc_search_hint = global::WalkthroughSample.Droid.Resource.String.abc_search_hint;
-			global::Plugin.Xablu.Walkthrough.Resource.String.abc_searchview_description_clear = global::WalkthroughSample.Droid.Resource.String.abc_searchview_description_clear;
-			global::Plugin.Xablu.Walkthrough.Resource.String.abc_searchview_description_query = global::WalkthroughSample.Droid.Resource.String.abc_searchview_description_query;
-			global::Plugin.Xablu.Walkthrough.Resource.String.abc_searchview_description_search = global::WalkthroughSample.Droid.Resource.String.abc_searchview_description_search;
-			global::Plugin.Xablu.Walkthrough.Resource.String.abc_searchview_description_submit = global::WalkthroughSample.Droid.Resource.String.abc_searchview_description_submit;
-			global::Plugin.Xablu.Walkthrough.Resource.String.abc_searchview_description_voice = global::WalkthroughSample.Droid.Resource.String.abc_searchview_description_voice;
-			global::Plugin.Xablu.Walkthrough.Resource.String.abc_shareactionprovider_share_with = global::WalkthroughSample.Droid.Resource.String.abc_shareactionprovider_share_with;
-			global::Plugin.Xablu.Walkthrough.Resource.String.abc_shareactionprovider_share_with_application = global::WalkthroughSample.Droid.Resource.String.abc_shareactionprovider_share_with_application;
-			global::Plugin.Xablu.Walkthrough.Resource.String.abc_toolbar_collapse_description = global::WalkthroughSample.Droid.Resource.String.abc_toolbar_collapse_description;
-			global::Plugin.Xablu.Walkthrough.Resource.String.library_name = global::WalkthroughSample.Droid.Resource.String.library_name;
-			global::Plugin.Xablu.Walkthrough.Resource.String.search_menu_title = global::WalkthroughSample.Droid.Resource.String.search_menu_title;
-			global::Plugin.Xablu.Walkthrough.Resource.String.status_bar_notification_info_overflow = global::WalkthroughSample.Droid.Resource.String.status_bar_notification_info_overflow;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.AlertDialog_AppCompat = global::WalkthroughSample.Droid.Resource.Style.AlertDialog_AppCompat;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.AlertDialog_AppCompat_Light = global::WalkthroughSample.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Animation_AppCompat_Dialog = global::WalkthroughSample.Droid.Resource.Style.Animation_AppCompat_Dialog;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Animation_AppCompat_DropDownUp = global::WalkthroughSample.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_AlertDialog_AppCompat = global::WalkthroughSample.Droid.Resource.Style.Base_AlertDialog_AppCompat;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_AlertDialog_AppCompat_Light = global::WalkthroughSample.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Animation_AppCompat_Dialog = global::WalkthroughSample.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::WalkthroughSample.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_DialogWindowTitle_AppCompat = global::WalkthroughSample.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::WalkthroughSample.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Button = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Large = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Small = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Title = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::WalkthroughSample.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Theme_AppCompat = global::WalkthroughSample.Droid.Resource.Style.Base_Theme_AppCompat;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::WalkthroughSample.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Theme_AppCompat_Dialog = global::WalkthroughSample.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::WalkthroughSample.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::WalkthroughSample.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::WalkthroughSample.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::WalkthroughSample.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Theme_AppCompat_Light = global::WalkthroughSample.Droid.Resource.Style.Base_Theme_AppCompat_Light;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::WalkthroughSample.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::WalkthroughSample.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::WalkthroughSample.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::WalkthroughSample.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::WalkthroughSample.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::WalkthroughSample.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_ThemeOverlay_AppCompat = global::WalkthroughSample.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::WalkthroughSample.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::WalkthroughSample.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::WalkthroughSample.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::WalkthroughSample.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::WalkthroughSample.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::WalkthroughSample.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::WalkthroughSample.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::WalkthroughSample.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog = global::WalkthroughSample.Droid.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::WalkthroughSample.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::WalkthroughSample.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_V21_Theme_AppCompat = global::WalkthroughSample.Droid.Resource.Style.Base_V21_Theme_AppCompat;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::WalkthroughSample.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_V21_Theme_AppCompat_Light = global::WalkthroughSample.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::WalkthroughSample.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::WalkthroughSample.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_V22_Theme_AppCompat = global::WalkthroughSample.Droid.Resource.Style.Base_V22_Theme_AppCompat;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_V22_Theme_AppCompat_Light = global::WalkthroughSample.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_V23_Theme_AppCompat = global::WalkthroughSample.Droid.Resource.Style.Base_V23_Theme_AppCompat;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_V23_Theme_AppCompat_Light = global::WalkthroughSample.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_V7_Theme_AppCompat = global::WalkthroughSample.Droid.Resource.Style.Base_V7_Theme_AppCompat;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::WalkthroughSample.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_V7_Theme_AppCompat_Light = global::WalkthroughSample.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::WalkthroughSample.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::WalkthroughSample.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::WalkthroughSample.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::WalkthroughSample.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_ActionBar = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_ActionButton = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_ActionMode = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_Button = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_Button;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_Button_Small = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_EditText = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_ImageButton = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_ListView = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_RatingBar = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_SearchView = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_SeekBar = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_Spinner = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_Toolbar = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::WalkthroughSample.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Platform_AppCompat = global::WalkthroughSample.Droid.Resource.Style.Platform_AppCompat;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Platform_AppCompat_Light = global::WalkthroughSample.Droid.Resource.Style.Platform_AppCompat_Light;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Platform_ThemeOverlay_AppCompat = global::WalkthroughSample.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::WalkthroughSample.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::WalkthroughSample.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Platform_V11_AppCompat = global::WalkthroughSample.Droid.Resource.Style.Platform_V11_AppCompat;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Platform_V11_AppCompat_Light = global::WalkthroughSample.Droid.Resource.Style.Platform_V11_AppCompat_Light;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Platform_V14_AppCompat = global::WalkthroughSample.Droid.Resource.Style.Platform_V14_AppCompat;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Platform_V14_AppCompat_Light = global::WalkthroughSample.Droid.Resource.Style.Platform_V14_AppCompat_Light;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Platform_V21_AppCompat = global::WalkthroughSample.Droid.Resource.Style.Platform_V21_AppCompat;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Platform_V21_AppCompat_Light = global::WalkthroughSample.Droid.Resource.Style.Platform_V21_AppCompat_Light;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Platform_Widget_AppCompat_Spinner = global::WalkthroughSample.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::WalkthroughSample.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::WalkthroughSample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::WalkthroughSample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::WalkthroughSample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::WalkthroughSample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::WalkthroughSample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::WalkthroughSample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::WalkthroughSample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::WalkthroughSample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::WalkthroughSample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::WalkthroughSample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::WalkthroughSample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::WalkthroughSample.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::WalkthroughSample.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Body1 = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Body2 = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Button = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Button;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Caption = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Display1 = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Display2 = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Display3 = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Display4 = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Headline = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Inverse = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Large = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Large;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Medium = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Menu = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Notification = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Notification;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Notification_Info = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Info;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Notification_Info_Media = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Info_Media;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Notification_Line2 = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Line2;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Notification_Line2_Media = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Line2_Media;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Notification_Media = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Media;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Notification_Time = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Time;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Notification_Time_Media = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Time_Media;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Notification_Title = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Title;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Notification_Title_Media = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Title_Media;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Small = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Small;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Subhead = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Title = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Title;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_StatusBar_EventContent = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_StatusBar_EventContent;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::WalkthroughSample.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Theme_AppCompat = global::WalkthroughSample.Droid.Resource.Style.Theme_AppCompat;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Theme_AppCompat_CompactMenu = global::WalkthroughSample.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Theme_AppCompat_DayNight = global::WalkthroughSample.Droid.Resource.Style.Theme_AppCompat_DayNight;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::WalkthroughSample.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::WalkthroughSample.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::WalkthroughSample.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::WalkthroughSample.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::WalkthroughSample.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::WalkthroughSample.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Theme_AppCompat_Dialog = global::WalkthroughSample.Droid.Resource.Style.Theme_AppCompat_Dialog;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Theme_AppCompat_Dialog_Alert = global::WalkthroughSample.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::WalkthroughSample.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::WalkthroughSample.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Theme_AppCompat_Light = global::WalkthroughSample.Droid.Resource.Style.Theme_AppCompat_Light;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::WalkthroughSample.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Theme_AppCompat_Light_Dialog = global::WalkthroughSample.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::WalkthroughSample.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::WalkthroughSample.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::WalkthroughSample.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::WalkthroughSample.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Theme_AppCompat_NoActionBar = global::WalkthroughSample.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.ThemeOverlay_AppCompat = global::WalkthroughSample.Droid.Resource.Style.ThemeOverlay_AppCompat;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::WalkthroughSample.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.ThemeOverlay_AppCompat_Dark = global::WalkthroughSample.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::WalkthroughSample.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::WalkthroughSample.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::WalkthroughSample.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.ThemeOverlay_AppCompat_Light = global::WalkthroughSample.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_ActionBar = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_ActionBar;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_ActionButton = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_ActionButton;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_ActionMode = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_ActionMode;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_ActivityChooserView = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_Button = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_Button;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_Button_Borderless = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_Button_Colored = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_Button_Small = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_Button_Small;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_ButtonBar = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_EditText = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_EditText;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_ImageButton = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_ImageButton;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_Light_ActionBar = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_Light_ActionButton = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_Light_SearchView = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_ListMenuView = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_ListPopupWindow = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_ListView = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_ListView;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_ListView_DropDown = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_ListView_Menu = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_NotificationActionContainer = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_NotificationActionContainer;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_NotificationActionText = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_NotificationActionText;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_PopupMenu = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_PopupWindow = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_ProgressBar = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_RatingBar = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_RatingBar;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_RatingBar_Small = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_SearchView = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_SearchView;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_SeekBar = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_SeekBar;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_Spinner = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_Spinner;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_Toolbar = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_Toolbar;
-			global::Plugin.Xablu.Walkthrough.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::WalkthroughSample.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionBar = global::WalkthroughSample.Droid.Resource.Styleable.ActionBar;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionBar_background = global::WalkthroughSample.Droid.Resource.Styleable.ActionBar_background;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionBar_backgroundSplit = global::WalkthroughSample.Droid.Resource.Styleable.ActionBar_backgroundSplit;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionBar_backgroundStacked = global::WalkthroughSample.Droid.Resource.Styleable.ActionBar_backgroundStacked;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionBar_contentInsetEnd = global::WalkthroughSample.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::WalkthroughSample.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionBar_contentInsetLeft = global::WalkthroughSample.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionBar_contentInsetRight = global::WalkthroughSample.Droid.Resource.Styleable.ActionBar_contentInsetRight;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionBar_contentInsetStart = global::WalkthroughSample.Droid.Resource.Styleable.ActionBar_contentInsetStart;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::WalkthroughSample.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionBar_customNavigationLayout = global::WalkthroughSample.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionBar_displayOptions = global::WalkthroughSample.Droid.Resource.Styleable.ActionBar_displayOptions;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionBar_divider = global::WalkthroughSample.Droid.Resource.Styleable.ActionBar_divider;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionBar_elevation = global::WalkthroughSample.Droid.Resource.Styleable.ActionBar_elevation;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionBar_height = global::WalkthroughSample.Droid.Resource.Styleable.ActionBar_height;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionBar_hideOnContentScroll = global::WalkthroughSample.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionBar_homeAsUpIndicator = global::WalkthroughSample.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionBar_homeLayout = global::WalkthroughSample.Droid.Resource.Styleable.ActionBar_homeLayout;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionBar_icon = global::WalkthroughSample.Droid.Resource.Styleable.ActionBar_icon;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::WalkthroughSample.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionBar_itemPadding = global::WalkthroughSample.Droid.Resource.Styleable.ActionBar_itemPadding;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionBar_logo = global::WalkthroughSample.Droid.Resource.Styleable.ActionBar_logo;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionBar_navigationMode = global::WalkthroughSample.Droid.Resource.Styleable.ActionBar_navigationMode;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionBar_popupTheme = global::WalkthroughSample.Droid.Resource.Styleable.ActionBar_popupTheme;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionBar_progressBarPadding = global::WalkthroughSample.Droid.Resource.Styleable.ActionBar_progressBarPadding;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionBar_progressBarStyle = global::WalkthroughSample.Droid.Resource.Styleable.ActionBar_progressBarStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionBar_subtitle = global::WalkthroughSample.Droid.Resource.Styleable.ActionBar_subtitle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionBar_subtitleTextStyle = global::WalkthroughSample.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionBar_title = global::WalkthroughSample.Droid.Resource.Styleable.ActionBar_title;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionBar_titleTextStyle = global::WalkthroughSample.Droid.Resource.Styleable.ActionBar_titleTextStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionBarLayout = global::WalkthroughSample.Droid.Resource.Styleable.ActionBarLayout;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::WalkthroughSample.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionMenuItemView = global::WalkthroughSample.Droid.Resource.Styleable.ActionMenuItemView;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionMenuItemView_android_minWidth = global::WalkthroughSample.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionMenuView = global::WalkthroughSample.Droid.Resource.Styleable.ActionMenuView;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionMode = global::WalkthroughSample.Droid.Resource.Styleable.ActionMode;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionMode_background = global::WalkthroughSample.Droid.Resource.Styleable.ActionMode_background;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionMode_backgroundSplit = global::WalkthroughSample.Droid.Resource.Styleable.ActionMode_backgroundSplit;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionMode_closeItemLayout = global::WalkthroughSample.Droid.Resource.Styleable.ActionMode_closeItemLayout;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionMode_height = global::WalkthroughSample.Droid.Resource.Styleable.ActionMode_height;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionMode_subtitleTextStyle = global::WalkthroughSample.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActionMode_titleTextStyle = global::WalkthroughSample.Droid.Resource.Styleable.ActionMode_titleTextStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActivityChooserView = global::WalkthroughSample.Droid.Resource.Styleable.ActivityChooserView;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::WalkthroughSample.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ActivityChooserView_initialActivityCount = global::WalkthroughSample.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AlertDialog = global::WalkthroughSample.Droid.Resource.Styleable.AlertDialog;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AlertDialog_android_layout = global::WalkthroughSample.Droid.Resource.Styleable.AlertDialog_android_layout;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::WalkthroughSample.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AlertDialog_listItemLayout = global::WalkthroughSample.Droid.Resource.Styleable.AlertDialog_listItemLayout;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AlertDialog_listLayout = global::WalkthroughSample.Droid.Resource.Styleable.AlertDialog_listLayout;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::WalkthroughSample.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AlertDialog_showTitle = global::WalkthroughSample.Droid.Resource.Styleable.AlertDialog_showTitle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::WalkthroughSample.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatImageView = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatImageView;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatImageView_android_src = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatImageView_android_src;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatImageView_srcCompat = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatSeekBar = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatSeekBar;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatSeekBar_android_thumb = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatSeekBar_tickMark = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTextHelper = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTextHelper;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTextView = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTextView;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTextView_android_textAppearance = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTextView_textAllCaps = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_actionBarDivider = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_actionBarSize = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_actionBarStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_actionBarTheme = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_actionModeBackground = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_actionModeStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_buttonStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_checkboxStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_colorAccent = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_colorControlActivated = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_colorControlNormal = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_colorPrimary = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_controlBackground = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_dialogTheme = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_dividerVertical = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_editTextBackground = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_editTextColor = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_editTextStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_panelBackground = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_searchViewStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_seekBarStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_spinnerStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_switchStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_toolbarStyle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_windowActionBar = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.AppCompatTheme_windowNoTitle = global::WalkthroughSample.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ButtonBarLayout = global::WalkthroughSample.Droid.Resource.Styleable.ButtonBarLayout;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ButtonBarLayout_allowStacking = global::WalkthroughSample.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ColorStateListItem = global::WalkthroughSample.Droid.Resource.Styleable.ColorStateListItem;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ColorStateListItem_alpha = global::WalkthroughSample.Droid.Resource.Styleable.ColorStateListItem_alpha;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ColorStateListItem_android_alpha = global::WalkthroughSample.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ColorStateListItem_android_color = global::WalkthroughSample.Droid.Resource.Styleable.ColorStateListItem_android_color;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.CompoundButton = global::WalkthroughSample.Droid.Resource.Styleable.CompoundButton;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.CompoundButton_android_button = global::WalkthroughSample.Droid.Resource.Styleable.CompoundButton_android_button;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.CompoundButton_buttonTint = global::WalkthroughSample.Droid.Resource.Styleable.CompoundButton_buttonTint;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.CompoundButton_buttonTintMode = global::WalkthroughSample.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.DrawerArrowToggle = global::WalkthroughSample.Droid.Resource.Styleable.DrawerArrowToggle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::WalkthroughSample.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::WalkthroughSample.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.DrawerArrowToggle_barLength = global::WalkthroughSample.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.DrawerArrowToggle_color = global::WalkthroughSample.Droid.Resource.Styleable.DrawerArrowToggle_color;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.DrawerArrowToggle_drawableSize = global::WalkthroughSample.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::WalkthroughSample.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.DrawerArrowToggle_spinBars = global::WalkthroughSample.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.DrawerArrowToggle_thickness = global::WalkthroughSample.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.LinearLayoutCompat = global::WalkthroughSample.Droid.Resource.Styleable.LinearLayoutCompat;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::WalkthroughSample.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::WalkthroughSample.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.LinearLayoutCompat_android_gravity = global::WalkthroughSample.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.LinearLayoutCompat_android_orientation = global::WalkthroughSample.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::WalkthroughSample.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.LinearLayoutCompat_divider = global::WalkthroughSample.Droid.Resource.Styleable.LinearLayoutCompat_divider;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::WalkthroughSample.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::WalkthroughSample.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.LinearLayoutCompat_showDividers = global::WalkthroughSample.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.LinearLayoutCompat_Layout = global::WalkthroughSample.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::WalkthroughSample.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::WalkthroughSample.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::WalkthroughSample.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::WalkthroughSample.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ListPopupWindow = global::WalkthroughSample.Droid.Resource.Styleable.ListPopupWindow;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::WalkthroughSample.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::WalkthroughSample.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuGroup = global::WalkthroughSample.Droid.Resource.Styleable.MenuGroup;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuGroup_android_checkableBehavior = global::WalkthroughSample.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuGroup_android_enabled = global::WalkthroughSample.Droid.Resource.Styleable.MenuGroup_android_enabled;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuGroup_android_id = global::WalkthroughSample.Droid.Resource.Styleable.MenuGroup_android_id;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuGroup_android_menuCategory = global::WalkthroughSample.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuGroup_android_orderInCategory = global::WalkthroughSample.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuGroup_android_visible = global::WalkthroughSample.Droid.Resource.Styleable.MenuGroup_android_visible;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuItem = global::WalkthroughSample.Droid.Resource.Styleable.MenuItem;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuItem_actionLayout = global::WalkthroughSample.Droid.Resource.Styleable.MenuItem_actionLayout;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuItem_actionProviderClass = global::WalkthroughSample.Droid.Resource.Styleable.MenuItem_actionProviderClass;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuItem_actionViewClass = global::WalkthroughSample.Droid.Resource.Styleable.MenuItem_actionViewClass;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::WalkthroughSample.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuItem_android_checkable = global::WalkthroughSample.Droid.Resource.Styleable.MenuItem_android_checkable;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuItem_android_checked = global::WalkthroughSample.Droid.Resource.Styleable.MenuItem_android_checked;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuItem_android_enabled = global::WalkthroughSample.Droid.Resource.Styleable.MenuItem_android_enabled;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuItem_android_icon = global::WalkthroughSample.Droid.Resource.Styleable.MenuItem_android_icon;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuItem_android_id = global::WalkthroughSample.Droid.Resource.Styleable.MenuItem_android_id;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuItem_android_menuCategory = global::WalkthroughSample.Droid.Resource.Styleable.MenuItem_android_menuCategory;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuItem_android_numericShortcut = global::WalkthroughSample.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuItem_android_onClick = global::WalkthroughSample.Droid.Resource.Styleable.MenuItem_android_onClick;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuItem_android_orderInCategory = global::WalkthroughSample.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuItem_android_title = global::WalkthroughSample.Droid.Resource.Styleable.MenuItem_android_title;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuItem_android_titleCondensed = global::WalkthroughSample.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuItem_android_visible = global::WalkthroughSample.Droid.Resource.Styleable.MenuItem_android_visible;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuItem_showAsAction = global::WalkthroughSample.Droid.Resource.Styleable.MenuItem_showAsAction;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuView = global::WalkthroughSample.Droid.Resource.Styleable.MenuView;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuView_android_headerBackground = global::WalkthroughSample.Droid.Resource.Styleable.MenuView_android_headerBackground;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuView_android_horizontalDivider = global::WalkthroughSample.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuView_android_itemBackground = global::WalkthroughSample.Droid.Resource.Styleable.MenuView_android_itemBackground;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::WalkthroughSample.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuView_android_itemTextAppearance = global::WalkthroughSample.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuView_android_verticalDivider = global::WalkthroughSample.Droid.Resource.Styleable.MenuView_android_verticalDivider;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuView_android_windowAnimationStyle = global::WalkthroughSample.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuView_preserveIconSpacing = global::WalkthroughSample.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.MenuView_subMenuArrow = global::WalkthroughSample.Droid.Resource.Styleable.MenuView_subMenuArrow;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.PopupWindow = global::WalkthroughSample.Droid.Resource.Styleable.PopupWindow;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::WalkthroughSample.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.PopupWindow_android_popupBackground = global::WalkthroughSample.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.PopupWindow_overlapAnchor = global::WalkthroughSample.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.PopupWindowBackgroundState = global::WalkthroughSample.Droid.Resource.Styleable.PopupWindowBackgroundState;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::WalkthroughSample.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.RecycleListView = global::WalkthroughSample.Droid.Resource.Styleable.RecycleListView;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::WalkthroughSample.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::WalkthroughSample.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.SearchView = global::WalkthroughSample.Droid.Resource.Styleable.SearchView;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.SearchView_android_focusable = global::WalkthroughSample.Droid.Resource.Styleable.SearchView_android_focusable;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.SearchView_android_imeOptions = global::WalkthroughSample.Droid.Resource.Styleable.SearchView_android_imeOptions;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.SearchView_android_inputType = global::WalkthroughSample.Droid.Resource.Styleable.SearchView_android_inputType;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.SearchView_android_maxWidth = global::WalkthroughSample.Droid.Resource.Styleable.SearchView_android_maxWidth;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.SearchView_closeIcon = global::WalkthroughSample.Droid.Resource.Styleable.SearchView_closeIcon;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.SearchView_commitIcon = global::WalkthroughSample.Droid.Resource.Styleable.SearchView_commitIcon;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.SearchView_defaultQueryHint = global::WalkthroughSample.Droid.Resource.Styleable.SearchView_defaultQueryHint;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.SearchView_goIcon = global::WalkthroughSample.Droid.Resource.Styleable.SearchView_goIcon;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.SearchView_iconifiedByDefault = global::WalkthroughSample.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.SearchView_layout = global::WalkthroughSample.Droid.Resource.Styleable.SearchView_layout;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.SearchView_queryBackground = global::WalkthroughSample.Droid.Resource.Styleable.SearchView_queryBackground;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.SearchView_queryHint = global::WalkthroughSample.Droid.Resource.Styleable.SearchView_queryHint;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.SearchView_searchHintIcon = global::WalkthroughSample.Droid.Resource.Styleable.SearchView_searchHintIcon;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.SearchView_searchIcon = global::WalkthroughSample.Droid.Resource.Styleable.SearchView_searchIcon;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.SearchView_submitBackground = global::WalkthroughSample.Droid.Resource.Styleable.SearchView_submitBackground;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.SearchView_suggestionRowLayout = global::WalkthroughSample.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.SearchView_voiceIcon = global::WalkthroughSample.Droid.Resource.Styleable.SearchView_voiceIcon;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Spinner = global::WalkthroughSample.Droid.Resource.Styleable.Spinner;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Spinner_android_dropDownWidth = global::WalkthroughSample.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Spinner_android_entries = global::WalkthroughSample.Droid.Resource.Styleable.Spinner_android_entries;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Spinner_android_popupBackground = global::WalkthroughSample.Droid.Resource.Styleable.Spinner_android_popupBackground;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Spinner_android_prompt = global::WalkthroughSample.Droid.Resource.Styleable.Spinner_android_prompt;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Spinner_popupTheme = global::WalkthroughSample.Droid.Resource.Styleable.Spinner_popupTheme;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.SwitchCompat = global::WalkthroughSample.Droid.Resource.Styleable.SwitchCompat;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.SwitchCompat_android_textOff = global::WalkthroughSample.Droid.Resource.Styleable.SwitchCompat_android_textOff;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.SwitchCompat_android_textOn = global::WalkthroughSample.Droid.Resource.Styleable.SwitchCompat_android_textOn;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.SwitchCompat_android_thumb = global::WalkthroughSample.Droid.Resource.Styleable.SwitchCompat_android_thumb;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.SwitchCompat_showText = global::WalkthroughSample.Droid.Resource.Styleable.SwitchCompat_showText;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.SwitchCompat_splitTrack = global::WalkthroughSample.Droid.Resource.Styleable.SwitchCompat_splitTrack;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.SwitchCompat_switchMinWidth = global::WalkthroughSample.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.SwitchCompat_switchPadding = global::WalkthroughSample.Droid.Resource.Styleable.SwitchCompat_switchPadding;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.SwitchCompat_switchTextAppearance = global::WalkthroughSample.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.SwitchCompat_thumbTextPadding = global::WalkthroughSample.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.SwitchCompat_thumbTint = global::WalkthroughSample.Droid.Resource.Styleable.SwitchCompat_thumbTint;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.SwitchCompat_thumbTintMode = global::WalkthroughSample.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.SwitchCompat_track = global::WalkthroughSample.Droid.Resource.Styleable.SwitchCompat_track;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.SwitchCompat_trackTint = global::WalkthroughSample.Droid.Resource.Styleable.SwitchCompat_trackTint;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.SwitchCompat_trackTintMode = global::WalkthroughSample.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.TextAppearance = global::WalkthroughSample.Droid.Resource.Styleable.TextAppearance;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.TextAppearance_android_shadowColor = global::WalkthroughSample.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.TextAppearance_android_shadowDx = global::WalkthroughSample.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.TextAppearance_android_shadowDy = global::WalkthroughSample.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.TextAppearance_android_shadowRadius = global::WalkthroughSample.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.TextAppearance_android_textColor = global::WalkthroughSample.Droid.Resource.Styleable.TextAppearance_android_textColor;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.TextAppearance_android_textColorHint = global::WalkthroughSample.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.TextAppearance_android_textSize = global::WalkthroughSample.Droid.Resource.Styleable.TextAppearance_android_textSize;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.TextAppearance_android_textStyle = global::WalkthroughSample.Droid.Resource.Styleable.TextAppearance_android_textStyle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.TextAppearance_android_typeface = global::WalkthroughSample.Droid.Resource.Styleable.TextAppearance_android_typeface;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.TextAppearance_textAllCaps = global::WalkthroughSample.Droid.Resource.Styleable.TextAppearance_textAllCaps;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Toolbar = global::WalkthroughSample.Droid.Resource.Styleable.Toolbar;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Toolbar_android_gravity = global::WalkthroughSample.Droid.Resource.Styleable.Toolbar_android_gravity;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Toolbar_android_minHeight = global::WalkthroughSample.Droid.Resource.Styleable.Toolbar_android_minHeight;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Toolbar_buttonGravity = global::WalkthroughSample.Droid.Resource.Styleable.Toolbar_buttonGravity;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Toolbar_collapseContentDescription = global::WalkthroughSample.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Toolbar_collapseIcon = global::WalkthroughSample.Droid.Resource.Styleable.Toolbar_collapseIcon;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Toolbar_contentInsetEnd = global::WalkthroughSample.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::WalkthroughSample.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Toolbar_contentInsetLeft = global::WalkthroughSample.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Toolbar_contentInsetRight = global::WalkthroughSample.Droid.Resource.Styleable.Toolbar_contentInsetRight;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Toolbar_contentInsetStart = global::WalkthroughSample.Droid.Resource.Styleable.Toolbar_contentInsetStart;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::WalkthroughSample.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Toolbar_logo = global::WalkthroughSample.Droid.Resource.Styleable.Toolbar_logo;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Toolbar_logoDescription = global::WalkthroughSample.Droid.Resource.Styleable.Toolbar_logoDescription;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Toolbar_maxButtonHeight = global::WalkthroughSample.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Toolbar_navigationContentDescription = global::WalkthroughSample.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Toolbar_navigationIcon = global::WalkthroughSample.Droid.Resource.Styleable.Toolbar_navigationIcon;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Toolbar_popupTheme = global::WalkthroughSample.Droid.Resource.Styleable.Toolbar_popupTheme;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Toolbar_subtitle = global::WalkthroughSample.Droid.Resource.Styleable.Toolbar_subtitle;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Toolbar_subtitleTextAppearance = global::WalkthroughSample.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Toolbar_subtitleTextColor = global::WalkthroughSample.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Toolbar_title = global::WalkthroughSample.Droid.Resource.Styleable.Toolbar_title;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Toolbar_titleMargin = global::WalkthroughSample.Droid.Resource.Styleable.Toolbar_titleMargin;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Toolbar_titleMarginBottom = global::WalkthroughSample.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Toolbar_titleMarginEnd = global::WalkthroughSample.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Toolbar_titleMarginStart = global::WalkthroughSample.Droid.Resource.Styleable.Toolbar_titleMarginStart;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Toolbar_titleMarginTop = global::WalkthroughSample.Droid.Resource.Styleable.Toolbar_titleMarginTop;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Toolbar_titleMargins = global::WalkthroughSample.Droid.Resource.Styleable.Toolbar_titleMargins;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Toolbar_titleTextAppearance = global::WalkthroughSample.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.Toolbar_titleTextColor = global::WalkthroughSample.Droid.Resource.Styleable.Toolbar_titleTextColor;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.View = global::WalkthroughSample.Droid.Resource.Styleable.View;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.View_android_focusable = global::WalkthroughSample.Droid.Resource.Styleable.View_android_focusable;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.View_android_theme = global::WalkthroughSample.Droid.Resource.Styleable.View_android_theme;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.View_paddingEnd = global::WalkthroughSample.Droid.Resource.Styleable.View_paddingEnd;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.View_paddingStart = global::WalkthroughSample.Droid.Resource.Styleable.View_paddingStart;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.View_theme = global::WalkthroughSample.Droid.Resource.Styleable.View_theme;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ViewBackgroundHelper = global::WalkthroughSample.Droid.Resource.Styleable.ViewBackgroundHelper;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ViewBackgroundHelper_android_background = global::WalkthroughSample.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::WalkthroughSample.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::WalkthroughSample.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ViewStubCompat = global::WalkthroughSample.Droid.Resource.Styleable.ViewStubCompat;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ViewStubCompat_android_id = global::WalkthroughSample.Droid.Resource.Styleable.ViewStubCompat_android_id;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ViewStubCompat_android_inflatedId = global::WalkthroughSample.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
-			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ViewStubCompat_android_layout = global::WalkthroughSample.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Walker.Resource.String.library_name = global::WalkthroughSample.Droid.Resource.String.library_name;
 		}
 		
@@ -3054,46 +1622,40 @@ namespace WalkthroughSample.Droid
 			public const int iphone = 2130837588;
 			
 			// aapt resource value: 0x7f020055
-			public const int left_arrow = 2130837589;
+			public const int notification_action_background = 2130837589;
 			
 			// aapt resource value: 0x7f020056
-			public const int notification_action_background = 2130837590;
+			public const int notification_bg = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int notification_bg = 2130837591;
+			public const int notification_bg_low = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int notification_bg_low = 2130837592;
+			public const int notification_bg_low_normal = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int notification_bg_low_normal = 2130837593;
+			public const int notification_bg_low_pressed = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int notification_bg_low_pressed = 2130837594;
+			public const int notification_bg_normal = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int notification_bg_normal = 2130837595;
+			public const int notification_bg_normal_pressed = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int notification_bg_normal_pressed = 2130837596;
-			
-			// aapt resource value: 0x7f02005d
-			public const int notification_icon_background = 2130837597;
-			
-			// aapt resource value: 0x7f020061
-			public const int notification_template_icon_bg = 2130837601;
-			
-			// aapt resource value: 0x7f020062
-			public const int notification_template_icon_low_bg = 2130837602;
-			
-			// aapt resource value: 0x7f02005e
-			public const int notification_tile_bg = 2130837598;
+			public const int notification_icon_background = 2130837596;
 			
 			// aapt resource value: 0x7f02005f
-			public const int notify_panel_notification_icon_bg = 2130837599;
+			public const int notification_template_icon_bg = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int right_arrow = 2130837600;
+			public const int notification_template_icon_low_bg = 2130837600;
+			
+			// aapt resource value: 0x7f02005d
+			public const int notification_tile_bg = 2130837597;
+			
+			// aapt resource value: 0x7f02005e
+			public const int notify_panel_notification_icon_bg = 2130837598;
 			
 			static Drawable()
 			{
@@ -3108,8 +1670,8 @@ namespace WalkthroughSample.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0b005f
-			public const int action0 = 2131427423;
+			// aapt resource value: 0x7f0b005c
+			public const int action0 = 2131427420;
 			
 			// aapt resource value: 0x7f0b0047
 			public const int action_bar = 2131427399;
@@ -3132,17 +1694,17 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f0b0024
 			public const int action_bar_title = 2131427364;
 			
-			// aapt resource value: 0x7f0b005c
-			public const int action_container = 2131427420;
+			// aapt resource value: 0x7f0b0059
+			public const int action_container = 2131427417;
 			
 			// aapt resource value: 0x7f0b0048
 			public const int action_context_bar = 2131427400;
 			
-			// aapt resource value: 0x7f0b0063
-			public const int action_divider = 2131427427;
+			// aapt resource value: 0x7f0b0060
+			public const int action_divider = 2131427424;
 			
-			// aapt resource value: 0x7f0b005d
-			public const int action_image = 2131427421;
+			// aapt resource value: 0x7f0b005a
+			public const int action_image = 2131427418;
 			
 			// aapt resource value: 0x7f0b0002
 			public const int action_menu_divider = 2131427330;
@@ -3159,11 +1721,11 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f0b0026
 			public const int action_mode_close_button = 2131427366;
 			
-			// aapt resource value: 0x7f0b005e
-			public const int action_text = 2131427422;
+			// aapt resource value: 0x7f0b005b
+			public const int action_text = 2131427419;
 			
-			// aapt resource value: 0x7f0b006c
-			public const int actions = 2131427436;
+			// aapt resource value: 0x7f0b0069
+			public const int actions = 2131427433;
 			
 			// aapt resource value: 0x7f0b0027
 			public const int activity_chooser_view_content = 2131427367;
@@ -3186,29 +1748,29 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f0b002e
 			public const int buttonPanel = 2131427374;
 			
+			// aapt resource value: 0x7f0b0070
+			public const int c1 = 2131427440;
+			
+			// aapt resource value: 0x7f0b0071
+			public const int c2 = 2131427441;
+			
+			// aapt resource value: 0x7f0b0072
+			public const int c3 = 2131427442;
+			
 			// aapt resource value: 0x7f0b0073
-			public const int c1 = 2131427443;
+			public const int c4 = 2131427443;
 			
 			// aapt resource value: 0x7f0b0074
-			public const int c2 = 2131427444;
+			public const int c5 = 2131427444;
 			
-			// aapt resource value: 0x7f0b0075
-			public const int c3 = 2131427445;
-			
-			// aapt resource value: 0x7f0b0076
-			public const int c4 = 2131427446;
-			
-			// aapt resource value: 0x7f0b0077
-			public const int c5 = 2131427447;
-			
-			// aapt resource value: 0x7f0b0060
-			public const int cancel_action = 2131427424;
+			// aapt resource value: 0x7f0b005d
+			public const int cancel_action = 2131427421;
 			
 			// aapt resource value: 0x7f0b003e
 			public const int checkbox = 2131427390;
 			
-			// aapt resource value: 0x7f0b0068
-			public const int chronometer = 2131427432;
+			// aapt resource value: 0x7f0b0065
+			public const int chronometer = 2131427429;
 			
 			// aapt resource value: 0x7f0b001e
 			public const int collapseActionView = 2131427358;
@@ -3237,8 +1799,8 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f0b001b
 			public const int end = 2131427355;
 			
-			// aapt resource value: 0x7f0b0072
-			public const int end_padder = 2131427442;
+			// aapt resource value: 0x7f0b006f
+			public const int end_padder = 2131427439;
 			
 			// aapt resource value: 0x7f0b0028
 			public const int expand_activities_button = 2131427368;
@@ -3255,8 +1817,8 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f0b002c
 			public const int icon = 2131427372;
 			
-			// aapt resource value: 0x7f0b006d
-			public const int icon_group = 2131427437;
+			// aapt resource value: 0x7f0b006a
+			public const int icon_group = 2131427434;
 			
 			// aapt resource value: 0x7f0b001f
 			public const int ifRoom = 2131427359;
@@ -3264,20 +1826,17 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f0b0029
 			public const int image = 2131427369;
 			
-			// aapt resource value: 0x7f0b005a
-			public const int img = 2131427418;
-			
-			// aapt resource value: 0x7f0b0069
-			public const int info = 2131427433;
-			
 			// aapt resource value: 0x7f0b0057
-			public const int left = 2131427415;
+			public const int img = 2131427415;
 			
-			// aapt resource value: 0x7f0b006e
-			public const int line1 = 2131427438;
+			// aapt resource value: 0x7f0b0066
+			public const int info = 2131427430;
 			
-			// aapt resource value: 0x7f0b0070
-			public const int line3 = 2131427440;
+			// aapt resource value: 0x7f0b006b
+			public const int line1 = 2131427435;
+			
+			// aapt resource value: 0x7f0b006d
+			public const int line3 = 2131427437;
 			
 			// aapt resource value: 0x7f0b0009
 			public const int listMode = 2131427337;
@@ -3285,8 +1844,8 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f0b002b
 			public const int list_item = 2131427371;
 			
-			// aapt resource value: 0x7f0b0062
-			public const int media_actions = 2131427426;
+			// aapt resource value: 0x7f0b005f
+			public const int media_actions = 2131427423;
 			
 			// aapt resource value: 0x7f0b001c
 			public const int middle = 2131427356;
@@ -3303,14 +1862,14 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f0b000a
 			public const int normal = 2131427338;
 			
-			// aapt resource value: 0x7f0b006b
-			public const int notification_background = 2131427435;
+			// aapt resource value: 0x7f0b0068
+			public const int notification_background = 2131427432;
 			
-			// aapt resource value: 0x7f0b0065
-			public const int notification_main_column = 2131427429;
+			// aapt resource value: 0x7f0b0062
+			public const int notification_main_column = 2131427426;
 			
-			// aapt resource value: 0x7f0b0064
-			public const int notification_main_column_container = 2131427428;
+			// aapt resource value: 0x7f0b0061
+			public const int notification_main_column_container = 2131427425;
 			
 			// aapt resource value: 0x7f0b0030
 			public const int parentPanel = 2131427376;
@@ -3324,14 +1883,11 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f0b0040
 			public const int radio = 2131427392;
 			
-			// aapt resource value: 0x7f0b0058
-			public const int right = 2131427416;
+			// aapt resource value: 0x7f0b0067
+			public const int right_icon = 2131427431;
 			
-			// aapt resource value: 0x7f0b006a
-			public const int right_icon = 2131427434;
-			
-			// aapt resource value: 0x7f0b0066
-			public const int right_side = 2131427430;
+			// aapt resource value: 0x7f0b0063
+			public const int right_side = 2131427427;
 			
 			// aapt resource value: 0x7f0b0015
 			public const int screen = 2131427349;
@@ -3390,8 +1946,8 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f0b0011
 			public const int showTitle = 2131427345;
 			
-			// aapt resource value: 0x7f0b005b
-			public const int showWalkthrough = 2131427419;
+			// aapt resource value: 0x7f0b0058
+			public const int showWalkthrough = 2131427416;
 			
 			// aapt resource value: 0x7f0b002f
 			public const int spacer = 2131427375;
@@ -3408,8 +1964,8 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f0b0018
 			public const int src_over = 2131427352;
 			
-			// aapt resource value: 0x7f0b0061
-			public const int status_bar_latest_event_content = 2131427425;
+			// aapt resource value: 0x7f0b005e
+			public const int status_bar_latest_event_content = 2131427422;
 			
 			// aapt resource value: 0x7f0b0041
 			public const int submenuarrow = 2131427393;
@@ -3420,11 +1976,11 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f0b000b
 			public const int tabMode = 2131427339;
 			
-			// aapt resource value: 0x7f0b0071
-			public const int text = 2131427441;
+			// aapt resource value: 0x7f0b006e
+			public const int text = 2131427438;
 			
-			// aapt resource value: 0x7f0b006f
-			public const int text2 = 2131427439;
+			// aapt resource value: 0x7f0b006c
+			public const int text2 = 2131427436;
 			
 			// aapt resource value: 0x7f0b0035
 			public const int textSpacerNoButtons = 2131427381;
@@ -3432,8 +1988,8 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f0b0034
 			public const int textSpacerNoTitle = 2131427380;
 			
-			// aapt resource value: 0x7f0b0067
-			public const int time = 2131427431;
+			// aapt resource value: 0x7f0b0064
+			public const int time = 2131427428;
 			
 			// aapt resource value: 0x7f0b002d
 			public const int title = 2131427373;
@@ -3457,10 +2013,7 @@ namespace WalkthroughSample.Droid
 			public const int useLogo = 2131427346;
 			
 			// aapt resource value: 0x7f0b0056
-			public const int view_pager = 2131427414;
-			
-			// aapt resource value: 0x7f0b0059
-			public const int walker = 2131427417;
+			public const int walker = 2131427414;
 			
 			// aapt resource value: 0x7f0b0021
 			public const int withText = 2131427361;
@@ -3588,79 +2141,73 @@ namespace WalkthroughSample.Droid
 			public const int abc_select_dialog_material = 2130968602;
 			
 			// aapt resource value: 0x7f04001b
-			public const int DefaultViewPagerLayout = 2130968603;
+			public const int FirstFragment = 2130968603;
 			
 			// aapt resource value: 0x7f04001c
-			public const int FirstFragment = 2130968604;
+			public const int Main = 2130968604;
 			
 			// aapt resource value: 0x7f04001d
-			public const int Main = 2130968605;
+			public const int notification_action = 2130968605;
 			
 			// aapt resource value: 0x7f04001e
-			public const int notification_action = 2130968606;
+			public const int notification_action_tombstone = 2130968606;
 			
 			// aapt resource value: 0x7f04001f
-			public const int notification_action_tombstone = 2130968607;
+			public const int notification_media_action = 2130968607;
 			
 			// aapt resource value: 0x7f040020
-			public const int notification_media_action = 2130968608;
+			public const int notification_media_cancel_action = 2130968608;
 			
 			// aapt resource value: 0x7f040021
-			public const int notification_media_cancel_action = 2130968609;
+			public const int notification_template_big_media = 2130968609;
 			
 			// aapt resource value: 0x7f040022
-			public const int notification_template_big_media = 2130968610;
+			public const int notification_template_big_media_custom = 2130968610;
 			
 			// aapt resource value: 0x7f040023
-			public const int notification_template_big_media_custom = 2130968611;
+			public const int notification_template_big_media_narrow = 2130968611;
 			
 			// aapt resource value: 0x7f040024
-			public const int notification_template_big_media_narrow = 2130968612;
+			public const int notification_template_big_media_narrow_custom = 2130968612;
 			
 			// aapt resource value: 0x7f040025
-			public const int notification_template_big_media_narrow_custom = 2130968613;
+			public const int notification_template_custom_big = 2130968613;
 			
 			// aapt resource value: 0x7f040026
-			public const int notification_template_custom_big = 2130968614;
+			public const int notification_template_icon_group = 2130968614;
 			
 			// aapt resource value: 0x7f040027
-			public const int notification_template_icon_group = 2130968615;
+			public const int notification_template_lines_media = 2130968615;
 			
 			// aapt resource value: 0x7f040028
-			public const int notification_template_lines_media = 2130968616;
+			public const int notification_template_media = 2130968616;
 			
 			// aapt resource value: 0x7f040029
-			public const int notification_template_media = 2130968617;
+			public const int notification_template_media_custom = 2130968617;
 			
 			// aapt resource value: 0x7f04002a
-			public const int notification_template_media_custom = 2130968618;
+			public const int notification_template_part_chronometer = 2130968618;
 			
 			// aapt resource value: 0x7f04002b
-			public const int notification_template_part_chronometer = 2130968619;
+			public const int notification_template_part_time = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int notification_template_part_time = 2130968620;
+			public const int SecondFragment = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int SecondFragment = 2130968621;
+			public const int select_dialog_item_material = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int select_dialog_item_material = 2130968622;
+			public const int select_dialog_multichoice_material = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int select_dialog_multichoice_material = 2130968623;
+			public const int select_dialog_singlechoice_material = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int select_dialog_singlechoice_material = 2130968624;
+			public const int support_simple_spinner_dropdown_item = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int support_simple_spinner_dropdown_item = 2130968625;
-			
-			// aapt resource value: 0x7f040032
-			public const int theme_forestprime = 2130968626;
-			
-			// aapt resource value: 0x7f040033
-			public const int ThirdFragment = 2130968627;
+			public const int ThirdFragment = 2130968625;
 			
 			static Layout()
 			{

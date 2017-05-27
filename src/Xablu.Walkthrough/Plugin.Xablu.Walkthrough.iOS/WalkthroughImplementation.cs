@@ -11,30 +11,35 @@ namespace Plugin.Xablu.Walkthrough
     /// </summary>
     public class WalkthroughImplementation : IWalkthrough
     {
-        private UIStoryboard _storyBoard;
         private BWWalkthroughViewController _walkthrough;
-        private string[] _idsViews;
         private UIViewController _hostViewController;
 
         private ITheme _theme;
         public ITheme Theme
         {
             get => _theme;
-            set => _theme = value;
+            set
+            {
+                _theme = value;
+
+                var iosTheme = Theme as IIosTheme;
+                _walkthrough = iosTheme.ContainerViewController;
+            }
         }
 
-        public void Init(UIStoryboard storyBoard, string[] idsViews, UIViewController hostViewController)
+        public void Init(UIViewController hostViewController)
         {
-            _storyBoard = storyBoard;
-            _idsViews = idsViews;
             _hostViewController = hostViewController;
-            _walkthrough = _storyBoard.InstantiateViewController(idsViews[0]) as BWWalkthroughViewController;
 
-            for (int i = 1; i < idsViews.Length; i++)
-            {
-                var vc = _storyBoard.InstantiateViewController(idsViews[i]);
-                _walkthrough.AddViewController(vc);
-            }
+            //_storyBoard = storyBoard;
+            //_idsViews = idsViews;
+            //_walkthrough = _storyBoard.InstantiateViewController(idsViews[0]) as BWWalkthroughViewController;
+
+            //for (int i = 1; i < idsViews.Length; i++)
+            //{
+            //    var vc = _storyBoard.InstantiateViewController(idsViews[i]);
+            //    _walkthrough.AddViewController(vc);
+            //}
         }
 
         public void Show()

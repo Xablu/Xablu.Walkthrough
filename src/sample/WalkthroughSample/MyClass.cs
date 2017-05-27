@@ -15,11 +15,18 @@ namespace WalkthroughSample
             theme.Pages.Add(
                 new ForestPrimesPage()
                 {
-                    Title = "hoi"
+                    Title = "Hoi"
+                }
+            );
+            theme.Pages.Add(
+                new ForestPrimesPage()
+                {
+                    Title = "Doei"
                 }
             );
 
             CrossWalkthrough.Current.Theme = theme;
+            CrossWalkthrough.Current.Show();
         }
     }
 }
