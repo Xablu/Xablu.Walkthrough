@@ -16,7 +16,7 @@ namespace Plugin.Xablu.Walkthrough.Defaults
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
-            var view = inflater.Inflate(Resource.Layout.DefaultViewPagerLayout, container, false);
+            var view = inflater.Inflate(Resource.Layout.theme_forestprime_viewpager, container, false);
             viewPager = (ViewPager)view.FindViewById(Resource.Id.view_pager);
 
             //var leftButton = (ImageView)view.FindViewById(Resource.Id.left);

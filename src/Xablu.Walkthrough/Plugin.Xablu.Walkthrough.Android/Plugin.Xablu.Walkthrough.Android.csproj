@@ -113,7 +113,7 @@
     <Folder Include="Resources\values\" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\DefaultViewPagerLayout.axml" />
+    <AndroidResource Include="Resources\layout\theme_forestprime_viewpager.axml" />
     <AndroidResource Include="Resources\drawable\left_arrow.png" />
     <AndroidResource Include="Resources\drawable\right_arrow.png" />
     <AndroidResource Include="Resources\layout\theme_forestprime.axml" />
