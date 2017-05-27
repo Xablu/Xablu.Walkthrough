@@ -85,7 +85,7 @@
       <HintPath>..\..\packages\AIDatePickerController.1.0.0\lib\Xamarin.iOS10\DatePicker.dll</HintPath>
     </Reference>
     <Reference Include="BWWalkthrough">
-      <HintPath>..\..\packages\BWWalkthrough.1.0.2\lib\Xamarin.iOS10\BWWalkthrough.dll</HintPath>
+      <HintPath>..\..\packages\BWWalkthrough.1.0.6\lib\Xamarin.iOS10\BWWalkthrough.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

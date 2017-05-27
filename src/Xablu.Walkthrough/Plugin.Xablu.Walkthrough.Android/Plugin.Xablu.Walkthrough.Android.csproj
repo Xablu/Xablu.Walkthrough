@@ -86,12 +86,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Extensions\IWalkthroughExtensions.cs" />
     <Compile Include="WalkthroughViewPagerBaseFragment.cs" />
-    <Compile Include="Defaults\DefaultAdapter.cs" />
-    <Compile Include="Defaults\ViewPagerDialogFragment.cs" />
+    <Compile Include="Containers\ForestPrimesContainer.cs" />
     <Compile Include="Themes\IAndroidTheme.cs" />
     <Compile Include="Themes\ForestPrimes.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Fragments\ForestPrimeFragment.cs" />
+    <Compile Include="Adapters\DefaultAdapter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -106,15 +106,26 @@
   <ItemGroup>
     <Folder Include="Extensions\" />
     <Folder Include="Resources\drawable\" />
-    <Folder Include="Defaults\" />
+    <Folder Include="Containers\" />
     <Folder Include="Themes\" />
     <Folder Include="Fragments\" />
+    <Folder Include="Adapters\" />
+    <Folder Include="Resources\values\" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\DefaultViewPagerLayout.axml" />
     <AndroidResource Include="Resources\drawable\left_arrow.png" />
     <AndroidResource Include="Resources\drawable\right_arrow.png" />
     <AndroidResource Include="Resources\layout\theme_forestprime.axml" />
+    <AndroidResource Include="Resources\drawable\ic_forestprime_arrow_back_white.xml" />
+    <AndroidResource Include="Resources\drawable\ic_forestprime_arrow_forward_white.xml" />
+    <AndroidResource Include="Resources\drawable\ic_forestprime_done_white.xml" />
+    <AndroidResource Include="Resources\drawable\ic_forestprime_navigate_before_white.xml" />
+    <AndroidResource Include="Resources\drawable\ic_forestprime_navigate_next_white.xml" />
+    <AndroidResource Include="Resources\drawable\ic_forestprime_skip_white.xml" />
+    <AndroidResource Include="Resources\drawable\indicator_dot_grey.xml" />
+    <AndroidResource Include="Resources\drawable\indicator_dot_white.xml" />
+    <AndroidResource Include="Resources\values\styles.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

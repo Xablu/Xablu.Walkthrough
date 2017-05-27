@@ -9,7 +9,7 @@ using Walker;
 
 namespace Plugin.Xablu.Walkthrough.Defaults
 {
-    public class ViewPagerDialogFragment : WalkthroughViewPagerBaseFragment
+    public class ForestPrimesContainer : WalkthroughViewPagerBaseFragment
     {
         private ViewPager viewPager;
         public override ViewPager ViewPager => viewPager;
@@ -19,19 +19,19 @@ namespace Plugin.Xablu.Walkthrough.Defaults
             var view = inflater.Inflate(Resource.Layout.DefaultViewPagerLayout, container, false);
             viewPager = (ViewPager)view.FindViewById(Resource.Id.view_pager);
 
-			var leftButton = (ImageView)view.FindViewById(Resource.Id.left);
-            var rightButton = (ImageView)view.FindViewById(Resource.Id.right);
+            //var leftButton = (ImageView)view.FindViewById(Resource.Id.left);
+            //var rightButton = (ImageView)view.FindViewById(Resource.Id.right);
 
-			leftButton.Click += (s, e) =>
-			{
-                CrossWalkthrough.Current.Next();
-			};
+            //leftButton.Click += (s, e) =>
+            //{
+            //    CrossWalkthrough.Current.Next();
+            //};
 
-			rightButton.Click += (s, e) =>
-			{
-                CrossWalkthrough.Current.Previous();
-			};
-			
+            //rightButton.Click += (s, e) =>
+            //{
+            //    CrossWalkthrough.Current.Previous();
+            //};
+
             return view;
         }
 

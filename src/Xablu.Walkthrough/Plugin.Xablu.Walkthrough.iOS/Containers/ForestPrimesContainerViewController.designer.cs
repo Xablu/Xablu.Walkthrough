@@ -1,4 +1,4 @@
-﻿// WARNING
+// WARNING
 //
 // This file has been generated automatically by Visual Studio to store outlets and
 // actions made in the UI designer. If it is removed, they will be lost.
@@ -7,20 +7,20 @@
 using Foundation;
 using System.CodeDom.Compiler;
 
-namespace Plugin.Xablu.Walkthrough.ViewControllers
+namespace Plugin.Xablu.Walkthrough.Containers
 {
     [Register("ForestPrimesContainerViewController")]
-    partial class ForestPrimesContainerViewController
+    partial class ForestPrimesContainer
     {
         [Outlet]
-        UIKit.UIButton btnNext { get; set; }
+        UIKit.UIButton NextButton { get; set; }
 
         void ReleaseDesignerOutlets()
         {
-            if (btnNext != null)
+            if (NextButton != null)
             {
-                btnNext.Dispose();
-                btnNext = null;
+                NextButton.Dispose();
+                NextButton = null;
             }
         }
     }

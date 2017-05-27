@@ -15,7 +15,7 @@ namespace Plugin.Xablu.Walkthrough.Themes
             set => pages = value;
         }
 
-        private WalkthroughViewPagerBaseFragment viewPager = new Defaults.ViewPagerDialogFragment();
+        private WalkthroughViewPagerBaseFragment viewPager = new Defaults.ForestPrimesContainer();
         public WalkthroughViewPagerBaseFragment ViewPager
         {
             get => viewPager;
