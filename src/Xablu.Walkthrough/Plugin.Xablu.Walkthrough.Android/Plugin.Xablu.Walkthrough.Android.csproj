@@ -104,7 +104,6 @@
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Fragments\ForestPrimeFragment.cs" />
     <Compile Include="Adapters\DefaultAdapter.cs" />
-    <Compile Include="Pages\ForestPrimesPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -124,7 +123,6 @@
     <Folder Include="Fragments\" />
     <Folder Include="Adapters\" />
     <Folder Include="Resources\values\" />
-    <Folder Include="Pages\" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\theme_forestprime_container.axml" />

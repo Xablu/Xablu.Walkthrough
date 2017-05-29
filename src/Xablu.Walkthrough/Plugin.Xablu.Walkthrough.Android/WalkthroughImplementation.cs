@@ -30,7 +30,7 @@ namespace Plugin.Xablu.Walkthrough
             {
                 _theme = value;
 
-                var androidTheme = Theme as IAndroidTheme;
+                var androidTheme = Theme as ForestPrimes;
                 _viewPagerFragment = androidTheme.ViewPager;
                 _viewPagerFragment.SetAdapter(androidTheme.CreateFragments(), _hostActvity);
                 _viewPagerFragment.SetListener(this);

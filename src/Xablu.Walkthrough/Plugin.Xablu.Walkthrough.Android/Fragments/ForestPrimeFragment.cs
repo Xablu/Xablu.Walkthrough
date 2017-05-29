@@ -25,7 +25,7 @@ namespace Plugin.Xablu.Walkthrough.Fragments
             //txtTitle.TextSize = Page.Title.TextSize;
             //txtTitle.SetTextColor(Page.Title.TextColor.ToNative());
 
-            view.SetBackgroundColor(Page.BackgroundColor.ToNative());
+            //  view.SetBackgroundColor(Page.BackgroundColor.ToNative());
 
             return view;
         }
