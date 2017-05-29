@@ -13,7 +13,7 @@ namespace WalkthroughSample
             theme.Pages.Add(
                 new ForestPrimesPage()
                 {
-                    //BackgroundColor = System.Drawing.Color.FromArgb(33, 150, 243)
+                    BackgroundColor = System.Drawing.Color.FromArgb(33, 150, 243)
                 }
             );
 

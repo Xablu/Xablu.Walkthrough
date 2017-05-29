@@ -8,7 +8,7 @@ namespace Plugin.Xablu.Walkthrough.Pages
     public class ForestPrimesPage : IPage
     {
         //private Color backgroundColor = Color.White;
-        //public Color BackgroundColor = Color.White;
+        public Color BackgroundColor = Color.White;
 
         //public TextControl Title = new TextControl();
 
