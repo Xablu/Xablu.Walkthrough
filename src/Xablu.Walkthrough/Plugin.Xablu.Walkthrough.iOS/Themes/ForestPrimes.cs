@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using BWWalkthrough;
-using Plugin.Xablu.Walkthrough.Abstractions.Pages;
 using Plugin.Xablu.Walkthrough.Containers;
-using Plugin.Xablu.Walkthrough.ViewControllers;
-using UIKit;
+using Plugin.Xablu.Walkthrough.Pages;
 
 namespace Plugin.Xablu.Walkthrough.Themes
 {

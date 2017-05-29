@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using BWWalkthrough;
-using Plugin.Xablu.Walkthrough.Abstractions.Pages;
+using Plugin.Xablu.Walkthrough.Pages;
 using Plugin.Xablu.Walkthrough.ViewControllers;
 using UIKit;
 
@@ -27,7 +27,6 @@ namespace Plugin.Xablu.Walkthrough.Containers
             for (int i = 0; i < Pages.Count; i++)
             {
                 var page = new ForestPrimesViewController();
-                page.PageTitle = Pages[i].Title;
                 AddViewController(page);
             }
 

@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using Plugin.Xablu.Walkthrough;
+﻿using Plugin.Xablu.Walkthrough;
+using Plugin.Xablu.Walkthrough.Pages;
 using Plugin.Xablu.Walkthrough.Themes;
-using System.Linq;
-using Plugin.Xablu.Walkthrough.Abstractions.Pages;
 
 namespace WalkthroughSample
 {
@@ -12,18 +9,26 @@ namespace WalkthroughSample
         public MyClass()
         {
             var theme = new ForestPrimes();
+
             theme.Pages.Add(
                 new ForestPrimesPage()
                 {
-                    Title = "Hoi"
+                    BackgroundColor = System.Drawing.Color.FromArgb(33, 150, 243)
                 }
             );
-            theme.Pages.Add(
-                new ForestPrimesPage()
-                {
-                    Title = "Doei"
-                }
-            );
+
+            //theme.Pages.Add(
+            //    new ForestPrimesPage()
+            //    {
+            //        BackgroundColor = Color.FromArgb(133, 150, 243),
+            //        Title = new TextControl()
+            //        {
+            //            Text = "DOEI!",
+            //            TextSize = 20,
+            //            TextColor = Color.FromArgb(155, 155, 255)
+            //        }
+            //    }
+            //);
 
             CrossWalkthrough.Current.Theme = theme;
             CrossWalkthrough.Current.Show();

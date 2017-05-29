@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using Plugin.Xablu.Walkthrough.Abstractions.Pages;
 using Plugin.Xablu.Walkthrough.Fragments;
+using Plugin.Xablu.Walkthrough.Containers;
 using Walker;
+using Plugin.Xablu.Walkthrough.Pages;
 
 namespace Plugin.Xablu.Walkthrough.Themes
 {
@@ -15,7 +16,7 @@ namespace Plugin.Xablu.Walkthrough.Themes
             set => pages = value;
         }
 
-        private WalkthroughViewPagerBaseFragment viewPager = new Defaults.ForestPrimesContainer();
+        private WalkthroughViewPagerBaseFragment viewPager = new ForestPrimesContainer();
         public WalkthroughViewPagerBaseFragment ViewPager
         {
             get => viewPager;
@@ -28,9 +29,9 @@ namespace Plugin.Xablu.Walkthrough.Themes
 
             for (int i = 0; i < Pages.Count; i++)
             {
-                var item = Pages[i];
+                var page = Pages[i];
                 var fragment = new ForestPrimeFragment();
-                fragment.Title = item.Title;
+                fragment.Page = page;
 
                 fragments[i] = fragment;
             }

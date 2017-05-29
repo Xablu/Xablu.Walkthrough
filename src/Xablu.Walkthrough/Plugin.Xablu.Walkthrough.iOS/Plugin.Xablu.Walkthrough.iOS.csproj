@@ -69,6 +69,9 @@
     <Reference Include="BWWalkthrough">
       <HintPath>..\..\packages\BWWalkthrough.1.0.6\lib\Xamarin.iOS10\BWWalkthrough.dll</HintPath>
     </Reference>
+    <Reference Include="Splat">
+      <HintPath>..\..\packages\Splat.2.0.0\lib\Xamarin.iOS10\Splat.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Extensions\" />

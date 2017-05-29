@@ -1,13 +1,12 @@
-﻿using System;
-using Android.OS;
+﻿using Android.OS;
+using Android.Support.Design.Widget;
 using Android.Support.V4.App;
 using Android.Support.V4.View;
-using Android.Support.V7.App;
 using Android.Views;
-using Android.Widget;
+using Plugin.Xablu.Walkthrough.Defaults;
 using Walker;
 
-namespace Plugin.Xablu.Walkthrough.Defaults
+namespace Plugin.Xablu.Walkthrough.Containers
 {
     public class ForestPrimesContainer : WalkthroughViewPagerBaseFragment
     {
@@ -16,8 +15,12 @@ namespace Plugin.Xablu.Walkthrough.Defaults
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
-            var view = inflater.Inflate(Resource.Layout.theme_forestprime_viewpager, container, false);
+            var view = inflater.Inflate(Resource.Layout.theme_forestprime_container, container, false);
             viewPager = (ViewPager)view.FindViewById(Resource.Id.view_pager);
+
+            var tabLayout = view.FindViewById<TabLayout>(Resource.Id.tab_layout);
+            tabLayout.SetupWithViewPager(viewPager, false);
+
 
             //var leftButton = (ImageView)view.FindViewById(Resource.Id.left);
             //var rightButton = (ImageView)view.FindViewById(Resource.Id.right);
