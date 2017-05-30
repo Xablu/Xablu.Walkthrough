@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Plugin.Xablu.Walkthrough.Fragments;
 using Plugin.Xablu.Walkthrough.Containers;
 using Walker;
@@ -9,6 +8,9 @@ namespace Plugin.Xablu.Walkthrough.Themes
 {
     public class ForestPrimes : IAndroidTheme
     {
+        public System.Drawing.Color SkipColor { get; set; }
+        public System.Drawing.Color NextButtonColor { get; set; }
+
         private IList<ForestPrimesPage> pages = new List<ForestPrimesPage>();
         public IList<ForestPrimesPage> Pages
         {
@@ -32,6 +34,7 @@ namespace Plugin.Xablu.Walkthrough.Themes
                 var page = Pages[i];
                 var fragment = new ForestPrimeFragment();
                 fragment.Page = page;
+                fragment.Container = ViewPager as ForestPrimesContainer;
 
                 fragments[i] = fragment;
             }

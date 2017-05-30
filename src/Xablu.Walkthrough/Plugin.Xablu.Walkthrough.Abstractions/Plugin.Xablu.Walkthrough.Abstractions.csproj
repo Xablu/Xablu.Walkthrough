@@ -46,6 +46,8 @@
     <Compile Include="Controls\BaseControl.cs" />
     <Compile Include="Controls\AnimationType.cs" />
     <Compile Include="Pages\ForestPrimesPage.cs" />
+    <Compile Include="Controls\ImageControl.cs" />
+    <Compile Include="Controls\ButtonControl.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Themes\" />

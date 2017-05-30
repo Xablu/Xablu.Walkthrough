@@ -20,9 +20,9 @@ namespace WalkthroughSample.Droid
             CrossWalkthrough.Current.Init(this);
 
             var button = FindViewById<Button>(Resource.Id.showWalkthrough);
-            button.Click += (sender, e) =>
+            button.Click += async (sender, e) =>
             {
-                new MyClass();
+                await new MyClass().SetTheme();
             };
         }
     }

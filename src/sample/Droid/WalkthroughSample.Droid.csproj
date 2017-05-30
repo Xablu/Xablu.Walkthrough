@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>WalkthroughSample.Droid</RootNamespace>
     <AssemblyName>WalkthroughSample.Droid</AssemblyName>
-    <TargetFrameworkVersion>v7.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
@@ -86,6 +86,9 @@
     <Reference Include="Xamarin.Android.Support.Design">
       <HintPath>..\..\packages\Xamarin.Android.Support.Design.25.3.1\lib\MonoAndroid70\Xamarin.Android.Support.Design.dll</HintPath>
     </Reference>
+    <Reference Include="Splat">
+      <HintPath>..\..\packages\Splat.1.6.2\lib\monoandroid\Splat.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -114,6 +117,21 @@
     <AndroidResource Include="Resources\layout\ThirdFragment.axml" />
     <AndroidResource Include="Resources\drawable\cloud.png" />
     <AndroidResource Include="Resources\drawable\iphone.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\folder.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\folder.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\folder.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\folder.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\folder.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\questions.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\questions.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\questions.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\count.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\count.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\count.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\count.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\questions.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\count.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\questions.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WalkthroughSample\WalkthroughSample.csproj">
@@ -132,6 +150,11 @@
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
     <Folder Include="Fragments\" />
+    <Folder Include="Resources\drawable-mdpi\" />
+    <Folder Include="Resources\drawable-hdpi\" />
+    <Folder Include="Resources\drawable-xhdpi\" />
+    <Folder Include="Resources\drawable-xxhdpi\" />
+    <Folder Include="Resources\drawable-xxxhdpi\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Build.Download.0.4.3\build\Xamarin.Build.Download.targets" Condition="Exists('..\..\packages\Xamarin.Build.Download.0.4.3\build\Xamarin.Build.Download.targets')" />

@@ -8,6 +8,7 @@ using Android.Support.V7.App;
 using Android.Views;
 using Plugin.Xablu.Walkthrough.Defaults;
 using Plugin.Xablu.Walkthrough.Themes;
+using Android.Graphics.Drawables;
 
 namespace Plugin.Xablu.Walkthrough
 {
@@ -44,13 +45,12 @@ namespace Plugin.Xablu.Walkthrough
 
         public void Previous()
         {
-            _viewPagerFragment.ViewPager.CurrentItem = _currentPosition + 1;
+            _viewPagerFragment.ViewPager.CurrentItem = _currentPosition - 1;
         }
-
 
         public void Next()
         {
-            _viewPagerFragment.ViewPager.CurrentItem = _currentPosition - 1;
+            _viewPagerFragment.ViewPager.CurrentItem = _currentPosition + 1;
         }
 
         public void Show()

@@ -30,21 +30,11 @@ namespace Plugin.Xablu.Walkthrough
         public void Init(UIViewController hostViewController)
         {
             _hostViewController = hostViewController;
-
-            //_storyBoard = storyBoard;
-            //_idsViews = idsViews;
-            //_walkthrough = _storyBoard.InstantiateViewController(idsViews[0]) as BWWalkthroughViewController;
-
-            //for (int i = 1; i < idsViews.Length; i++)
-            //{
-            //    var vc = _storyBoard.InstantiateViewController(idsViews[i]);
-            //    _walkthrough.AddViewController(vc);
-            //}
         }
 
         public void Show()
         {
-            _hostViewController.PresentViewController(_walkthrough, true, null);
+            //   _hostViewController.PresentViewController(_walkthrough, true, null);
         }
 
         public void Next()

@@ -123,22 +123,23 @@
     <Folder Include="Fragments\" />
     <Folder Include="Adapters\" />
     <Folder Include="Resources\values\" />
+    <Folder Include="Resources\mipmap-hdpi\" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\theme_forestprime_container.axml" />
     <AndroidResource Include="Resources\drawable\left_arrow.png" />
     <AndroidResource Include="Resources\drawable\right_arrow.png" />
     <AndroidResource Include="Resources\layout\theme_forestprime_page.axml" />
-    <AndroidResource Include="Resources\drawable\ic_forestprime_arrow_back_white.xml" />
-    <AndroidResource Include="Resources\drawable\ic_forestprime_arrow_forward_white.xml" />
     <AndroidResource Include="Resources\drawable\ic_forestprime_done_white.xml" />
     <AndroidResource Include="Resources\drawable\ic_forestprime_navigate_before_white.xml" />
-    <AndroidResource Include="Resources\drawable\ic_forestprime_navigate_next_white.xml" />
+    <AndroidResource Include="Resources\drawable\ic_forestprime_navigate_next_red.xml" />
     <AndroidResource Include="Resources\drawable\ic_forestprime_skip_white.xml" />
     <AndroidResource Include="Resources\drawable\indicator_dot_grey.xml" />
     <AndroidResource Include="Resources\drawable\indicator_dot_white.xml" />
     <AndroidResource Include="Resources\values\styles.xml" />
     <AndroidResource Include="Resources\drawable\indicator_tab_selector.xml" />
+    <AndroidResource Include="Resources\mipmap-hdpi\folder.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\Icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

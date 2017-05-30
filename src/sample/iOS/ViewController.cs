@@ -19,7 +19,7 @@ namespace WalkthroughSample.iOS
 
             CrossWalkthrough.Current.Init(this);
 
-            new MyClass();
+            new MyClass().SetTheme();
 
             Button.TouchUpInside += (sender, e) =>
             {

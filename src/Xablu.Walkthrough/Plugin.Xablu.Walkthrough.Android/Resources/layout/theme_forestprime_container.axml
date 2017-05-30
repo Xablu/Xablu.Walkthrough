@@ -9,16 +9,16 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
     <android.support.design.widget.TabLayout
-        android:id="@+id/tab_layout"
+        android:id="@+id/theme_forestprime_tablayout"
         android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:tabBackground="@drawable/indicator_tab_selector"
         app:tabGravity="center"
         app:tabIndicatorHeight="0dp"
-        android:layout_marginBottom="12dp" />
+        android:layout_marginBottom="8dp" />
     <LinearLayout
-        android:id="@+id/bottom"
+        android:id="@+id/theme_forestprime_bottomlayout"
         android:layout_width="match_parent"
         android:layout_height="64dp"
         android:layout_alignParentBottom="true"
@@ -26,12 +26,10 @@
         android:gravity="bottom"
         android:orientation="vertical">
         <TextView
-            android:id="@+id/bottom_separator"
             android:layout_width="fill_parent"
             android:layout_height="1px"
-            android:background="#55000000" />
+            android:background="@android:color/transparent" />
         <FrameLayout
-            android:id="@+id/bottomContainer"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent">
             <FrameLayout
@@ -41,7 +39,7 @@
                 android:layout_gravity="center"
                 android:layoutDirection="ltr" />
             <Button
-                android:id="@+id/skip"
+                android:id="@+id/theme_forestprime_skip"
                 style="@style/ForestPrimeButtonStyleCompat"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
@@ -49,8 +47,8 @@
                 android:layout_marginLeft="8dp"
                 android:layout_marginStart="8dp"
                 android:minWidth="100dp"
-                android:text="Skip"
-                android:textColor="@android:color/white" />
+                android:text="SKIP"
+                android:textColor="#bfc0bf" />
             <ImageButton
                 android:id="@+id/back"
                 style="@style/ForestPrimeButtonStyleCompat"
@@ -63,8 +61,8 @@
                 android:visibility="invisible"
                 app:srcCompat="@drawable/ic_forestprime_navigate_before_white"
                 tools:ignore="ContentDescription" />
-            <ImageButton
-                android:id="@+id/next"
+            <android.support.v7.widget.AppCompatImageButton
+                android:id="@+id/theme_forestprime_next"
                 style="@style/ForestPrimeButtonStyleCompat"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
@@ -72,7 +70,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginRight="8dp"
                 android:minWidth="100dp"
-                app:srcCompat="@drawable/ic_forestprime_navigate_next_white"
+                app:srcCompat="@drawable/ic_forestprime_navigate_next_red"
                 tools:ignore="ContentDescription" />
             <Button
                 android:id="@+id/done"

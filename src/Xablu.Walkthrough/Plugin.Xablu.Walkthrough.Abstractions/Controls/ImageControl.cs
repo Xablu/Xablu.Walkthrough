@@ -1,10 +1,12 @@
 ﻿using System;
+using Splat;
+
 namespace Plugin.Xablu.Walkthrough.Abstractions.Controls
 {
-    public class ImageControl
+    public class ImageControl : BaseControl
     {
-        public ImageControl()
-        {
-        }
+        public string Image { get; set; }
+
+        public ImageControl() { }
     }
 }
