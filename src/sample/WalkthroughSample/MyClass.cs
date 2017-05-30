@@ -31,7 +31,7 @@ namespace WalkthroughSample
                     },
                     CenterImage = new ImageControl()
                     {
-                        Image = "folder"
+                        Image = "ic_walkthrough_folder"
                     },
                     DescriptionControl = new TextControl()
                     {
@@ -54,7 +54,7 @@ namespace WalkthroughSample
                     },
                     CenterImage = new ImageControl()
                     {
-                        Image = "questions"
+                        Image = "ic_walkthrough_questions"
                     },
                     DescriptionControl = new TextControl()
                     {
@@ -76,7 +76,7 @@ namespace WalkthroughSample
                     },
                     CenterImage = new ImageControl()
                     {
-                        Image = "count"
+                        Image = "ic_walkthrough_count"
                     },
                     DescriptionControl = new TextControl()
                     {

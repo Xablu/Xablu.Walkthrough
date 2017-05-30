@@ -4,11 +4,6 @@ using Android.Widget;
 using Plugin.Xablu.Walkthrough.Pages;
 using Splat;
 using Walker;
-using System.Drawing;
-using System.Threading.Tasks;
-using System;
-using System.Linq;
-using Android.App;
 using Plugin.Xablu.Walkthrough.Containers;
 using Plugin.Xablu.Walkthrough.Abstractions.Controls;
 
@@ -48,6 +43,7 @@ namespace Plugin.Xablu.Walkthrough.Fragments
             {
                 finishedButton = view.FindViewById<Button>(Resource.Id.theme_forestprime_gettingstarted);
                 finishedButton.SetBackgroundColor(Page.FinishedButton.BackgroundColor.ToNative());
+                finishedButton.SetTextColor(Page.FinishedButton.TextColor.ToNative());
                 finishedButton.Text = Page.FinishedButton.Text;
                 finishedButton.Click += (sender, e) =>
                 {
