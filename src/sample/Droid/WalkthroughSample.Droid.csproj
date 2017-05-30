@@ -117,21 +117,21 @@
     <AndroidResource Include="Resources\layout\ThirdFragment.axml" />
     <AndroidResource Include="Resources\drawable\cloud.png" />
     <AndroidResource Include="Resources\drawable\iphone.png" />
-    <AndroidResource Include="Resources\drawable-hdpi\folder.png" />
-    <AndroidResource Include="Resources\drawable-mdpi\folder.png" />
-    <AndroidResource Include="Resources\drawable-xhdpi\folder.png" />
-    <AndroidResource Include="Resources\drawable-xxhdpi\folder.png" />
-    <AndroidResource Include="Resources\drawable-xxxhdpi\folder.png" />
-    <AndroidResource Include="Resources\drawable-hdpi\questions.png" />
-    <AndroidResource Include="Resources\drawable-mdpi\questions.png" />
-    <AndroidResource Include="Resources\drawable-xhdpi\questions.png" />
-    <AndroidResource Include="Resources\drawable-hdpi\count.png" />
-    <AndroidResource Include="Resources\drawable-mdpi\count.png" />
-    <AndroidResource Include="Resources\drawable-xhdpi\count.png" />
-    <AndroidResource Include="Resources\drawable-xxhdpi\count.png" />
-    <AndroidResource Include="Resources\drawable-xxhdpi\questions.png" />
-    <AndroidResource Include="Resources\drawable-xxxhdpi\count.png" />
-    <AndroidResource Include="Resources\drawable-xxxhdpi\questions.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_walkthrough_count.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_walkthrough_folder.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_walkthrough_questions.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_walkthrough_count.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_walkthrough_folder.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_walkthrough_questions.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_walkthrough_count.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_walkthrough_folder.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_walkthrough_questions.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_walkthrough_count.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_walkthrough_folder.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_walkthrough_questions.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_walkthrough_count.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_walkthrough_folder.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_walkthrough_questions.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WalkthroughSample\WalkthroughSample.csproj">
