@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <walker.WalkerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/walker"
+    android:id="@+id/theme_forestprime_page"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@android:color/holo_green_dark">
+    android:layout_height="match_parent">
     <TextView
         android:id="@+id/theme_forestprime_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textStyle="bold"
-        android:layout_marginTop="30dp" />
+        android:layout_marginTop="60dp" />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -29,9 +28,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:layout_marginTop="30dp"
-            android:paddingLeft="30dp"
-            android:paddingRight="30dp" />
+            android:layout_marginTop="40dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp" />
     </LinearLayout>
     <Button
         android:id="@+id/theme_forestprime_gettingstarted"

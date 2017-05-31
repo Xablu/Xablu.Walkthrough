@@ -87,13 +87,14 @@ namespace WalkthroughSample
                     {
                         Text = "START",
                         BackgroundColor = Color.FromArgb(0, 237, 26, 59),
-                        TextSize = 14,
+                        TextSize = 16,
                         TextColor = Color.FromArgb(255, 0, 43),
                         ClickAction = () =>
                         {
                             var debug = new object();
                             var x = debug;
-                        }
+                        },
+                        TextStyle = 1
                     }
                 }
             );

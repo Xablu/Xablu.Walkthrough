@@ -12,6 +12,16 @@ namespace Plugin.Xablu.Walkthrough.Extensions
             textview.Text = control.Text;
             textview.TextSize = control.TextSize;
             textview.SetTextColor(control.TextColor.ToNative());
+
+            switch (control.TextStyle)
+            {
+                case 1:
+                    textview.SetTypeface(textview.Typeface, Android.Graphics.TypefaceStyle.Bold);
+                    break;
+                case 2:
+                    textview.SetTypeface(textview.Typeface, Android.Graphics.TypefaceStyle.Italic);
+                    break;
+            }
         }
     }
 }

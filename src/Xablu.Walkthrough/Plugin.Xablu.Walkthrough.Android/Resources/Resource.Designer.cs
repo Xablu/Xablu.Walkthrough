@@ -2617,6 +2617,9 @@ namespace Plugin.Xablu.Walkthrough
 			// aapt resource value: 0x7f08009c
 			public static int theme_forestprime_next = 2131230876;
 			
+			// aapt resource value: 0x7f08009e
+			public static int theme_forestprime_page = 2131230878;
+			
 			// aapt resource value: 0x7f08009a
 			public static int theme_forestprime_skip = 2131230874;
 			
@@ -2670,9 +2673,6 @@ namespace Plugin.Xablu.Walkthrough
 			
 			// aapt resource value: 0x7f0800a3
 			public static int visible = 2131230883;
-			
-			// aapt resource value: 0x7f08009e
-			public static int walker = 2131230878;
 			
 			// aapt resource value: 0x7f080027
 			public static int withText = 2131230759;
