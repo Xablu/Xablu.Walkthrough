@@ -6,6 +6,7 @@ using Splat;
 using Walker;
 using Plugin.Xablu.Walkthrough.Containers;
 using Plugin.Xablu.Walkthrough.Abstractions.Controls;
+using Plugin.Xablu.Walkthrough.Extensions;
 
 namespace Plugin.Xablu.Walkthrough.Fragments
 {
@@ -27,7 +28,7 @@ namespace Plugin.Xablu.Walkthrough.Fragments
 
             //title
             var txtTitle = view.FindViewById<TextView>(Resource.Id.theme_forestprime_title);
-            BindTextView(txtTitle, Page.TitleControl);
+            txtTitle.SetValues(Page.TitleControl);
 
             //image
             var image = view.FindViewById<ImageView>(Resource.Id.theme_forestprime_image);
@@ -36,7 +37,7 @@ namespace Plugin.Xablu.Walkthrough.Fragments
 
             //description
             var txtDesc = view.FindViewById<TextView>(Resource.Id.theme_forestprime_description);
-            BindTextView(txtDesc, Page.DescriptionControl);
+            txtDesc.SetValues(Page.DescriptionControl);
 
             if (Page.FinishedButton != null)
             {
@@ -44,13 +45,6 @@ namespace Plugin.Xablu.Walkthrough.Fragments
             }
 
             return view;
-        }
-
-        private void BindTextView(TextView textView, TextControl textControl)
-        {
-            textView.Text = textControl.Text;
-            textView.TextSize = textControl.TextSize;
-            textView.SetTextColor(textControl.TextColor.ToNative());
         }
     }
 }

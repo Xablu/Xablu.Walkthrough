@@ -9,6 +9,7 @@ using Android.Views;
 using Android.Widget;
 using Plugin.Xablu.Walkthrough.Abstractions.Controls;
 using Plugin.Xablu.Walkthrough.Defaults;
+using Plugin.Xablu.Walkthrough.Extensions;
 using Splat;
 using Walker;
 
@@ -61,9 +62,7 @@ namespace Plugin.Xablu.Walkthrough.Containers
                 buttonControl.ClickAction();
             };
 
-            StartTextButton.Text = buttonControl.Text;
-            StartTextButton.TextSize = buttonControl.TextSize;
-            StartTextButton.SetTextColor(buttonControl.TextColor.ToNative());
+            StartTextButton.SetValues(buttonControl);
         }
 
 
