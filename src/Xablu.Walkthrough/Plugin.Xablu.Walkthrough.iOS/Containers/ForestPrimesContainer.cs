@@ -9,8 +9,8 @@ namespace Plugin.Xablu.Walkthrough.Containers
 {
     public partial class ForestPrimesContainer : BWWalkthroughViewController
     {
-        private IList<ForestPrimesPage> pages = new List<ForestPrimesPage>();
-        public IList<ForestPrimesPage> Pages
+        private List<ForestPrimesPage> pages = new List<ForestPrimesPage>();
+        public List<ForestPrimesPage> Pages
         {
             get => pages;
             set => pages = value;

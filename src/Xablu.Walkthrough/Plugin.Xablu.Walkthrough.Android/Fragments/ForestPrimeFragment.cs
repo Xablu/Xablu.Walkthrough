@@ -18,7 +18,6 @@ namespace Plugin.Xablu.Walkthrough.Fragments
 
         public ForestPrimesPage Page { get; set; }
         public ForestPrimesContainer Container { get; set; }
-        private Button finishedButton;
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
@@ -41,41 +40,11 @@ namespace Plugin.Xablu.Walkthrough.Fragments
 
             if (Page.FinishedButton != null)
             {
-                finishedButton = view.FindViewById<Button>(Resource.Id.theme_forestprime_gettingstarted);
-                finishedButton.SetBackgroundColor(Page.FinishedButton.BackgroundColor.ToNative());
-                finishedButton.SetTextColor(Page.FinishedButton.TextColor.ToNative());
-                finishedButton.Text = Page.FinishedButton.Text;
-                finishedButton.Click += (sender, e) =>
-                {
-                    Page.FinishedButton.ClickAction();
-                };
+                Container.SetFinalizeTextView(Page.FinishedButton);
             }
 
             return view;
         }
-
-        public override bool UserVisibleHint
-        {
-            get
-            {
-                return base.UserVisibleHint;
-            }
-            set
-            {
-                base.UserVisibleHint = value;
-
-                if (Page.FinishedButton != null && UserVisibleHint)
-                {
-                    Container.HideBottomNavigation = true;
-                    finishedButton.Visibility = ViewStates.Visible;
-                }
-                else
-                {
-                    Container.HideBottomNavigation = false;
-                }
-            }
-        }
-
 
         private void BindTextView(TextView textView, TextControl textControl)
         {

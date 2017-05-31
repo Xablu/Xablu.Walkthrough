@@ -10,9 +10,9 @@
         android:layout_height="match_parent" />
     <android.support.design.widget.TabLayout
         android:id="@+id/theme_forestprime_tablayout"
-        android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         app:tabBackground="@drawable/indicator_tab_selector"
         app:tabGravity="center"
         app:tabIndicatorHeight="0dp"
@@ -70,10 +70,11 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginRight="8dp"
                 android:minWidth="100dp"
+                android:clickable="true"
                 app:srcCompat="@drawable/ic_forestprime_navigate_next_red"
                 tools:ignore="ContentDescription" />
-            <Button
-                android:id="@+id/done"
+            <TextView
+                android:id="@+id/theme_forestprime_start"
                 style="@style/ForestPrimeButtonStyleCompat"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
@@ -81,9 +82,10 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginRight="8dp"
                 android:minWidth="100dp"
-                android:text="Done"
-                android:textColor="@android:color/white"
-                android:visibility="gone" />
+                android:text="START"
+                android:textColor="#bfc0bf"
+                android:visibility="gone"
+                android:alpha="0" />
         </FrameLayout>
     </LinearLayout>
 </RelativeLayout>

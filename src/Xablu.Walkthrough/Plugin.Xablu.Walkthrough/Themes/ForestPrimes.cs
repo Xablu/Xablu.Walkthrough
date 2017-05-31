@@ -6,8 +6,8 @@ namespace Plugin.Xablu.Walkthrough.Themes
 {
     public class ForestPrimes : ITheme
     {
-        private IList<ForestPrimesPage> pages = new List<ForestPrimesPage>();
-        public IList<ForestPrimesPage> Pages
+        private List<ForestPrimesPage> pages = new List<ForestPrimesPage>();
+        public List<ForestPrimesPage> Pages
         {
             get => pages;
             set => pages = value;

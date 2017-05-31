@@ -11,8 +11,8 @@ namespace Plugin.Xablu.Walkthrough.Themes
         public System.Drawing.Color SkipColor { get; set; }
         public System.Drawing.Color NextButtonColor { get; set; }
 
-        private IList<ForestPrimesPage> pages = new List<ForestPrimesPage>();
-        public IList<ForestPrimesPage> Pages
+        private List<ForestPrimesPage> pages = new List<ForestPrimesPage>();
+        public List<ForestPrimesPage> Pages
         {
             get => pages;
             set => pages = value;

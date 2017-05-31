@@ -7,8 +7,8 @@ namespace Plugin.Xablu.Walkthrough.Themes
 {
     public class ForestPrimes : IIosTheme
     {
-        private IList<ForestPrimesPage> pages = new List<ForestPrimesPage>();
-        public IList<ForestPrimesPage> Pages
+        private List<ForestPrimesPage> pages = new List<ForestPrimesPage>();
+        public List<ForestPrimesPage> Pages
         {
             get => (ContainerViewController as ForestPrimesContainer).Pages;
             set => (ContainerViewController as ForestPrimesContainer).Pages = value;
