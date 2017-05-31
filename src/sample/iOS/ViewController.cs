@@ -1,6 +1,5 @@
 ﻿using System;
 using Plugin.Xablu.Walkthrough;
-using Plugin.Xablu.Walkthrough.Extensions;
 using UIKit;
 
 namespace WalkthroughSample.iOS

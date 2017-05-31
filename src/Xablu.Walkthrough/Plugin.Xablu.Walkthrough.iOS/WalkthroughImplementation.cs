@@ -34,7 +34,7 @@ namespace Plugin.Xablu.Walkthrough
 
         public void Show()
         {
-            //   _hostViewController.PresentViewController(_walkthrough, true, null);
+            _hostViewController.PresentViewController(_walkthrough, true, null);
         }
 
         public void Next()

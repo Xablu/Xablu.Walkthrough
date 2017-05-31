@@ -1,10 +1,9 @@
-﻿using Plugin.Xablu.Walkthrough;
-using Plugin.Xablu.Walkthrough.Abstractions;
+﻿using Plugin.Xablu.Walkthrough.Abstractions;
 using UIKit;
 
-namespace Plugin.Xablu.Walkthrough.Extensions
+namespace Plugin.Xablu.Walkthrough
 {
-    public static class IWalkthroughExtensions
+    public static class IWalkthroughExtensionsiOS
     {
         public static void Init(this IWalkthrough walkThrough, UIViewController hostViewController)
         {
