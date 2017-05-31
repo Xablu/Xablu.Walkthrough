@@ -99,11 +99,7 @@ namespace Plugin.Xablu.Walkthrough.Containers
 
         public void OnPageSelected(int position)
         {
-            if (ViewPager.Adapter.Count - 2 == position)
-            {
-                NextButton.Alpha = 1;
-                StartTextButton.Alpha = 0;
-            }
+
         }
     }
 }
