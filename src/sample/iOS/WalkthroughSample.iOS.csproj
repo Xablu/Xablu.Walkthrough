@@ -137,5 +137,10 @@
       <Name>Plugin.Xablu.Walkthrough.Abstractions</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ic_walkthrough_count.png" />
+    <BundleResource Include="Resources\ic_walkthrough_count%402x.png" />
+    <BundleResource Include="Resources\ic_walkthrough_count%403x.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

@@ -23,5 +23,11 @@ namespace Plugin.Xablu.Walkthrough.Extensions
                     break;
             }
         }
+
+        public static void SetValues<T>(this ImageView imageView, T control) where T : ImageControl
+        {
+            var splatImage = BitmapLoader.Current.LoadFromResource(control.Image, null, null).Result;
+            imageView.SetImageDrawable(splatImage.ToNative());
+        }
     }
 }

@@ -27,13 +27,23 @@ namespace Plugin.Xablu.Walkthrough.Containers
             for (int i = 0; i < Pages.Count; i++)
             {
                 var page = new ForestPrimesViewController();
+                page.Page = Pages[i];
                 AddViewController(page);
             }
 
             NextButton.TouchUpInside += (sender, e) =>
             {
-                this.NextPage();
+                CrossWalkthrough.Current.Next();
             };
+
+            SkipButton.TouchUpInside += (sender, e) =>
+            {
+                CrossWalkthrough.Current.Close();
+            };
+
+            PageControl.PageIndicatorTintColor = UIColor.FromRGB(236, 104, 28);
+            PageControl.CurrentPageIndicatorTintColor = UIColor.FromRGB(237, 26, 59);
+
         }
 
         public override void DidReceiveMemoryWarning()

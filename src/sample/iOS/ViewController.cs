@@ -14,8 +14,6 @@ namespace WalkthroughSample.iOS
         {
             base.ViewDidLoad();
 
-            var viewIds = new string[] { "walk", "walk0", "walk1", "walk2" };
-
             CrossWalkthrough.Current.Init(this);
 
             new MyClass().SetTheme();

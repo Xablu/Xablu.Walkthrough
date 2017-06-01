@@ -11,7 +11,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ForestPrimesViewController">
             <connections>
-                <outlet property="lblTitle" destination="KEd-4h-8ef" id="OT7-jZ-Uxt"/>
+                <outlet property="CenterImage" destination="FiG-7U-GHP" id="pyR-tz-hLF"/>
+                <outlet property="Description" destination="P2C-C4-b5g" id="5SL-1V-gbQ"/>
+                <outlet property="Title" destination="R17-Rv-Glv" id="7wN-A6-AUj"/>
                 <outlet property="view" destination="2" id="RRd-Eg-VrN"/>
             </connections>
         </placeholder>
@@ -20,8 +22,23 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KEd-4h-8ef">
-                    <rect key="frame" x="166" y="323" width="42" height="21"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P2C-C4-b5g">
+                    <rect key="frame" x="30" y="500" width="315" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FiG-7U-GHP">
+                    <rect key="frame" x="67" y="193" width="240" height="280"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="240" id="IsI-Ze-cJ7"/>
+                        <constraint firstAttribute="height" constant="280" id="QoJ-ia-gqv"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="280" id="TkW-ZA-tvR"/>
+                        <constraint firstAttribute="width" constant="240" id="bvc-ms-vJ3"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R17-Rv-Glv">
+                    <rect key="frame" x="30" y="80" width="315" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
@@ -29,8 +46,16 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="KEd-4h-8ef" firstAttribute="centerX" secondItem="2" secondAttribute="centerX" id="ORj-qH-XBb"/>
-                <constraint firstItem="KEd-4h-8ef" firstAttribute="centerY" secondItem="2" secondAttribute="centerY" id="wIr-GR-8DE"/>
+                <constraint firstItem="P2C-C4-b5g" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="30" id="0hL-w1-YNo"/>
+                <constraint firstItem="P2C-C4-b5g" firstAttribute="centerX" secondItem="2" secondAttribute="centerX" id="1hJ-Ir-e2a"/>
+                <constraint firstItem="R17-Rv-Glv" firstAttribute="centerX" secondItem="2" secondAttribute="centerX" id="29f-Jb-lYn"/>
+                <constraint firstAttribute="trailing" secondItem="R17-Rv-Glv" secondAttribute="trailing" constant="30" id="Gev-9v-eJ2"/>
+                <constraint firstItem="R17-Rv-Glv" firstAttribute="top" secondItem="2" secondAttribute="top" constant="80" id="JY4-aK-1Qi"/>
+                <constraint firstItem="FiG-7U-GHP" firstAttribute="centerY" secondItem="2" secondAttribute="centerY" id="LOH-cE-Lwk"/>
+                <constraint firstItem="FiG-7U-GHP" firstAttribute="centerX" secondItem="2" secondAttribute="centerX" id="P8i-6N-O02"/>
+                <constraint firstAttribute="trailing" secondItem="P2C-C4-b5g" secondAttribute="trailing" constant="30" id="grZ-09-gAb"/>
+                <constraint firstItem="P2C-C4-b5g" firstAttribute="top" secondItem="FiG-7U-GHP" secondAttribute="bottom" constant="27" id="vLM-zE-oV5"/>
+                <constraint firstItem="R17-Rv-Glv" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="30" id="ykv-K2-0zN"/>
             </constraints>
         </view>
     </objects>

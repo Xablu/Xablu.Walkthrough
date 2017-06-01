@@ -9,19 +9,34 @@ using System.CodeDom.Compiler;
 
 namespace Plugin.Xablu.Walkthrough.Containers
 {
-    [Register("ForestPrimesContainerViewController")]
-    partial class ForestPrimesContainer
-    {
-        [Outlet]
-        UIKit.UIButton NextButton { get; set; }
+	[Register ("ForestPrimesContainerViewController")]
+	partial class ForestPrimesContainer
+	{
+		[Outlet]
+		UIKit.UIButton NextButton { get; set; }
 
-        void ReleaseDesignerOutlets()
-        {
-            if (NextButton != null)
-            {
-                NextButton.Dispose();
-                NextButton = null;
-            }
-        }
-    }
+		[Outlet]
+		UIKit.UIPageControl PageControl { get; set; }
+
+		[Outlet]
+		UIKit.UIButton SkipButton { get; set; }
+		
+		void ReleaseDesignerOutlets ()
+		{
+			if (NextButton != null) {
+				NextButton.Dispose ();
+				NextButton = null;
+			}
+
+			if (SkipButton != null) {
+				SkipButton.Dispose ();
+				SkipButton = null;
+			}
+
+			if (PageControl != null) {
+				PageControl.Dispose ();
+				PageControl = null;
+			}
+		}
+	}
 }
