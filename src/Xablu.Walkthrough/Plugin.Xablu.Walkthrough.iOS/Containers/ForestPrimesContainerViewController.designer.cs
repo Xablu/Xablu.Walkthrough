@@ -20,6 +20,9 @@ namespace Plugin.Xablu.Walkthrough.Containers
 
 		[Outlet]
 		UIKit.UIButton SkipButton { get; set; }
+
+		[Outlet]
+		UIKit.UIButton StartButton { get; set; }
 		
 		void ReleaseDesignerOutlets ()
 		{
@@ -28,14 +31,19 @@ namespace Plugin.Xablu.Walkthrough.Containers
 				NextButton = null;
 			}
 
+			if (PageControl != null) {
+				PageControl.Dispose ();
+				PageControl = null;
+			}
+
 			if (SkipButton != null) {
 				SkipButton.Dispose ();
 				SkipButton = null;
 			}
 
-			if (PageControl != null) {
-				PageControl.Dispose ();
-				PageControl = null;
+			if (StartButton != null) {
+				StartButton.Dispose ();
+				StartButton = null;
 			}
 		}
 	}

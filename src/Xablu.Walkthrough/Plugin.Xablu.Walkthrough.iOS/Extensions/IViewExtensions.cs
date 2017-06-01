@@ -26,5 +26,13 @@ namespace Plugin.Xablu.Walkthrough.Extensions
             var splatImage = await BitmapLoader.Current.LoadFromResource(control.Image, null, null);
             imageView.Image = splatImage.ToNative();
         }
+
+        public static void SetValues<T>(this UIKit.UIButton button, T control) where T : ButtonControl
+        {
+            button.SetTitleColor(control.TextColor.ToNative(), UIKit.UIControlState.Normal);
+            button.Font = UIKit.UIFont.FromName(button.Font.Name, control.TextSize);
+            button.SetTitle(control.Text, UIKit.UIControlState.Normal);
+            button.TouchUpInside += (sender, e) => control.ClickAction();
+        }
     }
 }

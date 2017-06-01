@@ -1,5 +1,6 @@
 ﻿using System;
 using BWWalkthrough;
+using Plugin.Xablu.Walkthrough.Containers;
 using Plugin.Xablu.Walkthrough.Extensions;
 using Plugin.Xablu.Walkthrough.Pages;
 using Splat;
@@ -15,6 +16,8 @@ namespace Plugin.Xablu.Walkthrough.ViewControllers
             set;
         }
 
+        public ForestPrimesContainer Container { get; set; }
+
         public ForestPrimesViewController() : base("ForestPrimesViewController", null)
         {
         }
@@ -22,14 +25,17 @@ namespace Plugin.Xablu.Walkthrough.ViewControllers
         public async override void ViewDidLoad()
         {
             base.ViewDidLoad();
+
             View.BackgroundColor = Page.BackgroundColor.ToNative();
 
-            //Title
             Title.SetValues(Page.TitleControl);
+
             await CenterImage.SetValues(Page.CenterImage);
+
             Description.SetValues(Page.DescriptionControl);
 
-            // Perform any additional setup after loading the view, typically from a nib.
+            if (Page.FinishedButton != null)
+                Container.SetFinishedButton(Page.FinishedButton);
         }
 
         public override void DidReceiveMemoryWarning()

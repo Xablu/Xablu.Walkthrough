@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using BWWalkthrough;
 using Foundation;
+using Plugin.Xablu.Walkthrough.Abstractions.Controls;
+using Plugin.Xablu.Walkthrough.Extensions;
 using Plugin.Xablu.Walkthrough.Pages;
 using Plugin.Xablu.Walkthrough.ViewControllers;
 using UIKit;
@@ -29,6 +31,7 @@ namespace Plugin.Xablu.Walkthrough.Containers
             {
                 var page = new ForestPrimesViewController();
                 page.Page = Pages[i];
+                page.Container = this;
                 AddViewController(page);
             }
 
@@ -42,17 +45,24 @@ namespace Plugin.Xablu.Walkthrough.Containers
                 CrossWalkthrough.Current.Close();
             };
 
+            StartButton.Hidden = true;
+
             base.PageControl = PageControl;
 
             PageControl.PageIndicatorTintColor = UIColor.FromRGB(236, 104, 128);
             PageControl.CurrentPageIndicatorTintColor = UIColor.FromRGB(237, 26, 59);
+
+            View.BackgroundColor = UIColor.White;
+        }
+
+        public void SetFinishedButton(ButtonControl control)
+        {
+            StartButton.SetValues(control);
         }
 
         [Export("scrollViewDidScroll:")]
         public void Scrolled(UIScrollView scrollView)
         {
-            // base.Scrolled(scrollView);
-
             for (int i = 0; i < Controllers.Count; i++)
             {
                 var vc = Controllers[i] as IBWWalkthroughPage;
@@ -65,16 +75,28 @@ namespace Plugin.Xablu.Walkthrough.Containers
                 if (currentPage >= Controllers.Count - 2) //second to last
                 {
                     var alphaValue = 1 - (currentPage - (int)currentPage) * 2;
+
+                    if (currentPage == Controllers.Count - 1)
+                    {
+
+                        NextButton.Hidden = true;
+                        StartButton.Hidden = false;
+                        return;
+                    }
                     if (alphaValue >= 0)
                     {
+                        NextButton.Hidden = false;
+                        StartButton.Hidden = true;
                         NextButton.Alpha = alphaValue;
                     }
                     else
                     {
-                        NextButton.Alpha = 1 - (alphaValue + 1);
+                        NextButton.Hidden = true;
+                        StartButton.Hidden = false;
+                        StartButton.Alpha = 1 - (alphaValue + 1);
                     }
+                    Console.WriteLine($"curpage:{currentPage} alpha: {Controllers.Count}");
 
-                    Console.WriteLine($"buttonAlpha:{NextButton.Alpha}, alphaValue:{alphaValue}");
                 }
                 if (vc != null)
                 {
