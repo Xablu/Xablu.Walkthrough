@@ -1,4 +1,5 @@
 ﻿using System;
+using BWWalkthrough;
 using Plugin.Xablu.Walkthrough.Extensions;
 using Plugin.Xablu.Walkthrough.Pages;
 using Splat;
@@ -6,7 +7,7 @@ using UIKit;
 
 namespace Plugin.Xablu.Walkthrough.ViewControllers
 {
-    public partial class ForestPrimesViewController : UIViewController
+    public partial class ForestPrimesViewController : UIViewController, IBWWalkthroughPage
     {
         public ForestPrimesPage Page
         {
@@ -35,6 +36,11 @@ namespace Plugin.Xablu.Walkthrough.ViewControllers
         {
             base.DidReceiveMemoryWarning();
             // Release any cached data, images, etc that aren't in use.
+        }
+
+        public void WalkThroughDidScroll(float position, float offset)
+        {
+
         }
     }
 }
