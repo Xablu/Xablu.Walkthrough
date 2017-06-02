@@ -10,7 +10,7 @@ using UIKit;
 
 namespace Plugin.Xablu.Walkthrough.Containers
 {
-    public partial class ForestPrimesContainer : BWWalkthroughViewController
+    public partial class ForestPrimesContainer : BWWalkthroughViewController, IBWWalkthroughViewControllerDelegate
     {
         private List<ForestPrimesPage> pages = new List<ForestPrimesPage>();
         public List<ForestPrimesPage> Pages
@@ -42,8 +42,11 @@ namespace Plugin.Xablu.Walkthrough.Containers
 
             SkipButton.TouchUpInside += (sender, e) =>
             {
-                CrossWalkthrough.Current.Close();
+                base.Close();
+                this.DismissViewController(true, () => { });
             };
+
+            walkDelegate = this;
 
             StartButton.Hidden = true;
 
@@ -95,7 +98,6 @@ namespace Plugin.Xablu.Walkthrough.Containers
                         StartButton.Hidden = false;
                         StartButton.Alpha = 1 - (alphaValue + 1);
                     }
-                    Console.WriteLine($"curpage:{currentPage} alpha: {Controllers.Count}");
 
                 }
                 if (vc != null)
