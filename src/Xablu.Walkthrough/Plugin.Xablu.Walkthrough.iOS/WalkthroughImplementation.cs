@@ -50,6 +50,7 @@ namespace Plugin.Xablu.Walkthrough
         public void Close()
         {
             _walkthrough.Close();
+            _walkthrough.DismissViewController(true, null);
         }
     }
 }

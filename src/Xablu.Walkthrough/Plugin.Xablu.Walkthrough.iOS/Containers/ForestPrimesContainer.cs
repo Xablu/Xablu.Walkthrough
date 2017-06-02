@@ -42,8 +42,7 @@ namespace Plugin.Xablu.Walkthrough.Containers
 
             SkipButton.TouchUpInside += (sender, e) =>
             {
-                base.Close();
-                this.DismissViewController(true, () => { });
+                CrossWalkthrough.Current.Close();
             };
 
             walkDelegate = this;
