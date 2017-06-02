@@ -91,8 +91,7 @@ namespace WalkthroughSample
                         TextColor = Color.FromArgb(255, 0, 43),
                         ClickAction = () =>
                         {
-                            var debug = new object();
-                            var x = debug;
+                            CrossWalkthrough.Current.Close();
                         },
                         TextStyle = 1
                     }
