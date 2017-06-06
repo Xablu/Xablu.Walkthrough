@@ -23,7 +23,7 @@ namespace Plugin.Xablu.Walkthrough
         private int _currentPosition = 0;
         public bool _isShown = false;
 
-        private ITheme _theme = new ForestPrimes();
+        private ITheme _theme;
         public ITheme Theme
         {
             get => _theme;
@@ -36,7 +36,7 @@ namespace Plugin.Xablu.Walkthrough
                 _viewPagerFragment.SetAdapter(androidTheme.CreateFragments(), _hostActvity);
                 _viewPagerFragment.SetListener(this);
             }
-        }
+            }
 
         public void Init(AppCompatActivity hostActivity)
         {

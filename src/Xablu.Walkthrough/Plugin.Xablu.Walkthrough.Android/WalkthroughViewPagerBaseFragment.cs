@@ -16,8 +16,6 @@ namespace Plugin.Xablu.Walkthrough
         private AppCompatActivity hostActivity;
         private ViewPager.IOnPageChangeListener listener;
 
-        public WalkthroughViewPagerBaseFragment() { }
-
         public static T NewInstance<T>() where T : WalkthroughViewPagerBaseFragment, new()
         {
             Bundle args = new Bundle();

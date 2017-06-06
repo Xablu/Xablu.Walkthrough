@@ -47,6 +47,10 @@ namespace Plugin.Xablu.Walkthrough.Containers
             };
 
             StartTextButton = view.FindViewById<TextView>(Resource.Id.theme_forestprime_start);
+
+            Cancelable = false;
+
+
             return view;
         }
 
