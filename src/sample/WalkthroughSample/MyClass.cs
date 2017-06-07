@@ -60,6 +60,11 @@ namespace WalkthroughSample
                     {
                         Text = "Effortlessly approve or sign documents and carry out to-do’s",
                         TextSize = 16
+                    },
+
+                    SkipButton = new ButtonControl()
+                    {
+                        Text = "HOI"
                     }
                 }
             );

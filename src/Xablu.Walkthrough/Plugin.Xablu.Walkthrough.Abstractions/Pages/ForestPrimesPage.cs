@@ -15,6 +15,8 @@ namespace Plugin.Xablu.Walkthrough.Pages
 
         public TextControl DescriptionControl;
 
+        public ButtonControl SkipButton;
+
         public ButtonControl FinishedButton;
     }
 }

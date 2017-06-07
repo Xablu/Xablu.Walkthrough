@@ -40,6 +40,9 @@ namespace Plugin.Xablu.Walkthrough.Fragments
             if (Page.FinishedButton != null)
                 Container.SetFinalizeTextView(Page.FinishedButton);
 
+            if (Page.SkipButton != null)
+                Container.SetSkipButton(Page.SkipButton);
+
             return WalkerLayout;
         }
     }

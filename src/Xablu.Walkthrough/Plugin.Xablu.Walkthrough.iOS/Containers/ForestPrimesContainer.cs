@@ -62,6 +62,11 @@ namespace Plugin.Xablu.Walkthrough.Containers
             StartButton.SetValues(control);
         }
 
+        public void SetSkipButton(ButtonControl control)
+        {
+            SkipButton.SetValues(control);
+        }
+
         [Export("scrollViewDidScroll:")]
         public void Scrolled(UIScrollView scrollView)
         {

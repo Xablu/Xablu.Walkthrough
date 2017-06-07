@@ -22,6 +22,7 @@ namespace Plugin.Xablu.Walkthrough.Containers
 
         public AppCompatImageButton NextButton;
         public TextView StartTextButton;
+        public Button SkipButton;
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
@@ -34,8 +35,8 @@ namespace Plugin.Xablu.Walkthrough.Containers
             var tabLayout = view.FindViewById<TabLayout>(Resource.Id.theme_forestprime_tablayout);
             tabLayout.SetupWithViewPager(viewPager, false);
 
-            var skipButton = view.FindViewById<Button>(Resource.Id.theme_forestprime_skip);
-            skipButton.Click += (sender, e) =>
+            SkipButton = view.FindViewById<Button>(Resource.Id.theme_forestprime_skip);
+            SkipButton.Click += (sender, e) =>
             {
                 CrossWalkthrough.Current.Close();
             };
@@ -61,14 +62,15 @@ namespace Plugin.Xablu.Walkthrough.Containers
 
         public void SetFinalizeTextView(ButtonControl buttonControl)
         {
-            StartTextButton.Click += (sender, e) =>
-            {
-                buttonControl.ClickAction();
-            };
-
+            StartTextButton.Click += (sender, e) => buttonControl.ClickAction();
             StartTextButton.SetValues(buttonControl);
         }
 
+        public void SetSkipButton(ButtonControl buttonControl)
+        {
+            SkipButton.Click += (sender, e) => buttonControl.ClickAction();
+            SkipButton.SetValues(buttonControl);
+        }
 
         public void OnPageScrollStateChanged(int state)
         {

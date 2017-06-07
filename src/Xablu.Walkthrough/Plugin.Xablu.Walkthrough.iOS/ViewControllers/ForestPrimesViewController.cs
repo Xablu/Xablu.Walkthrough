@@ -36,6 +36,9 @@ namespace Plugin.Xablu.Walkthrough.ViewControllers
 
             if (Page.FinishedButton != null)
                 Container.SetFinishedButton(Page.FinishedButton);
+
+            if (Page.SkipButton != null)
+                Container.SetSkipButton(Page.SkipButton);
         }
 
         public override void DidReceiveMemoryWarning()
