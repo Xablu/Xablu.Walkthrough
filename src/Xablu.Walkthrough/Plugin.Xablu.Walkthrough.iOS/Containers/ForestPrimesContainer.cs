@@ -17,7 +17,7 @@ namespace Plugin.Xablu.Walkthrough.Containers
         {
             get => pages;
             set => pages = value;
-        }
+            }
 
         public ForestPrimesContainer() : base("ForestPrimesContainer", null)
         {

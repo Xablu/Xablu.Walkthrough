@@ -31,7 +31,7 @@ namespace WalkthroughSample
                     },
                     CenterImage = new ImageControl()
                     {
-                        Image = "ic_walkthrough_count"
+                        Image = "iPhone"
                     },
                     DescriptionControl = new TextControl()
                     {
@@ -54,7 +54,7 @@ namespace WalkthroughSample
                     },
                     CenterImage = new ImageControl()
                     {
-                        Image = "ic_walkthrough_count"
+                        Image = "iPhone"
                     },
                     DescriptionControl = new TextControl()
                     {
@@ -81,7 +81,7 @@ namespace WalkthroughSample
                     },
                     CenterImage = new ImageControl()
                     {
-                        Image = "ic_walkthrough_count"
+                        Image = "iPhone"
                     },
                     DescriptionControl = new TextControl()
                     {

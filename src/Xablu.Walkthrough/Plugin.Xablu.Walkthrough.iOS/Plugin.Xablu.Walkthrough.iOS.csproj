@@ -80,8 +80,6 @@
     <Folder Include="Themes\" />
     <Folder Include="ViewControllers\" />
     <Folder Include="Containers\" />
-    <Folder Include="Resources\" />
-    <Folder Include="Resources\ForestPrimes.xcassets\ArrowRight.imageset\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="ViewControllers\ForestPrimesViewController.xib" />
@@ -89,11 +87,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ImageAsset Include="Resources\ForestPrimes.xcassets\Contents.json" />
-    <ImageAsset Include="Resources\ForestPrimes.xcassets\ArrowRight.imageset\Contents.json" />
-    <ImageAsset Include="Resources\ForestPrimes.xcassets\ArrowRight.imageset\icChevronRight.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
