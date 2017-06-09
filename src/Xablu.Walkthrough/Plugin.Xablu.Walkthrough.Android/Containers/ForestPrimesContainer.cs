@@ -35,19 +35,19 @@ namespace Plugin.Xablu.Walkthrough.Containers
             var tabLayout = view.FindViewById<TabLayout>(Resource.Id.theme_forestprime_tablayout);
             tabLayout.SetupWithViewPager(viewPager, false);
 
-            SkipButton = view.FindViewById<Button>(Resource.Id.theme_forestprime_skip);
+            SkipButton = view.FindViewById<Button>(Resource.Id.btnSkip);
             SkipButton.Click += (sender, e) =>
             {
                 CrossWalkthrough.Current.Close();
             };
 
-            NextButton = view.FindViewById<AppCompatImageButton>(Resource.Id.theme_forestprime_next);
+            NextButton = view.FindViewById<AppCompatImageButton>(Resource.Id.btnNext);
             NextButton.Click += (sender, e) =>
             {
                 CrossWalkthrough.Current.Next();
             };
 
-            StartTextButton = view.FindViewById<TextView>(Resource.Id.theme_forestprime_start);
+            StartTextButton = view.FindViewById<TextView>(Resource.Id.btnStart);
 
             Cancelable = false;
 

@@ -10,11 +10,17 @@ namespace WalkthroughSample.iOS
         {
         }
 
+        public override void ViewWillAppear(bool animated)
+        {
+            base.ViewWillAppear(animated);
+
+            CrossWalkthrough.Current.Init(this);
+        }
+
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
 
-            CrossWalkthrough.Current.Init(this);
 
             new MyClass().SetTheme();
 

@@ -81,11 +81,11 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
-    <Reference Include="BWWalkthrough">
-      <HintPath>..\..\packages\BWWalkthrough.1.0.9\lib\Xamarin.iOS10\BWWalkthrough.dll</HintPath>
-    </Reference>
     <Reference Include="Splat">
       <HintPath>..\..\packages\Splat.1.6.2\lib\Xamarin.iOS10\Splat.dll</HintPath>
+    </Reference>
+    <Reference Include="BWWalkthrough">
+      <HintPath>..\..\packages\BWWalkthrough.1.0.10\lib\Xamarin.iOS10\BWWalkthrough.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

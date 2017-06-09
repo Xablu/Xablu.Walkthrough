@@ -41,6 +41,7 @@
                                 <constraint firstAttribute="width" constant="14" id="RHc-Ej-Ybd"/>
                                 <constraint firstAttribute="height" constant="22" id="myb-Cu-swj"/>
                             </constraints>
+                            <state key="normal" image="ArrowRight"/>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tLV-Aj-KBN">
                             <rect key="frame" x="305" y="10" width="46" height="30"/>
@@ -80,4 +81,7 @@
             <point key="canvasLocation" x="34.5" y="53.5"/>
         </view>
     </objects>
+    <resources>
+        <image name="ArrowRight" width="16" height="16"/>
+    </resources>
 </document>

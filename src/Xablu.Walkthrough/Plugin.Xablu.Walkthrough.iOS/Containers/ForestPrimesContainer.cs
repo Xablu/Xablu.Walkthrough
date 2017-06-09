@@ -17,7 +17,7 @@ namespace Plugin.Xablu.Walkthrough.Containers
         {
             get => pages;
             set => pages = value;
-            }
+        }
 
         public ForestPrimesContainer() : base("ForestPrimesContainer", null)
         {
@@ -32,6 +32,7 @@ namespace Plugin.Xablu.Walkthrough.Containers
                 var page = new ForestPrimesViewController();
                 page.Page = Pages[i];
                 page.Container = this;
+                page.View.Bounds = UIScreen.MainScreen.Bounds;
                 AddViewController(page);
             }
 
@@ -44,6 +45,10 @@ namespace Plugin.Xablu.Walkthrough.Containers
             {
                 CrossWalkthrough.Current.Close();
             };
+
+            NextButton.AccessibilityIdentifier = "btnNxt";
+            SkipButton.AccessibilityIdentifier = "btnSkip";
+            StartButton.AccessibilityIdentifier = "btnStart";
 
             walkDelegate = this;
 

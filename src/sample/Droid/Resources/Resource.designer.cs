@@ -743,6 +743,9 @@ namespace WalkthroughSample.Droid
 			global::Plugin.Xablu.Walkthrough.Resource.Id.back = global::WalkthroughSample.Droid.Resource.Id.back;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.beginning = global::WalkthroughSample.Droid.Resource.Id.beginning;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.bottom = global::WalkthroughSample.Droid.Resource.Id.bottom;
+			global::Plugin.Xablu.Walkthrough.Resource.Id.btnNext = global::WalkthroughSample.Droid.Resource.Id.btnNext;
+			global::Plugin.Xablu.Walkthrough.Resource.Id.btnSkip = global::WalkthroughSample.Droid.Resource.Id.btnSkip;
+			global::Plugin.Xablu.Walkthrough.Resource.Id.btnStart = global::WalkthroughSample.Droid.Resource.Id.btnStart;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.buttonPanel = global::WalkthroughSample.Droid.Resource.Id.buttonPanel;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.cancel_action = global::WalkthroughSample.Droid.Resource.Id.cancel_action;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.center = global::WalkthroughSample.Droid.Resource.Id.center;
@@ -858,10 +861,7 @@ namespace WalkthroughSample.Droid
 			global::Plugin.Xablu.Walkthrough.Resource.Id.theme_forestprime_description = global::WalkthroughSample.Droid.Resource.Id.theme_forestprime_description;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.theme_forestprime_gettingstarted = global::WalkthroughSample.Droid.Resource.Id.theme_forestprime_gettingstarted;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.theme_forestprime_image = global::WalkthroughSample.Droid.Resource.Id.theme_forestprime_image;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.theme_forestprime_next = global::WalkthroughSample.Droid.Resource.Id.theme_forestprime_next;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.theme_forestprime_page = global::WalkthroughSample.Droid.Resource.Id.theme_forestprime_page;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.theme_forestprime_skip = global::WalkthroughSample.Droid.Resource.Id.theme_forestprime_skip;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.theme_forestprime_start = global::WalkthroughSample.Droid.Resource.Id.theme_forestprime_start;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.theme_forestprime_tablayout = global::WalkthroughSample.Droid.Resource.Id.theme_forestprime_tablayout;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.theme_forestprime_title = global::WalkthroughSample.Droid.Resource.Id.theme_forestprime_title;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.time = global::WalkthroughSample.Droid.Resource.Id.time;
@@ -4133,6 +4133,15 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f080028
 			public const int bottom = 2131230760;
 			
+			// aapt resource value: 0x7f0800a4
+			public const int btnNext = 2131230884;
+			
+			// aapt resource value: 0x7f0800a2
+			public const int btnSkip = 2131230882;
+			
+			// aapt resource value: 0x7f0800a5
+			public const int btnStart = 2131230885;
+			
 			// aapt resource value: 0x7f08004b
 			public const int buttonPanel = 2131230795;
 			
@@ -4499,17 +4508,8 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f0800a8
 			public const int theme_forestprime_image = 2131230888;
 			
-			// aapt resource value: 0x7f0800a4
-			public const int theme_forestprime_next = 2131230884;
-			
 			// aapt resource value: 0x7f0800a6
 			public const int theme_forestprime_page = 2131230886;
-			
-			// aapt resource value: 0x7f0800a2
-			public const int theme_forestprime_skip = 2131230882;
-			
-			// aapt resource value: 0x7f0800a5
-			public const int theme_forestprime_start = 2131230885;
 			
 			// aapt resource value: 0x7f08009f
 			public const int theme_forestprime_tablayout = 2131230879;

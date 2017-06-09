@@ -39,7 +39,7 @@
                 android:layout_gravity="center"
                 android:layoutDirection="ltr" />
             <Button
-                android:id="@+id/theme_forestprime_skip"
+                android:id="@+id/btnSkip"
                 style="@style/ForestPrimeButtonStyleCompat"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
@@ -62,7 +62,7 @@
                 app:srcCompat="@drawable/ic_forestprime_navigate_before_white"
                 tools:ignore="ContentDescription" />
             <android.support.v7.widget.AppCompatImageButton
-                android:id="@+id/theme_forestprime_next"
+                android:id="@+id/btnNext"
                 style="@style/ForestPrimeButtonStyleCompat"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
@@ -74,7 +74,7 @@
                 app:srcCompat="@drawable/ic_forestprime_navigate_next_red"
                 tools:ignore="ContentDescription" />
             <TextView
-                android:id="@+id/theme_forestprime_start"
+                android:id="@+id/btnStart"
                 style="@style/ForestPrimeButtonStyleCompat"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
