@@ -58,6 +58,7 @@ namespace Plugin.Xablu.Walkthrough.Containers
 
             base.PageControl = PageControl;
 
+            PageControl.Enabled = false;
             PageControl.PageIndicatorTintColor = UIColor.FromRGB(236, 104, 128);
             PageControl.CurrentPageIndicatorTintColor = UIColor.FromRGB(237, 26, 59);
 
