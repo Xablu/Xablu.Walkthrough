@@ -32,7 +32,8 @@ namespace Plugin.Xablu.Walkthrough.Extensions
             button.SetTitleColor(control.TextColor.ToNative(), UIKit.UIControlState.Normal);
             button.Font = UIKit.UIFont.FromName(button.Font.Name, control.TextSize);
             button.SetTitle(control.Text, UIKit.UIControlState.Normal);
-            button.TouchUpInside += (sender, e) => control.ClickAction();
+            if (control.ClickAction != null)
+                button.TouchUpInside += (sender, e) => control?.ClickAction();
         }
     }
 }

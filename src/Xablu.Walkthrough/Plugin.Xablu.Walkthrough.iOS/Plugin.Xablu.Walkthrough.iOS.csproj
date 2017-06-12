@@ -67,12 +67,11 @@
     <Reference Include="DatePicker">
       <HintPath>..\..\packages\AIDatePickerController.1.0.0\lib\Xamarin.iOS10\DatePicker.dll</HintPath>
     </Reference>
-    <Reference Include="BWWalkthrough">
-      <HintPath>..\..\packages\BWWalkthrough.1.0.10\lib\Xamarin.iOS10\BWWalkthrough.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Splat">
       <HintPath>..\..\packages\Splat.1.6.2\lib\Xamarin.iOS10\Splat.dll</HintPath>
+    </Reference>
+    <Reference Include="BWWalkthrough">
+      <HintPath>..\..\packages\BWWalkthrough.1.0.13\lib\Xamarin.iOS10\BWWalkthrough.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

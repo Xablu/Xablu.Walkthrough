@@ -116,7 +116,7 @@
     <AndroidResource Include="Resources\layout\SecondFragment.axml" />
     <AndroidResource Include="Resources\layout\ThirdFragment.axml" />
     <AndroidResource Include="Resources\drawable\cloud.png" />
-    <AndroidResource Include="Resources\drawable\iphone.png" />
+    <AndroidResource Include="Resources\drawable\iPhone.png" />
     <AndroidResource Include="Resources\drawable-hdpi\ic_walkthrough_count.png" />
     <AndroidResource Include="Resources\drawable-hdpi\ic_walkthrough_folder.png" />
     <AndroidResource Include="Resources\drawable-hdpi\ic_walkthrough_questions.png" />
@@ -132,6 +132,18 @@
     <AndroidResource Include="Resources\drawable-xxxhdpi\ic_walkthrough_count.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\ic_walkthrough_folder.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\ic_walkthrough_questions.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\conatct_illo.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\receipt_illo.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\task_illo.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\conatct_illo.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\receipt_illo.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\task_illo.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\conatct_illo.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\receipt_illo.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\task_illo.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\conatct_illo.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\receipt_illo.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\task_illo.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WalkthroughSample\WalkthroughSample.csproj">

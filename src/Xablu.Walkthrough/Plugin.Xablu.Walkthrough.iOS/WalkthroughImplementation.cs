@@ -2,7 +2,6 @@ using Plugin.Xablu.Walkthrough.Abstractions;
 using UIKit;
 using BWWalkthrough;
 using Plugin.Xablu.Walkthrough.Themes;
-using System;
 
 namespace Plugin.Xablu.Walkthrough
 {
@@ -49,8 +48,8 @@ namespace Plugin.Xablu.Walkthrough
 
         public void Close()
         {
-            _walkthrough.Close();
             _walkthrough.DismissViewController(true, null);
+            _walkthrough.Close();
         }
     }
 }

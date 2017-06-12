@@ -27,6 +27,8 @@ namespace Plugin.Xablu.Walkthrough.Containers
         {
             base.ViewDidLoad();
 
+            Scrollview.Bounces = false;
+
             for (int i = 0; i < Pages.Count; i++)
             {
                 var page = new ForestPrimesViewController();

@@ -36,7 +36,7 @@ namespace Plugin.Xablu.Walkthrough
                 _viewPagerFragment.SetAdapter(androidTheme.CreateFragments(), _hostActvity);
                 _viewPagerFragment.SetListener(this);
             }
-            }
+        }
 
         public void Init(AppCompatActivity hostActivity)
         {
@@ -60,6 +60,7 @@ namespace Plugin.Xablu.Walkthrough
 
         public void Close()
         {
+            _viewPagerFragment.ViewPager.CurrentItem = 0;
             _viewPagerFragment.Dismiss();
         }
 
