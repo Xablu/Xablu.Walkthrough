@@ -31,7 +31,7 @@ namespace WalkthroughSample
                     },
                     CenterImage = new ImageControl()
                     {
-                        Image = "receipt_illo"
+                        Image = "iPhone"
                     },
                     DescriptionControl = new TextControl()
                     {
