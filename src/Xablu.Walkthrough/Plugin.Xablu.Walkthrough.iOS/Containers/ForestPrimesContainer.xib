@@ -36,9 +36,10 @@
                             </state>
                         </button>
                         <button opaque="NO" contentMode="right" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l7q-3v-hB3">
-                            <rect key="frame" x="311" y="0.0" width="40" height="50"/>
+                            <rect key="frame" x="315" y="0.0" width="50" height="50"/>
                             <constraints>
-                                <constraint firstAttribute="width" constant="40" id="RHc-Ej-Ybd"/>
+                                <constraint firstAttribute="height" constant="50" id="9Wr-SD-FV0"/>
+                                <constraint firstAttribute="width" constant="50" id="RHc-Ej-Ybd"/>
                             </constraints>
                             <state key="normal" image="ArrowRight"/>
                         </button>
@@ -51,12 +52,11 @@
                     <constraints>
                         <constraint firstItem="QdK-Ee-9b8" firstAttribute="centerX" secondItem="rWD-nh-O2a" secondAttribute="centerX" id="3b2-hf-cP6"/>
                         <constraint firstItem="dni-MG-Ucg" firstAttribute="centerY" secondItem="rWD-nh-O2a" secondAttribute="centerY" id="KvU-XJ-DA0"/>
-                        <constraint firstItem="l7q-3v-hB3" firstAttribute="height" secondItem="rWD-nh-O2a" secondAttribute="height" id="QIh-xn-oOL"/>
                         <constraint firstItem="dni-MG-Ucg" firstAttribute="leading" secondItem="rWD-nh-O2a" secondAttribute="leading" constant="16" id="ZtN-ay-lfU"/>
                         <constraint firstAttribute="trailing" secondItem="tLV-Aj-KBN" secondAttribute="trailing" constant="24" id="isw-WR-c0Q"/>
                         <constraint firstItem="QdK-Ee-9b8" firstAttribute="centerY" secondItem="rWD-nh-O2a" secondAttribute="centerY" id="kYz-hs-d3P"/>
                         <constraint firstItem="l7q-3v-hB3" firstAttribute="centerY" secondItem="rWD-nh-O2a" secondAttribute="centerY" id="lmb-71-Q7G"/>
-                        <constraint firstAttribute="trailing" secondItem="l7q-3v-hB3" secondAttribute="trailing" constant="24" id="rPL-Fy-Lid"/>
+                        <constraint firstAttribute="trailing" secondItem="l7q-3v-hB3" secondAttribute="trailing" constant="10" id="rPL-Fy-Lid"/>
                         <constraint firstAttribute="height" constant="50" id="vRH-fL-QAq"/>
                         <constraint firstItem="tLV-Aj-KBN" firstAttribute="centerY" secondItem="rWD-nh-O2a" secondAttribute="centerY" id="zkS-VZ-aqf"/>
                     </constraints>

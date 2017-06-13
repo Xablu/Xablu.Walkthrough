@@ -48,7 +48,7 @@ namespace Plugin.Xablu.Walkthrough.Containers
                 CrossWalkthrough.Current.Close();
             };
 
-            NextButton.AccessibilityIdentifier = "btnNxt";
+            NextButton.AccessibilityIdentifier = "btnNext";
             SkipButton.AccessibilityIdentifier = "btnSkip";
             StartButton.AccessibilityIdentifier = "btnStart";
 
