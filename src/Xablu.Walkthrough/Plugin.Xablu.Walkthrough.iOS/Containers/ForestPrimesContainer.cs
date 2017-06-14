@@ -82,7 +82,6 @@ namespace Plugin.Xablu.Walkthrough.Containers
             {
                 var vc = Controllers[i] as IBWWalkthroughPage;
 
-
                 var pageWidth = View.Bounds.Size.Width;
                 var offset = Scrollview.ContentOffset.X;
                 var currentPage = offset / pageWidth;
@@ -115,17 +114,6 @@ namespace Plugin.Xablu.Walkthrough.Containers
                 if (vc != null)
                 {
                     var mx = ((Scrollview.ContentOffset.X + View.Bounds.Size.Width) - (View.Bounds.Size.Width * (i))) / View.Bounds.Size.Width;
-
-                    // While sliding to the "next" slide (from right to left), the "current" slide changes its offset from 1.0 to 2.0 while the "next" slide changes it from 0.0 to 1.0
-                    // While sliding to the "previous" slide (left to right), the current slide changes its offset from 1.0 to 0.0 while the "previous" slide changes it from 2.0 to 1.0
-                    // The other pages update their offsets whith values like 2.0, 3.0, -2.0... depending on their positions and on the status of the walkthrough
-                    // This value can be used on the previous, current and next page to perform custom animations on page's subviews.
-
-                    // print the mx value to get more info.
-                    //System.Diagnostics.Debug.Print($"{i}:{mx}");
-
-                    // We animate only the previous, current and next page
-
                     if (mx < 2 && mx > -2.0)
                     {
                         vc.WalkThroughDidScroll((float)Scrollview.ContentOffset.X, (float)mx);

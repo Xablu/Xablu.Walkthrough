@@ -9,12 +9,12 @@ namespace Plugin.Xablu.Walkthrough
 {
     public abstract class WalkthroughViewPagerBaseFragment : DialogFragment
     {
-        public abstract ViewPager ViewPager { get; }
-        public abstract void InitializeAdapter(WalkerFragment[] fragments, FragmentManager manager);
-
         private WalkerFragment[] fragments;
         private AppCompatActivity hostActivity;
         private ViewPager.IOnPageChangeListener listener;
+
+        public abstract ViewPager ViewPager { get; set; }
+        public abstract void InitializeAdapter(WalkerFragment[] fragments, FragmentManager manager);
 
         public static T NewInstance<T>() where T : WalkthroughViewPagerBaseFragment, new()
         {

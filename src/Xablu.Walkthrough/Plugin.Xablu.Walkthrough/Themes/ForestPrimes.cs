@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Plugin.Xablu.Walkthrough.Abstractions.Containers;
 using Plugin.Xablu.Walkthrough.Pages;
 
 namespace Plugin.Xablu.Walkthrough.Themes
@@ -12,5 +13,7 @@ namespace Plugin.Xablu.Walkthrough.Themes
             get => pages;
             set => pages = value;
         }
+
+        public IContainer Container { get; set; }
     }
 }

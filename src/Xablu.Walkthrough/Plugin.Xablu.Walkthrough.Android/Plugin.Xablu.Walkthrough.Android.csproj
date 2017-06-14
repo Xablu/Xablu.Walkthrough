@@ -105,6 +105,7 @@
     <Compile Include="Fragments\ForestPrimeFragment.cs" />
     <Compile Include="Adapters\DefaultAdapter.cs" />
     <Compile Include="Extensions\AndroidViewExtensions.cs" />
+    <Compile Include="Containers\BaseContainer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
