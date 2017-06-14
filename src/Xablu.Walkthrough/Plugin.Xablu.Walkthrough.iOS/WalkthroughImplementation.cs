@@ -27,6 +27,8 @@ namespace Plugin.Xablu.Walkthrough
             {
                 var uiPage = page as UIViewController;
                 uiPage.View.Bounds = UIScreen.MainScreen.Bounds;
+                uiPage.View.SetNeedsLayout();
+                uiPage.View.LayoutIfNeeded();
 
                 _walkthrough.AddViewController(uiPage);
             }
