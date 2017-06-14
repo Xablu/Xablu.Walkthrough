@@ -99,13 +99,11 @@
     <Compile Include="Extensions\IWalkthroughExtensions.cs" />
     <Compile Include="WalkthroughViewPagerBaseFragment.cs" />
     <Compile Include="Containers\ForestPrimesContainer.cs" />
-    <Compile Include="Themes\IAndroidTheme.cs" />
-    <Compile Include="Themes\ForestPrimes.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
-    <Compile Include="Fragments\ForestPrimeFragment.cs" />
     <Compile Include="Adapters\DefaultAdapter.cs" />
     <Compile Include="Extensions\AndroidViewExtensions.cs" />
     <Compile Include="Containers\BaseContainer.cs" />
+    <Compile Include="Pages\ForestPrimesPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -121,16 +119,13 @@
     <Folder Include="Extensions\" />
     <Folder Include="Resources\drawable\" />
     <Folder Include="Containers\" />
-    <Folder Include="Themes\" />
-    <Folder Include="Fragments\" />
     <Folder Include="Adapters\" />
     <Folder Include="Resources\values\" />
     <Folder Include="Resources\mipmap-hdpi\" />
+    <Folder Include="Pages\" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\theme_forestprime_container.axml" />
-    <AndroidResource Include="Resources\drawable\left_arrow.png" />
-    <AndroidResource Include="Resources\drawable\right_arrow.png" />
     <AndroidResource Include="Resources\layout\theme_forestprime_page.axml" />
     <AndroidResource Include="Resources\drawable\ic_forestprime_done_white.xml" />
     <AndroidResource Include="Resources\drawable\ic_forestprime_navigate_before_white.xml" />

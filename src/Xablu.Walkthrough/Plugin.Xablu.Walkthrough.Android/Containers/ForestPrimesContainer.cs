@@ -8,6 +8,8 @@ using Android.Widget;
 using Plugin.Xablu.Walkthrough.Abstractions.Controls;
 using Plugin.Xablu.Walkthrough.Extensions;
 using static Android.Support.V4.View.ViewPager;
+using System.Drawing;
+using Splat;
 
 namespace Plugin.Xablu.Walkthrough.Containers
 {
@@ -16,10 +18,16 @@ namespace Plugin.Xablu.Walkthrough.Containers
         public TextView StartButton;
         public AppCompatImageButton NextButton;
 
+        public Color BackgroundColor { get; set; } = Color.White;
+
+        public bool IsCanceable { get; set; } = false;
+
         private ImageButtonControl nextButtonControl = new ImageButtonControl()
         {
-            Text = "Next",
-            ClickAction = () => CrossWalkthrough.Current.Next()
+            ClickAction = () =>
+            {
+                CrossWalkthrough.Current.Next();
+            }
         };
 
         public ImageButtonControl NextButtonControl
@@ -31,7 +39,10 @@ namespace Plugin.Xablu.Walkthrough.Containers
         private ButtonControl skipButtonControl = new ButtonControl()
         {
             Text = "SKIP",
-            ClickAction = () => CrossWalkthrough.Current.Close()
+            ClickAction = () =>
+            {
+                CrossWalkthrough.Current.Close();
+            }
         };
 
         public ButtonControl SkipButtonControl
@@ -43,7 +54,10 @@ namespace Plugin.Xablu.Walkthrough.Containers
         private ButtonControl startButtonControl = new ButtonControl()
         {
             Text = "Next",
-            ClickAction = () => CrossWalkthrough.Current.Close()
+            ClickAction = () =>
+            {
+                CrossWalkthrough.Current.Close();
+            }
         };
 
         public ButtonControl StartButtonControl
@@ -55,6 +69,9 @@ namespace Plugin.Xablu.Walkthrough.Containers
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             var view = inflater.Inflate(Resource.Layout.theme_forestprime_container, container, false);
+
+            view.SetBackgroundColor(BackgroundColor.ToNative());
+
             ViewPager = (ViewPager)view.FindViewById(Resource.Id.view_pager);
             ViewPager.AddOnPageChangeListener(this);
 
@@ -65,14 +82,16 @@ namespace Plugin.Xablu.Walkthrough.Containers
 
             var skipButton = view.FindViewById<Button>(Resource.Id.btnSkip);
             skipButton.SetControl(SkipButtonControl);
+            skipButton.Click += (sender, e) => skipButtonControl.ClickAction();
 
             NextButton = view.FindViewById<AppCompatImageButton>(Resource.Id.btnNext);
             NextButton.SetControl(NextButtonControl);
 
             StartButton = view.FindViewById<TextView>(Resource.Id.btnStart);
             StartButton.SetControl(StartButtonControl);
+            StartButton.Click += (sender, e) => startButtonControl.ClickAction();
 
-            Cancelable = false;
+            Cancelable = IsCanceable;
 
             return view;
         }

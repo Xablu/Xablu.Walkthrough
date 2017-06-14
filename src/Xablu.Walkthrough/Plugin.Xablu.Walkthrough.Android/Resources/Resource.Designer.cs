@@ -2067,26 +2067,26 @@ namespace Plugin.Xablu.Walkthrough
 			// aapt resource value: 0x7f020053
 			public static int avd_hide_password = 2130837587;
 			
+			// aapt resource value: 0x7f02006f
+			public static int avd_hide_password_1 = 2130837615;
+			
+			// aapt resource value: 0x7f020070
+			public static int avd_hide_password_2 = 2130837616;
+			
 			// aapt resource value: 0x7f020071
-			public static int avd_hide_password_1 = 2130837617;
-			
-			// aapt resource value: 0x7f020072
-			public static int avd_hide_password_2 = 2130837618;
-			
-			// aapt resource value: 0x7f020073
-			public static int avd_hide_password_3 = 2130837619;
+			public static int avd_hide_password_3 = 2130837617;
 			
 			// aapt resource value: 0x7f020054
 			public static int avd_show_password = 2130837588;
 			
+			// aapt resource value: 0x7f020072
+			public static int avd_show_password_1 = 2130837618;
+			
+			// aapt resource value: 0x7f020073
+			public static int avd_show_password_2 = 2130837619;
+			
 			// aapt resource value: 0x7f020074
-			public static int avd_show_password_1 = 2130837620;
-			
-			// aapt resource value: 0x7f020075
-			public static int avd_show_password_2 = 2130837621;
-			
-			// aapt resource value: 0x7f020076
-			public static int avd_show_password_3 = 2130837622;
+			public static int avd_show_password_3 = 2130837620;
 			
 			// aapt resource value: 0x7f020055
 			public static int design_bottom_navigation_item_background = 2130837589;
@@ -2128,49 +2128,43 @@ namespace Plugin.Xablu.Walkthrough
 			public static int indicator_tab_selector = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public static int left_arrow = 2130837602;
+			public static int navigation_empty_icon = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public static int navigation_empty_icon = 2130837603;
+			public static int notification_action_background = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public static int notification_action_background = 2130837604;
+			public static int notification_bg = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public static int notification_bg = 2130837605;
+			public static int notification_bg_low = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public static int notification_bg_low = 2130837606;
+			public static int notification_bg_low_normal = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public static int notification_bg_low_normal = 2130837607;
+			public static int notification_bg_low_pressed = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public static int notification_bg_low_pressed = 2130837608;
+			public static int notification_bg_normal = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public static int notification_bg_normal = 2130837609;
+			public static int notification_bg_normal_pressed = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public static int notification_bg_normal_pressed = 2130837610;
-			
-			// aapt resource value: 0x7f02006b
-			public static int notification_icon_background = 2130837611;
-			
-			// aapt resource value: 0x7f02006f
-			public static int notification_template_icon_bg = 2130837615;
-			
-			// aapt resource value: 0x7f020070
-			public static int notification_template_icon_low_bg = 2130837616;
-			
-			// aapt resource value: 0x7f02006c
-			public static int notification_tile_bg = 2130837612;
+			public static int notification_icon_background = 2130837610;
 			
 			// aapt resource value: 0x7f02006d
-			public static int notify_panel_notification_icon_bg = 2130837613;
+			public static int notification_template_icon_bg = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public static int right_arrow = 2130837614;
+			public static int notification_template_icon_low_bg = 2130837614;
+			
+			// aapt resource value: 0x7f02006b
+			public static int notification_tile_bg = 2130837611;
+			
+			// aapt resource value: 0x7f02006c
+			public static int notify_panel_notification_icon_bg = 2130837612;
 			
 			static Drawable()
 			{

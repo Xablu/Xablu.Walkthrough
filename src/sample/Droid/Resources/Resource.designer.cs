@@ -700,7 +700,6 @@ namespace WalkthroughSample.Droid
 			global::Plugin.Xablu.Walkthrough.Resource.Drawable.indicator_dot_grey = global::WalkthroughSample.Droid.Resource.Drawable.indicator_dot_grey;
 			global::Plugin.Xablu.Walkthrough.Resource.Drawable.indicator_dot_white = global::WalkthroughSample.Droid.Resource.Drawable.indicator_dot_white;
 			global::Plugin.Xablu.Walkthrough.Resource.Drawable.indicator_tab_selector = global::WalkthroughSample.Droid.Resource.Drawable.indicator_tab_selector;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.left_arrow = global::WalkthroughSample.Droid.Resource.Drawable.left_arrow;
 			global::Plugin.Xablu.Walkthrough.Resource.Drawable.navigation_empty_icon = global::WalkthroughSample.Droid.Resource.Drawable.navigation_empty_icon;
 			global::Plugin.Xablu.Walkthrough.Resource.Drawable.notification_action_background = global::WalkthroughSample.Droid.Resource.Drawable.notification_action_background;
 			global::Plugin.Xablu.Walkthrough.Resource.Drawable.notification_bg = global::WalkthroughSample.Droid.Resource.Drawable.notification_bg;
@@ -714,7 +713,6 @@ namespace WalkthroughSample.Droid
 			global::Plugin.Xablu.Walkthrough.Resource.Drawable.notification_template_icon_low_bg = global::WalkthroughSample.Droid.Resource.Drawable.notification_template_icon_low_bg;
 			global::Plugin.Xablu.Walkthrough.Resource.Drawable.notification_tile_bg = global::WalkthroughSample.Droid.Resource.Drawable.notification_tile_bg;
 			global::Plugin.Xablu.Walkthrough.Resource.Drawable.notify_panel_notification_icon_bg = global::WalkthroughSample.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.right_arrow = global::WalkthroughSample.Droid.Resource.Drawable.right_arrow;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.action0 = global::WalkthroughSample.Droid.Resource.Id.action0;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.action_bar = global::WalkthroughSample.Droid.Resource.Id.action_bar;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.action_bar_activity_content = global::WalkthroughSample.Droid.Resource.Id.action_bar_activity_content;

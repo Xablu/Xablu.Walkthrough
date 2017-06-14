@@ -17,12 +17,15 @@ namespace WalkthroughSample.Droid
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
+
+            var myClass = new MyClass();
+
             CrossWalkthrough.Current.Init(this);
 
             var button = FindViewById<Button>(Resource.Id.showWalkthrough);
             button.Click += async (sender, e) =>
             {
-                await new MyClass().SetTheme();
+                await myClass.SetTheme();
             };
         }
     }

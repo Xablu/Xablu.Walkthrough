@@ -44,12 +44,12 @@
     <Compile Include="Controls\TextControl.cs" />
     <Compile Include="Controls\BaseControl.cs" />
     <Compile Include="Controls\AnimationType.cs" />
-    <Compile Include="Pages\ForestPrimesPage.cs" />
     <Compile Include="Controls\ImageControl.cs" />
     <Compile Include="Controls\ButtonControl.cs" />
     <Compile Include="Pages\IPage.cs" />
-    <Compile Include="Containers\IContainer.cs" />
     <Compile Include="Controls\ImageButton.cs" />
+    <Compile Include="Themes\Theme.cs" />
+    <Compile Include="Containers\IContainer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Themes\" />

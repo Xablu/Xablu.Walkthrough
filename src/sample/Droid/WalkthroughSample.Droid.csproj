@@ -89,12 +89,6 @@
     <Reference Include="Splat">
       <HintPath>..\..\packages\Splat.1.6.2\lib\monoandroid\Splat.dll</HintPath>
     </Reference>
-    <Reference Include="Plugin.Xablu.Walkthrough.Abstractions">
-      <HintPath>..\..\packages\Xablu.Walkthrough.0.3.17\lib\MonoAndroid10\Plugin.Xablu.Walkthrough.Abstractions.dll</HintPath>
-    </Reference>
-    <Reference Include="Plugin.Xablu.Walkthrough">
-      <HintPath>..\..\packages\Xablu.Walkthrough.0.3.17\lib\MonoAndroid10\Plugin.Xablu.Walkthrough.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -155,6 +149,14 @@
     <ProjectReference Include="..\WalkthroughSample\WalkthroughSample.csproj">
       <Project>{8C6C4E4F-E291-43D6-BD11-B31626899499}</Project>
       <Name>WalkthroughSample</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Android\Plugin.Xablu.Walkthrough.Android.csproj">
+      <Project>{8B91C092-F91A-43B1-B8F8-3A57D47B9CAE}</Project>
+      <Name>Plugin.Xablu.Walkthrough.Android</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Abstractions\Plugin.Xablu.Walkthrough.Abstractions.csproj">
+      <Project>{D3AAFBA5-2193-45C8-AB44-374F4DC32531}</Project>
+      <Name>Plugin.Xablu.Walkthrough.Abstractions</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

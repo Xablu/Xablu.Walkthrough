@@ -1,7 +1,5 @@
-﻿using System;
-using System.Drawing;
+﻿using System.Drawing;
 using Plugin.Xablu.Walkthrough.Abstractions.Controls;
-using Plugin.Xablu.Walkthrough.Themes;
 
 namespace Plugin.Xablu.Walkthrough.Pages
 {
@@ -14,9 +12,5 @@ namespace Plugin.Xablu.Walkthrough.Pages
         public ImageControl CenterImage;
 
         public TextControl DescriptionControl;
-
-        public ButtonControl SkipButton;
-
-        public ButtonControl FinishedButton;
     }
 }

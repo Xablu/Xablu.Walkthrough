@@ -1,13 +1,11 @@
-﻿using System;
-using Android.Support.V4.App;
+﻿using Android.Support.V4.App;
 using Android.Support.V4.View;
-using Plugin.Xablu.Walkthrough.Abstractions.Containers;
 using Plugin.Xablu.Walkthrough.Defaults;
 using Walker;
 
 namespace Plugin.Xablu.Walkthrough.Containers
 {
-    public class BaseContainer : WalkthroughViewPagerBaseFragment, IContainer
+    public abstract class BaseContainer : WalkthroughViewPagerBaseFragment
     {
         private ViewPager viewPager;
         public override ViewPager ViewPager

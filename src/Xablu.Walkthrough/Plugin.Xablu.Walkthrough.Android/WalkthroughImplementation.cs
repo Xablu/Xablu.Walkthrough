@@ -1,67 +1,58 @@
 using Plugin.Xablu.Walkthrough.Abstractions;
-using System;
 using Android.Support.V4.View;
-using Android.Content;
-using Walker;
-using Android.App;
 using Android.Support.V7.App;
-using Android.Views;
-using Plugin.Xablu.Walkthrough.Defaults;
 using Plugin.Xablu.Walkthrough.Themes;
-using Android.Graphics.Drawables;
+using Plugin.Xablu.Walkthrough.Abstractions.Containers;
+using Plugin.Xablu.Walkthrough.Containers;
+using Walker;
+using Plugin.Xablu.Walkthrough.Pages;
 
 namespace Plugin.Xablu.Walkthrough
 {
     /// <summary>
-    /// Implementation for Feature
+    /// Implementation for Android
     /// </summary>
     public class WalkthroughImplementation : Java.Lang.Object, ViewPager.IOnPageChangeListener, IWalkthrough
     {
-        private WalkthroughViewPagerBaseFragment _viewPagerFragment;
-        private AppCompatActivity _hostActvity;
+        private WalkthroughViewPagerBaseFragment viewPagerFragment;
+        private AppCompatActivity hostActvity;
 
-        private int _currentPosition = 0;
-        public bool _isShown = false;
-
-        private ITheme _theme;
-        public ITheme Theme
-        {
-            get => _theme;
-            set
-            {
-                _theme = value;
-
-                var androidTheme = Theme as IAndroidTheme;
-                _viewPagerFragment = androidTheme.ViewPager;
-                _viewPagerFragment.SetAdapter(androidTheme.CreateFragments(), _hostActvity);
-                _viewPagerFragment.SetListener(this);
-            }
-        }
+        private int currentPosition = 0;
 
         public void Init(AppCompatActivity hostActivity)
         {
-            _hostActvity = hostActivity;
+            hostActvity = hostActivity;
+        }
+
+        public void Setup<TPage, TContainer>(ITheme<TPage, TContainer> theme) where TPage : IPage where TContainer : IContainer
+        {
+            var androidTheme = theme.Container as BaseContainer;
+            var pages = theme.Pages.ToArray() as WalkerFragment[];
+
+            viewPagerFragment = androidTheme;
+            viewPagerFragment.SetAdapter(pages, hostActvity);
+            viewPagerFragment.SetListener(this);
         }
 
         public void Previous()
         {
-            _viewPagerFragment.ViewPager.CurrentItem = _currentPosition - 1;
+            viewPagerFragment.ViewPager.CurrentItem = currentPosition - 1;
         }
 
         public void Next()
         {
-            _viewPagerFragment.ViewPager.CurrentItem = _currentPosition + 1;
+            viewPagerFragment.ViewPager.CurrentItem = currentPosition + 1;
         }
 
         public void Show()
         {
-            _viewPagerFragment.Show(_hostActvity.SupportFragmentManager, Class.SimpleName);
+            viewPagerFragment.Show(hostActvity.SupportFragmentManager, Class.SimpleName);
         }
 
         public void Close()
         {
-            _viewPagerFragment.ViewPager.CurrentItem = 0;
-            _viewPagerFragment.Dismiss();
+            viewPagerFragment.ViewPager.CurrentItem = 0;
+            viewPagerFragment.Dismiss();
         }
 
         public void OnPageScrollStateChanged(int state)
@@ -74,8 +65,7 @@ namespace Plugin.Xablu.Walkthrough
 
         public void OnPageSelected(int position)
         {
-            _currentPosition = position;
+            currentPosition = position;
         }
-
     }
 }

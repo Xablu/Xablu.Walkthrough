@@ -2,9 +2,9 @@
 using System.Threading.Tasks;
 using Plugin.Xablu.Walkthrough;
 using Plugin.Xablu.Walkthrough.Abstractions.Controls;
+using Plugin.Xablu.Walkthrough.Containers;
 using Plugin.Xablu.Walkthrough.Pages;
 using Plugin.Xablu.Walkthrough.Themes;
-using Splat;
 
 namespace WalkthroughSample
 {
@@ -17,7 +17,23 @@ namespace WalkthroughSample
 
         public async Task SetTheme()
         {
-            var theme = new ForestPrimes();
+            var theme = new Theme<ForestPrimesPage, ForestPrimesContainer>();
+            theme.Container = new ForestPrimesContainer()
+            {
+                BackgroundColor = Color.LightGray,
+                StartButtonControl = new ButtonControl()
+                {
+                    Text = "START",
+                    BackgroundColor = Color.FromArgb(0, 237, 26, 59),
+                    TextSize = 16,
+                    TextColor = Color.FromArgb(255, 0, 43),
+                    ClickAction = () =>
+                    {
+                        CrossWalkthrough.Current.Close();
+                    },
+                    TextStyle = 1
+                }
+            };
 
             theme.Pages.Add(
                 new ForestPrimesPage()
@@ -60,11 +76,6 @@ namespace WalkthroughSample
                     {
                         Text = "Effortlessly approve or sign documents and carry out to-do’s",
                         TextSize = 16
-                    },
-
-                    SkipButton = new ButtonControl()
-                    {
-                        Text = "HOI"
                     }
                 }
             );
@@ -87,23 +98,11 @@ namespace WalkthroughSample
                     {
                         Text = "Find all the information needed to get in touch with your assigned BDO advisors",
                         TextSize = 16
-                    },
-                    FinishedButton = new ButtonControl()
-                    {
-                        Text = "START",
-                        BackgroundColor = Color.FromArgb(0, 237, 26, 59),
-                        TextSize = 16,
-                        TextColor = Color.FromArgb(255, 0, 43),
-                        ClickAction = () =>
-                        {
-                            CrossWalkthrough.Current.Close();
-                        },
-                        TextStyle = 1
                     }
                 }
             );
 
-            CrossWalkthrough.Current.Theme = theme;
+            CrossWalkthrough.Current.Setup(theme);
             CrossWalkthrough.Current.Show();
         }
     }

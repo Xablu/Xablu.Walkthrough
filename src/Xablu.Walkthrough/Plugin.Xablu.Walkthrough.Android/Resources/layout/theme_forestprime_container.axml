@@ -46,9 +46,7 @@
                 android:layout_gravity="start"
                 android:layout_marginLeft="8dp"
                 android:layout_marginStart="8dp"
-                android:minWidth="100dp"
-                android:text="SKIP"
-                android:textColor="#bfc0bf" />
+                android:minWidth="100dp" />
             <ImageButton
                 android:id="@+id/back"
                 style="@style/ForestPrimeButtonStyleCompat"

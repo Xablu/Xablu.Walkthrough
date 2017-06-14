@@ -1,9 +1,10 @@
-﻿namespace Plugin.Xablu.Walkthrough.Abstractions.Controls
+﻿using System;
+
+namespace Plugin.Xablu.Walkthrough.Abstractions.Controls
 {
-    public class ImageButtonControl : ButtonControl
+    public class ImageButtonControl
     {
         public string Image { get; set; }
-
-        public ImageButtonControl() { }
+        public Action ClickAction;
     }
 }
