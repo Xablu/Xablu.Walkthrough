@@ -7,6 +7,7 @@ using Plugin.Xablu.Walkthrough.Pages;
 using System;
 using Plugin.Xablu.Walkthrough.Abstractions.Themes;
 using Plugin.Xablu.Walkthrough.Abstractions.Pages;
+using System.Collections.Generic;
 
 namespace Plugin.Xablu.Walkthrough
 {
@@ -21,6 +22,14 @@ namespace Plugin.Xablu.Walkthrough
         public void Setup<TPage, TContainer>(ITheme<TPage, TContainer> theme) where TPage : IPage where TContainer : IContainer
         {
             _walkthrough = theme.Container as BWWalkthroughViewController;
+
+            foreach (var page in theme.Pages)
+            {
+                var uiPage = page as UIViewController;
+                uiPage.View.Bounds = UIScreen.MainScreen.Bounds;
+
+                _walkthrough.AddViewController(uiPage);
+            }
         }
 
         public void Init(UIViewController hostViewController)

@@ -33,7 +33,7 @@ namespace Plugin.Xablu.Walkthrough.Pages
 
             //image
             var image = WalkerLayout.FindViewById<ImageView>(Resource.Id.theme_forestprime_image);
-            image.SetControl(CenterImage);
+            image.SetControl(CenterImageControl);
 
             //description
             var txtDesc = WalkerLayout.FindViewById<TextView>(Resource.Id.theme_forestprime_description);

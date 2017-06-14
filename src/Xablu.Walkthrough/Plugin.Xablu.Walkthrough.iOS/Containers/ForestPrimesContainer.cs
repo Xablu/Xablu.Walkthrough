@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
+﻿using System.Drawing;
 using BWWalkthrough;
 using Foundation;
 using Plugin.Xablu.Walkthrough.Abstractions.Containers;
@@ -59,7 +57,6 @@ namespace Plugin.Xablu.Walkthrough.Containers
             set => startButtonControl = value;
         }
 
-
         public ForestPrimesContainer() : base("ForestPrimesContainer", null)
         {
         }
@@ -72,18 +69,9 @@ namespace Plugin.Xablu.Walkthrough.Containers
 
             View.BackgroundColor = BackgroundColor.ToNative();
 
-            //for (int i = 0; i < Pages.Count; i++)
-            //{
-            //    var page = new ForestPrimesPage();
-            //    page.Page = Pages[i];
-            //    page.Container = this;
-            //    page.View.Bounds = UIScreen.MainScreen.Bounds;
-            //    AddViewController(page);
-            //}
-
             StartButton.SetControl(startButtonControl);
             SkipButton.SetControl(skipButtonControl);
-
+            UpdateViewConstraints();
             NextButton.TouchUpInside += (sender, e) =>
             {
                 CrossWalkthrough.Current.Next();

@@ -22,6 +22,12 @@ namespace Plugin.Xablu.Walkthrough.Pages
         {
         }
 
+        public override void ViewDidLayoutSubviews()
+        {
+            // View.Bounds = UIScreen.MainScreen.Bounds;
+            base.ViewDidLayoutSubviews();
+        }
+
         public async override void ViewDidLoad()
         {
             base.ViewDidLoad();
