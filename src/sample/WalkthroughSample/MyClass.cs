@@ -45,7 +45,7 @@ namespace WalkthroughSample
                         TextSize = 24,
                         TextColor = Color.FromArgb(255, 0, 43)
                     },
-                    CenterImage = new ImageControl()
+                    CenterImageControl = new ImageControl()
                     {
                         Image = "iPhone"
                     },
@@ -68,7 +68,7 @@ namespace WalkthroughSample
                         TextSize = 24,
                         TextColor = Color.FromArgb(255, 0, 43)
                     },
-                    CenterImage = new ImageControl()
+                    CenterImageControl = new ImageControl()
                     {
                         Image = "iPhone"
                     },
@@ -90,7 +90,7 @@ namespace WalkthroughSample
                         TextSize = 24,
                         TextColor = Color.FromArgb(255, 0, 43)
                     },
-                    CenterImage = new ImageControl()
+                    CenterImageControl = new ImageControl()
                     {
                         Image = "iPhone"
                     },

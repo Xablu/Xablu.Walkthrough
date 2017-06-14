@@ -1,23 +1,64 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using BWWalkthrough;
 using Foundation;
+using Plugin.Xablu.Walkthrough.Abstractions.Containers;
 using Plugin.Xablu.Walkthrough.Abstractions.Controls;
 using Plugin.Xablu.Walkthrough.Extensions;
-using Plugin.Xablu.Walkthrough.Pages;
-using Plugin.Xablu.Walkthrough.ViewControllers;
+using Splat;
 using UIKit;
 
 namespace Plugin.Xablu.Walkthrough.Containers
 {
-    public partial class ForestPrimesContainer : BWWalkthroughViewController, IBWWalkthroughViewControllerDelegate
+    public partial class ForestPrimesContainer : BWWalkthroughViewController, IBWWalkthroughViewControllerDelegate, IContainer
     {
-        private List<ForestPrimesPage> pages = new List<ForestPrimesPage>();
-        public List<ForestPrimesPage> Pages
+        public Color BackgroundColor { get; set; } = Color.White;
+
+        private ImageButtonControl nextButtonControl = new ImageButtonControl()
         {
-            get => pages;
-            set => pages = value;
+            ClickAction = () =>
+            {
+                CrossWalkthrough.Current.Next();
+            }
+        };
+
+        public ImageButtonControl NextButtonControl
+        {
+            get => nextButtonControl;
+            set => nextButtonControl = value;
         }
+
+        private ButtonControl skipButtonControl = new ButtonControl()
+        {
+            Text = "SKIP",
+            ClickAction = () =>
+            {
+                CrossWalkthrough.Current.Close();
+            }
+        };
+
+        public ButtonControl SkipButtonControl
+        {
+            get => skipButtonControl;
+            set => skipButtonControl = value;
+        }
+
+        private ButtonControl startButtonControl = new ButtonControl()
+        {
+            Text = "Next",
+            ClickAction = () =>
+            {
+                CrossWalkthrough.Current.Close();
+            }
+        };
+
+        public ButtonControl StartButtonControl
+        {
+            get => startButtonControl;
+            set => startButtonControl = value;
+        }
+
 
         public ForestPrimesContainer() : base("ForestPrimesContainer", null)
         {
@@ -29,14 +70,19 @@ namespace Plugin.Xablu.Walkthrough.Containers
 
             Scrollview.Bounces = false;
 
-            for (int i = 0; i < Pages.Count; i++)
-            {
-                var page = new ForestPrimesViewController();
-                page.Page = Pages[i];
-                page.Container = this;
-                page.View.Bounds = UIScreen.MainScreen.Bounds;
-                AddViewController(page);
-            }
+            View.BackgroundColor = BackgroundColor.ToNative();
+
+            //for (int i = 0; i < Pages.Count; i++)
+            //{
+            //    var page = new ForestPrimesPage();
+            //    page.Page = Pages[i];
+            //    page.Container = this;
+            //    page.View.Bounds = UIScreen.MainScreen.Bounds;
+            //    AddViewController(page);
+            //}
+
+            StartButton.SetControl(startButtonControl);
+            SkipButton.SetControl(skipButtonControl);
 
             NextButton.TouchUpInside += (sender, e) =>
             {
@@ -63,16 +109,6 @@ namespace Plugin.Xablu.Walkthrough.Containers
             PageControl.CurrentPageIndicatorTintColor = UIColor.FromRGB(237, 26, 59);
 
             View.BackgroundColor = UIColor.White;
-        }
-
-        public void SetFinishedButton(ButtonControl control)
-        {
-            StartButton.SetValues(control);
-        }
-
-        public void SetSkipButton(ButtonControl control)
-        {
-            SkipButton.SetValues(control);
         }
 
         [Export("scrollViewDidScroll:")]

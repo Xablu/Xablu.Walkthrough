@@ -1,8 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Plugin.Xablu.Walkthrough.Abstractions.Containers;
-using Plugin.Xablu.Walkthrough.Pages;
+using Plugin.Xablu.Walkthrough.Abstractions.Pages;
 
-namespace Plugin.Xablu.Walkthrough.Themes
+namespace Plugin.Xablu.Walkthrough.Abstractions.Themes
 {
     public interface ITheme<TPage, TContainer> where TPage : IPage where TContainer : IContainer
     {

@@ -1,5 +1,6 @@
 ﻿using System.Drawing;
 using Plugin.Xablu.Walkthrough.Abstractions.Controls;
+using Plugin.Xablu.Walkthrough.Abstractions.Pages;
 
 namespace Plugin.Xablu.Walkthrough.Pages
 {
@@ -9,7 +10,7 @@ namespace Plugin.Xablu.Walkthrough.Pages
 
         public TextControl TitleControl;
 
-        public ImageControl CenterImage;
+        public ImageControl CenterImageControl;
 
         public TextControl DescriptionControl;
     }

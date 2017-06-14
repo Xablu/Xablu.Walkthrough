@@ -32,22 +32,22 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Xablu.Walkthrough\Plugin.Xablu.Walkthrough\Plugin.Xablu.Walkthrough.csproj">
-      <Project>{45A15124-007C-4D29-8DAE-3F96C608DAF0}</Project>
-      <Name>Plugin.Xablu.Walkthrough</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Abstractions\Plugin.Xablu.Walkthrough.Abstractions.csproj">
-      <Project>{D3AAFBA5-2193-45C8-AB44-374F4DC32531}</Project>
-      <Name>Plugin.Xablu.Walkthrough.Abstractions</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Reference Include="Splat">
       <HintPath>..\..\packages\Splat.1.6.2\lib\Portable-net45+win+wpa81+wp80\Splat.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Abstractions\Plugin.Xablu.Walkthrough.Abstractions.csproj">
+      <Project>{D3AAFBA5-2193-45C8-AB44-374F4DC32531}</Project>
+      <Name>Plugin.Xablu.Walkthrough.Abstractions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Xablu.Walkthrough\Plugin.Xablu.Walkthrough\Plugin.Xablu.Walkthrough.csproj">
+      <Project>{45A15124-007C-4D29-8DAE-3F96C608DAF0}</Project>
+      <Name>Plugin.Xablu.Walkthrough</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
 </Project>

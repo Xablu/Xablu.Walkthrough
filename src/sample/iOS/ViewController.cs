@@ -1,11 +1,19 @@
 ﻿using System;
+using System.Drawing;
 using Plugin.Xablu.Walkthrough;
+using Plugin.Xablu.Walkthrough.Abstractions.Containers;
+using Plugin.Xablu.Walkthrough.Abstractions.Controls;
+using Plugin.Xablu.Walkthrough.Abstractions.Pages;
+using Plugin.Xablu.Walkthrough.Containers;
+using Plugin.Xablu.Walkthrough.Pages;
+using Plugin.Xablu.Walkthrough.Themes;
 using UIKit;
 
 namespace WalkthroughSample.iOS
 {
-    public partial class ViewController : UIViewController
+    public partial class ViewController : UIViewController, IContainer
     {
+        public ViewController() { }
         public ViewController(IntPtr handle) : base(handle)
         {
         }
@@ -13,7 +21,6 @@ namespace WalkthroughSample.iOS
         public override void ViewWillAppear(bool animated)
         {
             base.ViewWillAppear(animated);
-
             CrossWalkthrough.Current.Init(this);
         }
 
@@ -21,12 +28,14 @@ namespace WalkthroughSample.iOS
         {
             base.ViewDidLoad();
 
+            var x = new MyClass();
+            var xy = new ForestPrimesPage();
 
-            new MyClass().SetTheme();
 
             Button.TouchUpInside += (sender, e) =>
             {
-                CrossWalkthrough.Current.Show();
+
+                x.SetTheme();
             };
         }
 

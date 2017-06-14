@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Plugin.Xablu.Walkthrough.Pages
+namespace Plugin.Xablu.Walkthrough.Abstractions.Pages
 {
     public interface IPage
     {

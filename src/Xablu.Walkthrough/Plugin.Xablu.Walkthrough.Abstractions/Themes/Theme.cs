@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using Plugin.Xablu.Walkthrough.Abstractions.Containers;
-using Plugin.Xablu.Walkthrough.Pages;
+using Plugin.Xablu.Walkthrough.Abstractions.Pages;
+using Plugin.Xablu.Walkthrough.Abstractions.Themes;
 
 namespace Plugin.Xablu.Walkthrough.Themes
 {

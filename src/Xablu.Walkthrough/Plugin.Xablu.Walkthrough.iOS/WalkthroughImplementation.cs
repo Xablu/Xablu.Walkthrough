@@ -2,6 +2,11 @@ using Plugin.Xablu.Walkthrough.Abstractions;
 using UIKit;
 using BWWalkthrough;
 using Plugin.Xablu.Walkthrough.Themes;
+using Plugin.Xablu.Walkthrough.Abstractions.Containers;
+using Plugin.Xablu.Walkthrough.Pages;
+using System;
+using Plugin.Xablu.Walkthrough.Abstractions.Themes;
+using Plugin.Xablu.Walkthrough.Abstractions.Pages;
 
 namespace Plugin.Xablu.Walkthrough
 {
@@ -13,17 +18,9 @@ namespace Plugin.Xablu.Walkthrough
         private BWWalkthroughViewController _walkthrough;
         private UIViewController _hostViewController;
 
-        private ITheme _theme;
-        public ITheme Theme
+        public void Setup<TPage, TContainer>(ITheme<TPage, TContainer> theme) where TPage : IPage where TContainer : IContainer
         {
-            get => _theme;
-            set
-            {
-                _theme = value;
-
-                var iosTheme = Theme as IIosTheme;
-                _walkthrough = iosTheme.ContainerViewController;
-            }
+            _walkthrough = theme.Container as BWWalkthroughViewController;
         }
 
         public void Init(UIViewController hostViewController)

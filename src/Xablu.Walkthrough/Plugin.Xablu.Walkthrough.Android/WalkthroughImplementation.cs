@@ -1,11 +1,11 @@
 using Plugin.Xablu.Walkthrough.Abstractions;
 using Android.Support.V4.View;
 using Android.Support.V7.App;
-using Plugin.Xablu.Walkthrough.Themes;
 using Plugin.Xablu.Walkthrough.Abstractions.Containers;
 using Plugin.Xablu.Walkthrough.Containers;
+using Plugin.Xablu.Walkthrough.Abstractions.Themes;
+using Plugin.Xablu.Walkthrough.Abstractions.Pages;
 using Walker;
-using Plugin.Xablu.Walkthrough.Pages;
 
 namespace Plugin.Xablu.Walkthrough
 {

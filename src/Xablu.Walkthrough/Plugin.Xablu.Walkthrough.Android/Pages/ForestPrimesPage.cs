@@ -1,5 +1,4 @@
-﻿using System;
-using System.Drawing;
+﻿using System.Drawing;
 using Android.OS;
 using Android.Views;
 using Android.Widget;
@@ -15,7 +14,7 @@ namespace Plugin.Xablu.Walkthrough.Pages
 
         public TextControl TitleControl;
 
-        public ImageControl CenterImage;
+        public ImageControl CenterImageControl;
 
         public TextControl DescriptionControl;
 

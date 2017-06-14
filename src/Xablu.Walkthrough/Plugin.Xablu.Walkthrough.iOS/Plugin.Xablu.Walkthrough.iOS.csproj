@@ -41,17 +41,16 @@
     <Compile Include="WalkthroughImplementation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Extensions\IWalkthroughExtensions.cs" />
-    <Compile Include="Themes\IIosTheme.cs" />
-    <Compile Include="Themes\ForestPrimes.cs" />
-    <Compile Include="ViewControllers\ForestPrimesViewController.cs" />
-    <Compile Include="ViewControllers\ForestPrimesViewController.designer.cs">
-      <DependentUpon>ForestPrimesViewController.cs</DependentUpon>
-    </Compile>
     <Compile Include="Containers\ForestPrimesContainer.cs" />
     <Compile Include="Containers\ForestPrimesContainerViewController.designer.cs">
       <DependentUpon>ForestPrimesContainer.cs</DependentUpon>
     </Compile>
     <Compile Include="Extensions\IViewExtensions.cs" />
+    <Compile Include="Containers\BaseContainer.cs" />
+    <Compile Include="Pages\ForestPrimesPage.cs" />
+    <Compile Include="Pages\ForestPrimesPage.designer.cs">
+      <DependentUpon>ForestPrimesPage.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Plugin.Xablu.Walkthrough.Abstractions\Plugin.Xablu.Walkthrough.Abstractions.csproj">
@@ -76,13 +75,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Extensions\" />
-    <Folder Include="Themes\" />
-    <Folder Include="ViewControllers\" />
     <Folder Include="Containers\" />
+    <Folder Include="Pages\" />
   </ItemGroup>
   <ItemGroup>
-    <InterfaceDefinition Include="ViewControllers\ForestPrimesViewController.xib" />
     <InterfaceDefinition Include="Containers\ForestPrimesContainer.xib" />
+    <InterfaceDefinition Include="Pages\ForestPrimesPage.xib" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
