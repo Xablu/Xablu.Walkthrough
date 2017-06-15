@@ -1,6 +1,4 @@
-﻿using System;
-using Android.Graphics;
-using Android.Graphics.Drawables;
+﻿using Android.Graphics.Drawables;
 using Android.Support.V7.Widget;
 using Android.Widget;
 using Plugin.Xablu.Walkthrough.Abstractions.Controls;
@@ -10,7 +8,7 @@ namespace Plugin.Xablu.Walkthrough.Extensions
 {
     public static class AndroidViewExtensions
     {
-        public static void SetControl<T>(this TextView textview, T control) where T : TextControl
+        public static void SetControl(this TextView textview, TextControl control)
         {
             textview.Text = control.Text;
             textview.TextSize = control.TextSize;
@@ -26,7 +24,7 @@ namespace Plugin.Xablu.Walkthrough.Extensions
             }
         }
 
-        public static void SetControl<T>(this AppCompatImageButton imageView, T control) where T : ImageButtonControl
+        public static void SetControl(this AppCompatImageButton imageView, ImageButtonControl control)
         {
             if (control.Image != null)
                 imageView.SetImageDrawable(GetImage(control.Image));
@@ -34,7 +32,7 @@ namespace Plugin.Xablu.Walkthrough.Extensions
                 imageView.Click += (sender, e) => control.ClickAction();
         }
 
-        public static void SetControl<T>(this ImageView imageView, T control) where T : ImageControl
+        public static void SetControl(this ImageView imageView, ImageControl control)
         {
             if (control.Image != null)
                 imageView.SetImageDrawable(GetImage(control.Image));
