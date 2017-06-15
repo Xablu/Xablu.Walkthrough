@@ -144,6 +144,7 @@
     <AndroidResource Include="Resources\drawable-xxxhdpi\conatct_illo.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\receipt_illo.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\task_illo.png" />
+    <AndroidResource Include="Resources\drawable\ArrowRight.xml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WalkthroughSample\WalkthroughSample.csproj">

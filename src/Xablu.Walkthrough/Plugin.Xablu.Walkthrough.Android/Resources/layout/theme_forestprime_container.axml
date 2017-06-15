@@ -47,18 +47,6 @@
                 android:layout_marginLeft="8dp"
                 android:layout_marginStart="8dp"
                 android:minWidth="100dp" />
-            <ImageButton
-                android:id="@+id/back"
-                style="@style/ForestPrimeButtonStyleCompat"
-                android:layout_width="wrap_content"
-                android:layout_height="fill_parent"
-                android:layout_gravity="start"
-                android:layout_marginLeft="8dp"
-                android:layout_marginStart="8dp"
-                android:minWidth="100dp"
-                android:visibility="invisible"
-                app:srcCompat="@drawable/ic_forestprime_navigate_before_white"
-                tools:ignore="ContentDescription" />
             <android.support.v7.widget.AppCompatImageButton
                 android:id="@+id/btnNext"
                 style="@style/ForestPrimeButtonStyleCompat"
@@ -69,7 +57,6 @@
                 android:layout_marginRight="8dp"
                 android:minWidth="100dp"
                 android:clickable="true"
-                app:srcCompat="@drawable/ic_forestprime_navigate_next_red"
                 tools:ignore="ContentDescription" />
             <TextView
                 android:id="@+id/btnStart"

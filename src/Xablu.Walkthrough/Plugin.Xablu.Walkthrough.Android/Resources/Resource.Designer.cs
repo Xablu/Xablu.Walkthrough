@@ -2067,26 +2067,26 @@ namespace Plugin.Xablu.Walkthrough
 			// aapt resource value: 0x7f020053
 			public static int avd_hide_password = 2130837587;
 			
-			// aapt resource value: 0x7f02006f
-			public static int avd_hide_password_1 = 2130837615;
+			// aapt resource value: 0x7f02006b
+			public static int avd_hide_password_1 = 2130837611;
 			
-			// aapt resource value: 0x7f020070
-			public static int avd_hide_password_2 = 2130837616;
+			// aapt resource value: 0x7f02006c
+			public static int avd_hide_password_2 = 2130837612;
 			
-			// aapt resource value: 0x7f020071
-			public static int avd_hide_password_3 = 2130837617;
+			// aapt resource value: 0x7f02006d
+			public static int avd_hide_password_3 = 2130837613;
 			
 			// aapt resource value: 0x7f020054
 			public static int avd_show_password = 2130837588;
 			
-			// aapt resource value: 0x7f020072
-			public static int avd_show_password_1 = 2130837618;
+			// aapt resource value: 0x7f02006e
+			public static int avd_show_password_1 = 2130837614;
 			
-			// aapt resource value: 0x7f020073
-			public static int avd_show_password_2 = 2130837619;
+			// aapt resource value: 0x7f02006f
+			public static int avd_show_password_2 = 2130837615;
 			
-			// aapt resource value: 0x7f020074
-			public static int avd_show_password_3 = 2130837620;
+			// aapt resource value: 0x7f020070
+			public static int avd_show_password_3 = 2130837616;
 			
 			// aapt resource value: 0x7f020055
 			public static int design_bottom_navigation_item_background = 2130837589;
@@ -2107,64 +2107,52 @@ namespace Plugin.Xablu.Walkthrough
 			public static int design_snackbar_background = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public static int ic_forestprime_done_white = 2130837595;
+			public static int indicator_dot_grey = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public static int ic_forestprime_navigate_before_white = 2130837596;
+			public static int indicator_dot_white = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public static int ic_forestprime_navigate_next_red = 2130837597;
+			public static int indicator_tab_selector = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public static int ic_forestprime_skip_white = 2130837598;
+			public static int navigation_empty_icon = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public static int indicator_dot_grey = 2130837599;
+			public static int notification_action_background = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public static int indicator_dot_white = 2130837600;
+			public static int notification_bg = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public static int indicator_tab_selector = 2130837601;
+			public static int notification_bg_low = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public static int navigation_empty_icon = 2130837602;
+			public static int notification_bg_low_normal = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public static int notification_action_background = 2130837603;
+			public static int notification_bg_low_pressed = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public static int notification_bg = 2130837604;
+			public static int notification_bg_normal = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public static int notification_bg_low = 2130837605;
+			public static int notification_bg_normal_pressed = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public static int notification_bg_low_normal = 2130837606;
-			
-			// aapt resource value: 0x7f020067
-			public static int notification_bg_low_pressed = 2130837607;
-			
-			// aapt resource value: 0x7f020068
-			public static int notification_bg_normal = 2130837608;
+			public static int notification_icon_background = 2130837606;
 			
 			// aapt resource value: 0x7f020069
-			public static int notification_bg_normal_pressed = 2130837609;
+			public static int notification_template_icon_bg = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public static int notification_icon_background = 2130837610;
+			public static int notification_template_icon_low_bg = 2130837610;
 			
-			// aapt resource value: 0x7f02006d
-			public static int notification_template_icon_bg = 2130837613;
+			// aapt resource value: 0x7f020067
+			public static int notification_tile_bg = 2130837607;
 			
-			// aapt resource value: 0x7f02006e
-			public static int notification_template_icon_low_bg = 2130837614;
-			
-			// aapt resource value: 0x7f02006b
-			public static int notification_tile_bg = 2130837611;
-			
-			// aapt resource value: 0x7f02006c
-			public static int notify_panel_notification_icon_bg = 2130837612;
+			// aapt resource value: 0x7f020068
+			public static int notify_panel_notification_icon_bg = 2130837608;
 			
 			static Drawable()
 			{
@@ -2254,23 +2242,20 @@ namespace Plugin.Xablu.Walkthrough
 			// aapt resource value: 0x7f08002f
 			public static int auto = 2131230767;
 			
-			// aapt resource value: 0x7f08009b
-			public static int back = 2131230875;
-			
 			// aapt resource value: 0x7f080020
 			public static int beginning = 2131230752;
 			
 			// aapt resource value: 0x7f080028
 			public static int bottom = 2131230760;
 			
-			// aapt resource value: 0x7f08009c
-			public static int btnNext = 2131230876;
+			// aapt resource value: 0x7f08009b
+			public static int btnNext = 2131230875;
 			
 			// aapt resource value: 0x7f08009a
 			public static int btnSkip = 2131230874;
 			
-			// aapt resource value: 0x7f08009d
-			public static int btnStart = 2131230877;
+			// aapt resource value: 0x7f08009c
+			public static int btnStart = 2131230876;
 			
 			// aapt resource value: 0x7f08004b
 			public static int buttonPanel = 2131230795;
@@ -2416,8 +2401,8 @@ namespace Plugin.Xablu.Walkthrough
 			// aapt resource value: 0x7f080048
 			public static int list_item = 2131230792;
 			
-			// aapt resource value: 0x7f0800a4
-			public static int masked = 2131230884;
+			// aapt resource value: 0x7f0800a3
+			public static int masked = 2131230883;
 			
 			// aapt resource value: 0x7f080085
 			public static int media_actions = 2131230853;
@@ -2608,23 +2593,23 @@ namespace Plugin.Xablu.Walkthrough
 			// aapt resource value: 0x7f080098
 			public static int theme_forestprime_bottomlayout = 2131230872;
 			
-			// aapt resource value: 0x7f0800a1
-			public static int theme_forestprime_description = 2131230881;
-			
-			// aapt resource value: 0x7f0800a2
-			public static int theme_forestprime_gettingstarted = 2131230882;
-			
 			// aapt resource value: 0x7f0800a0
-			public static int theme_forestprime_image = 2131230880;
+			public static int theme_forestprime_description = 2131230880;
 			
-			// aapt resource value: 0x7f08009e
-			public static int theme_forestprime_page = 2131230878;
+			// aapt resource value: 0x7f0800a1
+			public static int theme_forestprime_gettingstarted = 2131230881;
+			
+			// aapt resource value: 0x7f08009f
+			public static int theme_forestprime_image = 2131230879;
+			
+			// aapt resource value: 0x7f08009d
+			public static int theme_forestprime_page = 2131230877;
 			
 			// aapt resource value: 0x7f080097
 			public static int theme_forestprime_tablayout = 2131230871;
 			
-			// aapt resource value: 0x7f08009f
-			public static int theme_forestprime_title = 2131230879;
+			// aapt resource value: 0x7f08009e
+			public static int theme_forestprime_title = 2131230878;
 			
 			// aapt resource value: 0x7f08008a
 			public static int time = 2131230858;
@@ -2665,8 +2650,8 @@ namespace Plugin.Xablu.Walkthrough
 			// aapt resource value: 0x7f080096
 			public static int view_pager = 2131230870;
 			
-			// aapt resource value: 0x7f0800a3
-			public static int visible = 2131230883;
+			// aapt resource value: 0x7f0800a2
+			public static int visible = 2131230882;
 			
 			// aapt resource value: 0x7f080027
 			public static int withText = 2131230759;

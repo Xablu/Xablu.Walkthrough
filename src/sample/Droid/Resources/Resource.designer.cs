@@ -693,10 +693,6 @@ namespace WalkthroughSample.Droid
 			global::Plugin.Xablu.Walkthrough.Resource.Drawable.design_ic_visibility_off = global::WalkthroughSample.Droid.Resource.Drawable.design_ic_visibility_off;
 			global::Plugin.Xablu.Walkthrough.Resource.Drawable.design_password_eye = global::WalkthroughSample.Droid.Resource.Drawable.design_password_eye;
 			global::Plugin.Xablu.Walkthrough.Resource.Drawable.design_snackbar_background = global::WalkthroughSample.Droid.Resource.Drawable.design_snackbar_background;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.ic_forestprime_done_white = global::WalkthroughSample.Droid.Resource.Drawable.ic_forestprime_done_white;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.ic_forestprime_navigate_before_white = global::WalkthroughSample.Droid.Resource.Drawable.ic_forestprime_navigate_before_white;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.ic_forestprime_navigate_next_red = global::WalkthroughSample.Droid.Resource.Drawable.ic_forestprime_navigate_next_red;
-			global::Plugin.Xablu.Walkthrough.Resource.Drawable.ic_forestprime_skip_white = global::WalkthroughSample.Droid.Resource.Drawable.ic_forestprime_skip_white;
 			global::Plugin.Xablu.Walkthrough.Resource.Drawable.indicator_dot_grey = global::WalkthroughSample.Droid.Resource.Drawable.indicator_dot_grey;
 			global::Plugin.Xablu.Walkthrough.Resource.Drawable.indicator_dot_white = global::WalkthroughSample.Droid.Resource.Drawable.indicator_dot_white;
 			global::Plugin.Xablu.Walkthrough.Resource.Drawable.indicator_tab_selector = global::WalkthroughSample.Droid.Resource.Drawable.indicator_tab_selector;
@@ -738,7 +734,6 @@ namespace WalkthroughSample.Droid
 			global::Plugin.Xablu.Walkthrough.Resource.Id.all = global::WalkthroughSample.Droid.Resource.Id.all;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.always = global::WalkthroughSample.Droid.Resource.Id.always;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.auto = global::WalkthroughSample.Droid.Resource.Id.auto;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.back = global::WalkthroughSample.Droid.Resource.Id.back;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.beginning = global::WalkthroughSample.Droid.Resource.Id.beginning;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.bottom = global::WalkthroughSample.Droid.Resource.Id.bottom;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.btnNext = global::WalkthroughSample.Droid.Resource.Id.btnNext;
@@ -3912,130 +3907,133 @@ namespace WalkthroughSample.Droid
 			public const int abc_vector_test = 2130837586;
 			
 			// aapt resource value: 0x7f020053
-			public const int avd_hide_password = 2130837587;
-			
-			// aapt resource value: 0x7f020077
-			public const int avd_hide_password_1 = 2130837623;
-			
-			// aapt resource value: 0x7f020078
-			public const int avd_hide_password_2 = 2130837624;
-			
-			// aapt resource value: 0x7f020079
-			public const int avd_hide_password_3 = 2130837625;
+			public const int ArrowRight = 2130837587;
 			
 			// aapt resource value: 0x7f020054
-			public const int avd_show_password = 2130837588;
+			public const int avd_hide_password = 2130837588;
+			
+			// aapt resource value: 0x7f020078
+			public const int avd_hide_password_1 = 2130837624;
+			
+			// aapt resource value: 0x7f020079
+			public const int avd_hide_password_2 = 2130837625;
 			
 			// aapt resource value: 0x7f02007a
-			public const int avd_show_password_1 = 2130837626;
-			
-			// aapt resource value: 0x7f02007b
-			public const int avd_show_password_2 = 2130837627;
-			
-			// aapt resource value: 0x7f02007c
-			public const int avd_show_password_3 = 2130837628;
+			public const int avd_hide_password_3 = 2130837626;
 			
 			// aapt resource value: 0x7f020055
-			public const int cloud = 2130837589;
+			public const int avd_show_password = 2130837589;
+			
+			// aapt resource value: 0x7f02007b
+			public const int avd_show_password_1 = 2130837627;
+			
+			// aapt resource value: 0x7f02007c
+			public const int avd_show_password_2 = 2130837628;
+			
+			// aapt resource value: 0x7f02007d
+			public const int avd_show_password_3 = 2130837629;
 			
 			// aapt resource value: 0x7f020056
-			public const int conatct_illo = 2130837590;
+			public const int cloud = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int design_bottom_navigation_item_background = 2130837591;
+			public const int conatct_illo = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int design_fab_background = 2130837592;
+			public const int design_bottom_navigation_item_background = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int design_ic_visibility = 2130837593;
+			public const int design_fab_background = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int design_ic_visibility_off = 2130837594;
+			public const int design_ic_visibility = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int design_password_eye = 2130837595;
+			public const int design_ic_visibility_off = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int design_snackbar_background = 2130837596;
+			public const int design_password_eye = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int ic_forestprime_done_white = 2130837597;
+			public const int design_snackbar_background = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int ic_forestprime_navigate_before_white = 2130837598;
+			public const int ic_forestprime_done_white = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int ic_forestprime_navigate_next_red = 2130837599;
+			public const int ic_forestprime_navigate_before_white = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int ic_forestprime_skip_white = 2130837600;
+			public const int ic_forestprime_navigate_next_red = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int ic_walkthrough_count = 2130837601;
+			public const int ic_forestprime_skip_white = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int ic_walkthrough_folder = 2130837602;
+			public const int ic_walkthrough_count = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int ic_walkthrough_questions = 2130837603;
+			public const int ic_walkthrough_folder = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int indicator_dot_grey = 2130837604;
+			public const int ic_walkthrough_questions = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int indicator_dot_white = 2130837605;
+			public const int indicator_dot_grey = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int indicator_tab_selector = 2130837606;
+			public const int indicator_dot_white = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int iPhone = 2130837607;
+			public const int indicator_tab_selector = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int navigation_empty_icon = 2130837608;
+			public const int iPhone = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int notification_action_background = 2130837609;
+			public const int navigation_empty_icon = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int notification_bg = 2130837610;
+			public const int notification_action_background = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int notification_bg_low = 2130837611;
+			public const int notification_bg = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int notification_bg_low_normal = 2130837612;
+			public const int notification_bg_low = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int notification_bg_low_pressed = 2130837613;
+			public const int notification_bg_low_normal = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int notification_bg_normal = 2130837614;
+			public const int notification_bg_low_pressed = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int notification_bg_normal_pressed = 2130837615;
+			public const int notification_bg_normal = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int notification_icon_background = 2130837616;
-			
-			// aapt resource value: 0x7f020075
-			public const int notification_template_icon_bg = 2130837621;
-			
-			// aapt resource value: 0x7f020076
-			public const int notification_template_icon_low_bg = 2130837622;
+			public const int notification_bg_normal_pressed = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int notification_tile_bg = 2130837617;
+			public const int notification_icon_background = 2130837617;
+			
+			// aapt resource value: 0x7f020076
+			public const int notification_template_icon_bg = 2130837622;
+			
+			// aapt resource value: 0x7f020077
+			public const int notification_template_icon_low_bg = 2130837623;
 			
 			// aapt resource value: 0x7f020072
-			public const int notify_panel_notification_icon_bg = 2130837618;
+			public const int notification_tile_bg = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int receipt_illo = 2130837619;
+			public const int notify_panel_notification_icon_bg = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int task_illo = 2130837620;
+			public const int receipt_illo = 2130837620;
+			
+			// aapt resource value: 0x7f020075
+			public const int task_illo = 2130837621;
 			
 			static Drawable()
 			{
@@ -4125,23 +4123,20 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f08002f
 			public const int auto = 2131230767;
 			
-			// aapt resource value: 0x7f0800a3
-			public const int back = 2131230883;
-			
 			// aapt resource value: 0x7f080020
 			public const int beginning = 2131230752;
 			
 			// aapt resource value: 0x7f080028
 			public const int bottom = 2131230760;
 			
-			// aapt resource value: 0x7f0800a4
-			public const int btnNext = 2131230884;
+			// aapt resource value: 0x7f0800a3
+			public const int btnNext = 2131230883;
 			
 			// aapt resource value: 0x7f0800a2
 			public const int btnSkip = 2131230882;
 			
-			// aapt resource value: 0x7f0800a5
-			public const int btnStart = 2131230885;
+			// aapt resource value: 0x7f0800a4
+			public const int btnStart = 2131230884;
 			
 			// aapt resource value: 0x7f08004b
 			public const int buttonPanel = 2131230795;
@@ -4305,8 +4300,8 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f080048
 			public const int list_item = 2131230792;
 			
-			// aapt resource value: 0x7f0800ac
-			public const int masked = 2131230892;
+			// aapt resource value: 0x7f0800ab
+			public const int masked = 2131230891;
 			
 			// aapt resource value: 0x7f080088
 			public const int media_actions = 2131230856;
@@ -4500,23 +4495,23 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f0800a0
 			public const int theme_forestprime_bottomlayout = 2131230880;
 			
-			// aapt resource value: 0x7f0800a9
-			public const int theme_forestprime_description = 2131230889;
-			
-			// aapt resource value: 0x7f0800aa
-			public const int theme_forestprime_gettingstarted = 2131230890;
-			
 			// aapt resource value: 0x7f0800a8
-			public const int theme_forestprime_image = 2131230888;
+			public const int theme_forestprime_description = 2131230888;
 			
-			// aapt resource value: 0x7f0800a6
-			public const int theme_forestprime_page = 2131230886;
+			// aapt resource value: 0x7f0800a9
+			public const int theme_forestprime_gettingstarted = 2131230889;
+			
+			// aapt resource value: 0x7f0800a7
+			public const int theme_forestprime_image = 2131230887;
+			
+			// aapt resource value: 0x7f0800a5
+			public const int theme_forestprime_page = 2131230885;
 			
 			// aapt resource value: 0x7f08009f
 			public const int theme_forestprime_tablayout = 2131230879;
 			
-			// aapt resource value: 0x7f0800a7
-			public const int theme_forestprime_title = 2131230887;
+			// aapt resource value: 0x7f0800a6
+			public const int theme_forestprime_title = 2131230886;
 			
 			// aapt resource value: 0x7f08008d
 			public const int time = 2131230861;
@@ -4557,8 +4552,8 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f08009e
 			public const int view_pager = 2131230878;
 			
-			// aapt resource value: 0x7f0800ab
-			public const int visible = 2131230891;
+			// aapt resource value: 0x7f0800aa
+			public const int visible = 2131230890;
 			
 			// aapt resource value: 0x7f08007f
 			public const int walker = 2131230847;

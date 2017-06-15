@@ -127,10 +127,6 @@
   <ItemGroup>
     <AndroidResource Include="Resources\layout\theme_forestprime_container.axml" />
     <AndroidResource Include="Resources\layout\theme_forestprime_page.axml" />
-    <AndroidResource Include="Resources\drawable\ic_forestprime_done_white.xml" />
-    <AndroidResource Include="Resources\drawable\ic_forestprime_navigate_before_white.xml" />
-    <AndroidResource Include="Resources\drawable\ic_forestprime_navigate_next_red.xml" />
-    <AndroidResource Include="Resources\drawable\ic_forestprime_skip_white.xml" />
     <AndroidResource Include="Resources\drawable\indicator_dot_grey.xml" />
     <AndroidResource Include="Resources\drawable\indicator_dot_white.xml" />
     <AndroidResource Include="Resources\values\styles.xml" />
