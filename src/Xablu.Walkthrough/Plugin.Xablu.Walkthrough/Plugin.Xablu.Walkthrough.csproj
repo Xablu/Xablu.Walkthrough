@@ -47,6 +47,7 @@
     <Compile Include="Extensions\IWalkthroughExtensions.cs" />
     <Compile Include="Containers\ForestPrimesContainer.cs" />
     <Compile Include="Pages\ForestPrimesPage.cs" />
+    <Compile Include="Containers\PantheonContainer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Extensions\" />

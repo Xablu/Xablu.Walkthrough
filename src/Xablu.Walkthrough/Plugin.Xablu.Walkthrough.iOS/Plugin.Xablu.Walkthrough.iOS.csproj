@@ -51,6 +51,10 @@
     <Compile Include="Pages\ForestPrimesPage.designer.cs">
       <DependentUpon>ForestPrimesPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Containers\PantheonContainer.cs" />
+    <Compile Include="Containers\PantheonContainer.designer.cs">
+      <DependentUpon>PantheonContainer.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Plugin.Xablu.Walkthrough.Abstractions\Plugin.Xablu.Walkthrough.Abstractions.csproj">
@@ -81,6 +85,7 @@
   <ItemGroup>
     <InterfaceDefinition Include="Containers\ForestPrimesContainer.xib" />
     <InterfaceDefinition Include="Pages\ForestPrimesPage.xib" />
+    <InterfaceDefinition Include="Containers\PantheonContainer.xib" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
