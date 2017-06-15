@@ -1,27 +1,23 @@
-using Plugin.Xablu.Walkthrough.Abstractions;
 using UIKit;
 using BWWalkthrough;
-using Plugin.Xablu.Walkthrough.Themes;
 using Plugin.Xablu.Walkthrough.Abstractions.Containers;
-using Plugin.Xablu.Walkthrough.Pages;
-using System;
 using Plugin.Xablu.Walkthrough.Abstractions.Themes;
 using Plugin.Xablu.Walkthrough.Abstractions.Pages;
-using System.Collections.Generic;
+using Plugin.Xablu.Walkthrough.Abstractions;
 
 namespace Plugin.Xablu.Walkthrough
 {
     /// <summary>
-    /// Implementation for Walkthrough
+    /// Implementation for iOS
     /// </summary>
     public class WalkthroughImplementation : IWalkthrough
     {
-        private BWWalkthroughViewController _walkthrough;
-        private UIViewController _hostViewController;
+        private BWWalkthroughViewController walkthrough;
+        private UIViewController hostViewController;
 
         public void Setup<TPage, TContainer>(ITheme<TPage, TContainer> theme) where TPage : IPage where TContainer : IContainer
         {
-            _walkthrough = theme.Container as BWWalkthroughViewController;
+            walkthrough = theme.Container as BWWalkthroughViewController;
 
             foreach (var page in theme.Pages)
             {
@@ -30,34 +26,34 @@ namespace Plugin.Xablu.Walkthrough
                 uiPage.View.SetNeedsLayout();
                 uiPage.View.LayoutIfNeeded();
 
-                _walkthrough.AddViewController(uiPage);
+                walkthrough.AddViewController(uiPage);
             }
         }
 
-        public void Init(UIViewController hostViewController)
+        public void Init(UIViewController hostVc)
         {
-            _hostViewController = hostViewController;
+            hostViewController = hostVc;
         }
 
         public void Show()
         {
-            _hostViewController.PresentViewController(_walkthrough, true, null);
+            hostViewController.PresentViewController(walkthrough, true, null);
         }
 
         public void Next()
         {
-            _walkthrough.NextPage();
+            walkthrough.NextPage();
         }
 
         public void Previous()
         {
-            _walkthrough.PreviousPage();
+            walkthrough.PreviousPage();
         }
 
         public void Close()
         {
-            _walkthrough.DismissViewController(true, null);
-            _walkthrough.Close();
+            walkthrough.DismissViewController(true, null);
+            walkthrough.Close();
         }
     }
 }

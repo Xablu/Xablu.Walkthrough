@@ -32,6 +32,10 @@ namespace WalkthroughSample
                         CrossWalkthrough.Current.Close();
                     },
                     TextStyle = 1
+                },
+                NextButtonControl = new ImageButtonControl()
+                {
+                    Image = "ArrowRight"
                 }
             };
 

@@ -61,7 +61,7 @@ namespace Plugin.Xablu.Walkthrough.Containers
         {
         }
 
-        public override void ViewDidLoad()
+        public override async void ViewDidLoad()
         {
             base.ViewDidLoad();
 
@@ -71,16 +71,7 @@ namespace Plugin.Xablu.Walkthrough.Containers
 
             StartButton.SetControl(startButtonControl);
             SkipButton.SetControl(skipButtonControl);
-            UpdateViewConstraints();
-            NextButton.TouchUpInside += (sender, e) =>
-            {
-                CrossWalkthrough.Current.Next();
-            };
-
-            SkipButton.TouchUpInside += (sender, e) =>
-            {
-                CrossWalkthrough.Current.Close();
-            };
+            await NextButton.SetControl(nextButtonControl);
 
             NextButton.AccessibilityIdentifier = "btnNext";
             SkipButton.AccessibilityIdentifier = "btnSkip";
@@ -100,7 +91,7 @@ namespace Plugin.Xablu.Walkthrough.Containers
         }
 
         [Export("scrollViewDidScroll:")]
-        public void Scrolled(UIScrollView scrollView)
+        public override void Scrolled(UIScrollView scrollView)
         {
             for (int i = 0; i < Controllers.Count; i++)
             {
@@ -154,22 +145,18 @@ namespace Plugin.Xablu.Walkthrough.Containers
 
         public void WalkthroughCloseButtonPressed()
         {
-            //  throw new NotImplementedException();
         }
 
         public void WalkthroughNextButtonPressed()
         {
-            //  throw new NotImplementedException();
         }
 
         public void WalkthroughPrevButtonPressed()
         {
-            //  throw new NotImplementedException();
         }
 
         public void WalkthroughPageDidChange(int pageNumber)
         {
-            //  throw new NotImplementedException();
         }
     }
 }
