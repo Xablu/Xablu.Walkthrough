@@ -1,14 +1,13 @@
 ﻿using System.Drawing;
 using BWWalkthrough;
 using Plugin.Xablu.Walkthrough.Abstractions.Controls;
-using Plugin.Xablu.Walkthrough.Abstractions.Pages;
 using Plugin.Xablu.Walkthrough.Extensions;
 using Splat;
 using UIKit;
 
 namespace Plugin.Xablu.Walkthrough.Pages
 {
-    public partial class ForestPrimesPage : UIViewController, IBWWalkthroughPage, IPage
+    public partial class ForestPrimesPage : UIViewController, IBWWalkthroughPage
     {
         public Color BackgroundColor = Color.PaleGreen;
 
@@ -20,12 +19,6 @@ namespace Plugin.Xablu.Walkthrough.Pages
 
         public ForestPrimesPage() : base("ForestPrimesPage", null)
         {
-        }
-
-        public override void ViewDidLayoutSubviews()
-        {
-            // View.Bounds = UIScreen.MainScreen.Bounds;
-            base.ViewDidLayoutSubviews();
         }
 
         public async override void ViewDidLoad()
