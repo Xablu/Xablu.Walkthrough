@@ -43,6 +43,7 @@ namespace WalkthroughSample.Droid
 			global::Plugin.Xablu.Walkthrough.Resource.Animation.design_snackbar_in = global::WalkthroughSample.Droid.Resource.Animation.design_snackbar_in;
 			global::Plugin.Xablu.Walkthrough.Resource.Animation.design_snackbar_out = global::WalkthroughSample.Droid.Resource.Animation.design_snackbar_out;
 			global::Plugin.Xablu.Walkthrough.Resource.Animator.design_appbar_state_list_animator = global::WalkthroughSample.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Plugin.Xablu.Walkthrough.Resource.Animator.scale_with_alpha = global::WalkthroughSample.Droid.Resource.Animator.scale_with_alpha;
 			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionBarDivider = global::WalkthroughSample.Droid.Resource.Attribute.actionBarDivider;
 			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionBarItemBackground = global::WalkthroughSample.Droid.Resource.Attribute.actionBarItemBackground;
 			global::Plugin.Xablu.Walkthrough.Resource.Attribute.actionBarPopupTheme = global::WalkthroughSample.Droid.Resource.Attribute.actionBarPopupTheme;
@@ -114,6 +115,15 @@ namespace WalkthroughSample.Droid
 			global::Plugin.Xablu.Walkthrough.Resource.Attribute.buttonTintMode = global::WalkthroughSample.Droid.Resource.Attribute.buttonTintMode;
 			global::Plugin.Xablu.Walkthrough.Resource.Attribute.checkboxStyle = global::WalkthroughSample.Droid.Resource.Attribute.checkboxStyle;
 			global::Plugin.Xablu.Walkthrough.Resource.Attribute.checkedTextViewStyle = global::WalkthroughSample.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Plugin.Xablu.Walkthrough.Resource.Attribute.ci_animator = global::WalkthroughSample.Droid.Resource.Attribute.ci_animator;
+			global::Plugin.Xablu.Walkthrough.Resource.Attribute.ci_animator_reverse = global::WalkthroughSample.Droid.Resource.Attribute.ci_animator_reverse;
+			global::Plugin.Xablu.Walkthrough.Resource.Attribute.ci_drawable = global::WalkthroughSample.Droid.Resource.Attribute.ci_drawable;
+			global::Plugin.Xablu.Walkthrough.Resource.Attribute.ci_drawable_unselected = global::WalkthroughSample.Droid.Resource.Attribute.ci_drawable_unselected;
+			global::Plugin.Xablu.Walkthrough.Resource.Attribute.ci_gravity = global::WalkthroughSample.Droid.Resource.Attribute.ci_gravity;
+			global::Plugin.Xablu.Walkthrough.Resource.Attribute.ci_height = global::WalkthroughSample.Droid.Resource.Attribute.ci_height;
+			global::Plugin.Xablu.Walkthrough.Resource.Attribute.ci_margin = global::WalkthroughSample.Droid.Resource.Attribute.ci_margin;
+			global::Plugin.Xablu.Walkthrough.Resource.Attribute.ci_orientation = global::WalkthroughSample.Droid.Resource.Attribute.ci_orientation;
+			global::Plugin.Xablu.Walkthrough.Resource.Attribute.ci_width = global::WalkthroughSample.Droid.Resource.Attribute.ci_width;
 			global::Plugin.Xablu.Walkthrough.Resource.Attribute.closeIcon = global::WalkthroughSample.Droid.Resource.Attribute.closeIcon;
 			global::Plugin.Xablu.Walkthrough.Resource.Attribute.closeItemLayout = global::WalkthroughSample.Droid.Resource.Attribute.closeItemLayout;
 			global::Plugin.Xablu.Walkthrough.Resource.Attribute.collapseContentDescription = global::WalkthroughSample.Droid.Resource.Attribute.collapseContentDescription;
@@ -709,6 +719,7 @@ namespace WalkthroughSample.Droid
 			global::Plugin.Xablu.Walkthrough.Resource.Drawable.notification_template_icon_low_bg = global::WalkthroughSample.Droid.Resource.Drawable.notification_template_icon_low_bg;
 			global::Plugin.Xablu.Walkthrough.Resource.Drawable.notification_tile_bg = global::WalkthroughSample.Droid.Resource.Drawable.notification_tile_bg;
 			global::Plugin.Xablu.Walkthrough.Resource.Drawable.notify_panel_notification_icon_bg = global::WalkthroughSample.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Plugin.Xablu.Walkthrough.Resource.Drawable.white_radius = global::WalkthroughSample.Droid.Resource.Drawable.white_radius;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.action0 = global::WalkthroughSample.Droid.Resource.Id.action0;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.action_bar = global::WalkthroughSample.Droid.Resource.Id.action_bar;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.action_bar_activity_content = global::WalkthroughSample.Droid.Resource.Id.action_bar_activity_content;
@@ -774,10 +785,12 @@ namespace WalkthroughSample.Droid
 			global::Plugin.Xablu.Walkthrough.Resource.Id.@fixed = global::WalkthroughSample.Droid.Resource.Id.@fixed;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.home = global::WalkthroughSample.Droid.Resource.Id.home;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.homeAsUp = global::WalkthroughSample.Droid.Resource.Id.homeAsUp;
+			global::Plugin.Xablu.Walkthrough.Resource.Id.horizontal = global::WalkthroughSample.Droid.Resource.Id.horizontal;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.icon = global::WalkthroughSample.Droid.Resource.Id.icon;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.icon_group = global::WalkthroughSample.Droid.Resource.Id.icon_group;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.ifRoom = global::WalkthroughSample.Droid.Resource.Id.ifRoom;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.image = global::WalkthroughSample.Droid.Resource.Id.image;
+			global::Plugin.Xablu.Walkthrough.Resource.Id.indicator = global::WalkthroughSample.Droid.Resource.Id.indicator;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.indicator_container = global::WalkthroughSample.Droid.Resource.Id.indicator_container;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.info = global::WalkthroughSample.Droid.Resource.Id.info;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.item_touch_helper_previous_elevation = global::WalkthroughSample.Droid.Resource.Id.item_touch_helper_previous_elevation;
@@ -855,7 +868,6 @@ namespace WalkthroughSample.Droid
 			global::Plugin.Xablu.Walkthrough.Resource.Id.theme_forestprime_gettingstarted = global::WalkthroughSample.Droid.Resource.Id.theme_forestprime_gettingstarted;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.theme_forestprime_image = global::WalkthroughSample.Droid.Resource.Id.theme_forestprime_image;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.theme_forestprime_page = global::WalkthroughSample.Droid.Resource.Id.theme_forestprime_page;
-			global::Plugin.Xablu.Walkthrough.Resource.Id.theme_forestprime_tablayout = global::WalkthroughSample.Droid.Resource.Id.theme_forestprime_tablayout;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.theme_forestprime_title = global::WalkthroughSample.Droid.Resource.Id.theme_forestprime_title;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.time = global::WalkthroughSample.Droid.Resource.Id.time;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.title = global::WalkthroughSample.Droid.Resource.Id.title;
@@ -868,6 +880,7 @@ namespace WalkthroughSample.Droid
 			global::Plugin.Xablu.Walkthrough.Resource.Id.transition_scene_layoutid_cache = global::WalkthroughSample.Droid.Resource.Id.transition_scene_layoutid_cache;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.up = global::WalkthroughSample.Droid.Resource.Id.up;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.useLogo = global::WalkthroughSample.Droid.Resource.Id.useLogo;
+			global::Plugin.Xablu.Walkthrough.Resource.Id.vertical = global::WalkthroughSample.Droid.Resource.Id.vertical;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.view_offset_helper = global::WalkthroughSample.Droid.Resource.Id.view_offset_helper;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.view_pager = global::WalkthroughSample.Droid.Resource.Id.view_pager;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.visible = global::WalkthroughSample.Droid.Resource.Id.visible;
@@ -1575,6 +1588,16 @@ namespace WalkthroughSample.Droid
 			global::Plugin.Xablu.Walkthrough.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::WalkthroughSample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
 			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ButtonBarLayout = global::WalkthroughSample.Droid.Resource.Styleable.ButtonBarLayout;
 			global::Plugin.Xablu.Walkthrough.Resource.Styleable.ButtonBarLayout_allowStacking = global::WalkthroughSample.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Plugin.Xablu.Walkthrough.Resource.Styleable.CircleIndicator = global::WalkthroughSample.Droid.Resource.Styleable.CircleIndicator;
+			global::Plugin.Xablu.Walkthrough.Resource.Styleable.CircleIndicator_ci_animator = global::WalkthroughSample.Droid.Resource.Styleable.CircleIndicator_ci_animator;
+			global::Plugin.Xablu.Walkthrough.Resource.Styleable.CircleIndicator_ci_animator_reverse = global::WalkthroughSample.Droid.Resource.Styleable.CircleIndicator_ci_animator_reverse;
+			global::Plugin.Xablu.Walkthrough.Resource.Styleable.CircleIndicator_ci_drawable = global::WalkthroughSample.Droid.Resource.Styleable.CircleIndicator_ci_drawable;
+			global::Plugin.Xablu.Walkthrough.Resource.Styleable.CircleIndicator_ci_drawable_unselected = global::WalkthroughSample.Droid.Resource.Styleable.CircleIndicator_ci_drawable_unselected;
+			global::Plugin.Xablu.Walkthrough.Resource.Styleable.CircleIndicator_ci_gravity = global::WalkthroughSample.Droid.Resource.Styleable.CircleIndicator_ci_gravity;
+			global::Plugin.Xablu.Walkthrough.Resource.Styleable.CircleIndicator_ci_height = global::WalkthroughSample.Droid.Resource.Styleable.CircleIndicator_ci_height;
+			global::Plugin.Xablu.Walkthrough.Resource.Styleable.CircleIndicator_ci_margin = global::WalkthroughSample.Droid.Resource.Styleable.CircleIndicator_ci_margin;
+			global::Plugin.Xablu.Walkthrough.Resource.Styleable.CircleIndicator_ci_orientation = global::WalkthroughSample.Droid.Resource.Styleable.CircleIndicator_ci_orientation;
+			global::Plugin.Xablu.Walkthrough.Resource.Styleable.CircleIndicator_ci_width = global::WalkthroughSample.Droid.Resource.Styleable.CircleIndicator_ci_width;
 			global::Plugin.Xablu.Walkthrough.Resource.Styleable.CollapsingToolbarLayout = global::WalkthroughSample.Droid.Resource.Styleable.CollapsingToolbarLayout;
 			global::Plugin.Xablu.Walkthrough.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::WalkthroughSample.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
 			global::Plugin.Xablu.Walkthrough.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::WalkthroughSample.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
@@ -1933,6 +1956,9 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f060000
 			public const int design_appbar_state_list_animator = 2131099648;
 			
+			// aapt resource value: 0x7f060001
+			public const int scale_with_alpha = 2131099649;
+			
 			static Animator()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -2158,6 +2184,33 @@ namespace WalkthroughSample.Droid
 			
 			// aapt resource value: 0x7f010097
 			public const int checkedTextViewStyle = 2130772119;
+			
+			// aapt resource value: 0x7f01013d
+			public const int ci_animator = 2130772285;
+			
+			// aapt resource value: 0x7f01013e
+			public const int ci_animator_reverse = 2130772286;
+			
+			// aapt resource value: 0x7f01013f
+			public const int ci_drawable = 2130772287;
+			
+			// aapt resource value: 0x7f010140
+			public const int ci_drawable_unselected = 2130772288;
+			
+			// aapt resource value: 0x7f010142
+			public const int ci_gravity = 2130772290;
+			
+			// aapt resource value: 0x7f01013b
+			public const int ci_height = 2130772283;
+			
+			// aapt resource value: 0x7f01013c
+			public const int ci_margin = 2130772284;
+			
+			// aapt resource value: 0x7f010141
+			public const int ci_orientation = 2130772289;
+			
+			// aapt resource value: 0x7f01013a
+			public const int ci_width = 2130772282;
 			
 			// aapt resource value: 0x7f0100be
 			public const int closeIcon = 2130772158;
@@ -3912,26 +3965,26 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f020054
 			public const int avd_hide_password = 2130837588;
 			
-			// aapt resource value: 0x7f020078
-			public const int avd_hide_password_1 = 2130837624;
+			// aapt resource value: 0x7f020075
+			public const int avd_hide_password_1 = 2130837621;
 			
-			// aapt resource value: 0x7f020079
-			public const int avd_hide_password_2 = 2130837625;
+			// aapt resource value: 0x7f020076
+			public const int avd_hide_password_2 = 2130837622;
 			
-			// aapt resource value: 0x7f02007a
-			public const int avd_hide_password_3 = 2130837626;
+			// aapt resource value: 0x7f020077
+			public const int avd_hide_password_3 = 2130837623;
 			
 			// aapt resource value: 0x7f020055
 			public const int avd_show_password = 2130837589;
 			
-			// aapt resource value: 0x7f02007b
-			public const int avd_show_password_1 = 2130837627;
+			// aapt resource value: 0x7f020078
+			public const int avd_show_password_1 = 2130837624;
 			
-			// aapt resource value: 0x7f02007c
-			public const int avd_show_password_2 = 2130837628;
+			// aapt resource value: 0x7f020079
+			public const int avd_show_password_2 = 2130837625;
 			
-			// aapt resource value: 0x7f02007d
-			public const int avd_show_password_3 = 2130837629;
+			// aapt resource value: 0x7f02007a
+			public const int avd_show_password_3 = 2130837626;
 			
 			// aapt resource value: 0x7f020056
 			public const int cloud = 2130837590;
@@ -3958,82 +4011,73 @@ namespace WalkthroughSample.Droid
 			public const int design_snackbar_background = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int ic_forestprime_done_white = 2130837598;
+			public const int ic_walkthrough_count = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int ic_forestprime_navigate_before_white = 2130837599;
+			public const int ic_walkthrough_folder = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int ic_forestprime_navigate_next_red = 2130837600;
+			public const int ic_walkthrough_questions = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int ic_forestprime_skip_white = 2130837601;
+			public const int indicator_dot_grey = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int ic_walkthrough_count = 2130837602;
+			public const int indicator_dot_white = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int ic_walkthrough_folder = 2130837603;
+			public const int indicator_tab_selector = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int ic_walkthrough_questions = 2130837604;
+			public const int iPhone = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int indicator_dot_grey = 2130837605;
+			public const int navigation_empty_icon = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int indicator_dot_white = 2130837606;
+			public const int notification_action_background = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int indicator_tab_selector = 2130837607;
+			public const int notification_bg = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int iPhone = 2130837608;
+			public const int notification_bg_low = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int navigation_empty_icon = 2130837609;
+			public const int notification_bg_low_normal = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int notification_action_background = 2130837610;
+			public const int notification_bg_low_pressed = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int notification_bg = 2130837611;
+			public const int notification_bg_normal = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int notification_bg_low = 2130837612;
+			public const int notification_bg_normal_pressed = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int notification_bg_low_normal = 2130837613;
-			
-			// aapt resource value: 0x7f02006e
-			public const int notification_bg_low_pressed = 2130837614;
-			
-			// aapt resource value: 0x7f02006f
-			public const int notification_bg_normal = 2130837615;
-			
-			// aapt resource value: 0x7f020070
-			public const int notification_bg_normal_pressed = 2130837616;
-			
-			// aapt resource value: 0x7f020071
-			public const int notification_icon_background = 2130837617;
-			
-			// aapt resource value: 0x7f020076
-			public const int notification_template_icon_bg = 2130837622;
-			
-			// aapt resource value: 0x7f020077
-			public const int notification_template_icon_low_bg = 2130837623;
-			
-			// aapt resource value: 0x7f020072
-			public const int notification_tile_bg = 2130837618;
+			public const int notification_icon_background = 2130837613;
 			
 			// aapt resource value: 0x7f020073
-			public const int notify_panel_notification_icon_bg = 2130837619;
+			public const int notification_template_icon_bg = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int receipt_illo = 2130837620;
+			public const int notification_template_icon_low_bg = 2130837620;
 			
-			// aapt resource value: 0x7f020075
-			public const int task_illo = 2130837621;
+			// aapt resource value: 0x7f02006e
+			public const int notification_tile_bg = 2130837614;
+			
+			// aapt resource value: 0x7f02006f
+			public const int notify_panel_notification_icon_bg = 2130837615;
+			
+			// aapt resource value: 0x7f020070
+			public const int receipt_illo = 2130837616;
+			
+			// aapt resource value: 0x7f020071
+			public const int task_illo = 2130837617;
+			
+			// aapt resource value: 0x7f020072
+			public const int white_radius = 2130837618;
 			
 			static Drawable()
 			{
@@ -4048,41 +4092,41 @@ namespace WalkthroughSample.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f080085
-			public const int action0 = 2131230853;
+			// aapt resource value: 0x7f080087
+			public const int action0 = 2131230855;
 			
-			// aapt resource value: 0x7f080064
-			public const int action_bar = 2131230820;
+			// aapt resource value: 0x7f080066
+			public const int action_bar = 2131230822;
 			
 			// aapt resource value: 0x7f080001
 			public const int action_bar_activity_content = 2131230721;
 			
-			// aapt resource value: 0x7f080063
-			public const int action_bar_container = 2131230819;
+			// aapt resource value: 0x7f080065
+			public const int action_bar_container = 2131230821;
 			
-			// aapt resource value: 0x7f08005f
-			public const int action_bar_root = 2131230815;
+			// aapt resource value: 0x7f080061
+			public const int action_bar_root = 2131230817;
 			
 			// aapt resource value: 0x7f080002
 			public const int action_bar_spinner = 2131230722;
 			
-			// aapt resource value: 0x7f080042
-			public const int action_bar_subtitle = 2131230786;
+			// aapt resource value: 0x7f080044
+			public const int action_bar_subtitle = 2131230788;
 			
-			// aapt resource value: 0x7f080041
-			public const int action_bar_title = 2131230785;
+			// aapt resource value: 0x7f080043
+			public const int action_bar_title = 2131230787;
 			
-			// aapt resource value: 0x7f080082
-			public const int action_container = 2131230850;
+			// aapt resource value: 0x7f080084
+			public const int action_container = 2131230852;
 			
-			// aapt resource value: 0x7f080065
-			public const int action_context_bar = 2131230821;
+			// aapt resource value: 0x7f080067
+			public const int action_context_bar = 2131230823;
 			
-			// aapt resource value: 0x7f080089
-			public const int action_divider = 2131230857;
+			// aapt resource value: 0x7f08008b
+			public const int action_divider = 2131230859;
 			
-			// aapt resource value: 0x7f080083
-			public const int action_image = 2131230851;
+			// aapt resource value: 0x7f080085
+			public const int action_image = 2131230853;
 			
 			// aapt resource value: 0x7f080003
 			public const int action_menu_divider = 2131230723;
@@ -4090,29 +4134,29 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f080004
 			public const int action_menu_presenter = 2131230724;
 			
-			// aapt resource value: 0x7f080061
-			public const int action_mode_bar = 2131230817;
+			// aapt resource value: 0x7f080063
+			public const int action_mode_bar = 2131230819;
 			
-			// aapt resource value: 0x7f080060
-			public const int action_mode_bar_stub = 2131230816;
+			// aapt resource value: 0x7f080062
+			public const int action_mode_bar_stub = 2131230818;
 			
-			// aapt resource value: 0x7f080043
-			public const int action_mode_close_button = 2131230787;
+			// aapt resource value: 0x7f080045
+			public const int action_mode_close_button = 2131230789;
 			
-			// aapt resource value: 0x7f080084
-			public const int action_text = 2131230852;
+			// aapt resource value: 0x7f080086
+			public const int action_text = 2131230854;
 			
-			// aapt resource value: 0x7f080092
-			public const int actions = 2131230866;
+			// aapt resource value: 0x7f080094
+			public const int actions = 2131230868;
 			
-			// aapt resource value: 0x7f080044
-			public const int activity_chooser_view_content = 2131230788;
+			// aapt resource value: 0x7f080046
+			public const int activity_chooser_view_content = 2131230790;
 			
 			// aapt resource value: 0x7f080019
 			public const int add = 2131230745;
 			
-			// aapt resource value: 0x7f080058
-			public const int alertTitle = 2131230808;
+			// aapt resource value: 0x7f08005a
+			public const int alertTitle = 2131230810;
 			
 			// aapt resource value: 0x7f08003d
 			public const int all = 2131230781;
@@ -4129,35 +4173,35 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f080028
 			public const int bottom = 2131230760;
 			
-			// aapt resource value: 0x7f0800a3
-			public const int btnNext = 2131230883;
-			
-			// aapt resource value: 0x7f0800a2
-			public const int btnSkip = 2131230882;
+			// aapt resource value: 0x7f0800a5
+			public const int btnNext = 2131230885;
 			
 			// aapt resource value: 0x7f0800a4
-			public const int btnStart = 2131230884;
+			public const int btnSkip = 2131230884;
 			
-			// aapt resource value: 0x7f08004b
-			public const int buttonPanel = 2131230795;
+			// aapt resource value: 0x7f0800a6
+			public const int btnStart = 2131230886;
 			
-			// aapt resource value: 0x7f080099
-			public const int c1 = 2131230873;
-			
-			// aapt resource value: 0x7f08009a
-			public const int c2 = 2131230874;
+			// aapt resource value: 0x7f08004d
+			public const int buttonPanel = 2131230797;
 			
 			// aapt resource value: 0x7f08009b
-			public const int c3 = 2131230875;
+			public const int c1 = 2131230875;
 			
 			// aapt resource value: 0x7f08009c
-			public const int c4 = 2131230876;
+			public const int c2 = 2131230876;
 			
 			// aapt resource value: 0x7f08009d
-			public const int c5 = 2131230877;
+			public const int c3 = 2131230877;
 			
-			// aapt resource value: 0x7f080086
-			public const int cancel_action = 2131230854;
+			// aapt resource value: 0x7f08009e
+			public const int c4 = 2131230878;
+			
+			// aapt resource value: 0x7f08009f
+			public const int c5 = 2131230879;
+			
+			// aapt resource value: 0x7f080088
+			public const int cancel_action = 2131230856;
 			
 			// aapt resource value: 0x7f080030
 			public const int center = 2131230768;
@@ -4168,11 +4212,11 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f080032
 			public const int center_vertical = 2131230770;
 			
-			// aapt resource value: 0x7f08005b
-			public const int checkbox = 2131230811;
+			// aapt resource value: 0x7f08005d
+			public const int checkbox = 2131230813;
 			
-			// aapt resource value: 0x7f08008e
-			public const int chronometer = 2131230862;
+			// aapt resource value: 0x7f080090
+			public const int chronometer = 2131230864;
 			
 			// aapt resource value: 0x7f080039
 			public const int clip_horizontal = 2131230777;
@@ -4183,47 +4227,47 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f080024
 			public const int collapseActionView = 2131230756;
 			
-			// aapt resource value: 0x7f08004e
-			public const int contentPanel = 2131230798;
+			// aapt resource value: 0x7f080050
+			public const int contentPanel = 2131230800;
 			
-			// aapt resource value: 0x7f080055
-			public const int custom = 2131230805;
+			// aapt resource value: 0x7f080057
+			public const int custom = 2131230807;
 			
-			// aapt resource value: 0x7f080054
-			public const int customPanel = 2131230804;
+			// aapt resource value: 0x7f080056
+			public const int customPanel = 2131230806;
 			
-			// aapt resource value: 0x7f080062
-			public const int decor_content_parent = 2131230818;
+			// aapt resource value: 0x7f080064
+			public const int decor_content_parent = 2131230820;
 			
-			// aapt resource value: 0x7f080047
-			public const int default_activity_button = 2131230791;
+			// aapt resource value: 0x7f080049
+			public const int default_activity_button = 2131230793;
 			
-			// aapt resource value: 0x7f080076
-			public const int design_bottom_sheet = 2131230838;
+			// aapt resource value: 0x7f080078
+			public const int design_bottom_sheet = 2131230840;
+			
+			// aapt resource value: 0x7f08007f
+			public const int design_menu_item_action_area = 2131230847;
+			
+			// aapt resource value: 0x7f08007e
+			public const int design_menu_item_action_area_stub = 2131230846;
 			
 			// aapt resource value: 0x7f08007d
-			public const int design_menu_item_action_area = 2131230845;
+			public const int design_menu_item_text = 2131230845;
 			
 			// aapt resource value: 0x7f08007c
-			public const int design_menu_item_action_area_stub = 2131230844;
-			
-			// aapt resource value: 0x7f08007b
-			public const int design_menu_item_text = 2131230843;
-			
-			// aapt resource value: 0x7f08007a
-			public const int design_navigation_view = 2131230842;
+			public const int design_navigation_view = 2131230844;
 			
 			// aapt resource value: 0x7f080012
 			public const int disableHome = 2131230738;
 			
-			// aapt resource value: 0x7f080066
-			public const int edit_query = 2131230822;
+			// aapt resource value: 0x7f080068
+			public const int edit_query = 2131230824;
 			
 			// aapt resource value: 0x7f080021
 			public const int end = 2131230753;
 			
-			// aapt resource value: 0x7f080098
-			public const int end_padder = 2131230872;
+			// aapt resource value: 0x7f08009a
+			public const int end_padder = 2131230874;
 			
 			// aapt resource value: 0x7f08002a
 			public const int enterAlways = 2131230762;
@@ -4234,11 +4278,11 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f08002c
 			public const int exitUntilCollapsed = 2131230764;
 			
-			// aapt resource value: 0x7f080045
-			public const int expand_activities_button = 2131230789;
+			// aapt resource value: 0x7f080047
+			public const int expand_activities_button = 2131230791;
 			
-			// aapt resource value: 0x7f08005a
-			public const int expanded_menu = 2131230810;
+			// aapt resource value: 0x7f08005c
+			public const int expanded_menu = 2131230812;
 			
 			// aapt resource value: 0x7f08003b
 			public const int fill = 2131230779;
@@ -4258,53 +4302,59 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f080013
 			public const int homeAsUp = 2131230739;
 			
-			// aapt resource value: 0x7f080049
-			public const int icon = 2131230793;
+			// aapt resource value: 0x7f080041
+			public const int horizontal = 2131230785;
 			
-			// aapt resource value: 0x7f080093
-			public const int icon_group = 2131230867;
+			// aapt resource value: 0x7f08004b
+			public const int icon = 2131230795;
+			
+			// aapt resource value: 0x7f080095
+			public const int icon_group = 2131230869;
 			
 			// aapt resource value: 0x7f080025
 			public const int ifRoom = 2131230757;
 			
-			// aapt resource value: 0x7f080046
-			public const int image = 2131230790;
+			// aapt resource value: 0x7f080048
+			public const int image = 2131230792;
 			
-			// aapt resource value: 0x7f080080
-			public const int img = 2131230848;
+			// aapt resource value: 0x7f080082
+			public const int img = 2131230850;
 			
 			// aapt resource value: 0x7f0800a1
-			public const int indicator_container = 2131230881;
+			public const int indicator = 2131230881;
 			
-			// aapt resource value: 0x7f08008f
-			public const int info = 2131230863;
+			// aapt resource value: 0x7f0800a3
+			public const int indicator_container = 2131230883;
+			
+			// aapt resource value: 0x7f080091
+			public const int info = 2131230865;
 			
 			// aapt resource value: 0x7f080000
 			public const int item_touch_helper_previous_elevation = 2131230720;
 			
-			// aapt resource value: 0x7f080074
-			public const int largeLabel = 2131230836;
+			// aapt resource value: 0x7f080076
+			public const int largeLabel = 2131230838;
 			
 			// aapt resource value: 0x7f080034
 			public const int left = 2131230772;
 			
-			// aapt resource value: 0x7f080094
-			public const int line1 = 2131230868;
-			
 			// aapt resource value: 0x7f080096
-			public const int line3 = 2131230870;
+			public const int line1 = 2131230870;
+			
+			// aapt resource value: 0x7f080098
+			public const int line3 = 2131230872;
 			
 			// aapt resource value: 0x7f08000f
 			public const int listMode = 2131230735;
 			
-			// aapt resource value: 0x7f080048
-			public const int list_item = 2131230792;
+			// aapt resource value: 0x7f08004a
+			public const int list_item = 2131230794;
 			
-			// aapt resource value: 0x7f0800ab
-			public const int masked = 2131230891;
+			// aapt resource value: 0x7f0800ad
+			public const int masked = 2131230893;
 			
-			// aapt resource value: 0x7f080088
-			public const int media_actions = 2131230856;
+			// aapt resource value: 0x7f08008a
+			public const int media_actions = 2131230858;
 			
 			// aapt resource value: 0x7f080022
 			public const int middle = 2131230754;
@@ -4315,8 +4365,8 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f08001a
 			public const int multiply = 2131230746;
 			
-			// aapt resource value: 0x7f080079
-			public const int navigation_header_container = 2131230841;
+			// aapt resource value: 0x7f08007b
+			public const int navigation_header_container = 2131230843;
 			
 			// aapt resource value: 0x7f080026
 			public const int never = 2131230758;
@@ -4327,20 +4377,20 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f080010
 			public const int normal = 2131230736;
 			
-			// aapt resource value: 0x7f080091
-			public const int notification_background = 2131230865;
+			// aapt resource value: 0x7f080093
+			public const int notification_background = 2131230867;
 			
-			// aapt resource value: 0x7f08008b
-			public const int notification_main_column = 2131230859;
+			// aapt resource value: 0x7f08008d
+			public const int notification_main_column = 2131230861;
 			
-			// aapt resource value: 0x7f08008a
-			public const int notification_main_column_container = 2131230858;
+			// aapt resource value: 0x7f08008c
+			public const int notification_main_column_container = 2131230860;
 			
 			// aapt resource value: 0x7f080037
 			public const int parallax = 2131230775;
 			
-			// aapt resource value: 0x7f08004d
-			public const int parentPanel = 2131230797;
+			// aapt resource value: 0x7f08004f
+			public const int parentPanel = 2131230799;
 			
 			// aapt resource value: 0x7f080038
 			public const int pin = 2131230776;
@@ -4351,17 +4401,17 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f080007
 			public const int progress_horizontal = 2131230727;
 			
-			// aapt resource value: 0x7f08005d
-			public const int radio = 2131230813;
+			// aapt resource value: 0x7f08005f
+			public const int radio = 2131230815;
 			
 			// aapt resource value: 0x7f080035
 			public const int right = 2131230773;
 			
-			// aapt resource value: 0x7f080090
-			public const int right_icon = 2131230864;
+			// aapt resource value: 0x7f080092
+			public const int right_icon = 2131230866;
 			
-			// aapt resource value: 0x7f08008c
-			public const int right_side = 2131230860;
+			// aapt resource value: 0x7f08008e
+			public const int right_side = 2131230862;
 			
 			// aapt resource value: 0x7f08001b
 			public const int screen = 2131230747;
@@ -4369,53 +4419,53 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f08002d
 			public const int scroll = 2131230765;
 			
-			// aapt resource value: 0x7f080053
-			public const int scrollIndicatorDown = 2131230803;
+			// aapt resource value: 0x7f080055
+			public const int scrollIndicatorDown = 2131230805;
 			
-			// aapt resource value: 0x7f08004f
-			public const int scrollIndicatorUp = 2131230799;
+			// aapt resource value: 0x7f080051
+			public const int scrollIndicatorUp = 2131230801;
 			
-			// aapt resource value: 0x7f080050
-			public const int scrollView = 2131230800;
+			// aapt resource value: 0x7f080052
+			public const int scrollView = 2131230802;
 			
 			// aapt resource value: 0x7f080040
 			public const int scrollable = 2131230784;
 			
-			// aapt resource value: 0x7f080068
-			public const int search_badge = 2131230824;
-			
-			// aapt resource value: 0x7f080067
-			public const int search_bar = 2131230823;
+			// aapt resource value: 0x7f08006a
+			public const int search_badge = 2131230826;
 			
 			// aapt resource value: 0x7f080069
-			public const int search_button = 2131230825;
-			
-			// aapt resource value: 0x7f08006e
-			public const int search_close_btn = 2131230830;
-			
-			// aapt resource value: 0x7f08006a
-			public const int search_edit_frame = 2131230826;
-			
-			// aapt resource value: 0x7f080070
-			public const int search_go_btn = 2131230832;
+			public const int search_bar = 2131230825;
 			
 			// aapt resource value: 0x7f08006b
-			public const int search_mag_icon = 2131230827;
+			public const int search_button = 2131230827;
+			
+			// aapt resource value: 0x7f080070
+			public const int search_close_btn = 2131230832;
 			
 			// aapt resource value: 0x7f08006c
-			public const int search_plate = 2131230828;
-			
-			// aapt resource value: 0x7f08006d
-			public const int search_src_text = 2131230829;
-			
-			// aapt resource value: 0x7f080071
-			public const int search_voice_btn = 2131230833;
+			public const int search_edit_frame = 2131230828;
 			
 			// aapt resource value: 0x7f080072
-			public const int select_dialog_listview = 2131230834;
+			public const int search_go_btn = 2131230834;
 			
-			// aapt resource value: 0x7f08005c
-			public const int shortcut = 2131230812;
+			// aapt resource value: 0x7f08006d
+			public const int search_mag_icon = 2131230829;
+			
+			// aapt resource value: 0x7f08006e
+			public const int search_plate = 2131230830;
+			
+			// aapt resource value: 0x7f08006f
+			public const int search_src_text = 2131230831;
+			
+			// aapt resource value: 0x7f080073
+			public const int search_voice_btn = 2131230835;
+			
+			// aapt resource value: 0x7f080074
+			public const int select_dialog_listview = 2131230836;
+			
+			// aapt resource value: 0x7f08005e
+			public const int shortcut = 2131230814;
 			
 			// aapt resource value: 0x7f080015
 			public const int showCustom = 2131230741;
@@ -4426,23 +4476,23 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f080017
 			public const int showTitle = 2131230743;
 			
-			// aapt resource value: 0x7f080081
-			public const int showWalkthrough = 2131230849;
+			// aapt resource value: 0x7f080083
+			public const int showWalkthrough = 2131230851;
 			
-			// aapt resource value: 0x7f080073
-			public const int smallLabel = 2131230835;
+			// aapt resource value: 0x7f080075
+			public const int smallLabel = 2131230837;
 			
-			// aapt resource value: 0x7f080078
-			public const int snackbar_action = 2131230840;
+			// aapt resource value: 0x7f08007a
+			public const int snackbar_action = 2131230842;
 			
-			// aapt resource value: 0x7f080077
-			public const int snackbar_text = 2131230839;
+			// aapt resource value: 0x7f080079
+			public const int snackbar_text = 2131230841;
 			
 			// aapt resource value: 0x7f08002e
 			public const int snap = 2131230766;
 			
-			// aapt resource value: 0x7f08004c
-			public const int spacer = 2131230796;
+			// aapt resource value: 0x7f08004e
+			public const int spacer = 2131230798;
 			
 			// aapt resource value: 0x7f080008
 			public const int split_action_bar = 2131230728;
@@ -4459,32 +4509,32 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f080036
 			public const int start = 2131230774;
 			
-			// aapt resource value: 0x7f080087
-			public const int status_bar_latest_event_content = 2131230855;
+			// aapt resource value: 0x7f080089
+			public const int status_bar_latest_event_content = 2131230857;
 			
-			// aapt resource value: 0x7f08005e
-			public const int submenuarrow = 2131230814;
+			// aapt resource value: 0x7f080060
+			public const int submenuarrow = 2131230816;
 			
-			// aapt resource value: 0x7f08006f
-			public const int submit_area = 2131230831;
+			// aapt resource value: 0x7f080071
+			public const int submit_area = 2131230833;
 			
 			// aapt resource value: 0x7f080011
 			public const int tabMode = 2131230737;
 			
+			// aapt resource value: 0x7f080099
+			public const int text = 2131230873;
+			
 			// aapt resource value: 0x7f080097
-			public const int text = 2131230871;
+			public const int text2 = 2131230871;
 			
-			// aapt resource value: 0x7f080095
-			public const int text2 = 2131230869;
+			// aapt resource value: 0x7f080054
+			public const int textSpacerNoButtons = 2131230804;
 			
-			// aapt resource value: 0x7f080052
-			public const int textSpacerNoButtons = 2131230802;
+			// aapt resource value: 0x7f080053
+			public const int textSpacerNoTitle = 2131230803;
 			
-			// aapt resource value: 0x7f080051
-			public const int textSpacerNoTitle = 2131230801;
-			
-			// aapt resource value: 0x7f08007e
-			public const int text_input_password_toggle = 2131230846;
+			// aapt resource value: 0x7f080080
+			public const int text_input_password_toggle = 2131230848;
 			
 			// aapt resource value: 0x7f08000c
 			public const int textinput_counter = 2131230732;
@@ -4492,47 +4542,44 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f08000d
 			public const int textinput_error = 2131230733;
 			
-			// aapt resource value: 0x7f0800a0
-			public const int theme_forestprime_bottomlayout = 2131230880;
+			// aapt resource value: 0x7f0800a2
+			public const int theme_forestprime_bottomlayout = 2131230882;
 			
-			// aapt resource value: 0x7f0800a8
-			public const int theme_forestprime_description = 2131230888;
+			// aapt resource value: 0x7f0800aa
+			public const int theme_forestprime_description = 2131230890;
+			
+			// aapt resource value: 0x7f0800ab
+			public const int theme_forestprime_gettingstarted = 2131230891;
 			
 			// aapt resource value: 0x7f0800a9
-			public const int theme_forestprime_gettingstarted = 2131230889;
+			public const int theme_forestprime_image = 2131230889;
 			
 			// aapt resource value: 0x7f0800a7
-			public const int theme_forestprime_image = 2131230887;
+			public const int theme_forestprime_page = 2131230887;
 			
-			// aapt resource value: 0x7f0800a5
-			public const int theme_forestprime_page = 2131230885;
+			// aapt resource value: 0x7f0800a8
+			public const int theme_forestprime_title = 2131230888;
 			
-			// aapt resource value: 0x7f08009f
-			public const int theme_forestprime_tablayout = 2131230879;
+			// aapt resource value: 0x7f08008f
+			public const int time = 2131230863;
 			
-			// aapt resource value: 0x7f0800a6
-			public const int theme_forestprime_title = 2131230886;
+			// aapt resource value: 0x7f08004c
+			public const int title = 2131230796;
 			
-			// aapt resource value: 0x7f08008d
-			public const int time = 2131230861;
-			
-			// aapt resource value: 0x7f08004a
-			public const int title = 2131230794;
+			// aapt resource value: 0x7f08005b
+			public const int titleDividerNoCustom = 2131230811;
 			
 			// aapt resource value: 0x7f080059
-			public const int titleDividerNoCustom = 2131230809;
-			
-			// aapt resource value: 0x7f080057
-			public const int title_template = 2131230807;
+			public const int title_template = 2131230809;
 			
 			// aapt resource value: 0x7f080029
 			public const int top = 2131230761;
 			
-			// aapt resource value: 0x7f080056
-			public const int topPanel = 2131230806;
+			// aapt resource value: 0x7f080058
+			public const int topPanel = 2131230808;
 			
-			// aapt resource value: 0x7f080075
-			public const int touch_outside = 2131230837;
+			// aapt resource value: 0x7f080077
+			public const int touch_outside = 2131230839;
 			
 			// aapt resource value: 0x7f08000a
 			public const int transition_current_scene = 2131230730;
@@ -4546,17 +4593,20 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f080018
 			public const int useLogo = 2131230744;
 			
+			// aapt resource value: 0x7f080042
+			public const int vertical = 2131230786;
+			
 			// aapt resource value: 0x7f08000e
 			public const int view_offset_helper = 2131230734;
 			
-			// aapt resource value: 0x7f08009e
-			public const int view_pager = 2131230878;
+			// aapt resource value: 0x7f0800a0
+			public const int view_pager = 2131230880;
 			
-			// aapt resource value: 0x7f0800aa
-			public const int visible = 2131230890;
+			// aapt resource value: 0x7f0800ac
+			public const int visible = 2131230892;
 			
-			// aapt resource value: 0x7f08007f
-			public const int walker = 2131230847;
+			// aapt resource value: 0x7f080081
+			public const int walker = 2131230849;
 			
 			// aapt resource value: 0x7f080027
 			public const int withText = 2131230759;
@@ -6962,6 +7012,45 @@ namespace WalkthroughSample.Droid
 			
 			// aapt resource value: 0
 			public const int ButtonBarLayout_allowStacking = 0;
+			
+			public static int[] CircleIndicator = new int[]
+			{
+					2130772282,
+					2130772283,
+					2130772284,
+					2130772285,
+					2130772286,
+					2130772287,
+					2130772288,
+					2130772289,
+					2130772290};
+			
+			// aapt resource value: 3
+			public const int CircleIndicator_ci_animator = 3;
+			
+			// aapt resource value: 4
+			public const int CircleIndicator_ci_animator_reverse = 4;
+			
+			// aapt resource value: 5
+			public const int CircleIndicator_ci_drawable = 5;
+			
+			// aapt resource value: 6
+			public const int CircleIndicator_ci_drawable_unselected = 6;
+			
+			// aapt resource value: 8
+			public const int CircleIndicator_ci_gravity = 8;
+			
+			// aapt resource value: 1
+			public const int CircleIndicator_ci_height = 1;
+			
+			// aapt resource value: 2
+			public const int CircleIndicator_ci_margin = 2;
+			
+			// aapt resource value: 7
+			public const int CircleIndicator_ci_orientation = 7;
+			
+			// aapt resource value: 0
+			public const int CircleIndicator_ci_width = 0;
 			
 			public static int[] CollapsingToolbarLayout = new int[]
 			{

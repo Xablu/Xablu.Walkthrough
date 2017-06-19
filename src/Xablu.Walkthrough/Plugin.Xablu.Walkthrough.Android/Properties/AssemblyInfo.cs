@@ -26,7 +26,7 @@ using Android.App;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("0.1.0.0")]
-[assembly: AssemblyVersion("0.1.0.0")]
-[assembly: AssemblyFileVersion("0.1.0.0")]
+//[assembly: AssemblyVersion("0.1.0.0")]
+//[assembly: AssemblyFileVersion("0.1.0.0")]
 
-[assembly: AssemblyInformationalVersion("0.1.0-xablu-plugin-template.1+23.Branch.xablu_plugin_template.Sha.d643d53f737af4114f67edd9c8752b3c06fbb721")]
+//[assembly: AssemblyInformationalVersion("0.1.0-xablu-plugin-template.1+23.Branch.xablu_plugin_template.Sha.d643d53f737af4114f67edd9c8752b3c06fbb721")]

@@ -10,6 +10,7 @@ using Plugin.Xablu.Walkthrough.Extensions;
 using static Android.Support.V4.View.ViewPager;
 using System.Drawing;
 using Splat;
+using Plugin.Xablu.Walkthrough.Indicator;
 
 namespace Plugin.Xablu.Walkthrough.Containers
 {
@@ -66,6 +67,8 @@ namespace Plugin.Xablu.Walkthrough.Containers
             set => startButtonControl = value;
         }
 
+        private CircleIndicator circleIndicator;
+
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             var view = inflater.Inflate(Resource.Layout.theme_forestprime_container, container, false);
@@ -77,8 +80,7 @@ namespace Plugin.Xablu.Walkthrough.Containers
 
             var bottomNavigation = view.FindViewById<LinearLayout>(Resource.Id.theme_forestprime_bottomlayout);
 
-            var tabLayout = view.FindViewById<TabLayout>(Resource.Id.theme_forestprime_tablayout);
-            tabLayout.SetupWithViewPager(ViewPager, false);
+            circleIndicator = view.FindViewById<CircleIndicator>(Resource.Id.indicator);
 
             var skipButton = view.FindViewById<Button>(Resource.Id.btnSkip);
             skipButton.SetControl(SkipButtonControl);
@@ -94,6 +96,12 @@ namespace Plugin.Xablu.Walkthrough.Containers
             Cancelable = IsCanceable;
 
             return view;
+        }
+
+        public override void OnActivityCreated(Bundle savedInstanceState)
+        {
+            base.OnActivityCreated(savedInstanceState);
+            circleIndicator.SetViewPager(ViewPager);
         }
 
         public void OnPageScrolled(int position, float positionOffset, int positionOffsetPixels)

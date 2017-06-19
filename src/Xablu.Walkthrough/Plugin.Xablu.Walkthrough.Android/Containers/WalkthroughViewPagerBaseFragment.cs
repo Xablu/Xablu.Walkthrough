@@ -37,7 +37,7 @@ namespace Plugin.Xablu.Walkthrough
             ViewPager.AddOnPageChangeListener(listener);
         }
 
-        public void SetAdapter(WalkerFragment[] fragments, AppCompatActivity hostActivity)
+        public virtual void SetAdapter(WalkerFragment[] fragments, AppCompatActivity hostActivity)
         {
             this.fragments = fragments;
             this.hostActivity = hostActivity;
