@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <Button
-        android:id="@+id/showWalkthrough"
+        android:id="@+id/showWalk"
         android:text="start"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

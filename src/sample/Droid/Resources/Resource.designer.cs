@@ -4477,7 +4477,7 @@ namespace WalkthroughSample.Droid
 			public const int showTitle = 2131230743;
 			
 			// aapt resource value: 0x7f080083
-			public const int showWalkthrough = 2131230851;
+			public const int showWalk = 2131230851;
 			
 			// aapt resource value: 0x7f080075
 			public const int smallLabel = 2131230837;

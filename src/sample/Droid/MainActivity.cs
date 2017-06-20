@@ -1,10 +1,8 @@
 ﻿using Android.App;
 using Android.OS;
-using WalkthroughSample.Droid.Fragments;
-using Walker;
-using Plugin.Xablu.Walkthrough;
 using Android.Support.V7.App;
 using Android.Widget;
+using Plugin.Xablu.Walkthrough;
 
 namespace WalkthroughSample.Droid
 {
@@ -17,17 +15,12 @@ namespace WalkthroughSample.Droid
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
+            CrossWalkthrough.Current.Init(this);
 
             var myClass = new MyClass();
 
-            CrossWalkthrough.Current.Init(this);
-
-            var button = FindViewById<Button>(Resource.Id.showWalkthrough);
-            button.Click += async (sender, e) =>
-            {
-                await myClass.SetTheme();
-            };
+            var button = FindViewById<Button>(Resource.Id.showWalk);
+            button.Click += async (sender, e) => await myClass.SetTheme();
         }
     }
 }
-

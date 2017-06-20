@@ -147,20 +147,6 @@
     <AndroidResource Include="Resources\drawable\ArrowRight.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WalkthroughSample\WalkthroughSample.csproj">
-      <Project>{8C6C4E4F-E291-43D6-BD11-B31626899499}</Project>
-      <Name>WalkthroughSample</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Android\Plugin.Xablu.Walkthrough.Android.csproj">
-      <Project>{8B91C092-F91A-43B1-B8F8-3A57D47B9CAE}</Project>
-      <Name>Plugin.Xablu.Walkthrough.Android</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Abstractions\Plugin.Xablu.Walkthrough.Abstractions.csproj">
-      <Project>{D3AAFBA5-2193-45C8-AB44-374F4DC32531}</Project>
-      <Name>Plugin.Xablu.Walkthrough.Abstractions</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="Resources\drawable\" />
     <Folder Include="Fragments\" />
     <Folder Include="Resources\drawable-mdpi\" />
@@ -168,6 +154,20 @@
     <Folder Include="Resources\drawable-xhdpi\" />
     <Folder Include="Resources\drawable-xxhdpi\" />
     <Folder Include="Resources\drawable-xxxhdpi\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Abstractions\Plugin.Xablu.Walkthrough.Abstractions.csproj">
+      <Project>{D3AAFBA5-2193-45C8-AB44-374F4DC32531}</Project>
+      <Name>Plugin.Xablu.Walkthrough.Abstractions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Android\Plugin.Xablu.Walkthrough.Android.csproj">
+      <Project>{8B91C092-F91A-43B1-B8F8-3A57D47B9CAE}</Project>
+      <Name>Plugin.Xablu.Walkthrough.Android</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WalkthroughSample\WalkthroughSample.csproj">
+      <Project>{8C6C4E4F-E291-43D6-BD11-B31626899499}</Project>
+      <Name>WalkthroughSample</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Build.Download.0.4.3\build\Xamarin.Build.Download.targets" Condition="Exists('..\..\packages\Xamarin.Build.Download.0.4.3\build\Xamarin.Build.Download.targets')" />

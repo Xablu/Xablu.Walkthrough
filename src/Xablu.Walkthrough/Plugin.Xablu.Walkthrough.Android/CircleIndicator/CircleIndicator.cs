@@ -114,9 +114,6 @@ namespace Plugin.Xablu.Walkthrough.Indicator
             mIndicatorMargin = (mIndicatorMargin < 0) ? dip2px(DEFAULT_INDICATOR_WIDTH) : mIndicatorMargin;
             mAnimatorResId = (mAnimatorResId == 0) ? Resource.Animator.scale_with_alpha : mAnimatorResId;
 
-            mIndicatorWidth = 5;
-            mIndicatorHeight = 5;
-
             mAnimatorOut = createAnimatorOut(context);
             mImmediateAnimatorOut = createAnimatorOut(context);
             mImmediateAnimatorOut.SetDuration(0);
@@ -232,27 +229,25 @@ namespace Plugin.Xablu.Walkthrough.Indicator
                 animator.Cancel();
             }
 
-            View Indicator = new View(Context);
-            Indicator.SetBackgroundResource(backgroundDrawableId);
-            AddView(Indicator, 5, 5);
-            LayoutParams lp = (LayoutParams)Indicator.LayoutParameters;
+            var indicator = new View(Context);
+            indicator.SetBackgroundResource(backgroundDrawableId);
+            AddView(indicator, mIndicatorWidth, mIndicatorHeight);
+            LayoutParams lp = (LayoutParams)indicator.LayoutParameters;
 
             if (orientation == Android.Widget.Orientation.Horizontal)
             {
-                lp.LeftMargin = 5;
-                lp.RightMargin = 5;
+                lp.LeftMargin = mIndicatorMargin;
+                lp.RightMargin = mIndicatorMargin;
             }
             else
             {
                 lp.TopMargin = mIndicatorMargin;
                 lp.BottomMargin = mIndicatorMargin;
             }
-            lp.SetMargins(5, 5, 5, 5);
-            lp.LeftMargin = 5;
 
-            Indicator.LayoutParameters = lp;
+            indicator.LayoutParameters = lp;
 
-            animator.SetTarget(Indicator);
+            animator.SetTarget(indicator);
             animator.Start();
         }
 
