@@ -4,6 +4,8 @@ using Android.Annotation;
 using Android.Content;
 using Android.Content.Res;
 using Android.Database;
+using Android.Graphics.Drawables;
+using Android.Graphics.Drawables.Shapes;
 using Android.Support.V4.View;
 using Android.Util;
 using Android.Views;
@@ -25,8 +27,12 @@ namespace Plugin.Xablu.Walkthrough.Indicator
 
         private int mAnimatorResId = Resource.Animator.scale_with_alpha;
         private int mAnimatorReverseResId = 0;
-        private int mIndicatorBackgroundResId = Resource.Drawable.white_radius;
-        private int mIndicatorUnselectedBackgroundResId = Resource.Drawable.white_radius;
+
+        public int mIndicatorBackgroundResId = Resource.Drawable.white_radius;
+        public int mIndicatorUnselectedBackgroundResId = Resource.Drawable.white_radius;
+
+        public Drawable SelectedDrawable;
+        public Drawable UnselectedDrawable;
 
         private Animator mAnimatorOut;
         private Animator mAnimatorIn;
@@ -187,7 +193,11 @@ namespace Plugin.Xablu.Walkthrough.Indicator
             View currentIndicator;
             if (mLastPosition >= 0 && (currentIndicator = GetChildAt(mLastPosition)) != null)
             {
-                currentIndicator.SetBackgroundResource(mIndicatorUnselectedBackgroundResId);
+                if (SelectedDrawable != null)
+                    currentIndicator.Background = SelectedDrawable;
+                else
+                    currentIndicator.SetBackgroundResource(mIndicatorUnselectedBackgroundResId);
+
                 mAnimatorIn.SetTarget(currentIndicator);
                 mAnimatorIn.Start();
             }
@@ -195,7 +205,11 @@ namespace Plugin.Xablu.Walkthrough.Indicator
             View selectedIndicator = GetChildAt(position);
             if (selectedIndicator != null)
             {
-                selectedIndicator.SetBackgroundResource(mIndicatorBackgroundResId);
+                if (SelectedDrawable != null)
+                    selectedIndicator.Background = SelectedDrawable;
+                else
+                    selectedIndicator.SetBackgroundResource(mIndicatorBackgroundResId);
+
                 mAnimatorOut.SetTarget(selectedIndicator);
                 mAnimatorOut.Start();
             }
@@ -215,10 +229,50 @@ namespace Plugin.Xablu.Walkthrough.Indicator
             for (int i = 0; i < count; i++)
             {
                 if (currentItem == i)
-                    addIndicator(Orientation, mIndicatorBackgroundResId, mImmediateAnimatorOut);
+                {
+                    if (SelectedDrawable != null)
+                        addIndicator(Orientation, SelectedDrawable, mImmediateAnimatorOut);
+                    else
+                        addIndicator(Orientation, mIndicatorBackgroundResId, mImmediateAnimatorOut);
+                }
                 else
-                    addIndicator(Orientation, mIndicatorUnselectedBackgroundResId, mImmediateAnimatorIn);
+                {
+                    if (UnselectedDrawable != null)
+                        addIndicator(Orientation, UnselectedDrawable, mImmediateAnimatorIn);
+                    else
+                        addIndicator(Orientation, mIndicatorBackgroundResId, mImmediateAnimatorIn);
+                }
             }
+        }
+
+        private void addIndicator(Android.Widget.Orientation orientation, Drawable backgroundDrawableId, Animator animator)
+        {
+            if (animator.IsRunning)
+            {
+                animator.End();
+                animator.Cancel();
+            }
+
+            var indicator = new View(Context);
+            indicator.Background = backgroundDrawableId;
+            AddView(indicator, mIndicatorWidth, mIndicatorHeight);
+            LayoutParams lp = (LayoutParams)indicator.LayoutParameters;
+
+            if (orientation == Android.Widget.Orientation.Horizontal)
+            {
+                lp.LeftMargin = mIndicatorMargin;
+                lp.RightMargin = mIndicatorMargin;
+            }
+            else
+            {
+                lp.TopMargin = mIndicatorMargin;
+                lp.BottomMargin = mIndicatorMargin;
+            }
+
+            indicator.LayoutParameters = lp;
+
+            animator.SetTarget(indicator);
+            animator.Start();
         }
 
         private void addIndicator(Android.Widget.Orientation orientation, int backgroundDrawableId, Animator animator)

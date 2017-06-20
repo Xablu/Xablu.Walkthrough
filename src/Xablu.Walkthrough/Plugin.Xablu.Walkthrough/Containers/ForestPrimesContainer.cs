@@ -1,10 +1,11 @@
-﻿using System.Drawing;
+﻿using System;
+using System.Drawing;
 using Plugin.Xablu.Walkthrough.Abstractions.Containers;
 using Plugin.Xablu.Walkthrough.Abstractions.Controls;
 
 namespace Plugin.Xablu.Walkthrough.Containers
 {
-    public class ForestPrimesContainer : IContainer
+    public class ForestPrimesContainer : IForestPrimesContainer
     {
         public ImageButtonControl NextButtonControl { get; set; }
 
@@ -13,5 +14,7 @@ namespace Plugin.Xablu.Walkthrough.Containers
         public ButtonControl StartButtonControl { get; set; }
 
         public Color BackgroundColor { get; set; }
+
+        public PageControl CirclePageControl { get; set; }
     }
 }

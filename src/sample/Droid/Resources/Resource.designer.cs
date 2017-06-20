@@ -869,6 +869,7 @@ namespace WalkthroughSample.Droid
 			global::Plugin.Xablu.Walkthrough.Resource.Id.theme_forestprime_image = global::WalkthroughSample.Droid.Resource.Id.theme_forestprime_image;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.theme_forestprime_page = global::WalkthroughSample.Droid.Resource.Id.theme_forestprime_page;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.theme_forestprime_title = global::WalkthroughSample.Droid.Resource.Id.theme_forestprime_title;
+			global::Plugin.Xablu.Walkthrough.Resource.Id.theme_pantheon_get_started = global::WalkthroughSample.Droid.Resource.Id.theme_pantheon_get_started;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.time = global::WalkthroughSample.Droid.Resource.Id.time;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.title = global::WalkthroughSample.Droid.Resource.Id.title;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.titleDividerNoCustom = global::WalkthroughSample.Droid.Resource.Id.titleDividerNoCustom;
@@ -957,6 +958,7 @@ namespace WalkthroughSample.Droid
 			global::Plugin.Xablu.Walkthrough.Resource.Layout.support_simple_spinner_dropdown_item = global::WalkthroughSample.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
 			global::Plugin.Xablu.Walkthrough.Resource.Layout.theme_forestprime_container = global::WalkthroughSample.Droid.Resource.Layout.theme_forestprime_container;
 			global::Plugin.Xablu.Walkthrough.Resource.Layout.theme_forestprime_page = global::WalkthroughSample.Droid.Resource.Layout.theme_forestprime_page;
+			global::Plugin.Xablu.Walkthrough.Resource.Layout.theme_pantheon_container = global::WalkthroughSample.Droid.Resource.Layout.theme_pantheon_container;
 			global::Plugin.Xablu.Walkthrough.Resource.Mipmap.folder = global::WalkthroughSample.Droid.Resource.Mipmap.folder;
 			global::Plugin.Xablu.Walkthrough.Resource.Mipmap.Icon = global::WalkthroughSample.Droid.Resource.Mipmap.Icon;
 			global::Plugin.Xablu.Walkthrough.Resource.String.abc_action_bar_home_description = global::WalkthroughSample.Droid.Resource.String.abc_action_bar_home_description;
@@ -4173,11 +4175,11 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f080028
 			public const int bottom = 2131230760;
 			
-			// aapt resource value: 0x7f0800a5
-			public const int btnNext = 2131230885;
-			
 			// aapt resource value: 0x7f0800a4
-			public const int btnSkip = 2131230884;
+			public const int btnNext = 2131230884;
+			
+			// aapt resource value: 0x7f0800a3
+			public const int btnSkip = 2131230883;
 			
 			// aapt resource value: 0x7f0800a6
 			public const int btnStart = 2131230886;
@@ -4320,11 +4322,11 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f080082
 			public const int img = 2131230850;
 			
-			// aapt resource value: 0x7f0800a1
-			public const int indicator = 2131230881;
+			// aapt resource value: 0x7f0800a5
+			public const int indicator = 2131230885;
 			
-			// aapt resource value: 0x7f0800a3
-			public const int indicator_container = 2131230883;
+			// aapt resource value: 0x7f0800a2
+			public const int indicator_container = 2131230882;
 			
 			// aapt resource value: 0x7f080091
 			public const int info = 2131230865;
@@ -4350,8 +4352,8 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f08004a
 			public const int list_item = 2131230794;
 			
-			// aapt resource value: 0x7f0800ad
-			public const int masked = 2131230893;
+			// aapt resource value: 0x7f0800ae
+			public const int masked = 2131230894;
 			
 			// aapt resource value: 0x7f08008a
 			public const int media_actions = 2131230858;
@@ -4542,8 +4544,8 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f08000d
 			public const int textinput_error = 2131230733;
 			
-			// aapt resource value: 0x7f0800a2
-			public const int theme_forestprime_bottomlayout = 2131230882;
+			// aapt resource value: 0x7f0800a1
+			public const int theme_forestprime_bottomlayout = 2131230881;
 			
 			// aapt resource value: 0x7f0800aa
 			public const int theme_forestprime_description = 2131230890;
@@ -4559,6 +4561,9 @@ namespace WalkthroughSample.Droid
 			
 			// aapt resource value: 0x7f0800a8
 			public const int theme_forestprime_title = 2131230888;
+			
+			// aapt resource value: 0x7f0800ac
+			public const int theme_pantheon_get_started = 2131230892;
 			
 			// aapt resource value: 0x7f08008f
 			public const int time = 2131230863;
@@ -4602,8 +4607,8 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f0800a0
 			public const int view_pager = 2131230880;
 			
-			// aapt resource value: 0x7f0800ac
-			public const int visible = 2131230892;
+			// aapt resource value: 0x7f0800ad
+			public const int visible = 2131230893;
 			
 			// aapt resource value: 0x7f080081
 			public const int walker = 2131230849;
@@ -4863,7 +4868,10 @@ namespace WalkthroughSample.Droid
 			public const int theme_forestprime_page = 2130968640;
 			
 			// aapt resource value: 0x7f040041
-			public const int ThirdFragment = 2130968641;
+			public const int theme_pantheon_container = 2130968641;
+			
+			// aapt resource value: 0x7f040042
+			public const int ThirdFragment = 2130968642;
 			
 			static Layout()
 			{

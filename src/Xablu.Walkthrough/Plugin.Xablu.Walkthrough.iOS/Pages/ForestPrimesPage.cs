@@ -8,15 +8,15 @@ using UIKit;
 
 namespace Plugin.Xablu.Walkthrough.Pages
 {
-    public partial class ForestPrimesPage : UIViewController, IBWWalkthroughPage, IPage
+    public partial class ForestPrimesPage : UIViewController, IBWWalkthroughPage, IForestPrimesPage
     {
-        public Color BackgroundColor = Color.PaleGreen;
+        public Color BackgroundColor { get; set; } = Color.White;
 
-        public TextControl TitleControl;
+        public TextControl TitleControl { get; set; }
 
-        public ImageControl CenterImageControl;
+        public ImageControl CenterImageControl { get; set; }
 
-        public TextControl DescriptionControl;
+        public TextControl DescriptionControl { get; set; }
 
         public ForestPrimesPage() : base("ForestPrimesPage", null)
         {

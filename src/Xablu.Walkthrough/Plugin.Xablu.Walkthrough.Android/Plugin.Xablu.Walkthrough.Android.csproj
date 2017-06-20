@@ -140,6 +140,7 @@
     <AndroidResource Include="Resources\values\attrs.xml" />
     <AndroidResource Include="Resources\drawable\white_radius.xml" />
     <AndroidResource Include="Resources\animator\scale_with_alpha.xml" />
+    <AndroidResource Include="Resources\layout\theme_pantheon_container.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

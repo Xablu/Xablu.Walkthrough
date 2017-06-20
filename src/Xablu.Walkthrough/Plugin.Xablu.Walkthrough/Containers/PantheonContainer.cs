@@ -4,10 +4,12 @@ using System.Drawing;
 
 namespace Plugin.Xablu.Walkthrough.Containers
 {
-    public class PantheonContainer : IContainer
+    public class PantheonContainer : IPantheonContainer
     {
         public ButtonControl GetStartedButtonControl { get; set; }
 
         public Color BackgroundColor { get; set; }
+
+        public PageControl CirclePageControl { get; set; }
     }
 }

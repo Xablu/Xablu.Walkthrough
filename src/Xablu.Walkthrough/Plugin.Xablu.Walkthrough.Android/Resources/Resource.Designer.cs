@@ -2281,11 +2281,11 @@ namespace Plugin.Xablu.Walkthrough
 			// aapt resource value: 0x7f080028
 			public static int bottom = 2131230760;
 			
-			// aapt resource value: 0x7f08009d
-			public static int btnNext = 2131230877;
-			
 			// aapt resource value: 0x7f08009c
-			public static int btnSkip = 2131230876;
+			public static int btnNext = 2131230876;
+			
+			// aapt resource value: 0x7f08009b
+			public static int btnSkip = 2131230875;
 			
 			// aapt resource value: 0x7f08009e
 			public static int btnStart = 2131230878;
@@ -2410,11 +2410,11 @@ namespace Plugin.Xablu.Walkthrough
 			// aapt resource value: 0x7f080048
 			public static int image = 2131230792;
 			
-			// aapt resource value: 0x7f080099
-			public static int indicator = 2131230873;
+			// aapt resource value: 0x7f08009d
+			public static int indicator = 2131230877;
 			
-			// aapt resource value: 0x7f08009b
-			public static int indicator_container = 2131230875;
+			// aapt resource value: 0x7f08009a
+			public static int indicator_container = 2131230874;
 			
 			// aapt resource value: 0x7f08008e
 			public static int info = 2131230862;
@@ -2440,8 +2440,8 @@ namespace Plugin.Xablu.Walkthrough
 			// aapt resource value: 0x7f08004a
 			public static int list_item = 2131230794;
 			
-			// aapt resource value: 0x7f0800a5
-			public static int masked = 2131230885;
+			// aapt resource value: 0x7f0800a6
+			public static int masked = 2131230886;
 			
 			// aapt resource value: 0x7f080087
 			public static int media_actions = 2131230855;
@@ -2629,8 +2629,8 @@ namespace Plugin.Xablu.Walkthrough
 			// aapt resource value: 0x7f08000d
 			public static int textinput_error = 2131230733;
 			
-			// aapt resource value: 0x7f08009a
-			public static int theme_forestprime_bottomlayout = 2131230874;
+			// aapt resource value: 0x7f080099
+			public static int theme_forestprime_bottomlayout = 2131230873;
 			
 			// aapt resource value: 0x7f0800a2
 			public static int theme_forestprime_description = 2131230882;
@@ -2646,6 +2646,9 @@ namespace Plugin.Xablu.Walkthrough
 			
 			// aapt resource value: 0x7f0800a0
 			public static int theme_forestprime_title = 2131230880;
+			
+			// aapt resource value: 0x7f0800a4
+			public static int theme_pantheon_get_started = 2131230884;
 			
 			// aapt resource value: 0x7f08008c
 			public static int time = 2131230860;
@@ -2689,8 +2692,8 @@ namespace Plugin.Xablu.Walkthrough
 			// aapt resource value: 0x7f080098
 			public static int view_pager = 2131230872;
 			
-			// aapt resource value: 0x7f0800a4
-			public static int visible = 2131230884;
+			// aapt resource value: 0x7f0800a5
+			public static int visible = 2131230885;
 			
 			// aapt resource value: 0x7f080027
 			public static int withText = 2131230759;
@@ -2936,6 +2939,9 @@ namespace Plugin.Xablu.Walkthrough
 			
 			// aapt resource value: 0x7f04003d
 			public static int theme_forestprime_page = 2130968637;
+			
+			// aapt resource value: 0x7f04003e
+			public static int theme_pantheon_container = 2130968638;
 			
 			static Layout()
 			{

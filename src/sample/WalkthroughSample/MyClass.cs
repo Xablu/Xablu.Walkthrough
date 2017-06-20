@@ -17,41 +17,50 @@ namespace WalkthroughSample
 
         public async Task SetTheme()
         {
-            var theme = new Theme<ForestPrimesPage, ForestPrimesContainer>();
-            //theme.Container = new PantheonContainer()
-            //{
-            //    BackgroundColor = Color.LightPink,
-            //    GetStartedButtonControl = new ButtonControl()
-            //    {
-            //        Text = "GET STARTINGGGG",
-            //        BackgroundColor = Color.LightGray
-            //    }
-            //};
-            theme.Container = new ForestPrimesContainer()
+            var theme = new Theme<ForestPrimesPage, PantheonContainer>();
+            theme.Container = new PantheonContainer()
             {
-                BackgroundColor = Color.LightGray,
-                StartButtonControl = new ButtonControl()
+                GetStartedButtonControl = new ButtonControl()
                 {
-                    Text = "START",
-                    BackgroundColor = Color.FromArgb(0, 237, 26, 59),
-                    TextSize = 16,
-                    TextColor = Color.FromArgb(255, 0, 43),
-                    ClickAction = () =>
-                    {
-                        CrossWalkthrough.Current.Close();
-                    },
-                    TextStyle = 1
+                    Text = "GET STARTINGGGG",
+                    BackgroundColor = Color.LightGray
                 },
-                NextButtonControl = new ImageButtonControl()
+                CirclePageControl = new PageControl()
                 {
-                    Image = "ArrowRight"
+                    SelectedPageColor = Color.FromArgb(237, 26, 59),
+                    UnSelectedPageColor = Color.FromArgb(236, 104, 128)
                 }
             };
+            //theme.Container = new ForestPrimesContainer()
+            //{
+            //    BackgroundColor = Color.LightGray,
+            //    StartButtonControl = new ButtonControl()
+            //    {
+            //        Text = "START",
+            //        BackgroundColor = Color.FromArgb(0, 237, 26, 59),
+            //        TextSize = 16,
+            //        TextColor = Color.FromArgb(255, 0, 43),
+            //        ClickAction = () =>
+            //        {
+            //            CrossWalkthrough.Current.Close();
+            //        },
+            //        TextStyle = 1
+            //    },
+            //    NextButtonControl = new ImageButtonControl()
+            //    {
+            //        Image = "ArrowRight",
+            //        ClickAction = () => CrossWalkthrough.Current.Next()
+            //    },
+            //    CirclePageControl = new PageControl()
+            //    {
+            //        SelectedPageColor = Color.FromArgb(237, 26, 59),
+            //        UnSelectedPageColor = Color.FromArgb(236, 104, 128)
+            //    }
+            //};
 
             theme.Pages.Add(
                 new ForestPrimesPage()
                 {
-
                     TitleControl = new TextControl()
                     {
                         Text = "Get count information",

@@ -4,14 +4,14 @@ using Plugin.Xablu.Walkthrough.Abstractions.Pages;
 
 namespace Plugin.Xablu.Walkthrough.Pages
 {
-    public class ForestPrimesPage : IPage
+    public class ForestPrimesPage : IForestPrimesPage
     {
-        public Color BackgroundColor = Color.PaleGreen;
+        public Color BackgroundColor { get; set; }
 
-        public TextControl TitleControl;
+        public TextControl TitleControl { get; set; }
 
-        public ImageControl CenterImageControl;
+        public ImageControl CenterImageControl { get; set; }
 
-        public TextControl DescriptionControl;
+        public TextControl DescriptionControl { get; set; }
     }
 }

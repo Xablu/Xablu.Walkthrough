@@ -1,26 +1,35 @@
-﻿using System;
-using Android.OS;
-using Android.Support.Design.Widget;
-using Android.Support.V4.View;
-using Android.Support.V7.Widget;
+﻿using Android.OS;
 using Android.Views;
-using Android.Widget;
 using Plugin.Xablu.Walkthrough.Abstractions.Controls;
-using Plugin.Xablu.Walkthrough.Extensions;
-using static Android.Support.V4.View.ViewPager;
 using System.Drawing;
+using Plugin.Xablu.Walkthrough.Abstractions.Containers;
+using Android.Support.V4.View;
 using Splat;
+using Plugin.Xablu.Walkthrough.Indicator;
+using Plugin.Xablu.Walkthrough.Extensions;
 
 namespace Plugin.Xablu.Walkthrough.Containers
 {
-    public class PantheonContainer : BaseContainer
+    public class PantheonContainer : BaseContainer, IPantheonContainer
     {
         public ButtonControl GetStartedButtonControl { get; set; }
 
-        public Color BackgroundColor { get; set; }
+        public Color BackgroundColor { get; set; } = Color.Violet;
 
-        public PantheonContainer()
+        public PageControl CirclePageControl { get; set; }
+
+        public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
+            var view = inflater.Inflate(Resource.Layout.theme_pantheon_container, container, false);
+            view.SetBackgroundColor(BackgroundColor.ToNative());
+
+            ViewPager = (ViewPager)view.FindViewById(Resource.Id.view_pager);
+
+            var circleIndicator = view.FindViewById<CircleIndicator>(Resource.Id.indicator);
+            circleIndicator.SetControl(CirclePageControl);
+
+
+            return view;
         }
     }
 }

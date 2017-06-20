@@ -2,7 +2,10 @@
 using Android.Support.V7.Widget;
 using Android.Widget;
 using Plugin.Xablu.Walkthrough.Abstractions.Controls;
+using Plugin.Xablu.Walkthrough.Indicator;
+using System.Drawing;
 using Splat;
+using Android.Graphics.Drawables.Shapes;
 
 namespace Plugin.Xablu.Walkthrough.Extensions
 {
@@ -36,6 +39,22 @@ namespace Plugin.Xablu.Walkthrough.Extensions
         {
             if (control.Image != null)
                 imageView.SetImageDrawable(GetImage(control.Image));
+        }
+
+        public static void SetControl(this CircleIndicator circleIndicator, PageControl pageControl)
+        {
+            if (pageControl != null)
+            {
+                circleIndicator.SelectedDrawable = createRoundedIndicator(pageControl.SelectedPageColor);
+                circleIndicator.UnselectedDrawable = createRoundedIndicator(pageControl.UnSelectedPageColor);
+            }
+        }
+
+        private static ShapeDrawable createRoundedIndicator(Color color)
+        {
+            var drawable = new ShapeDrawable(new OvalShape());
+            drawable.Paint.Color = color.ToNative();
+            return drawable;
         }
 
         private static Drawable GetImage(string resource)

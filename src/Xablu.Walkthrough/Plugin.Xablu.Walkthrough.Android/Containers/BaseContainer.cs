@@ -1,7 +1,11 @@
-﻿using Android.Support.V4.App;
+﻿using Android.Graphics.Drawables;
+using Android.Graphics.Drawables.Shapes;
+using Android.Support.V4.App;
 using Android.Support.V4.View;
 using Plugin.Xablu.Walkthrough.Defaults;
+using System.Drawing;
 using Walker;
+using Splat;
 
 namespace Plugin.Xablu.Walkthrough.Containers
 {

@@ -50,6 +50,10 @@
     <Compile Include="Containers\IContainer.cs" />
     <Compile Include="Themes\ITheme.cs" />
     <Compile Include="Pages\IPage.cs" />
+    <Compile Include="Controls\PageControl.cs" />
+    <Compile Include="Containers\IForestPrimesContainer.cs" />
+    <Compile Include="Pages\IForestPrimesPage.cs" />
+    <Compile Include="Containers\IPantheonContainer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Themes\" />

@@ -1,4 +1,5 @@
-﻿using System.Drawing;
+﻿using System;
+using System.Drawing;
 using BWWalkthrough;
 using Foundation;
 using Plugin.Xablu.Walkthrough.Abstractions.Containers;
@@ -9,7 +10,7 @@ using UIKit;
 
 namespace Plugin.Xablu.Walkthrough.Containers
 {
-    public partial class ForestPrimesContainer : BWWalkthroughViewController, IBWWalkthroughViewControllerDelegate, IContainer
+    public partial class ForestPrimesContainer : BWWalkthroughViewController, IForestPrimesContainer, IBWWalkthroughViewControllerDelegate, IContainer
     {
         public Color BackgroundColor { get; set; } = Color.White;
 
@@ -57,6 +58,8 @@ namespace Plugin.Xablu.Walkthrough.Containers
             set => startButtonControl = value;
         }
 
+        public PageControl CirclePageControl { get; set; }
+
         public ForestPrimesContainer() : base("ForestPrimesContainer", null)
         {
         }
@@ -84,8 +87,7 @@ namespace Plugin.Xablu.Walkthrough.Containers
             base.PageControl = PageControl;
 
             PageControl.Enabled = false;
-            PageControl.PageIndicatorTintColor = UIColor.FromRGB(236, 104, 128);
-            PageControl.CurrentPageIndicatorTintColor = UIColor.FromRGB(237, 26, 59);
+            PageControl.SetControl(CirclePageControl);
 
             View.BackgroundColor = UIColor.White;
         }

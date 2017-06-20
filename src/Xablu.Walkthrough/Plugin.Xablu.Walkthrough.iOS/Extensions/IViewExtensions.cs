@@ -53,6 +53,15 @@ namespace Plugin.Xablu.Walkthrough.Extensions
                 button.TouchUpInside += (sender, e) => control?.ClickAction();
         }
 
+        public static void SetControl(this UIKit.UIPageControl pageControl, PageControl control)
+        {
+            if (control != null)
+            {
+                pageControl.PageIndicatorTintColor = control.UnSelectedPageColor.ToNative();
+                pageControl.CurrentPageIndicatorTintColor = control.SelectedPageColor.ToNative();
+            }
+        }
+
         private static async Task<UIImage> GetImage(string imageRes)
         {
             var image = await BitmapLoader.Current.LoadFromResource(imageRes, null, null);

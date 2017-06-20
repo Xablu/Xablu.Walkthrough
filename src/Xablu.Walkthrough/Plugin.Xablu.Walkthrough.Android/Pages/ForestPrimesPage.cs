@@ -3,20 +3,21 @@ using Android.OS;
 using Android.Views;
 using Android.Widget;
 using Plugin.Xablu.Walkthrough.Abstractions.Controls;
+using Plugin.Xablu.Walkthrough.Abstractions.Pages;
 using Plugin.Xablu.Walkthrough.Extensions;
 using Walker;
 
 namespace Plugin.Xablu.Walkthrough.Pages
 {
-    public class ForestPrimesPage : WalkerFragment
+    public class ForestPrimesPage : WalkerFragment, IForestPrimesPage
     {
-        public Color BackgroundColor = Color.PaleGreen;
+        public Color BackgroundColor { get; set; } = Color.White;
 
-        public TextControl TitleControl;
+        public TextControl TitleControl { get; set; }
 
-        public ImageControl CenterImageControl;
+        public ImageControl CenterImageControl { get; set; }
 
-        public TextControl DescriptionControl;
+        public TextControl DescriptionControl { get; set; }
 
         protected override int PagePosition => 0;
 

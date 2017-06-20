@@ -8,11 +8,6 @@
         android:id="@+id/view_pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-    <plugin.xablu.walkthrough.indicator.CircleIndicator
-        android:id="@+id/indicator"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:gravity="bottom" />
     <LinearLayout
         android:id="@+id/theme_forestprime_bottomlayout"
         android:layout_width="match_parent"
@@ -54,6 +49,11 @@
                 android:minWidth="100dp"
                 android:clickable="true"
                 tools:ignore="ContentDescription" />
+            <plugin.xablu.walkthrough.indicator.CircleIndicator
+                android:id="@+id/indicator"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:gravity="center_horizontal" />
             <TextView
                 android:id="@+id/btnStart"
                 style="@style/ForestPrimeButtonStyleCompat"

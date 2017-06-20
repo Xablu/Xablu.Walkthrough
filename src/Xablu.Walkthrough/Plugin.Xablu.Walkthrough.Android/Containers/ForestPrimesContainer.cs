@@ -11,10 +11,11 @@ using static Android.Support.V4.View.ViewPager;
 using System.Drawing;
 using Splat;
 using Plugin.Xablu.Walkthrough.Indicator;
+using Plugin.Xablu.Walkthrough.Abstractions.Containers;
 
 namespace Plugin.Xablu.Walkthrough.Containers
 {
-    public class ForestPrimesContainer : BaseContainer, IOnPageChangeListener
+    public class ForestPrimesContainer : BaseContainer, IForestPrimesContainer, IOnPageChangeListener
     {
         public TextView StartButton;
         public AppCompatImageButton NextButton;
@@ -67,6 +68,8 @@ namespace Plugin.Xablu.Walkthrough.Containers
             set => startButtonControl = value;
         }
 
+        public PageControl CirclePageControl { get; set; }
+
         private CircleIndicator circleIndicator;
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
@@ -81,10 +84,12 @@ namespace Plugin.Xablu.Walkthrough.Containers
             var bottomNavigation = view.FindViewById<LinearLayout>(Resource.Id.theme_forestprime_bottomlayout);
 
             circleIndicator = view.FindViewById<CircleIndicator>(Resource.Id.indicator);
+            circleIndicator.SetControl(CirclePageControl);
+            circleIndicator.SetViewPager(ViewPager);
 
             var skipButton = view.FindViewById<Button>(Resource.Id.btnSkip);
             skipButton.SetControl(SkipButtonControl);
-            skipButton.Click += (sender, e) => skipButtonControl.ClickAction();
+            skipButton.Click += (sender, e) => skipButtonControl?.ClickAction();
 
             NextButton = view.FindViewById<AppCompatImageButton>(Resource.Id.btnNext);
             NextButton.SetControl(NextButtonControl);

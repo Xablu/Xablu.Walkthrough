@@ -8,11 +8,13 @@ using Splat;
 
 namespace Plugin.Xablu.Walkthrough.Containers
 {
-    public partial class PantheonContainer : BWWalkthroughViewController, IContainer
+    public partial class PantheonContainer : BWWalkthroughViewController, IPantheonContainer
     {
         public ButtonControl GetStartedButtonControl { get; set; }
 
         public Color BackgroundColor { get; set; }
+
+        public PageControl CirclePageControl { get; set; }
 
         public PantheonContainer() : base("PantheonContainer", null)
         {
@@ -26,6 +28,8 @@ namespace Plugin.Xablu.Walkthrough.Containers
             View.BackgroundColor = BackgroundColor.ToNative();
 
             StartButton.SetControl(GetStartedButtonControl);
+
+            base.PageControl.SetControl(CirclePageControl);
         }
 
         public override void DidReceiveMemoryWarning()
