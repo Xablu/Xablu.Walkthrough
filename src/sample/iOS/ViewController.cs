@@ -28,15 +28,10 @@ namespace WalkthroughSample.iOS
         {
             base.ViewDidLoad();
 
-            var x = new MyClass();
-            var xy = new ForestPrimesPage();
+            var core = new Themes();
 
-
-            Button.TouchUpInside += (sender, e) =>
-            {
-
-                x.SetTheme();
-            };
+            Button.TouchUpInside += (sender, e) => core.ForestContainerForestPage();
+            PantheonForest.TouchUpInside += (sender, e) => core.PantheonContainerForestPage();
         }
 
         public override void DidReceiveMemoryWarning()

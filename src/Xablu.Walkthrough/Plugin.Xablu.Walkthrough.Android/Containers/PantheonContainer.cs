@@ -15,7 +15,7 @@ namespace Plugin.Xablu.Walkthrough.Containers
     {
         public ButtonControl GetStartedButtonControl { get; set; }
 
-        public Color BackgroundColor { get; set; } = Color.Violet;
+        public Color BackgroundColor { get; set; }
 
         public PageControl CirclePageControl { get; set; }
 
@@ -24,7 +24,9 @@ namespace Plugin.Xablu.Walkthrough.Containers
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             var view = inflater.Inflate(Resource.Layout.theme_pantheon_container, container, false);
-            view.SetBackgroundColor(BackgroundColor.ToNative());
+
+            if (BackgroundColor != null)
+                view.SetBackgroundColor(BackgroundColor.ToNative());
 
             ViewPager = (ViewPager)view.FindViewById(Resource.Id.view_pager);
 

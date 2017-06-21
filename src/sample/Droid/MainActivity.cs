@@ -19,8 +19,8 @@ namespace WalkthroughSample.Droid
 
             var myClass = new MyClass();
 
-            var button = FindViewById<Button>(Resource.Id.showWalk);
-            button.Click += async (sender, e) => await myClass.SetTheme();
+            FindViewById<Button>(Resource.Id.showWalk).Click += (sender, e) => myClass.ForestContainerForestPage();
+            FindViewById<Button>(Resource.Id.showWalk2).Click += (sender, e) => myClass.PantheonContainerForestPage();
         }
     }
 }
