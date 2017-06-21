@@ -17,7 +17,7 @@ namespace WalkthroughSample.Droid
 
             CrossWalkthrough.Current.Init(this);
 
-            var myClass = new MyClass();
+            var myClass = new Themes();
 
             FindViewById<Button>(Resource.Id.showWalk).Click += (sender, e) => myClass.ForestContainerForestPage();
             FindViewById<Button>(Resource.Id.showWalk2).Click += (sender, e) => myClass.PantheonContainerForestPage();
