@@ -7,6 +7,7 @@ using Android.Support.V4.View;
 using Splat;
 using Plugin.Xablu.Walkthrough.Indicator;
 using Plugin.Xablu.Walkthrough.Extensions;
+using Android.Widget;
 
 namespace Plugin.Xablu.Walkthrough.Containers
 {
@@ -18,6 +19,8 @@ namespace Plugin.Xablu.Walkthrough.Containers
 
         public PageControl CirclePageControl { get; set; }
 
+        private CircleIndicator circleIndicator;
+
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             var view = inflater.Inflate(Resource.Layout.theme_pantheon_container, container, false);
@@ -25,11 +28,19 @@ namespace Plugin.Xablu.Walkthrough.Containers
 
             ViewPager = (ViewPager)view.FindViewById(Resource.Id.view_pager);
 
-            var circleIndicator = view.FindViewById<CircleIndicator>(Resource.Id.indicator);
+            circleIndicator = view.FindViewById<CircleIndicator>(Resource.Id.indicator);
             circleIndicator.SetControl(CirclePageControl);
 
+            var startButton = view.FindViewById<Button>(Resource.Id.theme_pantheon_get_started);
+            startButton.SetControl(GetStartedButtonControl);
 
             return view;
+        }
+
+        public override void OnActivityCreated(Bundle savedInstanceState)
+        {
+            base.OnActivityCreated(savedInstanceState);
+            circleIndicator.SetViewPager(ViewPager);
         }
     }
 }

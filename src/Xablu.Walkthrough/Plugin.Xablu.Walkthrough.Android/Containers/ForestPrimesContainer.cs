@@ -85,7 +85,6 @@ namespace Plugin.Xablu.Walkthrough.Containers
 
             circleIndicator = view.FindViewById<CircleIndicator>(Resource.Id.indicator);
             circleIndicator.SetControl(CirclePageControl);
-            circleIndicator.SetViewPager(ViewPager);
 
             var skipButton = view.FindViewById<Button>(Resource.Id.btnSkip);
             skipButton.SetControl(SkipButtonControl);

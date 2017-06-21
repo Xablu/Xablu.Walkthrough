@@ -27,6 +27,14 @@ namespace Plugin.Xablu.Walkthrough.Extensions
             }
         }
 
+        public static void SetControl(this Button button, ButtonControl control)
+        {
+            SetControl(button as TextView, control);
+            button.SetBackgroundColor(control.BackgroundColor.ToNative());
+            if (control.ClickAction != null)
+                button.Click += (sender, e) => control.ClickAction();
+        }
+
         public static void SetControl(this AppCompatImageButton imageView, ImageButtonControl control)
         {
             if (control.Image != null)
