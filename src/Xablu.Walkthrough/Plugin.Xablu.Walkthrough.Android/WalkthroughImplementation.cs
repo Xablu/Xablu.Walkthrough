@@ -6,6 +6,7 @@ using Plugin.Xablu.Walkthrough.Containers;
 using Plugin.Xablu.Walkthrough.Abstractions.Themes;
 using Plugin.Xablu.Walkthrough.Abstractions.Pages;
 using Walker;
+using System;
 
 namespace Plugin.Xablu.Walkthrough
 {
@@ -18,6 +19,8 @@ namespace Plugin.Xablu.Walkthrough
         private AppCompatActivity hostActvity;
 
         private int currentPosition = 0;
+
+        public bool IsInitialized { get; set; } = false;
 
         public void Init(AppCompatActivity hostActivity)
         {
@@ -32,6 +35,8 @@ namespace Plugin.Xablu.Walkthrough
             viewPagerFragment = androidTheme;
             viewPagerFragment.SetAdapter(pages, hostActvity);
             viewPagerFragment.SetListener(this);
+
+            IsInitialized = true;
         }
 
         public void Previous()

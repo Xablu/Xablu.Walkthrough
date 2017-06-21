@@ -4,6 +4,7 @@ using Plugin.Xablu.Walkthrough.Abstractions.Containers;
 using Plugin.Xablu.Walkthrough.Abstractions.Themes;
 using Plugin.Xablu.Walkthrough.Abstractions.Pages;
 using Plugin.Xablu.Walkthrough.Abstractions;
+using System;
 
 namespace Plugin.Xablu.Walkthrough
 {
@@ -14,6 +15,8 @@ namespace Plugin.Xablu.Walkthrough
     {
         private BWWalkthroughViewController walkthrough;
         private UIViewController hostViewController;
+
+        public bool IsInitialized { get; set; } = false;
 
         public void Setup<TPage, TContainer>(ITheme<TPage, TContainer> theme) where TPage : IPage where TContainer : IContainer
         {
@@ -28,6 +31,8 @@ namespace Plugin.Xablu.Walkthrough
 
                 walkthrough.AddViewController(uiPage);
             }
+
+            IsInitialized = true;
         }
 
         public void Init(UIViewController hostVc)

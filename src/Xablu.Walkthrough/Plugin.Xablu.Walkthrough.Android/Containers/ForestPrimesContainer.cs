@@ -26,10 +26,7 @@ namespace Plugin.Xablu.Walkthrough.Containers
 
         private ImageButtonControl nextButtonControl = new ImageButtonControl()
         {
-            ClickAction = () =>
-            {
-                CrossWalkthrough.Current.Next();
-            }
+            ClickAction = () => CrossWalkthrough.Current.Next()
         };
 
         public ImageButtonControl NextButtonControl

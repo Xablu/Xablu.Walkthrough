@@ -114,7 +114,9 @@ namespace WalkthroughSample
                 GetStartedButtonControl = new ButtonControl()
                 {
                     Text = "GET STARTED",
-                    BackgroundColor = Color.LightGray,
+                    TextColor = Color.White,
+                    TextStyle = 1,
+                    BackgroundColor = Color.LimeGreen,
                     ClickAction = () => CrossWalkthrough.Current.Close()
                 },
                 CirclePageControl = new PageControl()

@@ -1,12 +1,6 @@
 ﻿using System;
-using System.Drawing;
 using Plugin.Xablu.Walkthrough;
 using Plugin.Xablu.Walkthrough.Abstractions.Containers;
-using Plugin.Xablu.Walkthrough.Abstractions.Controls;
-using Plugin.Xablu.Walkthrough.Abstractions.Pages;
-using Plugin.Xablu.Walkthrough.Containers;
-using Plugin.Xablu.Walkthrough.Pages;
-using Plugin.Xablu.Walkthrough.Themes;
 using UIKit;
 
 namespace WalkthroughSample.iOS
