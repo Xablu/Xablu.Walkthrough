@@ -102,6 +102,9 @@ namespace WalkthroughSample
             };
             theme.Pages = ForestPages;
 
+
+            CrossWalkthrough.Current.Page = 2;
+
             CrossWalkthrough.Current.Setup(theme);
             CrossWalkthrough.Current.Show();
         }
@@ -125,6 +128,7 @@ namespace WalkthroughSample
                     UnSelectedPageColor = Color.FromArgb(236, 104, 128)
                 }
             };
+            // CrossWalkthrough.Current.Page = 2;
 
             theme.Pages = ForestPages;
 

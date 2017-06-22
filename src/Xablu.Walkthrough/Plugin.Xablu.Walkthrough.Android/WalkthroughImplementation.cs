@@ -18,9 +18,9 @@ namespace Plugin.Xablu.Walkthrough
         private WalkthroughViewPagerBaseFragment viewPagerFragment;
         private AppCompatActivity hostActvity;
 
-        private int currentPosition = 0;
-
+        public int Page { get; set; } = 0;
         public bool IsInitialized { get; set; } = false;
+        private int currentPage = 0;
 
         public void Init(AppCompatActivity hostActivity)
         {
@@ -41,16 +41,17 @@ namespace Plugin.Xablu.Walkthrough
 
         public void Previous()
         {
-            viewPagerFragment.ViewPager.CurrentItem = currentPosition - 1;
+            viewPagerFragment.ViewPager.CurrentItem = currentPage - 1;
         }
 
         public void Next()
         {
-            viewPagerFragment.ViewPager.CurrentItem = currentPosition + 1;
+            viewPagerFragment.ViewPager.CurrentItem = currentPage + 1;
         }
 
         public void Show()
         {
+            viewPagerFragment.Page = Page;
             viewPagerFragment.Show(hostActvity.SupportFragmentManager, Class.SimpleName);
         }
 
@@ -70,7 +71,7 @@ namespace Plugin.Xablu.Walkthrough
 
         public void OnPageSelected(int position)
         {
-            currentPosition = position;
+            currentPage = position;
         }
     }
 }

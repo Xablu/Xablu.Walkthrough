@@ -17,6 +17,7 @@ namespace Plugin.Xablu.Walkthrough
         private UIViewController hostViewController;
 
         public bool IsInitialized { get; set; } = false;
+        public int Page { get; set; } = 0;
 
         public void Setup<TPage, TContainer>(ITheme<TPage, TContainer> theme) where TPage : IPage where TContainer : IContainer
         {
@@ -42,6 +43,7 @@ namespace Plugin.Xablu.Walkthrough
 
         public void Show()
         {
+            walkthrough.CurrentPage = Page;
             hostViewController.PresentViewController(walkthrough, true, null);
         }
 

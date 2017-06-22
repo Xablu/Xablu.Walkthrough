@@ -13,6 +13,8 @@ namespace Plugin.Xablu.Walkthrough
         private AppCompatActivity hostActivity;
         private ViewPager.IOnPageChangeListener listener;
 
+        public int Page = 0;
+
         public abstract ViewPager ViewPager { get; set; }
         public abstract void InitializeAdapter(WalkerFragment[] fragments, FragmentManager manager);
 

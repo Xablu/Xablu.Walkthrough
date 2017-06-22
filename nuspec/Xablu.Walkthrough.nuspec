@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>Xablu.Walkthrough</id>
-        <version>0.4.2</version>
+        <version>0.4.3</version>
         <title>Walkthrough by Xablu</title>
         <authors>Xablu</authors>
         <owners>Xablu</owners>
@@ -16,11 +16,11 @@
         <dependencies>
             <group targetFramework="MonoAndroid0.0">
                 <dependency id="Walker" version="1.1.1" />
-                <dependency id="Xamarin.Android.Support.v4" version="25.3.1" />
-                <dependency id="Xamarin.Android.Support.Design" version="25.3.1" />
+                <dependency id="Xamarin.Android.Support.v4" version="23.3.0" />
+                <dependency id="Xamarin.Android.Support.Design" version="23.3.0" />
             </group>
             <group targetFramework="Xamarin.iOS1.0">
-                <dependency id="BWWalkthrough" version="1.0.13" />
+                <dependency id="BWWalkthrough" version="1.1.0" />
             </group>
             <group targetFramework="Windows8.0" />
         </dependencies>

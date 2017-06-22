@@ -23,6 +23,7 @@ namespace Plugin.Xablu.Walkthrough.Containers
         public override void InitializeAdapter(WalkerFragment[] fragments, FragmentManager manager)
         {
             ViewPager.Adapter = new DefaultAdapter(fragments, manager);
+            ViewPager.CurrentItem = Page;
         }
     }
 }
