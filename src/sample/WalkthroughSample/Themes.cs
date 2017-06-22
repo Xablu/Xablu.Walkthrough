@@ -103,7 +103,7 @@ namespace WalkthroughSample
             theme.Pages = ForestPages;
 
 
-            CrossWalkthrough.Current.Page = 2;
+            CrossWalkthrough.Current.Page = 1;
 
             CrossWalkthrough.Current.Setup(theme);
             CrossWalkthrough.Current.Show();

@@ -18,7 +18,7 @@ namespace Plugin.Xablu.Walkthrough
         private WalkthroughViewPagerBaseFragment viewPagerFragment;
         private AppCompatActivity hostActvity;
 
-        public int Page { get; set; } = 0;
+        public int Page { get { return currentPage; } set { currentPage = value; } }
         public bool IsInitialized { get; set; } = false;
         private int currentPage = 0;
 
