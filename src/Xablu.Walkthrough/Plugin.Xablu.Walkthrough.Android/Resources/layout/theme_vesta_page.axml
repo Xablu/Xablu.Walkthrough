@@ -6,7 +6,8 @@
     android:layout_height="match_parent">
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+		android:gravity="center">
     <!-- An invisible view aligned to the center of the parent. Allows other views to be arranged on either side -->
         <ViewStub
             android:id="@+id/theme_vesta_center_shim"
@@ -20,15 +21,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+			android:layout_centerHorizontal="true"
             android:scaleType="centerCrop"
             android:adjustViewBounds="true"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp" />
+            android:padding="16dp" />
         <LinearLayout
             android:layout_below="@id/theme_vesta_center_shim"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:gravity="center"
+			android:gravity="center"
             android:orientation="vertical">
             <TextView
                 android:id="@+id/theme_vesta_title"
