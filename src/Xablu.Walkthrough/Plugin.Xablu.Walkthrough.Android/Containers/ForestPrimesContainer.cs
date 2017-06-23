@@ -100,6 +100,17 @@ namespace Plugin.Xablu.Walkthrough.Containers
 
         public void OnPageSelected(int position)
         {
+            if (position + 1 == ViewPager.Adapter.Count)
+            {
+                StartButton.Visibility = ViewStates.Visible;
+                StartButton.Alpha = 1;
+
+                NextButton.Visibility = ViewStates.Gone;
+            }
+            else
+            {
+                NextButton.Visibility = ViewStates.Visible;
+            }
         }
 
         private void FadeOutFadeInOnScroll(float positionOffset, View firstControl, View secondControl)

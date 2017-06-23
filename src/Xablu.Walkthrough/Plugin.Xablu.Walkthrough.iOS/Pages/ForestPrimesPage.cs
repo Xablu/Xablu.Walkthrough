@@ -14,7 +14,7 @@ namespace Plugin.Xablu.Walkthrough.Pages
 
         public TextControl TitleControl { get; set; }
 
-        public ImageControl CenterImageControl { get; set; }
+        public ImageControl ImageControl { get; set; }
 
         public TextControl DescriptionControl { get; set; }
 
@@ -30,7 +30,7 @@ namespace Plugin.Xablu.Walkthrough.Pages
 
             Title.SetControl(TitleControl);
 
-            await CenterImage.SetControl(CenterImageControl);
+            await CenterImage.SetControl(ImageControl);
 
             Description.SetControl(DescriptionControl);
         }
