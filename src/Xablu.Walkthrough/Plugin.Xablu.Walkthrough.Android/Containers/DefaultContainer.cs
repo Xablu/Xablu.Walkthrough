@@ -28,7 +28,12 @@ namespace Plugin.Xablu.Walkthrough.Containers
 
         public virtual Color BackgroundColor { get; set; } = Color.White;
         public virtual PageControl CirclePageControl { get; set; }
-        public override ViewPager ViewPager { get => _viewPager; set => _viewPager = value; }
+
+        public override ViewPager ViewPager
+        {
+            get => _viewPager;
+            set => _viewPager = value;
+        }
 
         public override void InitializeAdapter(WalkerFragment[] fragments, FragmentManager manager)
         {
@@ -36,24 +41,24 @@ namespace Plugin.Xablu.Walkthrough.Containers
             ViewPager.CurrentItem = Page;
         }
 
-		public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
-		{
-			var view = inflater.Inflate(FragmentLayoutId, container, false);
+        public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
+        {
+            var view = inflater.Inflate(FragmentLayoutId, container, false);
 
-			view.SetBackgroundColor(BackgroundColor.ToNative());
+            view.SetBackgroundColor(BackgroundColor.ToNative());
 
-			ViewPager = (ViewPager)view.FindViewById(ViewPagerResourceId);
+            ViewPager = (ViewPager) view.FindViewById(ViewPagerResourceId);
 
-			CircleIndicator = view.FindViewById<CircleIndicator>(CircleIndicatorResourceId);
-			CircleIndicator.SetControl(CirclePageControl);
+            CircleIndicator = view.FindViewById<CircleIndicator>(CircleIndicatorResourceId);
+            CircleIndicator.SetControl(CirclePageControl);
 
-			return view;
-		}
+            return view;
+        }
 
-		public override void OnActivityCreated(Bundle savedInstanceState)
-		{
-			base.OnActivityCreated(savedInstanceState);
-			CircleIndicator.SetViewPager(ViewPager);
-		}
+        public override void OnActivityCreated(Bundle savedInstanceState)
+        {
+            base.OnActivityCreated(savedInstanceState);
+            CircleIndicator.SetViewPager(ViewPager);
+        }
     }
 }

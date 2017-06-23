@@ -5,7 +5,7 @@ namespace Plugin.Xablu.Walkthrough.Abstractions.Containers
 {
     public interface IDefaultContainer : IContainer
     {
-		Color BackgroundColor { get; set; }
-		PageControl CirclePageControl { get; set; }
+        Color BackgroundColor { get; set; }
+        PageControl CirclePageControl { get; set; }
     }
 }

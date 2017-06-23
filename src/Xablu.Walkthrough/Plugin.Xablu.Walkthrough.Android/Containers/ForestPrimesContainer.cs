@@ -38,10 +38,7 @@ namespace Plugin.Xablu.Walkthrough.Containers
         private ButtonControl skipButtonControl = new ButtonControl()
         {
             Text = "SKIP",
-            ClickAction = () =>
-            {
-                CrossWalkthrough.Current.Close();
-            }
+            ClickAction = () => { CrossWalkthrough.Current.Close(); }
         };
 
         public ButtonControl SkipButtonControl
@@ -53,10 +50,7 @@ namespace Plugin.Xablu.Walkthrough.Containers
         private ButtonControl startButtonControl = new ButtonControl()
         {
             Text = "Next",
-            ClickAction = () =>
-            {
-                CrossWalkthrough.Current.Close();
-            }
+            ClickAction = () => { CrossWalkthrough.Current.Close(); }
         };
 
         public ButtonControl StartButtonControl
@@ -68,12 +62,12 @@ namespace Plugin.Xablu.Walkthrough.Containers
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             var view = base.OnCreateView(inflater, container, savedInstanceState);
-			
+
             ViewPager.AddOnPageChangeListener(this);
-			
+
             var bottomNavigation = view.FindViewById<LinearLayout>(Resource.Id.theme_forestprime_bottomlayout);
 
-			var skipButton = view.FindViewById<Button>(Resource.Id.btnSkip);
+            var skipButton = view.FindViewById<Button>(Resource.Id.btnSkip);
             skipButton.SetControl(SkipButtonControl);
             skipButton.Click += (sender, e) => skipButtonControl?.ClickAction();
 
@@ -102,12 +96,10 @@ namespace Plugin.Xablu.Walkthrough.Containers
 
         public void OnPageScrollStateChanged(int state)
         {
-
         }
 
         public void OnPageSelected(int position)
         {
-
         }
 
         private void FadeOutFadeInOnScroll(float positionOffset, View firstControl, View secondControl)

@@ -6,7 +6,7 @@ namespace Plugin.Xablu.Walkthrough.Pages
 {
     public class DefaultPage : IDefaultPage
     {
-		public Color BackgroundColor { get; set; }
+        public Color BackgroundColor { get; set; }
         public TextControl TitleControl { get; set; }
         public ImageControl ImageControl { get; set; }
         public TextControl DescriptionControl { get; set; }

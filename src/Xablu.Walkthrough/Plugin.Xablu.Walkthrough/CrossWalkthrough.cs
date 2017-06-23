@@ -9,7 +9,8 @@ namespace Plugin.Xablu.Walkthrough
     /// </summary>
     public class CrossWalkthrough
     {
-        static Lazy<IWalkthrough> Implementation = new Lazy<IWalkthrough>(() => CreateWalkthrough(), System.Threading.LazyThreadSafetyMode.PublicationOnly);
+        static Lazy<IWalkthrough> Implementation =
+            new Lazy<IWalkthrough>(() => CreateWalkthrough(), System.Threading.LazyThreadSafetyMode.PublicationOnly);
 
         /// <summary>
         /// Current settings to use
@@ -38,7 +39,8 @@ namespace Plugin.Xablu.Walkthrough
 
         internal static Exception NotImplementedInReferenceAssembly()
         {
-            return new NotImplementedException("This functionality is not implemented in the portable version of this assembly.  You should reference the NuGet package from your main application project in order to reference the platform-specific implementation.");
+            return new NotImplementedException(
+                "This functionality is not implemented in the portable version of this assembly.  You should reference the NuGet package from your main application project in order to reference the platform-specific implementation.");
         }
     }
 }

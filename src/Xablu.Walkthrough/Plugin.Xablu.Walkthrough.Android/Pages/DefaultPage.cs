@@ -19,30 +19,30 @@ namespace Plugin.Xablu.Walkthrough.Pages
         protected abstract int ImageResourceId { get; }
         protected abstract int DescriptionResourceId { get; }
 
-		public virtual Color BackgroundColor { get; set; } = Color.White;
-		public virtual TextControl TitleControl { get; set; }
-		public virtual ImageControl ImageControl { get; set; }
-		public virtual TextControl DescriptionControl { get; set; }
-		
-		protected override WalkerLayout WalkerLayout => _walkerLayout;
+        public virtual Color BackgroundColor { get; set; } = Color.White;
+        public virtual TextControl TitleControl { get; set; }
+        public virtual ImageControl ImageControl { get; set; }
+        public virtual TextControl DescriptionControl { get; set; }
 
-		public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
-		{
-			_walkerLayout = (WalkerLayout)inflater.Inflate(FragmentLayoutId, container, false);
+        protected override WalkerLayout WalkerLayout => _walkerLayout;
 
-			//title
-			var txtTitle = WalkerLayout.FindViewById<TextView>(TitleResourceId);
-			txtTitle.SetControl(TitleControl);
+        public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
+        {
+            _walkerLayout = (WalkerLayout) inflater.Inflate(FragmentLayoutId, container, false);
 
-			//image
-			var image = WalkerLayout.FindViewById<ImageView>(ImageResourceId);
-			image.SetControl(ImageControl);
+            //title
+            var txtTitle = WalkerLayout.FindViewById<TextView>(TitleResourceId);
+            txtTitle.SetControl(TitleControl);
 
-			//description
-			var txtDesc = WalkerLayout.FindViewById<TextView>(DescriptionResourceId);
-			txtDesc.SetControl(DescriptionControl);
+            //image
+            var image = WalkerLayout.FindViewById<ImageView>(ImageResourceId);
+            image.SetControl(ImageControl);
 
-			return WalkerLayout;
-		}
+            //description
+            var txtDesc = WalkerLayout.FindViewById<TextView>(DescriptionResourceId);
+            txtDesc.SetControl(DescriptionControl);
+
+            return WalkerLayout;
+        }
     }
 }
