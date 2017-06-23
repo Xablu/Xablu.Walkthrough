@@ -8,13 +8,9 @@ using Splat;
 
 namespace Plugin.Xablu.Walkthrough.Containers
 {
-    public partial class PantheonContainer : BWWalkthroughViewController, IPantheonContainer
+    public partial class PantheonContainer : DefaultContainer, IPantheonContainer
     {
         public ButtonControl GetStartedButtonControl { get; set; }
-
-        public Color BackgroundColor { get; set; }
-
-        public PageControl CirclePageControl { get; set; }
 
         public PantheonContainer() : base("PantheonContainer", null)
         {
@@ -23,19 +19,11 @@ namespace Plugin.Xablu.Walkthrough.Containers
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
-            base.PageControl = PageControl;
 
-            View.BackgroundColor = BackgroundColor.ToNative();
+            PageControl = PageControl;
+            PageControl.SetControl(CirclePageControl);
 
             StartButton.SetControl(GetStartedButtonControl);
-
-            base.PageControl.SetControl(CirclePageControl);
-        }
-
-        public override void DidReceiveMemoryWarning()
-        {
-            base.DidReceiveMemoryWarning();
-            // Release any cached data, images, etc that aren't in use.
         }
     }
 }

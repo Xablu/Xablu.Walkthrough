@@ -7,31 +7,35 @@
 using Foundation;
 using System;
 using System.CodeDom.Compiler;
+using UIKit;
 
 namespace Plugin.Xablu.Walkthrough.Pages
 {
-    [Register ("ForestPrimesPage")]
-    partial class ForestPrimesPage
+    [Register ("VestaPage")]
+    partial class VestaPage
     {
         [Outlet]
-        UIKit.UIImageView CenterImage { get; set; }
-
-        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel Description { get; set; }
 
         [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIImageView Image { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel Title { get; set; }
 
         void ReleaseDesignerOutlets ()
         {
-            if (CenterImage != null) {
-                CenterImage.Dispose ();
-                CenterImage = null;
-            }
-
             if (Description != null) {
                 Description.Dispose ();
                 Description = null;
+            }
+
+            if (Image != null) {
+                Image.Dispose ();
+                Image = null;
             }
 
             if (Title != null) {

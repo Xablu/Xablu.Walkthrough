@@ -26,6 +26,7 @@ namespace WalkthroughSample.iOS
 
             Button.TouchUpInside += (sender, e) => core.ForestContainerForestPage();
             PantheonForest.TouchUpInside += (sender, e) => core.PantheonContainerForestPage();
+            VestaButton.TouchUpInside += (sender, e) => core.VestaContainerVestaPage();
         }
 
         public override void DidReceiveMemoryWarning()

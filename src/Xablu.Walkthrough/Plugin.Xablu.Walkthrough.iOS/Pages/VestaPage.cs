@@ -3,10 +3,10 @@ using Splat;
 
 namespace Plugin.Xablu.Walkthrough.Pages
 {
-	public partial class ForestPrimesPage : DefaultPage
+	public partial class VestaPage : DefaultPage
 	{
-		public ForestPrimesPage() : base("ForestPrimesPage", null)
-		{
+		public VestaPage() : base("VestaPage", null)
+        {
 		}
 
 		public async override void ViewDidLoad()
@@ -17,7 +17,7 @@ namespace Plugin.Xablu.Walkthrough.Pages
 
 			Title.SetControl(TitleControl);
 
-			await CenterImage.SetControl(ImageControl);
+			await Image.SetControl(ImageControl);
 
 			Description.SetControl(DescriptionControl);
 		}

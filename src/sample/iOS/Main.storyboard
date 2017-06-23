@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
@@ -18,20 +18,30 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oBE-Ac-vcx">
-                                <rect key="frame" x="99" y="28" width="178" height="30"/>
+                                <rect key="frame" x="211" y="28" width="178" height="30"/>
                                 <state key="normal" title="ForestContainer and page">
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebh-E8-KUi">
-                                <rect key="frame" x="68" y="76" width="240" height="30"/>
+                                <rect key="frame" x="180" y="76" width="240" height="30"/>
                                 <state key="normal" title="PantheonContainer and forestpage">
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3">
+                                <rect key="frame" x="180" y="124" width="240" height="30"/>
+                                <state key="normal" title="VestaContainer and vestapage">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <constraints>
+                                    <constraint id="5" firstItem="3" firstAttribute="height" constant="30"/>
+                                    <constraint id="6" firstItem="3" firstAttribute="width" constant="240"/>
+                                </constraints>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -40,15 +50,31 @@
                             <constraint firstItem="oBE-Ac-vcx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HiD-uS-i16"/>
                             <constraint firstItem="oBE-Ac-vcx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="apr-yy-3JQ"/>
                             <constraint firstItem="ebh-E8-KUi" firstAttribute="top" secondItem="oBE-Ac-vcx" secondAttribute="bottom" constant="18" id="jCO-sh-dbM"/>
+                            <constraint id="4" firstItem="3" firstAttribute="top" secondItem="ebh-E8-KUi" secondAttribute="bottom" constant="18"/>
+                            <constraint id="7" firstItem="8bC-Xf-vdC" firstAttribute="centerX" secondItem="3" secondAttribute="centerX"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="Button" destination="oBE-Ac-vcx" id="OkX-0Z-gth"/>
                         <outlet property="PantheonForest" destination="ebh-E8-KUi" id="eFr-nn-cp3"/>
+                        <outlet property="VestaButton" destination="3" id="name-outlet-3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bg" width="486" height="685.5"/>
+        <image name="cloud1" width="64" height="35.5"/>
+        <image name="cloud3" width="64.5" height="35.5"/>
+        <image name="iPhone" width="150" height="155.5"/>
+        <image name="iPhoneScreen" width="163" height="196"/>
+        <image name="img3" width="47.5" height="47.5"/>
+        <image name="leftarrow" width="50" height="50"/>
+        <image name="rightarrow" width="50" height="50"/>
+        <image name="ic_walkthrough_count.png" width="162" height="183"/>
+        <image name="ArrowRight.png" width="14" height="21"/>
+    </resources>
 </document>
