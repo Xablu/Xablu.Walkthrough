@@ -13,62 +13,62 @@ namespace WalkthroughSample
     {
         public List<VestaPage> VestaPages = new List<VestaPage>()
         {
-			new VestaPage
-			{
-				TitleControl = new TextControl()
-				{
-					Text = "Get count information",
-					TextSize = 24,
-					TextColor = Color.FromArgb(255, 0, 43)
-				},
-				ImageControl = new ImageControl()
-				{
-					Image = "iPhone"
-				},
-				DescriptionControl = new TextControl()
-				{
-					Text = "Keep track of receipts by capturing and uploading them instantly wherever you are",
-					TextSize = 16
-				}
-			},
-			new VestaPage
-			{
-				BackgroundColor = Color.FromArgb(239, 239, 239),
-				TitleControl = new TextControl()
-				{
-					Text = "Answer onsite queries",
-					TextSize = 24,
-					TextColor = Color.FromArgb(255, 0, 43)
-				},
-				ImageControl = new ImageControl()
-				{
-					Image = "iPhone"
-				},
-				DescriptionControl = new TextControl()
-				{
-					Text = "Effortlessly approve or sign documents and carry out to-do’s",
-					TextSize = 16
-				}
-			},
-			new VestaPage
-			{
-				BackgroundColor = Color.FromArgb(239, 239, 239),
-				TitleControl = new TextControl()
-				{
-					Text = "Count inventory",
-					TextSize = 24,
-					TextColor = Color.FromArgb(255, 0, 43)
-				},
-				ImageControl = new ImageControl()
-				{
-					Image = "iPhone"
-				},
-				DescriptionControl = new TextControl()
-				{
-					Text = "Find all the information needed to get in touch with your assigned BDO advisors",
-					TextSize = 16
-				}
-			}
+            new VestaPage
+            {
+                TitleControl = new TextControl()
+                {
+                    Text = "Get count information",
+                    TextSize = 24,
+                    TextColor = Color.FromArgb(255, 0, 43)
+                },
+                ImageControl = new ImageControl()
+                {
+                    Image = "iPhone"
+                },
+                DescriptionControl = new TextControl()
+                {
+                    Text = "Keep track of receipts by capturing and uploading them instantly wherever you are",
+                    TextSize = 16
+                }
+            },
+            new VestaPage
+            {
+                BackgroundColor = Color.FromArgb(239, 239, 239),
+                TitleControl = new TextControl()
+                {
+                    Text = "Answer onsite queries",
+                    TextSize = 24,
+                    TextColor = Color.FromArgb(255, 0, 43)
+                },
+                ImageControl = new ImageControl()
+                {
+                    Image = "iPhone"
+                },
+                DescriptionControl = new TextControl()
+                {
+                    Text = "Effortlessly approve or sign documents and carry out to-do’s",
+                    TextSize = 16
+                }
+            },
+            new VestaPage
+            {
+                BackgroundColor = Color.FromArgb(239, 239, 239),
+                TitleControl = new TextControl()
+                {
+                    Text = "Count inventory",
+                    TextSize = 24,
+                    TextColor = Color.FromArgb(255, 0, 43)
+                },
+                ImageControl = new ImageControl()
+                {
+                    Image = "iPhone"
+                },
+                DescriptionControl = new TextControl()
+                {
+                    Text = "Find all the information needed to get in touch with your customers",
+                    TextSize = 16
+                }
+            }
         };
 
         public List<ForestPrimesPage> ForestPages = new List<ForestPrimesPage>()
@@ -125,7 +125,7 @@ namespace WalkthroughSample
                 },
                 DescriptionControl = new TextControl()
                 {
-                    Text = "Find all the information needed to get in touch with your assigned BDO advisors",
+                    Text = "Find all the information needed to get in touch with your customers",
                     TextSize = 16
                 }
             }
@@ -143,10 +143,7 @@ namespace WalkthroughSample
                     BackgroundColor = Color.FromArgb(0, 237, 26, 59),
                     TextSize = 16,
                     TextColor = Color.FromArgb(255, 0, 43),
-                    ClickAction = () =>
-                    {
-                        CrossWalkthrough.Current.Close();
-                    },
+                    ClickAction = () => { CrossWalkthrough.Current.Close(); },
                     TextStyle = 1
                 },
                 NextButtonControl = new ImageButtonControl()
@@ -196,30 +193,30 @@ namespace WalkthroughSample
             CrossWalkthrough.Current.Show();
         }
 
-		public void VestaContainerVestaPage()
-		{
-			var theme = new Theme<VestaPage, VestaContainer>();
-			theme.Container = new VestaContainer()
-			{
-				GetStartedButtonControl = new ButtonControl()
-				{
-					Text = "GET STARTED",
-					TextColor = Color.White,
-					TextStyle = 1,
-					BackgroundColor = Color.LimeGreen,
-					ClickAction = () => CrossWalkthrough.Current.Close()
-				},
-				CirclePageControl = new PageControl()
-				{
-					SelectedPageColor = Color.FromArgb(237, 26, 59),
-					UnSelectedPageColor = Color.FromArgb(236, 104, 128)
-				}
-			};
-			
-			theme.Pages = VestaPages;
+        public void VestaContainerVestaPage()
+        {
+            var theme = new Theme<VestaPage, VestaContainer>();
+            theme.Container = new VestaContainer()
+            {
+                GetStartedButtonControl = new ButtonControl()
+                {
+                    Text = "GET STARTED",
+                    TextColor = Color.White,
+                    TextStyle = 1,
+                    BackgroundColor = Color.LimeGreen,
+                    ClickAction = () => CrossWalkthrough.Current.Close()
+                },
+                CirclePageControl = new PageControl()
+                {
+                    SelectedPageColor = Color.FromArgb(237, 26, 59),
+                    UnSelectedPageColor = Color.FromArgb(236, 104, 128)
+                }
+            };
 
-			CrossWalkthrough.Current.Setup(theme);
-			CrossWalkthrough.Current.Show();
-		}
+            theme.Pages = VestaPages;
+
+            CrossWalkthrough.Current.Setup(theme);
+            CrossWalkthrough.Current.Show();
+        }
     }
 }
