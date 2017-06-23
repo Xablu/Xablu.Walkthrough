@@ -21,6 +21,7 @@ namespace WalkthroughSample.Droid
 
             FindViewById<Button>(Resource.Id.showWalk).Click += (sender, e) => myClass.ForestContainerForestPage();
             FindViewById<Button>(Resource.Id.showWalk2).Click += (sender, e) => myClass.PantheonContainerForestPage();
+            FindViewById<Button>(Resource.Id.showWalk3).Click += (sender, e) => myClass.VestaContainerVestaPage();
         }
     }
 }

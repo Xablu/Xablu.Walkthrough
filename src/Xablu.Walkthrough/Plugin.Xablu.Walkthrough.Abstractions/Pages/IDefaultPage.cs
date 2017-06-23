@@ -4,13 +4,13 @@ using Plugin.Xablu.Walkthrough.Abstractions.Controls;
 
 namespace Plugin.Xablu.Walkthrough.Abstractions.Pages
 {
-    public interface IForestPrimesPage : IPage
+    public interface IDefaultPage : IPage
     {
         Color BackgroundColor { get; set; }
 
         TextControl TitleControl { get; set; }
 
-        ImageControl CenterImageControl { get; set; }
+        ImageControl ImageControl { get; set; }
 
         TextControl DescriptionControl { get; set; }
     }
