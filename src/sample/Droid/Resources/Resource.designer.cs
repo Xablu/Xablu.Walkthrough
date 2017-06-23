@@ -782,6 +782,7 @@ namespace WalkthroughSample.Droid
 			global::Plugin.Xablu.Walkthrough.Resource.Id.fill = global::WalkthroughSample.Droid.Resource.Id.fill;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.fill_horizontal = global::WalkthroughSample.Droid.Resource.Id.fill_horizontal;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.fill_vertical = global::WalkthroughSample.Droid.Resource.Id.fill_vertical;
+			global::Plugin.Xablu.Walkthrough.Resource.Id.firstLayout = global::WalkthroughSample.Droid.Resource.Id.firstLayout;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.@fixed = global::WalkthroughSample.Droid.Resource.Id.@fixed;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.home = global::WalkthroughSample.Droid.Resource.Id.home;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.homeAsUp = global::WalkthroughSample.Droid.Resource.Id.homeAsUp;
@@ -875,6 +876,7 @@ namespace WalkthroughSample.Droid
 			global::Plugin.Xablu.Walkthrough.Resource.Id.theme_vesta_description = global::WalkthroughSample.Droid.Resource.Id.theme_vesta_description;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.theme_vesta_get_started = global::WalkthroughSample.Droid.Resource.Id.theme_vesta_get_started;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.theme_vesta_image = global::WalkthroughSample.Droid.Resource.Id.theme_vesta_image;
+			global::Plugin.Xablu.Walkthrough.Resource.Id.theme_vesta_page = global::WalkthroughSample.Droid.Resource.Id.theme_vesta_page;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.theme_vesta_title = global::WalkthroughSample.Droid.Resource.Id.theme_vesta_title;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.time = global::WalkthroughSample.Droid.Resource.Id.time;
 			global::Plugin.Xablu.Walkthrough.Resource.Id.title = global::WalkthroughSample.Droid.Resource.Id.title;
@@ -4288,6 +4290,9 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f080033
 			public const int fill_vertical = 2131230771;
 			
+			// aapt resource value: 0x7f0800ac
+			public const int firstLayout = 2131230892;
+			
 			// aapt resource value: 0x7f08003f
 			public const int @fixed = 2131230783;
 			
@@ -4342,8 +4347,8 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f08004a
 			public const int list_item = 2131230794;
 			
-			// aapt resource value: 0x7f0800af
-			public const int masked = 2131230895;
+			// aapt resource value: 0x7f0800b1
+			public const int masked = 2131230897;
 			
 			// aapt resource value: 0x7f08008a
 			public const int media_actions = 2131230858;
@@ -4564,20 +4569,23 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f0800a8
 			public const int theme_vesta_bottomlayout = 2131230888;
 			
-			// aapt resource value: 0x7f0800aa
-			public const int theme_vesta_center_shim = 2131230890;
+			// aapt resource value: 0x7f0800ab
+			public const int theme_vesta_center_shim = 2131230891;
 			
-			// aapt resource value: 0x7f0800ad
-			public const int theme_vesta_description = 2131230893;
+			// aapt resource value: 0x7f0800af
+			public const int theme_vesta_description = 2131230895;
 			
 			// aapt resource value: 0x7f0800a9
 			public const int theme_vesta_get_started = 2131230889;
 			
-			// aapt resource value: 0x7f0800ab
-			public const int theme_vesta_image = 2131230891;
+			// aapt resource value: 0x7f0800ad
+			public const int theme_vesta_image = 2131230893;
 			
-			// aapt resource value: 0x7f0800ac
-			public const int theme_vesta_title = 2131230892;
+			// aapt resource value: 0x7f0800aa
+			public const int theme_vesta_page = 2131230890;
+			
+			// aapt resource value: 0x7f0800ae
+			public const int theme_vesta_title = 2131230894;
 			
 			// aapt resource value: 0x7f08008f
 			public const int time = 2131230863;
@@ -4621,8 +4629,8 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f08009b
 			public const int view_pager = 2131230875;
 			
-			// aapt resource value: 0x7f0800ae
-			public const int visible = 2131230894;
+			// aapt resource value: 0x7f0800b0
+			public const int visible = 2131230896;
 			
 			// aapt resource value: 0x7f080027
 			public const int withText = 2131230759;
