@@ -47,7 +47,7 @@ namespace Plugin.Xablu.Walkthrough.Containers
 
             view.SetBackgroundColor(BackgroundColor.ToNative());
 
-            ViewPager = (ViewPager) view.FindViewById(ViewPagerResourceId);
+            ViewPager = (ViewPager)view.FindViewById(ViewPagerResourceId);
 
             CircleIndicator = view.FindViewById<CircleIndicator>(CircleIndicatorResourceId);
             CircleIndicator.SetControl(CirclePageControl);

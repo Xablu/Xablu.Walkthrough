@@ -1,10 +1,6 @@
-﻿using System;
-using System.Drawing;
-using BWWalkthrough;
-using Plugin.Xablu.Walkthrough.Abstractions.Containers;
+﻿using Plugin.Xablu.Walkthrough.Abstractions.Containers;
 using Plugin.Xablu.Walkthrough.Abstractions.Controls;
 using Plugin.Xablu.Walkthrough.Extensions;
-using Splat;
 
 namespace Plugin.Xablu.Walkthrough.Containers
 {

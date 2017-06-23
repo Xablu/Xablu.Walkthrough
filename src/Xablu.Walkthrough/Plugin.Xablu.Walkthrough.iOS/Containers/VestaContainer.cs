@@ -4,23 +4,23 @@ using Plugin.Xablu.Walkthrough.Extensions;
 
 namespace Plugin.Xablu.Walkthrough.Containers
 {
-	public partial class VestaContainer : DefaultContainer, IPantheonContainer
-	{
-		public ButtonControl GetStartedButtonControl { get; set; }
+    public partial class VestaContainer : DefaultContainer, IPantheonContainer
+    {
+        public ButtonControl GetStartedButtonControl { get; set; }
 
-		public VestaContainer() : base("VestaContainer", null)
-		{
-		}
+        public VestaContainer() : base("VestaContainer", null)
+        {
+        }
 
-		public override void ViewDidLoad()
-		{
-			base.ViewDidLoad();
+        public override void ViewDidLoad()
+        {
+            base.ViewDidLoad();
 
             PageControl = PageControl;
             PageControl.SetControl(CirclePageControl);
 
-			StartButton.SetControl(GetStartedButtonControl);
-		}
-	}
+            StartButton.SetControl(GetStartedButtonControl);
+        }
+    }
 }
 
