@@ -51,13 +51,15 @@ namespace Plugin.Xablu.Walkthrough.Indicator
             this.init(context, attrs);
         }
 
-        public CircleIndicator(Context context, IAttributeSet attrs, int defStyleAttr) : base(context, attrs, defStyleAttr)
+        public CircleIndicator(Context context, IAttributeSet attrs, int defStyleAttr) : base(context, attrs,
+            defStyleAttr)
         {
             this.init(context, attrs);
         }
 
         [TargetApi(Value = 21)] //lollipop
-        public CircleIndicator(Context context, IAttributeSet attrs, int defStyleAttr, int defStyleRes) : base(context, attrs, defStyleAttr, defStyleRes)
+        public CircleIndicator(Context context, IAttributeSet attrs, int defStyleAttr, int defStyleRes) : base(context,
+            attrs, defStyleAttr, defStyleRes)
         {
             this.init(context, attrs);
         }
@@ -80,26 +82,36 @@ namespace Plugin.Xablu.Walkthrough.Indicator
             this.mIndicatorHeight = typedArray.GetDimensionPixelSize(Resource.Styleable.CircleIndicator_ci_height, -1);
             this.mIndicatorMargin = typedArray.GetDimensionPixelSize(Resource.Styleable.CircleIndicator_ci_margin, -1);
 
-            this.mAnimatorResId = typedArray.GetResourceId(Resource.Styleable.CircleIndicator_ci_animator, Resource.Animator.scale_with_alpha);
-            this.mAnimatorReverseResId = typedArray.GetResourceId(Resource.Styleable.CircleIndicator_ci_animator_reverse, 0);
-            this.mIndicatorBackgroundResId = typedArray.GetResourceId(Resource.Styleable.CircleIndicator_ci_drawable, Resource.Drawable.white_radius);
-            this.mIndicatorUnselectedBackgroundResId = typedArray.GetResourceId(Resource.Styleable.CircleIndicator_ci_drawable_unselected, this.mIndicatorBackgroundResId);
+            this.mAnimatorResId = typedArray.GetResourceId(Resource.Styleable.CircleIndicator_ci_animator,
+                Resource.Animator.scale_with_alpha);
+            this.mAnimatorReverseResId =
+                typedArray.GetResourceId(Resource.Styleable.CircleIndicator_ci_animator_reverse, 0);
+            this.mIndicatorBackgroundResId = typedArray.GetResourceId(Resource.Styleable.CircleIndicator_ci_drawable,
+                Resource.Drawable.white_radius);
+            this.mIndicatorUnselectedBackgroundResId =
+                typedArray.GetResourceId(Resource.Styleable.CircleIndicator_ci_drawable_unselected,
+                    this.mIndicatorBackgroundResId);
 
-            Android.Widget.Orientation orientation = (Android.Widget.Orientation)typedArray.GetInt(Resource.Styleable.CircleIndicator_ci_orientation, -1);
-            Orientation = (orientation == Android.Widget.Orientation.Vertical ? Android.Widget.Orientation.Vertical : Android.Widget.Orientation.Horizontal);
+            Android.Widget.Orientation orientation =
+                (Android.Widget.Orientation) typedArray.GetInt(Resource.Styleable.CircleIndicator_ci_orientation, -1);
+            Orientation = (orientation == Android.Widget.Orientation.Vertical
+                ? Android.Widget.Orientation.Vertical
+                : Android.Widget.Orientation.Horizontal);
 
             int gravity = typedArray.GetInt(Resource.Styleable.CircleIndicator_ci_gravity, -1);
-            SetGravity((gravity >= 0 ? (GravityFlags)gravity : GravityFlags.Center));
+            SetGravity((gravity >= 0 ? (GravityFlags) gravity : GravityFlags.Center));
 
             typedArray.Recycle();
         }
 
         public void ConfigureIndicator(int indicatorWidth, int indicatorHeight, int indicatorMargin)
         {
-            ConfigureIndicator(indicatorWidth, indicatorHeight, indicatorMargin, Resource.Animator.scale_with_alpha, 0, Resource.Drawable.white_radius, Resource.Drawable.white_radius);
+            ConfigureIndicator(indicatorWidth, indicatorHeight, indicatorMargin, Resource.Animator.scale_with_alpha, 0,
+                Resource.Drawable.white_radius, Resource.Drawable.white_radius);
         }
 
-        public void ConfigureIndicator(int indicatorWidth, int indicatorHeight, int indicatorMargin, int animatorId, int animatorReverseId, int indicatorBackgroundId, int indicatorUnselectedBackgroundId)
+        public void ConfigureIndicator(int indicatorWidth, int indicatorHeight, int indicatorMargin, int animatorId,
+            int animatorReverseId, int indicatorBackgroundId, int indicatorUnselectedBackgroundId)
         {
             mIndicatorWidth = indicatorWidth;
             mIndicatorHeight = indicatorHeight;
@@ -128,8 +140,12 @@ namespace Plugin.Xablu.Walkthrough.Indicator
             mImmediateAnimatorIn = createAnimatorIn(context);
             mImmediateAnimatorIn.SetDuration(0);
 
-            mIndicatorBackgroundResId = (mIndicatorBackgroundResId == 0) ? Resource.Drawable.white_radius : mIndicatorBackgroundResId;
-            mIndicatorUnselectedBackgroundResId = (mIndicatorUnselectedBackgroundResId == 0) ? mIndicatorBackgroundResId : mIndicatorUnselectedBackgroundResId;
+            mIndicatorBackgroundResId = (mIndicatorBackgroundResId == 0)
+                ? Resource.Drawable.white_radius
+                : mIndicatorBackgroundResId;
+            mIndicatorUnselectedBackgroundResId = (mIndicatorUnselectedBackgroundResId == 0)
+                ? mIndicatorBackgroundResId
+                : mIndicatorUnselectedBackgroundResId;
         }
 
         private Animator createAnimatorOut(Context context)
@@ -245,7 +261,8 @@ namespace Plugin.Xablu.Walkthrough.Indicator
             }
         }
 
-        private void addIndicator(Android.Widget.Orientation orientation, Drawable backgroundDrawableId, Animator animator)
+        private void addIndicator(Android.Widget.Orientation orientation, Drawable backgroundDrawableId,
+            Animator animator)
         {
             if (animator.IsRunning)
             {
@@ -256,7 +273,7 @@ namespace Plugin.Xablu.Walkthrough.Indicator
             var indicator = new View(Context);
             indicator.Background = backgroundDrawableId;
             AddView(indicator, mIndicatorWidth, mIndicatorHeight);
-            LayoutParams lp = (LayoutParams)indicator.LayoutParameters;
+            LayoutParams lp = (LayoutParams) indicator.LayoutParameters;
 
             if (orientation == Android.Widget.Orientation.Horizontal)
             {
@@ -286,7 +303,7 @@ namespace Plugin.Xablu.Walkthrough.Indicator
             var indicator = new View(Context);
             indicator.SetBackgroundResource(backgroundDrawableId);
             AddView(indicator, mIndicatorWidth, mIndicatorHeight);
-            LayoutParams lp = (LayoutParams)indicator.LayoutParameters;
+            LayoutParams lp = (LayoutParams) indicator.LayoutParameters;
 
             if (orientation == Android.Widget.Orientation.Horizontal)
             {
@@ -316,7 +333,7 @@ namespace Plugin.Xablu.Walkthrough.Indicator
         public int dip2px(float dpValue)
         {
             var density = Context.Resources.DisplayMetrics.Density;
-            return (int)(dpValue * density + 0.5f);
+            return (int) (dpValue * density + 0.5f);
         }
 
         class CircleDataSetObserver : DataSetObserver

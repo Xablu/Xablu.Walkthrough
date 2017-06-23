@@ -1,39 +1,25 @@
 ﻿using Android.OS;
 using Android.Views;
 using Plugin.Xablu.Walkthrough.Abstractions.Controls;
-using System.Drawing;
 using Plugin.Xablu.Walkthrough.Abstractions.Containers;
-using Android.Support.V4.View;
-using Splat;
 using Plugin.Xablu.Walkthrough.Indicator;
 using Plugin.Xablu.Walkthrough.Extensions;
 using Android.Widget;
 
 namespace Plugin.Xablu.Walkthrough.Containers
 {
-    public class PantheonContainer : BaseContainer, IPantheonContainer
+    public class PantheonContainer : DefaultContainer, IPantheonContainer
     {
+        protected override int FragmentLayoutId => Resource.Layout.theme_pantheon_container;
+        protected virtual int StartButtonResourceId => Resource.Id.theme_pantheon_get_started;
+
         public ButtonControl GetStartedButtonControl { get; set; }
-
-        public Color BackgroundColor { get; set; }
-
-        public PageControl CirclePageControl { get; set; }
-
-        private CircleIndicator circleIndicator;
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
-            var view = inflater.Inflate(Resource.Layout.theme_pantheon_container, container, false);
+            var view = base.OnCreateView(inflater, container, savedInstanceState);
 
-            if (BackgroundColor != null)
-                view.SetBackgroundColor(BackgroundColor.ToNative());
-
-            ViewPager = (ViewPager)view.FindViewById(Resource.Id.view_pager);
-
-            circleIndicator = view.FindViewById<CircleIndicator>(Resource.Id.indicator);
-            circleIndicator.SetControl(CirclePageControl);
-
-            var startButton = view.FindViewById<Button>(Resource.Id.theme_pantheon_get_started);
+            var startButton = view.FindViewById<Button>(StartButtonResourceId);
             startButton.SetControl(GetStartedButtonControl);
 
             return view;
@@ -42,7 +28,7 @@ namespace Plugin.Xablu.Walkthrough.Containers
         public override void OnActivityCreated(Bundle savedInstanceState)
         {
             base.OnActivityCreated(savedInstanceState);
-            circleIndicator.SetViewPager(ViewPager);
+            CircleIndicator.SetViewPager(ViewPager);
         }
     }
 }

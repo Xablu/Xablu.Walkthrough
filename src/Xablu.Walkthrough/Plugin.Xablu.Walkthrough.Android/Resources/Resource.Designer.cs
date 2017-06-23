@@ -2440,8 +2440,8 @@ namespace Plugin.Xablu.Walkthrough
 			// aapt resource value: 0x7f08004a
 			public static int list_item = 2131230794;
 			
-			// aapt resource value: 0x7f0800a6
-			public static int masked = 2131230886;
+			// aapt resource value: 0x7f0800ac
+			public static int masked = 2131230892;
 			
 			// aapt resource value: 0x7f080087
 			public static int media_actions = 2131230855;
@@ -2650,6 +2650,24 @@ namespace Plugin.Xablu.Walkthrough
 			// aapt resource value: 0x7f0800a4
 			public static int theme_pantheon_get_started = 2131230884;
 			
+			// aapt resource value: 0x7f0800a5
+			public static int theme_vesta_bottomlayout = 2131230885;
+			
+			// aapt resource value: 0x7f0800a7
+			public static int theme_vesta_center_shim = 2131230887;
+			
+			// aapt resource value: 0x7f0800aa
+			public static int theme_vesta_description = 2131230890;
+			
+			// aapt resource value: 0x7f0800a6
+			public static int theme_vesta_get_started = 2131230886;
+			
+			// aapt resource value: 0x7f0800a8
+			public static int theme_vesta_image = 2131230888;
+			
+			// aapt resource value: 0x7f0800a9
+			public static int theme_vesta_title = 2131230889;
+			
 			// aapt resource value: 0x7f08008c
 			public static int time = 2131230860;
 			
@@ -2692,8 +2710,8 @@ namespace Plugin.Xablu.Walkthrough
 			// aapt resource value: 0x7f080098
 			public static int view_pager = 2131230872;
 			
-			// aapt resource value: 0x7f0800a5
-			public static int visible = 2131230885;
+			// aapt resource value: 0x7f0800ab
+			public static int visible = 2131230891;
 			
 			// aapt resource value: 0x7f080027
 			public static int withText = 2131230759;
@@ -2942,6 +2960,12 @@ namespace Plugin.Xablu.Walkthrough
 			
 			// aapt resource value: 0x7f04003e
 			public static int theme_pantheon_container = 2130968638;
+			
+			// aapt resource value: 0x7f04003f
+			public static int theme_vesta_container = 2130968639;
+			
+			// aapt resource value: 0x7f040040
+			public static int theme_vesta_page = 2130968640;
 			
 			static Layout()
 			{

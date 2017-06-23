@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -32,7 +32,8 @@
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\iPhone\Release</OutputPath>
-    <DefineConstants></DefineConstants>
+    <DefineConstants>
+    </DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <CodesignKey>iPhone Developer</CodesignKey>
@@ -46,7 +47,8 @@
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
-    <DefineConstants></DefineConstants>
+    <DefineConstants>
+    </DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <CodesignKey>iPhone Developer</CodesignKey>
@@ -89,24 +91,60 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\Contents.json" />
-    <ImageAsset Include="Resources\Assets.xcassets\bg.imageset\Contents.json" />
-    <ImageAsset Include="Resources\Assets.xcassets\bg.imageset\bg%402x.jpg" />
-    <ImageAsset Include="Resources\Assets.xcassets\cloud1.imageset\Contents.json" />
-    <ImageAsset Include="Resources\Assets.xcassets\cloud1.imageset\cloud1%402x.png" />
-    <ImageAsset Include="Resources\Assets.xcassets\cloud3.imageset\Contents.json" />
-    <ImageAsset Include="Resources\Assets.xcassets\cloud3.imageset\cloud3%402x.png" />
-    <ImageAsset Include="Resources\Assets.xcassets\iPhone.imageset\Contents.json" />
-    <ImageAsset Include="Resources\Assets.xcassets\iPhone.imageset\iPhone%402x.png" />
-    <ImageAsset Include="Resources\Assets.xcassets\iPhoneScreen.imageset\Contents.json" />
-    <ImageAsset Include="Resources\Assets.xcassets\iPhoneScreen.imageset\iPhoneScreen%402x.png" />
-    <ImageAsset Include="Resources\Assets.xcassets\img3.imageset\Contents.json" />
-    <ImageAsset Include="Resources\Assets.xcassets\img3.imageset\img3%402x.png" />
-    <ImageAsset Include="Resources\Assets.xcassets\leftarrow.imageset\Contents.json" />
-    <ImageAsset Include="Resources\Assets.xcassets\leftarrow.imageset\leftarrow%402x.png" />
-    <ImageAsset Include="Resources\Assets.xcassets\rightarrow.imageset\Contents.json" />
-    <ImageAsset Include="Resources\Assets.xcassets\rightarrow.imageset\rightarrow%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\bg.imageset\Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\bg.imageset\bg%402x.jpg">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\cloud1.imageset\Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\cloud1.imageset\cloud1%402x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\cloud3.imageset\Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\cloud3.imageset\cloud3%402x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\iPhone.imageset\Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\iPhone.imageset\iPhone%402x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\iPhoneScreen.imageset\Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\iPhoneScreen.imageset\iPhoneScreen%402x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\img3.imageset\Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\img3.imageset\img3%402x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\leftarrow.imageset\Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\leftarrow.imageset\leftarrow%402x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\rightarrow.imageset\Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\rightarrow.imageset\rightarrow%402x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
