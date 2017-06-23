@@ -50,7 +50,7 @@
     <Compile Include="Containers\PantheonContainer.cs" />
     <Compile Include="Containers\VestaContainer.cs" />
     <Compile Include="Containers\DefaultContainer.cs" />
-    <Compile Include="Pages\DefaultPase.cs" />
+    <Compile Include="Pages\DefaultPage.cs" />
     <Compile Include="Pages\VestaPage.cs" />
   </ItemGroup>
   <ItemGroup>
