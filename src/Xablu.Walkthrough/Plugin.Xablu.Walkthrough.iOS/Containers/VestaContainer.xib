@@ -26,7 +26,7 @@
                     <constraints>
                         <constraint firstAttribute="height" constant="30" id="Lmq-gl-TGr"/>
                     </constraints>
-                    <state key="normal" title="GET STARTET"/>
+                    <state key="normal" title="GET STARTED"/>
                 </button>
                 <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="Uih-dc-6o0" misplaced="YES">
                     <rect key="frame" x="168" y="630" width="39" height="37"/>
