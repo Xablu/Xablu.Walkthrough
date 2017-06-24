@@ -4,11 +4,11 @@ using Plugin.Xablu.Walkthrough.Extensions;
 
 namespace Plugin.Xablu.Walkthrough.Containers
 {
-    public partial class PantheonContainer : DefaultContainer, IPantheonContainer
+    public partial class VestaContainer : DefaultContainer, IPantheonContainer
     {
         public ButtonControl GetStartedButtonControl { get; set; }
 
-        public PantheonContainer() : base("PantheonContainer", null)
+        public VestaContainer() : base("VestaContainer", null)
         {
         }
 
