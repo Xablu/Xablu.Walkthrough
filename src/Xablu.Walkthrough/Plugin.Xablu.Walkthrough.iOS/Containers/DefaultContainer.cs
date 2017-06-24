@@ -4,7 +4,6 @@ using BWWalkthrough;
 using Foundation;
 using Plugin.Xablu.Walkthrough.Abstractions.Containers;
 using Plugin.Xablu.Walkthrough.Abstractions.Controls;
-using Plugin.Xablu.Walkthrough.Extensions;
 using Splat;
 
 namespace Plugin.Xablu.Walkthrough.Containers

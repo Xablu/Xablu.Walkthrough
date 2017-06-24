@@ -77,7 +77,9 @@ namespace Plugin.Xablu.Walkthrough.Containers
 
             StartButton.Hidden = true;
 
-            PageControl.Enabled = false;
+            base.PageControl = PageControl;
+            base.PageControl.SetControl(CirclePageControl);
+            base.PageControl.Enabled = false;
         }
 
         [Export("scrollViewDidScroll:")]

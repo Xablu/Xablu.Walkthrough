@@ -16,8 +16,8 @@ namespace Plugin.Xablu.Walkthrough.Containers
         {
             base.ViewDidLoad();
 
-            PageControl = PageControl;
-            PageControl.SetControl(CirclePageControl);
+            base.PageControl = PageControl;
+            base.PageControl.SetControl(CirclePageControl);
 
             StartButton.SetControl(GetStartedButtonControl);
         }
