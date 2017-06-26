@@ -1,7 +1,6 @@
 #tool nuget:?package=GitVersion.CommandLine
 #tool nuget:?package=gitlink
 #tool nuget:?package=vswhere
-#tool nuget:?package=NUnit.ConsoleRunner
 #addin nuget:?package=Cake.Incubator
 #addin nuget:?package=Cake.Git
 
@@ -78,7 +77,7 @@ Task("Build")
 });
 
 Task("GitLink")
-	.IsDependentOn("UnitTest")
+	.IsDependentOn("Build")
 	//pdbstr.exe and costura are not xplat currently
 	.WithCriteria(() => IsRunningOnWindows())
 	.WithCriteria(() => 
@@ -128,7 +127,7 @@ Task("Package")
 Task("PublishPackages")
     .IsDependentOn("Package")
     .WithCriteria(() => !BuildSystem.IsLocalBuild)
-    .WithCriteria(() => IsRepository("xablu/Xablu.Walkthrough"))
+    .WithCriteria(() => IsRepository("Xablu/Xablu.Walkthrough"))
     .WithCriteria(() => 
 		StringComparer.OrdinalIgnoreCase.Equals(versionInfo.BranchName, "develop") || 
 		IsMasterOrReleases())
@@ -145,6 +144,7 @@ Task("PublishPackages")
 	var apiKey = nugetKeySource.Item1;
 	var source = nugetKeySource.Item2;
 
+	Information("Search for nuget packages in: " + outputDir);
 	var nugetFiles = GetFiles(outputDir + "/*.nupkg");
 
 	foreach(var nugetFile in nugetFiles)
