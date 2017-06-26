@@ -56,9 +56,7 @@ Add as much pages to the theme as you like:
                           TitleControl = new TextControl()
                           {
                               Text = "Take advantage now!",
-                              TextSize = 24,
-                              TextColor = Color.FromArgb(255, 0, 43),
-                              TextStyle = 1
+                              TextSize = 24
                           },
                           ImageControl = new ImageControl()
                           {
