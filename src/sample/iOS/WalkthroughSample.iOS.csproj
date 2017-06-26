@@ -145,9 +145,18 @@
     <ImageAsset Include="Resources\Assets.xcassets\rightarrow.imageset\rightarrow%402x.png">
       <InProject>false</InProject>
     </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\xablu.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\xablu.imageset\xablu.jpg" />
+    <ImageAsset Include="Resources\Assets.xcassets\xamarin.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\xamarin.imageset\xamagon.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\androidandios.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\androidandios.imageset\androidandios.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="Resources\Assets.xcassets\xablu.imageset\" />
+    <Folder Include="Resources\Assets.xcassets\xamarin.imageset\" />
+    <Folder Include="Resources\Assets.xcassets\androidandios.imageset\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />

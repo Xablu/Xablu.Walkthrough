@@ -77,18 +77,38 @@ namespace WalkthroughSample
             {
                 TitleControl = new TextControl()
                 {
-                    Text = "Title",
+                    Text = "Welcome!",
                     TextSize = 24,
                     TextColor = Color.FromArgb(255, 0, 43)
                 },
                 ImageControl = new ImageControl()
                 {
-                    Image = "iPhone"
+                    Image = "xamarin"
                 },
                 DescriptionControl = new TextControl()
                 {
-                    Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    TextSize = 16
+                    Text = "This is the XABLU.Walkthrough. It's an easy way to create and manage walkthroughs cross platform!",
+                    TextSize = 16,
+                    TextStyle = 1
+                }
+            },
+            new ForestPrimesPage()
+            {
+                BackgroundColor = Color.FromArgb(240, 240, 240),
+                TitleControl = new TextControl()
+                {
+                    Text = "Lots op options!",
+                    TextSize = 28,
+                    TextColor = Color.FromArgb(50, 50, 50)
+                },
+                ImageControl = new ImageControl()
+                {
+                    Image = "androidandios"
+                },
+                DescriptionControl = new TextControl()
+                {
+                    Text = "Change the backgroundcolor, textsize, whatever you want from 1 point in your code!",
+                    TextSize = 18
                 }
             },
             new ForestPrimesPage()
@@ -96,36 +116,18 @@ namespace WalkthroughSample
                 BackgroundColor = Color.FromArgb(239, 239, 239),
                 TitleControl = new TextControl()
                 {
-                    Text = "Title",
+                    Text = "Take advantage now!",
                     TextSize = 24,
-                    TextColor = Color.FromArgb(255, 0, 43)
+                    TextColor = Color.FromArgb(255, 0, 43),
+                    TextStyle = 1
                 },
                 ImageControl = new ImageControl()
                 {
-                    Image = "iPhone"
+                    Image = "xablu"
                 },
                 DescriptionControl = new TextControl()
                 {
-                    Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    TextSize = 16
-                }
-            },
-            new ForestPrimesPage()
-            {
-                BackgroundColor = Color.FromArgb(239, 239, 239),
-                TitleControl = new TextControl()
-                {
-                     Text = "Title",
-                    TextSize = 24,
-                    TextColor = Color.FromArgb(255, 0, 43)
-                },
-                ImageControl = new ImageControl()
-                {
-                    Image = "iPhone"
-                },
-                DescriptionControl = new TextControl()
-                {
-                     Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    Text = "Don't build it yourself, use the XABLU plugin! It's easy to extend and implement!",
                     TextSize = 16
                 }
             }
