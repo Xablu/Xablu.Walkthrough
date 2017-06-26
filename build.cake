@@ -144,7 +144,6 @@ Task("PublishPackages")
 	var apiKey = nugetKeySource.Item1;
 	var source = nugetKeySource.Item2;
 
-	Information("Search for nuget packages in: " + outputDir);
 	var nugetFiles = GetFiles(outputDir + "/*.nupkg");
 
 	foreach(var nugetFile in nugetFiles)
@@ -221,7 +220,7 @@ bool IsRepository(string repoName)
 
 bool IsTagged()
 {
-	var path = MakeAbsolute(sln).GetDirectory().FullPath;
+	var path = WorkingDirectory().FullPath;
 	using (var repo = new LibGit2Sharp.Repository(path))
 	{
 		var head = repo.Head;
