@@ -48,6 +48,10 @@
     <Compile Include="Containers\ForestPrimesContainer.cs" />
     <Compile Include="Pages\ForestPrimesPage.cs" />
     <Compile Include="Containers\PantheonContainer.cs" />
+    <Compile Include="Containers\VestaContainer.cs" />
+    <Compile Include="Containers\DefaultContainer.cs" />
+    <Compile Include="Pages\DefaultPage.cs" />
+    <Compile Include="Pages\VestaPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Extensions\" />

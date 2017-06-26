@@ -46,7 +46,7 @@
       <DependentUpon>ForestPrimesContainer.cs</DependentUpon>
     </Compile>
     <Compile Include="Extensions\IViewExtensions.cs" />
-    <Compile Include="Containers\BaseContainer.cs" />
+    <Compile Include="Containers\DefaultContainer.cs" />
     <Compile Include="Pages\ForestPrimesPage.cs" />
     <Compile Include="Pages\ForestPrimesPage.designer.cs">
       <DependentUpon>ForestPrimesPage.cs</DependentUpon>
@@ -54,6 +54,15 @@
     <Compile Include="Containers\PantheonContainer.cs" />
     <Compile Include="Containers\PantheonContainer.designer.cs">
       <DependentUpon>PantheonContainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\DefaultPage.cs" />
+    <Compile Include="Pages\VestaPage.cs" />
+    <Compile Include="Pages\VestaPage.designer.cs">
+      <DependentUpon>VestaPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Containers\VestaContainer.cs" />
+    <Compile Include="Containers\VestaContainer.designer.cs">
+      <DependentUpon>VestaContainer.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -86,6 +95,8 @@
     <InterfaceDefinition Include="Containers\ForestPrimesContainer.xib" />
     <InterfaceDefinition Include="Pages\ForestPrimesPage.xib" />
     <InterfaceDefinition Include="Containers\PantheonContainer.xib" />
+    <InterfaceDefinition Include="Pages\VestaPage.xib" />
+    <InterfaceDefinition Include="Containers\VestaContainer.xib" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

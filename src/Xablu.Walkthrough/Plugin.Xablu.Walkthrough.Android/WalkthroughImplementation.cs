@@ -27,9 +27,10 @@ namespace Plugin.Xablu.Walkthrough
             hostActvity = hostActivity;
         }
 
-        public void Setup<TPage, TContainer>(ITheme<TPage, TContainer> theme) where TPage : IPage where TContainer : IContainer
+        public void Setup<TPage, TContainer>(ITheme<TPage, TContainer> theme)
+            where TPage : IPage where TContainer : IContainer
         {
-            var androidTheme = theme.Container as BaseContainer;
+            var androidTheme = theme.Container as DefaultContainer;
             var pages = theme.Pages.ToArray() as WalkerFragment[];
 
             viewPagerFragment = androidTheme;

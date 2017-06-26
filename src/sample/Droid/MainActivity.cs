@@ -6,7 +6,8 @@ using Plugin.Xablu.Walkthrough;
 
 namespace WalkthroughSample.Droid
 {
-    [Activity(Label = "WalkthroughSample", MainLauncher = true, Icon = "@mipmap/icon", Theme = "@style/Theme.AppCompat")]
+    [Activity(Label = "WalkthroughSample", MainLauncher = true, Icon = "@mipmap/icon",
+        Theme = "@style/Theme.AppCompat")]
     public class MainActivity : AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
@@ -21,6 +22,7 @@ namespace WalkthroughSample.Droid
 
             FindViewById<Button>(Resource.Id.showWalk).Click += (sender, e) => myClass.ForestContainerForestPage();
             FindViewById<Button>(Resource.Id.showWalk2).Click += (sender, e) => myClass.PantheonContainerForestPage();
+            FindViewById<Button>(Resource.Id.showWalk3).Click += (sender, e) => myClass.VestaContainerVestaPage();
         }
     }
 }

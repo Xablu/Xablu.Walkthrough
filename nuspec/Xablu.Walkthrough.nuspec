@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>Xablu.Walkthrough</id>
-        <version>0.5.1</version>
+        <version>0.5.3</version>
         <title>Walkthrough by Xablu</title>
         <authors>Xablu</authors>
         <owners>Xablu</owners>

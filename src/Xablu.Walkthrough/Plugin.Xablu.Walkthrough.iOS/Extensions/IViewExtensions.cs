@@ -28,6 +28,15 @@ namespace Plugin.Xablu.Walkthrough.Extensions
             textview.TextColor = control.TextColor.ToNative();
             textview.Font = UIKit.UIFont.FromName(textview.Font.Name, control.TextSize);
             textview.Text = control.Text;
+            switch (control.TextStyle)
+            {
+                case 1:
+                    textview.Font = StyleText(textview.Font, UIFontDescriptorSymbolicTraits.Bold);
+                    break;
+                case 2:
+                    textview.Font = StyleText(textview.Font, UIFontDescriptorSymbolicTraits.Italic);
+                    break;
+            }
         }
 
         public static async Task SetControl(this UIKit.UIImageView imageView, ImageControl control)

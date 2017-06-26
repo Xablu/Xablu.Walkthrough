@@ -1,23 +1,9 @@
-﻿using System.Drawing;
-using BWWalkthrough;
-using Plugin.Xablu.Walkthrough.Abstractions.Controls;
-using Plugin.Xablu.Walkthrough.Abstractions.Pages;
-using Plugin.Xablu.Walkthrough.Extensions;
-using Splat;
-using UIKit;
+﻿using Plugin.Xablu.Walkthrough.Extensions;
 
 namespace Plugin.Xablu.Walkthrough.Pages
 {
-    public partial class ForestPrimesPage : UIViewController, IBWWalkthroughPage, IForestPrimesPage
+    public partial class ForestPrimesPage : DefaultPage
     {
-        public Color BackgroundColor { get; set; } = Color.White;
-
-        public TextControl TitleControl { get; set; }
-
-        public ImageControl CenterImageControl { get; set; }
-
-        public TextControl DescriptionControl { get; set; }
-
         public ForestPrimesPage() : base("ForestPrimesPage", null)
         {
         }
@@ -26,18 +12,11 @@ namespace Plugin.Xablu.Walkthrough.Pages
         {
             base.ViewDidLoad();
 
-            View.BackgroundColor = BackgroundColor.ToNative();
-
             Title.SetControl(TitleControl);
 
-            await CenterImage.SetControl(CenterImageControl);
+            await CenterImage.SetControl(ImageControl);
 
             Description.SetControl(DescriptionControl);
-        }
-
-        public void WalkThroughDidScroll(float position, float offset)
-        {
-
         }
     }
 }

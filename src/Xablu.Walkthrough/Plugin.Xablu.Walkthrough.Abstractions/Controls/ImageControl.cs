@@ -7,6 +7,8 @@ namespace Plugin.Xablu.Walkthrough.Abstractions.Controls
     {
         public string Image { get; set; }
 
-        public ImageControl() { }
+        public ImageControl()
+        {
+        }
     }
 }

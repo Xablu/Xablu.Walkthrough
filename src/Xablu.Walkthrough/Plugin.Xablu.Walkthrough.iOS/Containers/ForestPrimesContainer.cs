@@ -5,15 +5,12 @@ using Foundation;
 using Plugin.Xablu.Walkthrough.Abstractions.Containers;
 using Plugin.Xablu.Walkthrough.Abstractions.Controls;
 using Plugin.Xablu.Walkthrough.Extensions;
-using Splat;
 using UIKit;
 
 namespace Plugin.Xablu.Walkthrough.Containers
 {
-    public partial class ForestPrimesContainer : BWWalkthroughViewController, IForestPrimesContainer, IBWWalkthroughViewControllerDelegate, IContainer
+    public partial class ForestPrimesContainer : DefaultContainer, IForestPrimesContainer, IBWWalkthroughViewControllerDelegate, IContainer
     {
-        public Color BackgroundColor { get; set; } = Color.White;
-
         private ImageButtonControl nextButtonControl = new ImageButtonControl()
         {
             ClickAction = () =>
@@ -58,8 +55,6 @@ namespace Plugin.Xablu.Walkthrough.Containers
             set => startButtonControl = value;
         }
 
-        public PageControl CirclePageControl { get; set; }
-
         public ForestPrimesContainer() : base("ForestPrimesContainer", null)
         {
         }
@@ -69,8 +64,6 @@ namespace Plugin.Xablu.Walkthrough.Containers
             base.ViewDidLoad();
 
             Scrollview.Bounces = false;
-
-            View.BackgroundColor = BackgroundColor.ToNative();
 
             StartButton.SetControl(startButtonControl);
             SkipButton.SetControl(skipButtonControl);
@@ -85,11 +78,8 @@ namespace Plugin.Xablu.Walkthrough.Containers
             StartButton.Hidden = true;
 
             base.PageControl = PageControl;
-
-            PageControl.Enabled = false;
-            PageControl.SetControl(CirclePageControl);
-
-            View.BackgroundColor = UIColor.White;
+            base.PageControl.SetControl(CirclePageControl);
+            base.PageControl.Enabled = false;
         }
 
         [Export("scrollViewDidScroll:")]
@@ -137,12 +127,6 @@ namespace Plugin.Xablu.Walkthrough.Containers
                     }
                 }
             }
-        }
-
-        public override void DidReceiveMemoryWarning()
-        {
-            base.DidReceiveMemoryWarning();
-            // Release any cached data, images, etc that aren't in use.
         }
 
         public void WalkthroughCloseButtonPressed()

@@ -1,15 +1,16 @@
 // WARNING
 //
-// This file has been generated automatically by Visual Studio to store outlets and
-// actions made in the UI designer. If it is removed, they will be lost.
-// Manual changes to this file may not be handled correctly.
+// This file has been generated automatically by Visual Studio from the outlets and
+// actions declared in your storyboard file.
+// Manual changes to this file will not be maintained.
 //
 using Foundation;
+using System;
 using System.CodeDom.Compiler;
 
 namespace Plugin.Xablu.Walkthrough.Pages
 {
-    [Register("ForestPrimesPage")]
+    [Register ("ForestPrimesPage")]
     partial class ForestPrimesPage
     {
         [Outlet]
@@ -21,23 +22,20 @@ namespace Plugin.Xablu.Walkthrough.Pages
         [Outlet]
         UIKit.UILabel Title { get; set; }
 
-        void ReleaseDesignerOutlets()
+        void ReleaseDesignerOutlets ()
         {
-            if (CenterImage != null)
-            {
-                CenterImage.Dispose();
+            if (CenterImage != null) {
+                CenterImage.Dispose ();
                 CenterImage = null;
             }
 
-            if (Description != null)
-            {
-                Description.Dispose();
+            if (Description != null) {
+                Description.Dispose ();
                 Description = null;
             }
 
-            if (Title != null)
-            {
-                Title.Dispose();
+            if (Title != null) {
+                Title.Dispose ();
                 Title = null;
             }
         }

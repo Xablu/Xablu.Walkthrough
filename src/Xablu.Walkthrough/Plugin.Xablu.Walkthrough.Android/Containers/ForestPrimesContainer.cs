@@ -15,12 +15,12 @@ using Plugin.Xablu.Walkthrough.Abstractions.Containers;
 
 namespace Plugin.Xablu.Walkthrough.Containers
 {
-    public class ForestPrimesContainer : BaseContainer, IForestPrimesContainer, IOnPageChangeListener
+    public class ForestPrimesContainer : DefaultContainer, IForestPrimesContainer, IOnPageChangeListener
     {
+        protected override int FragmentLayoutId => Resource.Layout.theme_forestprime_container;
+
         public TextView StartButton;
         public AppCompatImageButton NextButton;
-
-        public Color BackgroundColor { get; set; } = Color.White;
 
         public bool IsCanceable { get; set; } = false;
 
@@ -38,10 +38,7 @@ namespace Plugin.Xablu.Walkthrough.Containers
         private ButtonControl skipButtonControl = new ButtonControl()
         {
             Text = "SKIP",
-            ClickAction = () =>
-            {
-                CrossWalkthrough.Current.Close();
-            }
+            ClickAction = () => { CrossWalkthrough.Current.Close(); }
         };
 
         public ButtonControl SkipButtonControl
@@ -53,10 +50,7 @@ namespace Plugin.Xablu.Walkthrough.Containers
         private ButtonControl startButtonControl = new ButtonControl()
         {
             Text = "Next",
-            ClickAction = () =>
-            {
-                CrossWalkthrough.Current.Close();
-            }
+            ClickAction = () => { CrossWalkthrough.Current.Close(); }
         };
 
         public ButtonControl StartButtonControl
@@ -65,23 +59,13 @@ namespace Plugin.Xablu.Walkthrough.Containers
             set => startButtonControl = value;
         }
 
-        public PageControl CirclePageControl { get; set; }
-
-        private CircleIndicator circleIndicator;
-
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
-            var view = inflater.Inflate(Resource.Layout.theme_forestprime_container, container, false);
+            var view = base.OnCreateView(inflater, container, savedInstanceState);
 
-            view.SetBackgroundColor(BackgroundColor.ToNative());
-
-            ViewPager = (ViewPager)view.FindViewById(Resource.Id.view_pager);
             ViewPager.AddOnPageChangeListener(this);
 
             var bottomNavigation = view.FindViewById<LinearLayout>(Resource.Id.theme_forestprime_bottomlayout);
-
-            circleIndicator = view.FindViewById<CircleIndicator>(Resource.Id.indicator);
-            circleIndicator.SetControl(CirclePageControl);
 
             var skipButton = view.FindViewById<Button>(Resource.Id.btnSkip);
             skipButton.SetControl(SkipButtonControl);
@@ -99,34 +83,37 @@ namespace Plugin.Xablu.Walkthrough.Containers
             return view;
         }
 
-        public override void OnActivityCreated(Bundle savedInstanceState)
-        {
-            base.OnActivityCreated(savedInstanceState);
-            circleIndicator.SetViewPager(ViewPager);
-        }
-
         public void OnPageScrolled(int position, float positionOffset, int positionOffsetPixels)
         {
             if (position != ViewPager.Adapter.Count - 1)
             {
                 if (ViewPager.Adapter.Count - 2 == position)
                 {
-                    fadeOutFadeInOnScroll(positionOffset, StartButton, NextButton);
+                    FadeOutFadeInOnScroll(positionOffset, StartButton, NextButton);
                 }
             }
         }
 
         public void OnPageScrollStateChanged(int state)
         {
-
         }
 
         public void OnPageSelected(int position)
         {
+            if (position + 1 == ViewPager.Adapter.Count)
+            {
+                StartButton.Visibility = ViewStates.Visible;
+                StartButton.Alpha = 1;
 
+                NextButton.Visibility = ViewStates.Gone;
+            }
+            else
+            {
+                NextButton.Visibility = ViewStates.Visible;
+            }
         }
 
-        private void fadeOutFadeInOnScroll(float positionOffset, View firstControl, View secondControl)
+        private void FadeOutFadeInOnScroll(float positionOffset, View firstControl, View secondControl)
         {
             if (positionOffset >= 0.5)
             {

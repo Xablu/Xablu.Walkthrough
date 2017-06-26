@@ -5,9 +5,11 @@ using Plugin.Xablu.Walkthrough.Abstractions.Themes;
 
 namespace Plugin.Xablu.Walkthrough.Themes
 {
-    public class Theme<TPage, TContainer> : ITheme<TPage, TContainer> where TPage : IPage where TContainer : IContainer, new()
+    public class Theme<TPage, TContainer> : ITheme<TPage, TContainer>
+        where TPage : IPage where TContainer : IContainer, new()
     {
         private List<TPage> pages = new List<TPage>();
+
         public List<TPage> Pages
         {
             get => pages;
@@ -15,6 +17,7 @@ namespace Plugin.Xablu.Walkthrough.Themes
         }
 
         private TContainer container = new TContainer();
+
         public TContainer Container
         {
             get => container;

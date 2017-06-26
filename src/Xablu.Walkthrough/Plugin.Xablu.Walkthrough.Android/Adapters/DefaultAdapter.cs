@@ -7,7 +7,8 @@ namespace Plugin.Xablu.Walkthrough.Defaults
     {
         private WalkerFragment[] fragments;
 
-        public DefaultAdapter(WalkerFragment[] fragments, FragmentManager supportFragmentManager) : base(supportFragmentManager)
+        public DefaultAdapter(WalkerFragment[] fragments, FragmentManager supportFragmentManager) :
+            base(supportFragmentManager)
         {
             this.fragments = fragments;
         }

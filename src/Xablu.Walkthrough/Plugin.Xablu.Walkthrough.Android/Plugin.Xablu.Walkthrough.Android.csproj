@@ -97,15 +97,18 @@
     <Compile Include="WalkthroughImplementation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Extensions\IWalkthroughExtensions.cs" />
-    <Compile Include="Containers\ForestPrimesContainer.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Adapters\DefaultAdapter.cs" />
     <Compile Include="Extensions\AndroidViewExtensions.cs" />
-    <Compile Include="Containers\BaseContainer.cs" />
-    <Compile Include="Pages\ForestPrimesPage.cs" />
-    <Compile Include="Containers\PantheonContainer.cs" />
     <Compile Include="CircleIndicator\CircleIndicator.cs" />
+    <Compile Include="Containers\DefaultContainer.cs" />
+    <Compile Include="Containers\ForestPrimesContainer.cs" />
+    <Compile Include="Containers\PantheonContainer.cs" />
     <Compile Include="Containers\WalkthroughViewPagerBaseFragment.cs" />
+    <Compile Include="Pages\DefaultPage.cs" />
+    <Compile Include="Pages\ForestPrimesPage.cs" />
+    <Compile Include="Pages\VestaPage.cs" />
+    <Compile Include="Containers\VestaContainer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -120,13 +123,13 @@
   <ItemGroup>
     <Folder Include="Extensions\" />
     <Folder Include="Resources\drawable\" />
-    <Folder Include="Containers\" />
     <Folder Include="Adapters\" />
     <Folder Include="Resources\values\" />
     <Folder Include="Resources\mipmap-hdpi\" />
-    <Folder Include="Pages\" />
     <Folder Include="CircleIndicator\" />
     <Folder Include="Resources\animator\" />
+    <Folder Include="Containers\" />
+    <Folder Include="Pages\" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\theme_forestprime_container.axml" />
@@ -141,6 +144,8 @@
     <AndroidResource Include="Resources\drawable\white_radius.xml" />
     <AndroidResource Include="Resources\animator\scale_with_alpha.xml" />
     <AndroidResource Include="Resources\layout\theme_pantheon_container.axml" />
+    <AndroidResource Include="Resources\layout\theme_vesta_container.axml" />
+    <AndroidResource Include="Resources\layout\theme_vesta_page.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

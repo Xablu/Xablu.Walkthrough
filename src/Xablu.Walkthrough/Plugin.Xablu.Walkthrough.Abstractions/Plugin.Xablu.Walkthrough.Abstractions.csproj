@@ -52,8 +52,11 @@
     <Compile Include="Pages\IPage.cs" />
     <Compile Include="Controls\PageControl.cs" />
     <Compile Include="Containers\IForestPrimesContainer.cs" />
-    <Compile Include="Pages\IForestPrimesPage.cs" />
+    <Compile Include="Pages\IDefaultPage.cs" />
     <Compile Include="Containers\IPantheonContainer.cs" />
+    <Compile Include="Containers\IDefaultContainer.cs" />
+    <Compile Include="Pages\IForestPrimesPage.cs" />
+    <Compile Include="Pages\IVestaPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Themes\" />

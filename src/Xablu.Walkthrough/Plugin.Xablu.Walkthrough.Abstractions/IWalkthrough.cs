@@ -11,7 +11,10 @@ namespace Plugin.Xablu.Walkthrough.Abstractions
     {
         bool IsInitialized { get; set; }
         int Page { get; set; }
-        void Setup<TPage, TContainer>(ITheme<TPage, TContainer> theme) where TPage : IPage where TContainer : IContainer;
+
+        void Setup<TPage, TContainer>(ITheme<TPage, TContainer> theme)
+            where TPage : IPage where TContainer : IContainer;
+
         void Show();
         void Next();
         void Previous();

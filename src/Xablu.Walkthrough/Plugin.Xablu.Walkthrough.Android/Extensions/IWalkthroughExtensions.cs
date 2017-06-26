@@ -7,7 +7,7 @@ namespace Plugin.Xablu.Walkthrough
     {
         public static void Init(this IWalkthrough walkThrough, AppCompatActivity hostActivity)
         {
-            var androidWalkThrough = (WalkthroughImplementation)walkThrough;
+            var androidWalkThrough = (WalkthroughImplementation) walkThrough;
             androidWalkThrough.Init(hostActivity);
         }
     }
