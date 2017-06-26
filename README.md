@@ -22,7 +22,7 @@ The plugin works with themes. Every theme must consist of a Container and a Page
   ![Pantheon](https://github.com/Xablu/Xablu.Walkthrough/raw/master/resources/pantheonforest.png) |
   ![Vesta](https://github.com/Xablu/Xablu.Walkthrough/raw/master/resources/fullvesta.png) |
 | ![ForestPrimes](https://github.com/Xablu/Xablu.Walkthrough/raw/master/resources/fullforest-android.png) | 
-  ![Pantheon](https://github.com/Xablu/Xablu.Walkthrough/raw/master/resources/pantheonforest.png) |
-  ![Vesta](https://github.com/Xablu/Xablu.Walkthrough/raw/master/resources/fullvesta.png) |
+  ![Pantheon](https://github.com/Xablu/Xablu.Walkthrough/raw/master/resources/pantheonforest-android.png) |
+  ![Vesta](https://github.com/Xablu/Xablu.Walkthrough/raw/master/resources/vesta-android.png) |
 
 
