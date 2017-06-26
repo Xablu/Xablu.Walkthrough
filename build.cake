@@ -128,7 +128,7 @@ Task("Package")
 Task("PublishPackages")
     .IsDependentOn("Package")
     .WithCriteria(() => !BuildSystem.IsLocalBuild)
-    .WithCriteria(() => IsRepository("xablu/Xablu.Walkthrough"))
+    .WithCriteria(() => IsRepository("Xablu/Xablu.Walkthrough"))
     .WithCriteria(() => 
 		StringComparer.OrdinalIgnoreCase.Equals(versionInfo.BranchName, "develop") || 
 		IsMasterOrReleases())
