@@ -220,7 +220,7 @@ bool IsRepository(string repoName)
 
 bool IsTagged()
 {
-	var path = WorkingDirectory().FullPath;
+	var path = MakeAbsolute(new DirectoryPath("")).GetDirectory().FullPath;
 	using (var repo = new LibGit2Sharp.Repository(path))
 	{
 		var head = repo.Head;
