@@ -1,7 +1,6 @@
 #tool nuget:?package=GitVersion.CommandLine
 #tool nuget:?package=gitlink
 #tool nuget:?package=vswhere
-#tool nuget:?package=NUnit.ConsoleRunner
 #addin nuget:?package=Cake.Incubator
 #addin nuget:?package=Cake.Git
 
@@ -145,6 +144,7 @@ Task("PublishPackages")
 	var apiKey = nugetKeySource.Item1;
 	var source = nugetKeySource.Item2;
 
+	Information("Search for nuget packages in: " + outputDir);
 	var nugetFiles = GetFiles(outputDir + "/*.nupkg");
 
 	foreach(var nugetFile in nugetFiles)
