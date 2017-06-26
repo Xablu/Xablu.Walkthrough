@@ -21,6 +21,9 @@ The plugin works with themes. Every theme must consist of a Container and a Page
 | ![ForestPrimes](https://github.com/Xablu/Xablu.Walkthrough/raw/master/resources/fullforest.png) | ![Pantheon](https://github.com/Xablu/Xablu.Walkthrough/raw/master/resources/pantheonforest.png) |![Vesta](https://github.com/Xablu/Xablu.Walkthrough/raw/master/resources/fullvesta.png) |
 | ![ForestPrimes](https://github.com/Xablu/Xablu.Walkthrough/raw/master/resources/fullforest-android.png) | ![Pantheon](https://github.com/Xablu/Xablu.Walkthrough/raw/master/resources/pantheonforest-android.png) | ![Vesta](https://github.com/Xablu/Xablu.Walkthrough/raw/master/resources/vesta-android.png) |
 
+### Distinction between containers and pages
+Pages are hosted inside the containers. They will consist of the PageControl, next and previous buttons etc. Pages are specific for that page. They consist of a image, title, description for example.
+
 ## Usage
 
 After you have installed the nuget into every project simple create a new theme in your PCL library like so:
