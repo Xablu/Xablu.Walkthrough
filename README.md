@@ -14,5 +14,5 @@ The Xablu WebApiClient is a C# HTTP library which aims to simplify consuming of 
 
 # Showcase
 
-![Example](https://github.com/Xablu/Xablu.Walkthrough/blob/master/resources/example.gif =250x)
+![Example](https://github.com/Xablu/Xablu.Walkthrough/blob/master/resources/example.gif)
 
