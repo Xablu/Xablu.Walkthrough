@@ -33,7 +33,7 @@ namespace WalkthroughSample
             },
             new VestaPage
             {
-                BackgroundColor = Color.FromArgb(0,0,255),
+                BackgroundColor = Color.FromArgb(239, 239, 239),
                 TitleControl = new TextControl()
                 {
                     Text = "Answer onsite queries",
@@ -52,7 +52,7 @@ namespace WalkthroughSample
             },
             new VestaPage
             {
-                BackgroundColor = Color.FromArgb(0,0,255),
+                BackgroundColor = Color.FromArgb(239, 239, 239),
                 TitleControl = new TextControl()
                 {
                     Text = "Count inventory",
