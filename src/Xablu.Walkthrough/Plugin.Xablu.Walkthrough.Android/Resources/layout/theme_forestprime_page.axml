@@ -30,7 +30,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="20dp"
             android:paddingLeft="50dp"
             android:paddingRight="50dp" />
     </LinearLayout>

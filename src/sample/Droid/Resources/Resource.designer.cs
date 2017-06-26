@@ -4098,7 +4098,7 @@ namespace WalkthroughSample.Droid
 			public const int xablu = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int xamagon = 2130837621;
+			public const int xamarin = 2130837621;
 			
 			static Drawable()
 			{

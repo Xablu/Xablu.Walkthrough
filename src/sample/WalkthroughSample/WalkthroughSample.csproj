@@ -30,6 +30,7 @@
   <ItemGroup>
     <Compile Include="Themes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="EmptyClass.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Splat">

@@ -5,6 +5,7 @@ using Android.Widget;
 using Plugin.Xablu.Walkthrough.Abstractions.Controls;
 using Plugin.Xablu.Walkthrough.Abstractions.Pages;
 using Plugin.Xablu.Walkthrough.Extensions;
+using Splat;
 using Walker;
 
 namespace Plugin.Xablu.Walkthrough.Pages
@@ -28,7 +29,9 @@ namespace Plugin.Xablu.Walkthrough.Pages
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
-            _walkerLayout = (WalkerLayout) inflater.Inflate(FragmentLayoutId, container, false);
+            _walkerLayout = (WalkerLayout)inflater.Inflate(FragmentLayoutId, container, false);
+
+            _walkerLayout.SetBackgroundColor(BackgroundColor.ToNative());
 
             //title
             var txtTitle = WalkerLayout.FindViewById<TextView>(TitleResourceId);

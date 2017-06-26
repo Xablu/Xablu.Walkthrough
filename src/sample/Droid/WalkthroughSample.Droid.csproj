@@ -141,8 +141,8 @@
     <AndroidResource Include="Resources\drawable-xxxhdpi\task_illo.png" />
     <AndroidResource Include="Resources\drawable\ArrowRight.xml" />
     <AndroidResource Include="Resources\drawable\xablu.jpg" />
-    <AndroidResource Include="Resources\drawable\xamagon.png" />
     <AndroidResource Include="Resources\drawable\androidandios.png" />
+    <AndroidResource Include="Resources\drawable\xamarin.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
