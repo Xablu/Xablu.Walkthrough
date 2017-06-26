@@ -17,7 +17,7 @@ namespace WalkthroughSample
             {
                 TitleControl = new TextControl()
                 {
-                    Text = "Get count information",
+                    Text = "Title",
                     TextSize = 24,
                     TextColor = Color.FromArgb(255, 0, 43)
                 },
@@ -27,7 +27,7 @@ namespace WalkthroughSample
                 },
                 DescriptionControl = new TextControl()
                 {
-                    Text = "Keep track of receipts by capturing and uploading them instantly wherever you are",
+                    Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                     TextSize = 16
                 }
             },
@@ -36,7 +36,7 @@ namespace WalkthroughSample
                 BackgroundColor = Color.FromArgb(239, 239, 239),
                 TitleControl = new TextControl()
                 {
-                    Text = "Answer onsite queries",
+                    Text = "Title",
                     TextSize = 24,
                     TextColor = Color.FromArgb(255, 0, 43)
                 },
@@ -46,16 +46,16 @@ namespace WalkthroughSample
                 },
                 DescriptionControl = new TextControl()
                 {
-                    Text = "Effortlessly approve or sign documents and carry out to-do’s",
+                    Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                     TextSize = 16
                 }
             },
             new VestaPage
             {
-                BackgroundColor = Color.FromArgb(239, 239, 239),
+                BackgroundColor = Color.FromArgb(180, 180, 180),
                 TitleControl = new TextControl()
                 {
-                    Text = "Count inventory",
+                    Text = "Change backgroundcolor",
                     TextSize = 24,
                     TextColor = Color.FromArgb(255, 0, 43)
                 },
@@ -65,7 +65,7 @@ namespace WalkthroughSample
                 },
                 DescriptionControl = new TextControl()
                 {
-                    Text = "Find all the information needed to get in touch with your customers",
+                    Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. rnare lorem. ",
                     TextSize = 16
                 }
             }
@@ -77,7 +77,7 @@ namespace WalkthroughSample
             {
                 TitleControl = new TextControl()
                 {
-                    Text = "Get count information",
+                    Text = "Title",
                     TextSize = 24,
                     TextColor = Color.FromArgb(255, 0, 43)
                 },
@@ -87,7 +87,7 @@ namespace WalkthroughSample
                 },
                 DescriptionControl = new TextControl()
                 {
-                    Text = "Keep track of receipts by capturing and uploading them instantly wherever you are",
+                    Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                     TextSize = 16
                 }
             },
@@ -96,7 +96,7 @@ namespace WalkthroughSample
                 BackgroundColor = Color.FromArgb(239, 239, 239),
                 TitleControl = new TextControl()
                 {
-                    Text = "Answer onsite queries",
+                    Text = "Title",
                     TextSize = 24,
                     TextColor = Color.FromArgb(255, 0, 43)
                 },
@@ -106,7 +106,7 @@ namespace WalkthroughSample
                 },
                 DescriptionControl = new TextControl()
                 {
-                    Text = "Effortlessly approve or sign documents and carry out to-do’s",
+                    Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                     TextSize = 16
                 }
             },
@@ -115,7 +115,7 @@ namespace WalkthroughSample
                 BackgroundColor = Color.FromArgb(239, 239, 239),
                 TitleControl = new TextControl()
                 {
-                    Text = "Count inventory",
+                     Text = "Title",
                     TextSize = 24,
                     TextColor = Color.FromArgb(255, 0, 43)
                 },
@@ -125,7 +125,7 @@ namespace WalkthroughSample
                 },
                 DescriptionControl = new TextControl()
                 {
-                    Text = "Find all the information needed to get in touch with your customers",
+                     Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                     TextSize = 16
                 }
             }
@@ -159,7 +159,7 @@ namespace WalkthroughSample
             theme.Pages = ForestPages;
 
 
-            CrossWalkthrough.Current.Page = 2;
+            //    CrossWalkthrough.Current.Page = 2;
 
             CrossWalkthrough.Current.Setup(theme);
             CrossWalkthrough.Current.Show();
