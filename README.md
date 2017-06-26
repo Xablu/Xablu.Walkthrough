@@ -12,5 +12,7 @@ The Xablu WebApiClient is a C# HTTP library which aims to simplify consuming of 
 [![NuGet](https://img.shields.io/nuget/v/Xablu.WebApiClient.svg?label=NuGet)](https://www.nuget.org/packages/Xablu.WebApiClient/)
 [![MyGet](https://img.shields.io/myget/xabluhq/v/Xablu.WebApiClient.svg)](https://www.myget.org/F/Xablu.WebApiClient/api/v2)
 
-# Showcases
+# Showcase
+
+![Example](https://github.com/Xablu/Xablu.Walkthrough/blob/master/resources/example.gif)
 
