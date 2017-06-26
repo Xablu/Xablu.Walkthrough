@@ -89,6 +89,6 @@ Containers and pages can be mixed together in any way you like. This gives lots 
 1. Add an interface for your container or page in the Abstractions project
 2. Implement this interface on every platform(PCL,Android,iOS)
 3. Create the layouts for the new container/page
-3. Wire it up in the class that implements the interface 
+3. Wire it up in the class that implements the interface (
 [iOS example](https://github.com/Xablu/Xablu.Walkthrough/blob/master/src/Xablu.Walkthrough/Plugin.Xablu.Walkthrough.iOS/Containers/VestaContainer.cs)
-[Droid example](https://github.com/Xablu/Xablu.Walkthrough/blob/master/src/Xablu.Walkthrough/Plugin.Xablu.Walkthrough.Android/Containers/VestaContainer.cs)
+[Droid example](https://github.com/Xablu/Xablu.Walkthrough/blob/master/src/Xablu.Walkthrough/Plugin.Xablu.Walkthrough.Android/Containers/VestaContainer.cs))
