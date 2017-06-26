@@ -97,7 +97,7 @@ namespace WalkthroughSample
                 BackgroundColor = Color.FromArgb(240, 240, 240),
                 TitleControl = new TextControl()
                 {
-                    Text = "Lots op options!",
+                    Text = "Lots of options!",
                     TextSize = 28,
                     TextColor = Color.FromArgb(50, 50, 50)
                 },
