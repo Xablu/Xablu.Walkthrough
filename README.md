@@ -90,5 +90,5 @@ Containers and pages can be mixed together in any way you like. This gives lots 
 2. Implement this interface on every platform(PCL,Android,iOS)
 3. Create the layouts for the new container/page
 3. Wire it up in the class that implements the interface 
-(https://github.com/Xablu/Xablu.Walkthrough/blob/master/src/Xablu.Walkthrough/Plugin.Xablu.Walkthrough.iOS/Containers/VestaContainer.cs)
-(https://github.com/Xablu/Xablu.Walkthrough/blob/master/src/Xablu.Walkthrough/Plugin.Xablu.Walkthrough.Android/Containers/VestaContainer.cs)
+[iOS example](https://github.com/Xablu/Xablu.Walkthrough/blob/master/src/Xablu.Walkthrough/Plugin.Xablu.Walkthrough.iOS/Containers/VestaContainer.cs)
+[Droid example](https://github.com/Xablu/Xablu.Walkthrough/blob/master/src/Xablu.Walkthrough/Plugin.Xablu.Walkthrough.Android/Containers/VestaContainer.cs)
