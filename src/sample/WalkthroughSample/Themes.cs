@@ -33,7 +33,7 @@ namespace WalkthroughSample
             },
             new VestaPage
             {
-                BackgroundColor = Color.FromArgb(239, 239, 239),
+                BackgroundColor = Color.FromArgb(0,0,255),
                 TitleControl = new TextControl()
                 {
                     Text = "Answer onsite queries",
@@ -52,7 +52,7 @@ namespace WalkthroughSample
             },
             new VestaPage
             {
-                BackgroundColor = Color.FromArgb(239, 239, 239),
+                BackgroundColor = Color.FromArgb(0,0,255),
                 TitleControl = new TextControl()
                 {
                     Text = "Count inventory",
@@ -136,7 +136,6 @@ namespace WalkthroughSample
             var theme = new Theme<ForestPrimesPage, ForestPrimesContainer>();
             theme.Container = new ForestPrimesContainer()
             {
-                BackgroundColor = Color.LightGray,
                 StartButtonControl = new ButtonControl()
                 {
                     Text = "START",

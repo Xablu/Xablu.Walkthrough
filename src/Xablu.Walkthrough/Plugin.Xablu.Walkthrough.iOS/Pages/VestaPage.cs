@@ -13,8 +13,6 @@ namespace Plugin.Xablu.Walkthrough.Pages
         {
             base.ViewDidLoad();
 
-            View.BackgroundColor = BackgroundColor.ToNative();
-
             Title.SetControl(TitleControl);
 
             await Image.SetControl(ImageControl);

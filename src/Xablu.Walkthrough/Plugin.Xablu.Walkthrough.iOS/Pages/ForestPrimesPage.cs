@@ -1,5 +1,4 @@
 ﻿using Plugin.Xablu.Walkthrough.Extensions;
-using Splat;
 
 namespace Plugin.Xablu.Walkthrough.Pages
 {
@@ -12,8 +11,6 @@ namespace Plugin.Xablu.Walkthrough.Pages
         public async override void ViewDidLoad()
         {
             base.ViewDidLoad();
-
-            View.BackgroundColor = BackgroundColor.ToNative();
 
             Title.SetControl(TitleControl);
 

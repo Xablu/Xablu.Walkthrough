@@ -30,7 +30,6 @@
                             <rect key="frame" x="30" y="30" width="314" height="272"/>
                         </imageView>
                     </subviews>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstItem="5xX-el-A1R" firstAttribute="centerX" secondItem="s6d-iR-mSn" secondAttribute="centerX" id="6P2-rR-8o7"/>
                         <constraint firstItem="5xX-el-A1R" firstAttribute="top" secondItem="s6d-iR-mSn" secondAttribute="top" constant="30" id="9xB-XC-aPl"/>
@@ -54,7 +53,6 @@
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstItem="8je-nC-J92" firstAttribute="top" secondItem="bY3-oK-Xr1" secondAttribute="top" constant="60" id="5rm-Lt-R7S"/>
                         <constraint firstAttribute="trailing" secondItem="8je-nC-J92" secondAttribute="trailing" constant="30" id="FII-1y-M0b"/>
@@ -79,12 +77,5 @@
             </constraints>
             <point key="canvasLocation" x="33.5" y="53.5"/>
         </view>
-        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="d7D-SH-7zE">
-            <rect key="frame" x="0.0" y="0.0" width="42" height="21"/>
-            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-            <nil key="textColor"/>
-            <nil key="highlightedColor"/>
-        </label>
     </objects>
 </document>
