@@ -12,7 +12,12 @@ The Xablu WebApiClient is a C# HTTP library which aims to simplify consuming of 
 [![NuGet](https://img.shields.io/nuget/v/Xablu.WebApiClient.svg?label=NuGet)](https://www.nuget.org/packages/Xablu.WebApiClient/)
 [![MyGet](https://img.shields.io/myget/xabluhq/v/Xablu.WebApiClient.svg)](https://www.myget.org/F/Xablu.WebApiClient/api/v2)
 
-# Showcase
+# Containers & Pages
 
-![Example](https://github.com/Xablu/Xablu.Walkthrough/blob/master/resources/example.gif)
+The plugin works with themes. Every theme must consist of a Container and a Page. Containers and Pages can be mixed and matched.
+
+| ForestPrimes container and page| Pantheon container and ForestPage | Vesta container and page  |
+| ------------------------------ |-----------------------------------| ------------------------- |
+| ![ForestPrimes](https://github.com/Xablu/Xablu.Walkthrough/raw/master/resources/fullforest.png)     | right-aligned | $1600 |
+
 
