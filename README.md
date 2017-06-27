@@ -1,5 +1,5 @@
 # Xablu.Walkthrough
-The Xablu WebApiClient is a C# HTTP library which aims to simplify consuming of Web API services in .NET projects.
+The Xablu Walkthrough helps you to easily add a walkthrough to your apps for both iOS and Android
 
 ### Setup & Usage
 * Available on NuGet: https://www.nuget.org/packages/Xablu.Walkthrough/
