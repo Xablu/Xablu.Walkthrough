@@ -201,7 +201,7 @@ bool IsRepository(string repoName)
 	{
 		try
 		{
-			var path = MakeAbsolute(new DirectoryPath("")).GetDirectory().FullPath;
+			var path = MakeAbsolute(new DirectoryPath("./")).FullPath;
 			using (var repo = new LibGit2Sharp.Repository(path))
 			{
 				var origin = repo.Network.Remotes.FirstOrDefault(
@@ -220,7 +220,7 @@ bool IsRepository(string repoName)
 
 bool IsTagged()
 {
-	var path = MakeAbsolute(new DirectoryPath("")).GetDirectory().FullPath;
+	var path = MakeAbsolute(new DirectoryPath("./")).FullPath;
 	using (var repo = new LibGit2Sharp.Repository(path))
 	{
 		var head = repo.Head;
