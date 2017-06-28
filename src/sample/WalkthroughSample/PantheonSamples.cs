@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Drawing;
 using Plugin.Xablu.Walkthrough;
 using Plugin.Xablu.Walkthrough.Abstractions.Controls;

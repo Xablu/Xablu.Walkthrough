@@ -1,5 +1,4 @@
-﻿using System;
-using System.Drawing;
+﻿using System.Drawing;
 using Plugin.Xablu.Walkthrough;
 using Plugin.Xablu.Walkthrough.Abstractions.Controls;
 using Plugin.Xablu.Walkthrough.Containers;

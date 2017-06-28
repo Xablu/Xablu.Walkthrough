@@ -1,6 +1,5 @@
 using Plugin.Xablu.Walkthrough.Abstractions;
 using System;
-using Plugin.Xablu.Walkthrough;
 
 namespace Plugin.Xablu.Walkthrough
 {
