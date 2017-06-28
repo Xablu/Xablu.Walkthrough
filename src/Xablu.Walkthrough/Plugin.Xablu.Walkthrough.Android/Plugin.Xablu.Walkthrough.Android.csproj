@@ -109,6 +109,7 @@
     <Compile Include="Pages\ForestPrimesPage.cs" />
     <Compile Include="Pages\VestaPage.cs" />
     <Compile Include="Containers\VestaContainer.cs" />
+    <Compile Include="Pages\OvuPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -146,6 +147,7 @@
     <AndroidResource Include="Resources\layout\theme_pantheon_container.axml" />
     <AndroidResource Include="Resources\layout\theme_vesta_container.axml" />
     <AndroidResource Include="Resources\layout\theme_vesta_page.axml" />
+    <AndroidResource Include="Resources\layout\theme_ovu_page.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

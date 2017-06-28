@@ -18,11 +18,10 @@ namespace WalkthroughSample.Droid
 
             CrossWalkthrough.Current.Init(this);
 
-            var myClass = new Themes();
-
-            FindViewById<Button>(Resource.Id.showWalk).Click += (sender, e) => myClass.ForestContainerForestPage();
-            FindViewById<Button>(Resource.Id.showWalk2).Click += (sender, e) => myClass.PantheonContainerForestPage();
-            FindViewById<Button>(Resource.Id.showWalk3).Click += (sender, e) => myClass.VestaContainerVestaPage();
+            FindViewById<Button>(Resource.Id.showWalk).Click += (sender, e) => ForestPrimesSamples.ShowForestContainerForestPage();
+            FindViewById<Button>(Resource.Id.showWalk2).Click += (sender, e) => PantheonSamples.ShowPantheonContainerForestPage();
+            FindViewById<Button>(Resource.Id.showWalk3).Click += (sender, e) => VestaSamples.ShowVestaContainerVestaPage();
+            FindViewById<Button>(Resource.Id.showWalk4).Click += (sender, e) => ForestPrimesSamples.ShowForestContainerOvuPage();
         }
     }
 }

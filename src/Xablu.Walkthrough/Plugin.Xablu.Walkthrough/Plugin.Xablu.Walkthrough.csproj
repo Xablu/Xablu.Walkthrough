@@ -52,6 +52,7 @@
     <Compile Include="Containers\DefaultContainer.cs" />
     <Compile Include="Pages\DefaultPage.cs" />
     <Compile Include="Pages\VestaPage.cs" />
+    <Compile Include="Pages\OvuPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Extensions\" />

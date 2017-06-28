@@ -22,11 +22,10 @@ namespace WalkthroughSample.iOS
         {
             base.ViewDidLoad();
 
-            var core = new Themes();
-
-            Button.TouchUpInside += (sender, e) => core.ForestContainerForestPage();
-            PantheonForest.TouchUpInside += (sender, e) => core.PantheonContainerForestPage();
-            VestaButton.TouchUpInside += (sender, e) => core.VestaContainerVestaPage();
+            Button.TouchUpInside += (sender, e) => ForestPrimesSamples.ShowForestContainerForestPage();
+            PantheonForest.TouchUpInside += (sender, e) => PantheonSamples.ShowPantheonContainerForestPage();
+            VestaButton.TouchUpInside += (sender, e) => VestaSamples.ShowVestaContainerVestaPage();
+            ForestOvu.TouchUpInside += (sender, e) => ForestPrimesSamples.ShowForestContainerOvuPage();
         }
 
         public override void DidReceiveMemoryWarning()

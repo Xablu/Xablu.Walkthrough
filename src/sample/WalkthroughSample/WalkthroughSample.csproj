@@ -28,9 +28,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Themes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="EmptyClass.cs" />
+    <Compile Include="ForestPrimesSamples.cs" />
+    <Compile Include="PantheonSamples.cs" />
+    <Compile Include="VestaSamples.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Splat">

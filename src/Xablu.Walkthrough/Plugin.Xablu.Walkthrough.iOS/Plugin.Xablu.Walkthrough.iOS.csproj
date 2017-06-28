@@ -64,6 +64,10 @@
     <Compile Include="Containers\VestaContainer.designer.cs">
       <DependentUpon>VestaContainer.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\OvuPage.cs" />
+    <Compile Include="Pages\OvuPage.designer.cs">
+      <DependentUpon>OvuPage.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Plugin.Xablu.Walkthrough.Abstractions\Plugin.Xablu.Walkthrough.Abstractions.csproj">
@@ -97,6 +101,7 @@
     <InterfaceDefinition Include="Containers\PantheonContainer.xib" />
     <InterfaceDefinition Include="Pages\VestaPage.xib" />
     <InterfaceDefinition Include="Containers\VestaContainer.xib" />
+    <InterfaceDefinition Include="Pages\OvuPage.xib" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

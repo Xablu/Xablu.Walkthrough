@@ -175,6 +175,10 @@
     <Compile Include="ViewController.designer.cs">
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="CustomViewController.cs" />
+    <Compile Include="CustomViewController.designer.cs">
+      <DependentUpon>CustomViewController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WalkthroughSample\WalkthroughSample.csproj">
