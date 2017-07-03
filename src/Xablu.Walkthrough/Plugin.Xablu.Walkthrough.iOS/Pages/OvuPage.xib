@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -27,13 +26,13 @@
                     <rect key="frame" x="0.0" y="0.0" width="375" height="334"/>
                     <subviews>
                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="e2M-zh-en7" userLabel="CenterImage">
-                            <rect key="frame" x="30" y="30" width="314" height="304"/>
+                            <rect key="frame" x="70" y="70" width="234" height="264"/>
                         </imageView>
                     </subviews>
                     <constraints>
                         <constraint firstAttribute="bottom" secondItem="e2M-zh-en7" secondAttribute="bottom" id="0WK-Kl-Guq"/>
-                        <constraint firstItem="e2M-zh-en7" firstAttribute="top" secondItem="TIG-Sa-XpN" secondAttribute="top" constant="30" id="PHc-n2-a2h"/>
-                        <constraint firstItem="e2M-zh-en7" firstAttribute="leading" secondItem="TIG-Sa-XpN" secondAttribute="leading" constant="30" id="Sdi-7U-0UP"/>
+                        <constraint firstItem="e2M-zh-en7" firstAttribute="top" secondItem="TIG-Sa-XpN" secondAttribute="top" constant="70" id="PHc-n2-a2h"/>
+                        <constraint firstItem="e2M-zh-en7" firstAttribute="leading" secondItem="TIG-Sa-XpN" secondAttribute="leading" constant="70" id="Sdi-7U-0UP"/>
                         <constraint firstItem="e2M-zh-en7" firstAttribute="centerX" secondItem="TIG-Sa-XpN" secondAttribute="centerX" id="hc6-GS-tI0"/>
                     </constraints>
                 </view>

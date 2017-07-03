@@ -78,7 +78,7 @@ namespace WalkthroughSample
             {
                 TitleControl = new TextControl()
                 {
-                    Text = "Welcome!",
+                    Text = "Welcome! Welcome! Welcome! Welcome!",
                     TextSize = 24,
                     TextColor = Color.FromArgb(255, 0, 43)
                 },

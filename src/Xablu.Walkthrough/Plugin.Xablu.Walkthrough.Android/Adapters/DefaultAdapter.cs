@@ -5,7 +5,7 @@ namespace Plugin.Xablu.Walkthrough.Defaults
 {
     public class DefaultAdapter : FragmentPagerAdapter
     {
-        private WalkerFragment[] fragments;
+        private WalkerFragment[] fragments = new WalkerFragment[0];
 
         public DefaultAdapter(WalkerFragment[] fragments, FragmentManager supportFragmentManager) :
             base(supportFragmentManager)
