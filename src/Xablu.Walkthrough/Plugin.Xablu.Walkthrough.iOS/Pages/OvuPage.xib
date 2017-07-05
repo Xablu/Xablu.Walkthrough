@@ -22,57 +22,50 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TIG-Sa-XpN" userLabel="TopView">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="334"/>
-                    <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="e2M-zh-en7" userLabel="CenterImage">
-                            <rect key="frame" x="70" y="70" width="234" height="264"/>
-                        </imageView>
-                    </subviews>
-                    <constraints>
-                        <constraint firstAttribute="bottom" secondItem="e2M-zh-en7" secondAttribute="bottom" id="0WK-Kl-Guq"/>
-                        <constraint firstItem="e2M-zh-en7" firstAttribute="top" secondItem="TIG-Sa-XpN" secondAttribute="top" constant="70" id="PHc-n2-a2h"/>
-                        <constraint firstItem="e2M-zh-en7" firstAttribute="leading" secondItem="TIG-Sa-XpN" secondAttribute="leading" constant="70" id="Sdi-7U-0UP"/>
-                        <constraint firstItem="e2M-zh-en7" firstAttribute="centerX" secondItem="TIG-Sa-XpN" secondAttribute="centerX" id="hc6-GS-tI0"/>
-                    </constraints>
-                </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Ar-GJ-1po" userLabel="BottomView">
                     <rect key="frame" x="0.0" y="334" width="375" height="333"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title Title Title Title Title Title Title Title Title Title Title Title " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cVB-se-4x8" userLabel="Title">
-                            <rect key="frame" x="30" y="30" width="315" height="21"/>
+                            <rect key="frame" x="30" y="115" width="315" height="21"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Zs-gV-gTp" userLabel="Description">
-                            <rect key="frame" x="30" y="71" width="315" height="21"/>
+                            <rect key="frame" x="30" y="156" width="315" height="21"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
                     <constraints>
+                        <constraint firstItem="6Zs-gV-gTp" firstAttribute="centerY" secondItem="9Ar-GJ-1po" secondAttribute="centerY" id="BSQ-6V-ZPf"/>
+                        <constraint firstItem="6Zs-gV-gTp" firstAttribute="centerX" secondItem="9Ar-GJ-1po" secondAttribute="centerX" id="CX4-Sa-FyE"/>
                         <constraint firstItem="6Zs-gV-gTp" firstAttribute="top" secondItem="cVB-se-4x8" secondAttribute="bottom" constant="20" id="Kjk-wS-Qvw"/>
                         <constraint firstAttribute="trailing" secondItem="6Zs-gV-gTp" secondAttribute="trailing" constant="30" id="Lgs-4d-4Ze"/>
                         <constraint firstItem="6Zs-gV-gTp" firstAttribute="leading" secondItem="9Ar-GJ-1po" secondAttribute="leading" constant="30" id="MVD-Lp-KAZ"/>
-                        <constraint firstItem="cVB-se-4x8" firstAttribute="top" secondItem="9Ar-GJ-1po" secondAttribute="top" constant="30" id="dvF-UQ-9my"/>
                         <constraint firstAttribute="trailing" secondItem="cVB-se-4x8" secondAttribute="trailing" constant="30" id="olG-PF-kv9"/>
                         <constraint firstItem="cVB-se-4x8" firstAttribute="leading" secondItem="9Ar-GJ-1po" secondAttribute="leading" constant="30" id="sHq-Ye-TiK"/>
                         <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="6Zs-gV-gTp" secondAttribute="bottom" constant="55" id="xDS-H5-koI"/>
                     </constraints>
                 </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="e2M-zh-en7" userLabel="CenterImage">
+                    <rect key="frame" x="70" y="111.5" width="234" height="264"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="264" id="SzQ-gs-g0c"/>
+                    </constraints>
+                </imageView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="9Ar-GJ-1po" secondAttribute="bottom" id="9uN-6Z-p95"/>
-                <constraint firstItem="TIG-Sa-XpN" firstAttribute="leading" secondItem="XbW-6F-CiC" secondAttribute="leading" id="Fth-6H-xtX"/>
-                <constraint firstItem="TIG-Sa-XpN" firstAttribute="bottom" secondItem="XbW-6F-CiC" secondAttribute="centerY" id="K5m-tc-qpL"/>
+                <constraint firstItem="e2M-zh-en7" firstAttribute="centerX" secondItem="XbW-6F-CiC" secondAttribute="centerX" id="Bc4-Wk-JoG"/>
+                <constraint firstItem="e2M-zh-en7" firstAttribute="leading" secondItem="XbW-6F-CiC" secondAttribute="leading" constant="70" id="HrR-5R-a45"/>
                 <constraint firstItem="9Ar-GJ-1po" firstAttribute="leading" secondItem="XbW-6F-CiC" secondAttribute="leading" id="LGo-Dr-XFm"/>
-                <constraint firstAttribute="trailing" secondItem="TIG-Sa-XpN" secondAttribute="trailing" id="a6K-V5-JEw"/>
+                <constraint firstAttribute="trailing" secondItem="e2M-zh-en7" secondAttribute="trailing" constant="71" id="W9s-KI-V6w"/>
+                <constraint firstItem="e2M-zh-en7" firstAttribute="centerY" secondItem="XbW-6F-CiC" secondAttribute="centerY" constant="-90" id="dQw-vu-u81"/>
                 <constraint firstAttribute="trailing" secondItem="9Ar-GJ-1po" secondAttribute="trailing" id="gEV-Uf-2ij"/>
                 <constraint firstItem="9Ar-GJ-1po" firstAttribute="top" secondItem="XbW-6F-CiC" secondAttribute="centerY" id="tWJ-wl-Vyj"/>
-                <constraint firstItem="TIG-Sa-XpN" firstAttribute="top" secondItem="XbW-6F-CiC" secondAttribute="top" id="zAS-r5-TcV"/>
             </constraints>
             <point key="canvasLocation" x="33.5" y="53.5"/>
         </view>

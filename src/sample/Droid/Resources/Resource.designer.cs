@@ -4300,8 +4300,8 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f080033
 			public const int fill_vertical = 2131230771;
 			
-			// aapt resource value: 0x7f0800aa
-			public const int firstLayout = 2131230890;
+			// aapt resource value: 0x7f0800a9
+			public const int firstLayout = 2131230889;
 			
 			// aapt resource value: 0x7f08003f
 			public const int @fixed = 2131230783;
@@ -4576,29 +4576,29 @@ namespace WalkthroughSample.Droid
 			// aapt resource value: 0x7f0800a4
 			public const int theme_forestprime_title = 2131230884;
 			
-			// aapt resource value: 0x7f0800ae
-			public const int theme_pantheon_get_started = 2131230894;
-			
-			// aapt resource value: 0x7f0800af
-			public const int theme_vesta_bottomlayout = 2131230895;
-			
-			// aapt resource value: 0x7f0800a9
-			public const int theme_vesta_center_shim = 2131230889;
-			
 			// aapt resource value: 0x7f0800ad
-			public const int theme_vesta_description = 2131230893;
+			public const int theme_pantheon_get_started = 2131230893;
+			
+			// aapt resource value: 0x7f0800ae
+			public const int theme_vesta_bottomlayout = 2131230894;
 			
 			// aapt resource value: 0x7f0800b0
-			public const int theme_vesta_get_started = 2131230896;
+			public const int theme_vesta_center_shim = 2131230896;
 			
-			// aapt resource value: 0x7f0800ab
-			public const int theme_vesta_image = 2131230891;
+			// aapt resource value: 0x7f0800ac
+			public const int theme_vesta_description = 2131230892;
+			
+			// aapt resource value: 0x7f0800af
+			public const int theme_vesta_get_started = 2131230895;
+			
+			// aapt resource value: 0x7f0800aa
+			public const int theme_vesta_image = 2131230890;
 			
 			// aapt resource value: 0x7f0800a8
 			public const int theme_vesta_page = 2131230888;
 			
-			// aapt resource value: 0x7f0800ac
-			public const int theme_vesta_title = 2131230892;
+			// aapt resource value: 0x7f0800ab
+			public const int theme_vesta_title = 2131230891;
 			
 			// aapt resource value: 0x7f080090
 			public const int time = 2131230864;

@@ -2386,8 +2386,8 @@ namespace Plugin.Xablu.Walkthrough
 			// aapt resource value: 0x7f080033
 			public static int fill_vertical = 2131230771;
 			
-			// aapt resource value: 0x7f0800a6
-			public static int firstLayout = 2131230886;
+			// aapt resource value: 0x7f0800a5
+			public static int firstLayout = 2131230885;
 			
 			// aapt resource value: 0x7f08003f
 			public static int @fixed = 2131230783;
@@ -2650,29 +2650,29 @@ namespace Plugin.Xablu.Walkthrough
 			// aapt resource value: 0x7f0800a0
 			public static int theme_forestprime_title = 2131230880;
 			
-			// aapt resource value: 0x7f0800aa
-			public static int theme_pantheon_get_started = 2131230890;
-			
-			// aapt resource value: 0x7f0800ab
-			public static int theme_vesta_bottomlayout = 2131230891;
-			
-			// aapt resource value: 0x7f0800a5
-			public static int theme_vesta_center_shim = 2131230885;
-			
 			// aapt resource value: 0x7f0800a9
-			public static int theme_vesta_description = 2131230889;
+			public static int theme_pantheon_get_started = 2131230889;
+			
+			// aapt resource value: 0x7f0800aa
+			public static int theme_vesta_bottomlayout = 2131230890;
 			
 			// aapt resource value: 0x7f0800ac
-			public static int theme_vesta_get_started = 2131230892;
+			public static int theme_vesta_center_shim = 2131230892;
 			
-			// aapt resource value: 0x7f0800a7
-			public static int theme_vesta_image = 2131230887;
+			// aapt resource value: 0x7f0800a8
+			public static int theme_vesta_description = 2131230888;
+			
+			// aapt resource value: 0x7f0800ab
+			public static int theme_vesta_get_started = 2131230891;
+			
+			// aapt resource value: 0x7f0800a6
+			public static int theme_vesta_image = 2131230886;
 			
 			// aapt resource value: 0x7f0800a4
 			public static int theme_vesta_page = 2131230884;
 			
-			// aapt resource value: 0x7f0800a8
-			public static int theme_vesta_title = 2131230888;
+			// aapt resource value: 0x7f0800a7
+			public static int theme_vesta_title = 2131230887;
 			
 			// aapt resource value: 0x7f08008c
 			public static int time = 2131230860;
