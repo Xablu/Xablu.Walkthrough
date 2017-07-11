@@ -144,7 +144,6 @@ Task("PublishPackages")
 	var apiKey = nugetKeySource.Item1;
 	var source = nugetKeySource.Item2;
 
-	Information("Search for nuget packages in: " + outputDir);
 	var nugetFiles = GetFiles(outputDir + "/*.nupkg");
 
 	foreach(var nugetFile in nugetFiles)

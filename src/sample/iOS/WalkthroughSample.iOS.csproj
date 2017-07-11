@@ -145,12 +145,24 @@
     <ImageAsset Include="Resources\Assets.xcassets\rightarrow.imageset\rightarrow%402x.png">
       <InProject>false</InProject>
     </ImageAsset>
-    <ImageAsset Include="Resources\Assets.xcassets\xablu.imageset\Contents.json" />
-    <ImageAsset Include="Resources\Assets.xcassets\xablu.imageset\xablu.jpg" />
-    <ImageAsset Include="Resources\Assets.xcassets\xamarin.imageset\Contents.json" />
-    <ImageAsset Include="Resources\Assets.xcassets\androidandios.imageset\Contents.json" />
-    <ImageAsset Include="Resources\Assets.xcassets\androidandios.imageset\androidandios.png" />
-    <ImageAsset Include="Resources\Assets.xcassets\xamarin.imageset\xamarin.jpg" />
+    <ImageAsset Include="Resources\Assets.xcassets\xablu.imageset\Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\xablu.imageset\xablu.jpg">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\xamarin.imageset\Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\androidandios.imageset\Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\androidandios.imageset\androidandios.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\xamarin.imageset\xamarin.jpg">
+      <InProject>false</InProject>
+    </ImageAsset>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
