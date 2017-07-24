@@ -32,6 +32,7 @@
     <Compile Include="ForestPrimesSamples.cs" />
     <Compile Include="PantheonSamples.cs" />
     <Compile Include="VestaSamples.cs" />
+    <Compile Include="VestaAltSamples.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Splat">
