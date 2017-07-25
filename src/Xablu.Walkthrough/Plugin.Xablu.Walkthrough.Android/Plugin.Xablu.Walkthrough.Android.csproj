@@ -127,6 +127,7 @@
     <AndroidResource Include="Resources\layout\theme_vesta_container.axml" />
     <AndroidResource Include="Resources\layout\theme_vesta_page.axml" />
     <AndroidResource Include="Resources\layout\theme_ovu_page.axml" />
+    <AndroidResource Include="Resources\drawable\clear_to_dark_vertical_gradient.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

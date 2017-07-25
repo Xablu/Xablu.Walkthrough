@@ -58,6 +58,7 @@
     <Compile Include="Pages\IForestPrimesPage.cs" />
     <Compile Include="Pages\IVestaPage.cs" />
     <Compile Include="Pages\IOvuPage.cs" />
+    <Compile Include="Containers\IVestaContainer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Themes\" />

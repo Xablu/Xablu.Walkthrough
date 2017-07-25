@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
 using Plugin.Xablu.Walkthrough;
@@ -88,7 +88,15 @@ namespace WalkthroughSample
                 {
                     SelectedPageColor = Color.FromArgb(237, 26, 59),
                     UnSelectedPageColor = Color.FromArgb(236, 104, 128)
-                }
+                },
+                NextButtonControl = new ButtonControl()
+                {
+                    Hidden = true
+                },
+                PreviousButtonControl = new ButtonControl()
+				{
+					Hidden = true
+				}
             };
 
             theme.Pages = VestaPages;
