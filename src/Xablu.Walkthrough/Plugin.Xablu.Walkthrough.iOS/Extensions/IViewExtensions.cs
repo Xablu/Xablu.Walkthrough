@@ -9,6 +9,9 @@ namespace Plugin.Xablu.Walkthrough.Extensions
     {
         public static void SetControl(this UIKit.UITextView textview, TextControl control)
         {
+            if (control == null)
+                return;
+            
             textview.TextColor = control.TextColor.ToNative();
             textview.Font = UIKit.UIFont.FromName(textview.Font.Name, control.TextSize);
             textview.Text = control.Text;
@@ -25,7 +28,10 @@ namespace Plugin.Xablu.Walkthrough.Extensions
 
         public static void SetControl(this UIKit.UILabel textview, TextControl control)
         {
-            textview.TextColor = control.TextColor.ToNative();
+			if (control == null)
+				return;
+
+			textview.TextColor = control.TextColor.ToNative();
             textview.Font = UIKit.UIFont.FromName(textview.Font.Name, control.TextSize);
             textview.Text = control.Text;
             switch (control.TextStyle)
@@ -41,19 +47,28 @@ namespace Plugin.Xablu.Walkthrough.Extensions
 
         public static async Task SetControl(this UIKit.UIImageView imageView, ImageControl control)
         {
-            imageView.Image = await GetImage(control.Image);
+			if (control == null)
+				return;
+
+			imageView.Image = await GetImage(control.Image);
         }
 
         public static async Task SetControl(this UIKit.UIButton button, ImageButtonControl control)
         {
-            button.SetImage(await GetImage(control.Image), UIControlState.Normal);
+			if (control == null)
+				return;
+
+			button.SetImage(await GetImage(control.Image), UIControlState.Normal);
             if (control.ClickAction != null)
                 button.TouchUpInside += (sender, e) => control?.ClickAction();
         }
 
         public static void SetControl(this UIKit.UIButton button, ButtonControl control)
         {
-            button.SetTitleColor(control.TextColor.ToNative(), UIKit.UIControlState.Normal);
+			if (control == null)
+				return;
+
+			button.SetTitleColor(control.TextColor.ToNative(), UIKit.UIControlState.Normal);
             button.Font = UIKit.UIFont.FromName(button.Font.Name, control.TextSize);
             button.SetTitle(control.Text, UIKit.UIControlState.Normal);
             button.BackgroundColor = control.BackgroundColor.ToNative();
@@ -64,15 +79,18 @@ namespace Plugin.Xablu.Walkthrough.Extensions
 
         public static void SetControl(this UIKit.UIPageControl pageControl, PageControl control)
         {
-            if (control != null)
-            {
-                pageControl.PageIndicatorTintColor = control.UnSelectedPageColor.ToNative();
-                pageControl.CurrentPageIndicatorTintColor = control.SelectedPageColor.ToNative();
-            }
+			if (control == null)
+				return;
+
+			pageControl.PageIndicatorTintColor = control.UnSelectedPageColor.ToNative();
+			pageControl.CurrentPageIndicatorTintColor = control.SelectedPageColor.ToNative();
         }
 
         private static async Task<UIImage> GetImage(string imageRes)
         {
+            if (string.IsNullOrEmpty(imageRes))
+                return new UIImage();
+            
             var image = await BitmapLoader.Current.LoadFromResource(imageRes, null, null);
             return image.ToNative();
         }
