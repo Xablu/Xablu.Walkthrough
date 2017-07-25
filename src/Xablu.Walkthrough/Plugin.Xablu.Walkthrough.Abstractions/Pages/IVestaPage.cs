@@ -7,5 +7,7 @@ namespace Plugin.Xablu.Walkthrough.Abstractions.Pages
         ImageControl ImageControl { get; set; }
         TextControl TitleControl { get; set; }
         TextControl DescriptionControl { get; set; }
+        ImageControl BackgroundImage { get; set; }
+        bool FadeBackgroundToBlack { get; set; }
     }
 }

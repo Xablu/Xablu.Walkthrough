@@ -21,7 +21,8 @@ namespace WalkthroughSample.Droid
             FindViewById<Button>(Resource.Id.showWalk).Click += (sender, e) => ForestPrimesSamples.ShowForestContainerForestPage();
             FindViewById<Button>(Resource.Id.showWalk2).Click += (sender, e) => PantheonSamples.ShowPantheonContainerForestPage();
             FindViewById<Button>(Resource.Id.showWalk3).Click += (sender, e) => VestaSamples.ShowVestaContainerVestaPage();
-            FindViewById<Button>(Resource.Id.showWalk4).Click += (sender, e) => ForestPrimesSamples.ShowForestContainerOvuPage();
+            FindViewById<Button>(Resource.Id.showWalk4).Click += (sender, e) => VestaAltSamples.ShowVestaAltContainerVestaPage();
+            FindViewById<Button>(Resource.Id.showWalk5).Click += (sender, e) => ForestPrimesSamples.ShowForestContainerOvuPage();
         }
     }
 }
