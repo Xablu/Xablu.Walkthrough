@@ -102,11 +102,6 @@
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />
     <AndroidResource Include="Resources\values\Strings.xml" />
-    <AndroidResource Include="Resources\mipmap-hdpi\Icon.png" />
-    <AndroidResource Include="Resources\mipmap-mdpi\Icon.png" />
-    <AndroidResource Include="Resources\mipmap-xhdpi\Icon.png" />
-    <AndroidResource Include="Resources\mipmap-xxhdpi\Icon.png" />
-    <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
     <AndroidResource Include="Resources\drawable\cloud.png" />
     <AndroidResource Include="Resources\drawable\iPhone.png" />
     <AndroidResource Include="Resources\drawable-hdpi\ic_walkthrough_count.png" />
@@ -140,6 +135,14 @@
     <AndroidResource Include="Resources\drawable\xablu.jpg" />
     <AndroidResource Include="Resources\drawable\androidandios.png" />
     <AndroidResource Include="Resources\drawable\xamarin.jpg" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\sample1.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\sample2.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\sample3.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Icon.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

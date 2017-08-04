@@ -1,8 +1,9 @@
-﻿using System;
+﻿using CoreAnimation;
+using CoreGraphics;
 using Plugin.Xablu.Walkthrough.Abstractions.Controls;
 using Plugin.Xablu.Walkthrough.Abstractions.Pages;
 using Plugin.Xablu.Walkthrough.Extensions;
-using Splat;
+using UIKit;
 
 namespace Plugin.Xablu.Walkthrough.Pages
 {
@@ -20,10 +21,22 @@ namespace Plugin.Xablu.Walkthrough.Pages
             base.ViewDidLoad();
 
             Title.SetControl(TitleControl);
-
-            await Image.SetControl(ImageControl);
-
             Description.SetControl(DescriptionControl);
+            await Image.SetControl(ImageControl);
+            await BackgroundImageView.SetControl(BackgroundImage);
+        }
+
+        public override void ViewWillAppear(bool animated)
+        {
+            if (FadeBackgroundToBlack)
+            {
+                var gradient = new CAGradientLayer();
+                gradient.Frame = BottomView.Bounds;
+                var startColor = UIColor.FromRGBA(0, 0, 0, 0);
+                var endColor = UIColor.FromRGBA(0, 0, 0, 220);
+                gradient.Colors = new CGColor[] { startColor.CGColor, endColor.CGColor };
+                BottomView.Layer.InsertSublayer(gradient, 0);
+            }
         }
     }
 }

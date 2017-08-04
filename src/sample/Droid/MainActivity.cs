@@ -6,7 +6,7 @@ using Plugin.Xablu.Walkthrough;
 
 namespace WalkthroughSample.Droid
 {
-    [Activity(Label = "WalkthroughSample", MainLauncher = true, Icon = "@mipmap/icon",
+    [Activity(Label = "WalkthroughSample", MainLauncher = true, Icon = "@drawable/icon",
         Theme = "@style/Theme.AppCompat")]
     public class MainActivity : AppCompatActivity
     {

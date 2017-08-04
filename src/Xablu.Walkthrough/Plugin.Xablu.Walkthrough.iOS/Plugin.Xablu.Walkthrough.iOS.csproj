@@ -56,10 +56,6 @@
       <DependentUpon>PantheonContainer.cs</DependentUpon>
     </Compile>
     <Compile Include="Pages\DefaultPage.cs" />
-    <Compile Include="Pages\VestaPage.cs" />
-    <Compile Include="Pages\VestaPage.designer.cs">
-      <DependentUpon>VestaPage.cs</DependentUpon>
-    </Compile>
     <Compile Include="Containers\VestaContainer.cs" />
     <Compile Include="Containers\VestaContainer.designer.cs">
       <DependentUpon>VestaContainer.cs</DependentUpon>
@@ -67,6 +63,10 @@
     <Compile Include="Pages\OvuPage.cs" />
     <Compile Include="Pages\OvuPage.designer.cs">
       <DependentUpon>OvuPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\VestaPage.cs" />
+    <Compile Include="Pages\VestaPage.designer.cs" >
+      <DependentUpon>VestaPage.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -99,9 +99,9 @@
     <InterfaceDefinition Include="Containers\ForestPrimesContainer.xib" />
     <InterfaceDefinition Include="Pages\ForestPrimesPage.xib" />
     <InterfaceDefinition Include="Containers\PantheonContainer.xib" />
-    <InterfaceDefinition Include="Pages\VestaPage.xib" />
     <InterfaceDefinition Include="Containers\VestaContainer.xib" />
     <InterfaceDefinition Include="Pages\OvuPage.xib" />
+    <InterfaceDefinition Include="Pages\VestaPage.xib" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
