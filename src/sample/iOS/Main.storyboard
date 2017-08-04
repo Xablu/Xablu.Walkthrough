@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -44,7 +44,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pnp-NB-JRY">
-                                <rect key="frame" x="67" y="172" width="240" height="30"/>
+                                <rect key="frame" x="67" y="220" width="240" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="TID-5R-lfg"/>
                                     <constraint firstAttribute="width" constant="240" id="aIU-VN-lQD"/>
@@ -53,16 +53,22 @@
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="13c-ox-yDe">
+                                <rect key="frame" x="66.5" y="172" width="241" height="30"/>
+                                <state key="normal" title="VestaContainer and vestapage (alt)"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="3" firstAttribute="top" secondItem="ebh-E8-KUi" secondAttribute="bottom" constant="18" id="4"/>
                             <constraint firstAttribute="centerX" secondItem="3" secondAttribute="centerX" id="7"/>
-                            <constraint firstItem="Pnp-NB-JRY" firstAttribute="top" secondItem="3" secondAttribute="bottom" constant="18" id="113-t7-6ck"/>
                             <constraint firstItem="Pnp-NB-JRY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="D1q-Zs-pnh"/>
                             <constraint firstItem="ebh-E8-KUi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="H1m-at-z6a"/>
                             <constraint firstItem="oBE-Ac-vcx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HiD-uS-i16"/>
+                            <constraint firstItem="13c-ox-yDe" firstAttribute="top" secondItem="3" secondAttribute="bottom" constant="18" id="Pr7-96-Bq5"/>
+                            <constraint firstItem="Pnp-NB-JRY" firstAttribute="top" secondItem="13c-ox-yDe" secondAttribute="bottom" constant="18" id="RbA-Od-PwA"/>
                             <constraint firstItem="oBE-Ac-vcx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="apr-yy-3JQ"/>
+                            <constraint firstItem="13c-ox-yDe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hjn-2g-Nql"/>
                             <constraint firstItem="ebh-E8-KUi" firstAttribute="top" secondItem="oBE-Ac-vcx" secondAttribute="bottom" constant="18" id="jCO-sh-dbM"/>
                         </constraints>
                     </view>
@@ -70,6 +76,7 @@
                         <outlet property="Button" destination="oBE-Ac-vcx" id="OkX-0Z-gth"/>
                         <outlet property="ForestOvu" destination="Pnp-NB-JRY" id="Ee1-F1-yeR"/>
                         <outlet property="PantheonForest" destination="ebh-E8-KUi" id="eFr-nn-cp3"/>
+                        <outlet property="VestaAltButton" destination="13c-ox-yDe" id="I0a-ol-UOJ"/>
                         <outlet property="VestaButton" destination="3" id="name-outlet-3"/>
                     </connections>
                 </viewController>

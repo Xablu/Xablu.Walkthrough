@@ -76,6 +76,7 @@ Task("Build")
 	MSBuild(sln, settings);
 });
 
+/*
 Task("GitLink")
 	.IsDependentOn("Build")
 	//pdbstr.exe and costura are not xplat currently
@@ -91,9 +92,10 @@ Task("GitLink")
             ArgumentCustomization = args => args.Append("-ignore apiclient.sample")
         });
 });
+*/
 
 Task("Package")
-    .IsDependentOn("GitLink")
+    .IsDependentOn("Build")
     .Does(() => 
 {
     var nugetSettings = new NuGetPackSettings {

@@ -21,7 +21,7 @@ namespace Plugin.Xablu.Walkthrough.Pages
         {
             var view = base.OnCreateView(inflater, container, savedInstanceState);
             var backGroundImage = view.FindViewById<ImageView>(BackgroundImageResourceID);
-			backGroundImage.SetControl(BackgroundImage);
+            backGroundImage.SetControl(BackgroundImage);
 
             if (FadeBackgroundToBlack)
             {
