@@ -95,7 +95,7 @@ Task("GitLink")
 */
 
 Task("Package")
-    //.IsDependentOn("GitLink")
+    .IsDependentOn("Build")
     .Does(() => 
 {
     var nugetSettings = new NuGetPackSettings {
