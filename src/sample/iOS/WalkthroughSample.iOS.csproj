@@ -163,12 +163,21 @@
     <ImageAsset Include="Resources\Assets.xcassets\xamarin.imageset\xamarin.jpg">
       <InProject>false</InProject>
     </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\sample1.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\sample2.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\sample3.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\sample1.imageset\sample1.jpg" />
+    <ImageAsset Include="Resources\Assets.xcassets\sample2.imageset\sample2.jpg" />
+    <ImageAsset Include="Resources\Assets.xcassets\sample3.imageset\sample3.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
     <Folder Include="Resources\Assets.xcassets\xablu.imageset\" />
     <Folder Include="Resources\Assets.xcassets\xamarin.imageset\" />
     <Folder Include="Resources\Assets.xcassets\androidandios.imageset\" />
+    <Folder Include="Resources\Assets.xcassets\sample1.imageset\" />
+    <Folder Include="Resources\Assets.xcassets\sample2.imageset\" />
+    <Folder Include="Resources\Assets.xcassets\sample3.imageset\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />

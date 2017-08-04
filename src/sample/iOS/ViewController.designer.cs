@@ -22,14 +22,27 @@ namespace WalkthroughSample.iOS
 		UIKit.UIButton PantheonForest { get; set; }
 
 		[Outlet]
+		UIKit.UIButton VestaAltButton { get; set; }
+
+		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
 		UIKit.UIButton VestaButton { get; set; }
 		
 		void ReleaseDesignerOutlets ()
 		{
+			if (VestaAltButton != null) {
+				VestaAltButton.Dispose ();
+				VestaAltButton = null;
+			}
+
 			if (Button != null) {
 				Button.Dispose ();
 				Button = null;
+			}
+
+			if (ForestOvu != null) {
+				ForestOvu.Dispose ();
+				ForestOvu = null;
 			}
 
 			if (PantheonForest != null) {
@@ -40,11 +53,6 @@ namespace WalkthroughSample.iOS
 			if (VestaButton != null) {
 				VestaButton.Dispose ();
 				VestaButton = null;
-			}
-
-			if (ForestOvu != null) {
-				ForestOvu.Dispose ();
-				ForestOvu = null;
 			}
 		}
 	}

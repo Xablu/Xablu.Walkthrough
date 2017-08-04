@@ -25,6 +25,7 @@ namespace WalkthroughSample.iOS
             Button.TouchUpInside += (sender, e) => ForestPrimesSamples.ShowForestContainerForestPage();
             PantheonForest.TouchUpInside += (sender, e) => PantheonSamples.ShowPantheonContainerForestPage();
             VestaButton.TouchUpInside += (sender, e) => VestaSamples.ShowVestaContainerVestaPage();
+            VestaAltButton.TouchUpInside += (sender, e) => VestaAltSamples.ShowVestaAltContainerVestaPage();
             ForestOvu.TouchUpInside += (sender, e) => ForestPrimesSamples.ShowForestContainerOvuPage();
         }
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -12,6 +12,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VestaPage">
             <connections>
+                <outlet property="BackgroundImageView" destination="yNr-do-uqz" id="PD7-9d-SYN"/>
+                <outlet property="BottomView" destination="bY3-oK-Xr1" id="4ap-0n-YPC"/>
                 <outlet property="Description" destination="fT1-4V-9a1" id="name-outlet-fT1-4V-9a1"/>
                 <outlet property="Image" destination="5xX-el-A1R" id="name-outlet-5xX-el-A1R"/>
                 <outlet property="Title" destination="8je-nC-J92" id="name-outlet-8je-nC-J92"/>
@@ -23,6 +25,9 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yNr-do-uqz">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s6d-iR-mSn" userLabel="TopView">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="334"/>
                     <subviews>
@@ -47,7 +52,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fT1-4V-9a1" userLabel="Description">
-                            <rect key="frame" x="30" y="121" width="315" height="21"/>
+                            <rect key="frame" x="30" y="91" width="315" height="21"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
@@ -58,7 +63,7 @@
                         <constraint firstAttribute="trailing" secondItem="8je-nC-J92" secondAttribute="trailing" constant="30" id="FII-1y-M0b"/>
                         <constraint firstItem="8je-nC-J92" firstAttribute="leading" secondItem="bY3-oK-Xr1" secondAttribute="leading" constant="30" id="GSo-rf-zU6"/>
                         <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="fT1-4V-9a1" secondAttribute="bottom" constant="55" id="H1v-C1-ffb"/>
-                        <constraint firstItem="fT1-4V-9a1" firstAttribute="top" secondItem="8je-nC-J92" secondAttribute="bottom" constant="40" id="N9m-8I-J7b"/>
+                        <constraint firstItem="fT1-4V-9a1" firstAttribute="top" secondItem="8je-nC-J92" secondAttribute="bottom" constant="10" id="N9m-8I-J7b"/>
                         <constraint firstItem="fT1-4V-9a1" firstAttribute="leading" secondItem="bY3-oK-Xr1" secondAttribute="leading" constant="30" id="Wul-Ya-bfB"/>
                         <constraint firstAttribute="trailing" secondItem="fT1-4V-9a1" secondAttribute="trailing" constant="30" id="XUj-y8-Rjc"/>
                     </constraints>
@@ -70,9 +75,13 @@
                 <constraint firstItem="s6d-iR-mSn" firstAttribute="top" secondItem="2" secondAttribute="top" id="Det-RL-JiX"/>
                 <constraint firstItem="bY3-oK-Xr1" firstAttribute="top" secondItem="2" secondAttribute="centerY" id="Gvg-S6-mXG"/>
                 <constraint firstAttribute="trailing" secondItem="s6d-iR-mSn" secondAttribute="trailing" id="MHg-me-dFy"/>
+                <constraint firstAttribute="bottom" secondItem="yNr-do-uqz" secondAttribute="bottom" id="PMh-MO-gpg"/>
                 <constraint firstAttribute="trailing" secondItem="bY3-oK-Xr1" secondAttribute="trailing" id="Qq3-0y-PYM"/>
                 <constraint firstItem="s6d-iR-mSn" firstAttribute="bottom" secondItem="2" secondAttribute="centerY" id="dw9-Y5-2M0"/>
+                <constraint firstItem="yNr-do-uqz" firstAttribute="top" secondItem="2" secondAttribute="top" id="mOF-Vk-GhL"/>
+                <constraint firstAttribute="trailing" secondItem="yNr-do-uqz" secondAttribute="trailing" id="mgg-Pv-FAD"/>
                 <constraint firstItem="bY3-oK-Xr1" firstAttribute="leading" secondItem="2" secondAttribute="leading" id="te8-43-xaW"/>
+                <constraint firstItem="yNr-do-uqz" firstAttribute="leading" secondItem="2" secondAttribute="leading" id="zbr-6W-gSw"/>
                 <constraint firstItem="s6d-iR-mSn" firstAttribute="leading" secondItem="2" secondAttribute="leading" id="zwa-JO-Cfj"/>
             </constraints>
             <point key="canvasLocation" x="33.5" y="53.5"/>

@@ -18,8 +18,8 @@ namespace Plugin.Xablu.Walkthrough.Containers
         public ButtonControl FirstPagePreviousButtonControl { get; set; }
         public ButtonControl LastPageNextButtonControl { get; set; }
 
-		private TextView previousButton;
-		private TextView nextButton;
+        private TextView previousButton;
+        private TextView nextButton;
 
         public override Android.Views.View OnCreateView(Android.Views.LayoutInflater inflater, Android.Views.ViewGroup container, Android.OS.Bundle savedInstanceState)
         {
@@ -27,64 +27,58 @@ namespace Plugin.Xablu.Walkthrough.Containers
 
             ViewPager.AddOnPageChangeListener(this);
 
-			previousButton = view.FindViewById<TextView>(PreviousButtonControlId);
-			previousButton.SetControl(FirstPagePreviousButtonControl);
-			previousButton.Click += (sender, e) => PreviousButtonClicked();
+            previousButton = view.FindViewById<TextView>(PreviousButtonControlId);
+            previousButton.SetControl(FirstPagePreviousButtonControl ?? PreviousButtonControl);
+            previousButton.Click += (sender, e) => PreviousButtonClicked();
 
-			nextButton = view.FindViewById<TextView>(NextButtonControlId);
-			nextButton.SetControl(NextButtonControl);
-			nextButton.Click += (sender, e) => NextButtonClicked();
+            nextButton = view.FindViewById<TextView>(NextButtonControlId);
+            nextButton.SetControl(NextButtonControl ?? LastPageNextButtonControl);
+            nextButton.Click += (sender, e) => NextButtonClicked();
 
             return view;
         }
 
-		public void OnPageScrollStateChanged(int state)
-		{
-		}
+        public void OnPageScrollStateChanged(int state)
+        {
+        }
 
-		public void OnPageScrolled(int position, float positionOffset, int positionOffsetPixels)
-		{
-		}
+        public void OnPageScrolled(int position, float positionOffset, int positionOffsetPixels)
+        {
+        }
 
-		public void OnPageSelected(int position)
-		{
-			if (position == 0)
-				previousButton.SetControl(FirstPagePreviousButtonControl);
-			else
-				previousButton.SetControl(PreviousButtonControl);
+        public void OnPageSelected(int position)
+        {
+            if (position == 0)
+                previousButton.SetControl(FirstPagePreviousButtonControl ?? PreviousButtonControl);
+            else
+                previousButton.SetControl(PreviousButtonControl);
 
-			if (position == ViewPager.Adapter.Count - 1)
-				nextButton.SetControl(LastPageNextButtonControl);
-			else
-				nextButton.SetControl(NextButtonControl);
-		}
+            if (position == ViewPager.Adapter.Count - 1)
+                nextButton.SetControl(LastPageNextButtonControl ?? NextButtonControl);
+            else
+                nextButton.SetControl(NextButtonControl);
+        }
 
-		private void PreviousButtonClicked()
-		{
-			if (FirstPagePreviousButtonControl != null && ViewPager.CurrentItem == 0)
-			{
-				FirstPagePreviousButtonControl.ClickAction?.Invoke();
-				return;
-			}
+        private void PreviousButtonClicked()
+        {
+            if (FirstPagePreviousButtonControl != null && ViewPager.CurrentItem == 0)
+            {
+                FirstPagePreviousButtonControl.ClickAction?.Invoke();
+                return;
+            }
 
-			if (PreviousButtonControl != null)
-			{
-				PreviousButtonControl.ClickAction?.Invoke();
-			}
-		}
+            PreviousButtonControl?.ClickAction?.Invoke();
+        }
 
-		private void NextButtonClicked()
-		{
-			if (LastPageNextButtonControl != null && ViewPager.CurrentItem == ViewPager.Adapter.Count - 1)
-			{
-				LastPageNextButtonControl.ClickAction?.Invoke();
-				return;
-			}
+        private void NextButtonClicked()
+        {
+            if (LastPageNextButtonControl != null && ViewPager.CurrentItem == ViewPager.Adapter.Count - 1)
+            {
+                LastPageNextButtonControl.ClickAction?.Invoke();
+                return;
+            }
 
-			if (NextButtonControl != null)
-			{
-				NextButtonControl.ClickAction?.Invoke();
-			}
-		}
+            NextButtonControl?.ClickAction?.Invoke();
+        }
     }
 }
