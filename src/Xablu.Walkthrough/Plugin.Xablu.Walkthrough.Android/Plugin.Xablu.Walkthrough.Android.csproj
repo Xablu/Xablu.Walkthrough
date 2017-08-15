@@ -80,8 +80,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\Plugin.Xablu.Walkthrough\CrossWalkthoughFactory.cs">
+      <Link>CrossWalkthoughFactory.cs</Link>
+    </Compile>
     <Compile Include="..\Plugin.Xablu.Walkthrough\CrossWalkthrough.cs">
       <Link>CrossWalkthrough.cs</Link>
+    </Compile>
+    <Compile Include="..\Plugin.Xablu.Walkthrough\IWalkthroughFactory.cs">
+      <Link>IWalkthroughFactory.cs</Link>
     </Compile>
     <Compile Include="WalkthroughImplementation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
