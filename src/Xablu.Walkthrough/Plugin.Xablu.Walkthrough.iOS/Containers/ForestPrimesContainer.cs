@@ -87,7 +87,7 @@ namespace Plugin.Xablu.Walkthrough.Containers
         {
             for (int i = 0; i < Controllers.Count; i++)
             {
-                var vc = Controllers[i] as IBWWalkthroughPage;
+                var vc = (IBWWalkthroughPage)Controllers[i];
 
                 var pageWidth = View.Bounds.Size.Width;
                 var offset = Scrollview.ContentOffset.X;

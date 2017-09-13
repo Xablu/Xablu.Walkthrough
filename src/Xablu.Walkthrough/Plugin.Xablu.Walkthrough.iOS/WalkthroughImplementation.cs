@@ -22,18 +22,23 @@ namespace Plugin.Xablu.Walkthrough
         public void Setup<TPage, TContainer>(ITheme<TPage, TContainer> theme) where TPage : IPage where TContainer : IContainer
         {
             walkthrough = theme.Container as BWWalkthroughViewController;
-
-            foreach (var page in theme.Pages)
+            if(walkthrough != null)
             {
-                var uiPage = page as UIViewController;
-                uiPage.View.Bounds = UIScreen.MainScreen.Bounds;
-                uiPage.View.SetNeedsLayout();
-                uiPage.View.LayoutIfNeeded();
+				foreach (var page in theme?.Pages)
+				{
+					var uiPage = page as UIViewController;
+					if (uiPage != null)
+					{
+						uiPage.View.Bounds = UIScreen.MainScreen.Bounds;
+						uiPage.View.SetNeedsLayout();
+						uiPage.View.LayoutIfNeeded();
 
-                walkthrough.AddViewController(uiPage);
+						walkthrough.AddViewController(uiPage);
+					}
+				}
+
+				IsInitialized = true;
             }
-
-            IsInitialized = true;
         }
 
         public void Init(UIViewController hostVc)

@@ -1,9 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package 
-    xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>Xablu.Walkthrough</id>
-        <version>0.5.15</version>
+        <version>0.5.18</version>
         <title>Walkthrough by Xablu</title>
         <authors>Xablu</authors>
         <owners>Xablu</owners>
@@ -28,21 +27,26 @@
                 <dependency id="Splat" version="1.6.2" />
                 <dependency id="BWWalkthrough" version="1.1.0" />
             </group>
-            <group targetFramework="Windows8.0" />
         </dependencies>
     </metadata>
     <files>
         <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Abstractions\bin\Release\Plugin.Xablu.Walkthrough.Abstractions.dll" target="lib\MonoAndroid10\Plugin.Xablu.Walkthrough.Abstractions.dll" />
+        <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Abstractions\bin\Release\Plugin.Xablu.Walkthrough.Abstractions.pdb" target="lib\MonoAndroid10\Plugin.Xablu.Walkthrough.Abstractions.pdb" />
         <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Abstractions\bin\Release\Plugin.Xablu.Walkthrough.Abstractions.XML" target="lib\MonoAndroid10\Plugin.Xablu.Walkthrough.Abstractions.xml" />
         <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Android\bin\Release\Plugin.Xablu.Walkthrough.dll" target="lib\MonoAndroid10\Plugin.Xablu.Walkthrough.dll" />
+        <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Android\bin\Release\Plugin.Xablu.Walkthrough.pdb" target="lib\MonoAndroid10\Plugin.Xablu.Walkthrough.pdb" />
         <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Android\bin\Release\Plugin.Xablu.Walkthrough.XML" target="lib\MonoAndroid10\Plugin.Xablu.Walkthrough.xml" />
         <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Abstractions\bin\Release\Plugin.Xablu.Walkthrough.Abstractions.dll" target="lib\portable-net45+win8\Plugin.Xablu.Walkthrough.Abstractions.dll" />
+        <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Abstractions\bin\Release\Plugin.Xablu.Walkthrough.Abstractions.pdb" target="lib\portable-net45+win8\Plugin.Xablu.Walkthrough.Abstractions.pdb" />
         <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Abstractions\bin\Release\Plugin.Xablu.Walkthrough.Abstractions.XML" target="lib\portable-net45+win8\Plugin.Xablu.Walkthrough.Abstractions.xml" />
         <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough\bin\Release\Plugin.Xablu.Walkthrough.dll" target="lib\portable-net45+win8\Plugin.Xablu.Walkthrough.dll" />
+        <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough\bin\Release\Plugin.Xablu.Walkthrough.pdb" target="lib\portable-net45+win8\Plugin.Xablu.Walkthrough.pdb" />
         <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough\bin\Release\Plugin.Xablu.Walkthrough.XML" target="lib\portable-net45+win8\Plugin.Xablu.Walkthrough.xml" />
         <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Abstractions\bin\Release\Plugin.Xablu.Walkthrough.Abstractions.dll" target="lib\Xamarin.iOS10\Plugin.Xablu.Walkthrough.Abstractions.dll" />
+        <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Abstractions\bin\Release\Plugin.Xablu.Walkthrough.Abstractions.pdb" target="lib\Xamarin.iOS10\Plugin.Xablu.Walkthrough.Abstractions.pdb" />
         <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.Abstractions\bin\Release\Plugin.Xablu.Walkthrough.Abstractions.XML" target="lib\Xamarin.iOS10\Plugin.Xablu.Walkthrough.Abstractions.xml" />
         <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.iOS\bin\iPhone\Release\Plugin.Xablu.Walkthrough.dll" target="lib\Xamarin.iOS10\Plugin.Xablu.Walkthrough.dll" />
+        <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.iOS\bin\iPhone\Release\Plugin.Xablu.Walkthrough.pdb" target="lib\Xamarin.iOS10\Plugin.Xablu.Walkthrough.pdb" />
         <file src="..\src\Xablu.Walkthrough\Plugin.Xablu.Walkthrough.iOS\bin\iPhone\Release\Plugin.Xablu.Walkthrough.XML" target="lib\Xamarin.iOS10\Plugin.Xablu.Walkthrough.xml" />
     </files>
 </package>
