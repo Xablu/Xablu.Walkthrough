@@ -6,11 +6,10 @@ The Xablu Walkthrough helps you to easily add a walkthrough to your apps for bot
 * Install into each project that utilizes the WebApiClient
 
 ### Build Status: 
-[![Build status](https://ci.appveyor.com/api/projects/status/5ey0sq4fn01t9o56?svg=true
-)](https://ci.appveyor.com/project/Xablu/xablu-webapiclient)
-![GitHub tag](https://img.shields.io/github/tag/Xablu/Xablu.WebApiClient.svg)
-[![NuGet](https://img.shields.io/nuget/v/Xablu.WebApiClient.svg?label=NuGet)](https://www.nuget.org/packages/Xablu.WebApiClient/)
-[![MyGet](https://img.shields.io/myget/xabluhq/v/Xablu.WebApiClient.svg)](https://www.myget.org/F/Xablu.WebApiClient/api/v2)
+[![Build status](https://ci.appveyor.com/api/projects/status/mg1s91k0b02ccy7o?svg=true)](https://ci.appveyor.com/project/Xablu/xablu-walkthrough)
+![GitHub tag](https://img.shields.io/github/tag/Xablu/Xablu.Walkthrough.svg)
+[![NuGet](https://img.shields.io/nuget/v/Xablu.Walkthrough.svg?label=NuGet)](https://www.nuget.org/packages/Xablu.Walkthrough/)
+[![MyGet](https://img.shields.io/myget/xabluhq/v/Xablu.Walkthrough.svg)](https://www.myget.org/F/Xablu.Walkthrough/api/v2)
 
 # Containers & Pages
 
