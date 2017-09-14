@@ -83,26 +83,11 @@ Task("UnitTest")
 	.IsDependentOn("Build")
 	.Does(() =>
 {
-	var testPaths = new List<string> {
-		
-	};
-
-    var testResultsPath = new FilePath(outputDir + "/NUnitTestResult.xml");
-
-	NUnit3(testPaths, new NUnit3Settings {
-		Timeout = 30000,
-		OutputFile = new FilePath(outputDir + "/NUnitOutput.txt"),
-		Results = testResultsPath
-	});
-
-    if (isRunningOnAppVeyor)
-    {
-        AppVeyor.UploadTestResults(testResultsPath, AppVeyorTestResultsType.NUnit3);
-    }
+	
 });
 
 Task("GitLink")
-	//.IsDependentOn("UnitTest")
+	.IsDependentOn("UnitTest")
 	//pdbstr.exe and costura are not xplat currently
 	.WithCriteria(() => IsRunningOnWindows())
 	.WithCriteria(() => 
