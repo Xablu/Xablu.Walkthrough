@@ -105,7 +105,7 @@ Task("GitLink")
 		new GitLinkSettings {
 			RepositoryUrl = "https://github.com/Xablu/Xablu.Walkthrough",
 			Configuration = "Release",
-			SolutionFileName = "Xablu.Walkthrough.sln",
+			SolutionFileName = "src/Xablu.Walkthrough.sln",
 			ArgumentCustomization = args => args.Append("-ignore " + string.Join(",", projectsToIgnore))
 		});
 });
