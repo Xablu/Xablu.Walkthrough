@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<walker.WalkerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/theme_vesta_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/theme_vesta_background_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+    <!-- An invisible view aligned to the center of the parent. Allows other views to be arranged on either side -->
+        <View
+            android:id="@+id/theme_vesta_center_shim"
+            android:layout_height="0dp"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_centerVertical="true" />
+        <LinearLayout
+            android:id="@+id/theme_vesta_top_half_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/theme_vesta_center_shim"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/theme_vesta_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:padding="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/theme_vesta_bottom_half_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/theme_vesta_center_shim"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/theme_vesta_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="60dp" />
+            <TextView
+                android:id="@+id/theme_vesta_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</walker.WalkerLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PantheonContainer">
+            <connections>
+                <outlet property="PageControl" destination="3oI-Qd-e0p" id="e55-ru-X4F"/>
+                <outlet property="StartButton" destination="79X-g6-QFo" id="rUA-1E-gOq"/>
+                <outlet property="view" destination="2" id="RRd-Eg-VrN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="2">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="79X-g6-QFo">
+                    <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Vp0-V3-mWw"/>
+                    </constraints>
+                    <state key="normal" title="GET STARTED"/>
+                </button>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="3oI-Qd-e0p">
+                    <rect key="frame" x="168" y="572" width="39" height="37"/>
+                </pageControl>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="79X-g6-QFo" secondAttribute="trailing" id="6t8-Yn-E1p"/>
+                <constraint firstItem="79X-g6-QFo" firstAttribute="leading" secondItem="2" secondAttribute="leading" id="C4G-Ut-Un8"/>
+                <constraint firstItem="3oI-Qd-e0p" firstAttribute="centerX" secondItem="2" secondAttribute="centerX" id="IMV-Ok-nam"/>
+                <constraint firstAttribute="bottom" secondItem="79X-g6-QFo" secondAttribute="bottom" id="REM-DR-DH2"/>
+                <constraint firstItem="79X-g6-QFo" firstAttribute="top" secondItem="3oI-Qd-e0p" secondAttribute="bottom" constant="8" id="zaX-jk-SX5"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

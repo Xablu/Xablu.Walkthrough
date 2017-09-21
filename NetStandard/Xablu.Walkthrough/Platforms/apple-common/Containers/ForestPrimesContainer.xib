@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ForestPrimesContainerViewController">
+            <connections>
+                <outlet property="NextButton" destination="l7q-3v-hB3" id="JUC-lG-DIn"/>
+                <outlet property="PageControl" destination="QdK-Ee-9b8" id="oki-0e-4qh"/>
+                <outlet property="SkipButton" destination="dni-MG-Ucg" id="Qaf-8a-iOA"/>
+                <outlet property="StartButton" destination="tLV-Aj-KBN" id="alD-8t-pT9"/>
+                <outlet property="view" destination="2" id="RRd-Eg-VrN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="2">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rWD-nh-O2a">
+                    <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                    <subviews>
+                        <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="QdK-Ee-9b8">
+                            <rect key="frame" x="168" y="6.5" width="39" height="37"/>
+                        </pageControl>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dni-MG-Ucg">
+                            <rect key="frame" x="16" y="10" width="33" height="30"/>
+                            <state key="normal" title="SKIP">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.23999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="right" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l7q-3v-hB3">
+                            <rect key="frame" x="315" y="0.0" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="9Wr-SD-FV0"/>
+                                <constraint firstAttribute="width" constant="50" id="RHc-Ej-Ybd"/>
+                            </constraints>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tLV-Aj-KBN">
+                            <rect key="frame" x="305" y="10" width="46" height="30"/>
+                            <state key="normal" title="Button"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="QdK-Ee-9b8" firstAttribute="centerX" secondItem="rWD-nh-O2a" secondAttribute="centerX" id="3b2-hf-cP6"/>
+                        <constraint firstItem="dni-MG-Ucg" firstAttribute="centerY" secondItem="rWD-nh-O2a" secondAttribute="centerY" id="KvU-XJ-DA0"/>
+                        <constraint firstItem="dni-MG-Ucg" firstAttribute="leading" secondItem="rWD-nh-O2a" secondAttribute="leading" constant="16" id="ZtN-ay-lfU"/>
+                        <constraint firstAttribute="trailing" secondItem="tLV-Aj-KBN" secondAttribute="trailing" constant="24" id="isw-WR-c0Q"/>
+                        <constraint firstItem="QdK-Ee-9b8" firstAttribute="centerY" secondItem="rWD-nh-O2a" secondAttribute="centerY" id="kYz-hs-d3P"/>
+                        <constraint firstItem="l7q-3v-hB3" firstAttribute="centerY" secondItem="rWD-nh-O2a" secondAttribute="centerY" id="lmb-71-Q7G"/>
+                        <constraint firstAttribute="trailing" secondItem="l7q-3v-hB3" secondAttribute="trailing" constant="10" id="rPL-Fy-Lid"/>
+                        <constraint firstAttribute="height" constant="50" id="vRH-fL-QAq"/>
+                        <constraint firstItem="tLV-Aj-KBN" firstAttribute="centerY" secondItem="rWD-nh-O2a" secondAttribute="centerY" id="zkS-VZ-aqf"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LdA-sS-vlb">
+                    <rect key="frame" x="0.0" y="616" width="375" height="1"/>
+                    <color key="backgroundColor" red="0.70196078431372544" green="0.70196078431372544" blue="0.70196078431372544" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="uBT-Rk-rBs"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="tintColor" red="0.92941176469999998" green="0.1333333333" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="rWD-nh-O2a" secondAttribute="bottom" id="B2v-W5-e2B"/>
+                <constraint firstAttribute="trailing" secondItem="rWD-nh-O2a" secondAttribute="trailing" id="NRe-tk-uYG"/>
+                <constraint firstItem="rWD-nh-O2a" firstAttribute="top" secondItem="LdA-sS-vlb" secondAttribute="bottom" id="QqJ-1V-Tgj"/>
+                <constraint firstItem="LdA-sS-vlb" firstAttribute="leading" secondItem="2" secondAttribute="leading" id="de6-6I-4Ew"/>
+                <constraint firstAttribute="trailing" secondItem="LdA-sS-vlb" secondAttribute="trailing" id="oCO-23-x2N"/>
+                <constraint firstItem="rWD-nh-O2a" firstAttribute="leading" secondItem="2" secondAttribute="leading" id="wlE-Up-0DT"/>
+            </constraints>
+            <point key="canvasLocation" x="34.5" y="53.5"/>
+        </view>
+    </objects>
+</document>

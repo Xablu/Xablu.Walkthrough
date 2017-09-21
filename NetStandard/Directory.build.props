@@ -1,0 +1,26 @@
+<Project>
+  <PropertyGroup>
+    <Copyright>Copyright (c) Xablu</Copyright>
+    <PackageLicenseUrl>https://github.com/Xablu/Xablu.Walkthrough/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Xablu/Xablu.Walkthrough/</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/Xablu/Xablu.Walkthrough/master/icon_xablu.png</PackageIconUrl>
+    <Authors>Xablu</Authors>
+    <Owners>Xablu</Owners>
+    <PackageTags>xamarin, monodroid, C#, xamarin.android, android, ios, uwp, Windows, tvOS, Mac, MacOS, Xablu, .NET, Walkthrough</PackageTags>
+
+    <NoWarn>$(NoWarn);1591</NoWarn>
+    <GenerateDocumentationFile Condition=" '$(Configuration)' == 'Release' ">true</GenerateDocumentationFile>
+
+    <Platform>AnyCPU</Platform>
+    <DebugType>full</DebugType>
+    <IsTestProject>$(MSBuildProjectName.Contains('Tests'))</IsTestProject>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="MSBuild.Sdk.Extras" Version="1.0.9" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(IsTestProject)' != 'true' and '$(SourceLinkEnabled)' != 'false'">
+    <PackageReference Include="SourceLink.Create.CommandLine" Version="2.2.1" PrivateAssets="All" /> 
+  </ItemGroup>
+</Project>

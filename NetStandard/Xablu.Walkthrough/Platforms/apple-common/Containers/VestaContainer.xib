@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VestaContainer">
+            <connections>
+                <outlet property="NextButton" destination="s6b-0m-CHE" id="ETi-Ie-LSh"/>
+                <outlet property="PageControl" destination="Uih-dc-6o0" id="name-outlet-Uih-dc-6o0"/>
+                <outlet property="PreviousButton" destination="o0v-If-GMa" id="poy-wu-YIg"/>
+                <outlet property="StartButton" destination="cAr-eY-xaB" id="name-outlet-cAr-eY-xaB"/>
+                <outlet property="view" destination="2" id="RRd-Eg-VrN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="2">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cAr-eY-xaB">
+                    <rect key="frame" x="153" y="576" width="68" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Lmq-gl-TGr"/>
+                    </constraints>
+                    <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                    <inset key="contentEdgeInsets" minX="8" minY="0.0" maxX="8" maxY="0.0"/>
+                    <state key="normal" title="Button"/>
+                </button>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="Uih-dc-6o0">
+                    <rect key="frame" x="168" y="614" width="39" height="37"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="39" id="LVg-0J-dZA"/>
+                        <constraint firstAttribute="height" constant="37" id="wZJ-A0-R1l"/>
+                    </constraints>
+                </pageControl>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o0v-If-GMa">
+                    <rect key="frame" x="16" y="621" width="136" height="30"/>
+                    <state key="normal" title="Button"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6b-0m-CHE">
+                    <rect key="frame" x="223" y="621" width="136" height="30"/>
+                    <state key="normal" title="Button"/>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="Uih-dc-6o0" firstAttribute="top" secondItem="cAr-eY-xaB" secondAttribute="bottom" constant="8" id="1Ll-78-YD8"/>
+                <constraint firstItem="s6b-0m-CHE" firstAttribute="leading" secondItem="Uih-dc-6o0" secondAttribute="trailing" constant="16" id="FQC-25-PsE"/>
+                <constraint firstItem="cAr-eY-xaB" firstAttribute="centerX" secondItem="2" secondAttribute="centerX" id="KkY-eM-VcX"/>
+                <constraint firstAttribute="bottom" secondItem="Uih-dc-6o0" secondAttribute="bottom" constant="16" id="OH9-e9-PIS"/>
+                <constraint firstItem="Uih-dc-6o0" firstAttribute="leading" secondItem="o0v-If-GMa" secondAttribute="trailing" constant="16" id="SCf-aI-wEE"/>
+                <constraint firstAttribute="bottom" secondItem="o0v-If-GMa" secondAttribute="bottom" constant="16" id="X1N-do-aTO"/>
+                <constraint firstItem="Uih-dc-6o0" firstAttribute="centerX" secondItem="2" secondAttribute="centerX" id="fIp-QA-ktM"/>
+                <constraint firstAttribute="bottom" secondItem="s6b-0m-CHE" secondAttribute="bottom" constant="16" id="kpW-O4-zNY"/>
+                <constraint firstAttribute="trailing" secondItem="s6b-0m-CHE" secondAttribute="trailing" constant="16" id="nGJ-qk-6vi"/>
+                <constraint firstItem="o0v-If-GMa" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="16" id="wGp-vH-wMH"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
