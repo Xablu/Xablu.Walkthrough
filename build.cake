@@ -6,6 +6,7 @@
 #addin nuget:?package=Cake.Git
 
 var sln = new FilePath("src/Xablu.Walkthrough.sln");
+var repoPath = new DirectoryPath("./");
 var outputDir = new DirectoryPath("artifacts");
 var nuspecDir = new DirectoryPath("nuspec");
 var target = Argument("target", "Default");
@@ -220,7 +221,7 @@ bool IsRepository(string repoName)
 	{
 		try
 		{
-			var path = MakeAbsolute(sln).GetDirectory().FullPath;
+			var path = MakeAbsolute(repoPath).FullPath;
 			using (var repo = new LibGit2Sharp.Repository(path))
 			{
 				var origin = repo.Network.Remotes.FirstOrDefault(
@@ -239,7 +240,7 @@ bool IsRepository(string repoName)
 
 bool IsTagged()
 {
-	var path = MakeAbsolute(sln).GetDirectory().FullPath;
+	var path = MakeAbsolute(repoPath).FullPath;
 	using (var repo = new LibGit2Sharp.Repository(path))
 	{
 		var head = repo.Head;
