@@ -3,7 +3,7 @@ The Xablu Walkthrough helps you to easily add a walkthrough to your apps for bot
 
 ### Setup & Usage
 * Available on NuGet: https://www.nuget.org/packages/Xablu.Walkthrough/
-* Install into each project that utilizes the WebApiClient
+* Install into each project that utilizes the Walkthrough
 
 ### Build Status: 
 [![Build status](https://ci.appveyor.com/api/projects/status/mg1s91k0b02ccy7o?svg=true)](https://ci.appveyor.com/project/Xablu/xablu-walkthrough)
